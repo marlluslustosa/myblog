@@ -10,7 +10,7 @@ comments: false
 
 Me envie uma mensagem segura, usando minha chave Pública PGP. <br>
 Digite a mensagem abaixo e clique em <b>Encrypt</b>.  <br>
-	Após isso, copie o texto gerado e me envie por <a href="mailto:marlluslustosa@riseup.net">e-mail</a>, <a href="https://t.me/lulusto"  target="_blank"> telegram</a>, <a href="https://instagram.com/ganartedigital"  target="_blank">instagram</a> ou qualquer outra comunicação textual. <br>
+	Após isso, copie o texto gerado e me envie por <a href="mailto:marlluslustosa@riseup.net">e-mail</a>, <a href="https://t.me/lulusto"  target="_blank"> telegram</a>, <a href="https://instagram.com/ganartedigital"  target="_blank">instagram</a> ou qualquer outra forma de comunicação textual. <br>
 	Somente <b>eu</b> conseguirei abrir a mensagem.
 	
 <p><textarea id="input" class="contact-form" style="width: 300px; height: 140px;"></textarea><br>
