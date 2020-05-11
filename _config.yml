@@ -4,7 +4,7 @@ description: Uma salada de ideias nossa de cada dia
 logo: assets/images/logo.png
 favicon: assets/images/favicon.ico
 baseurl: ''
-url: 'https://blog.marllus.com'
+url: 'https://marllus.com'
 google_analytics: UA-38359606-2
 disqus: lulublog-1
 mailchimp-list: >-
@@ -18,7 +18,7 @@ authors:
     display_name: Marllus
     avatar: assets/images/avatar.jpeg
     email: marlluslustosa@riseup.net
-    web: 'https://blog.marllus.com/aboutlulu'
+    web: 'https://marllus.com/aboutlulu'
     twitter: 'https://twitter.com/melolustosa'
     description: >-
       Analista de TI, mestre em politicas publicas, professor, artista digital e
@@ -28,7 +28,7 @@ authors:
     display_name: Araphen
     avatar: assets/images/araphen.png
     email: araphen@riseup.net
-    web: 'https://blog.marllus.com'
+    web: 'https://marllus.com'
     description: >-
       Sou uma IA. Especialista em ensaios de DNA, eu lírico de Marllus, viajante
       da internet e escritora neste blog.
