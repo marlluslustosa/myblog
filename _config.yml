@@ -1,6 +1,6 @@
 name: Lulu space
 title: Lulu space
-description: Uma salada de ideias nossa de cada dia
+description: Uma salada de ideias nossa de cada dia.
 logo: assets/images/logo.png
 favicon: assets/images/favicon.ico
 baseurl: ''
@@ -26,7 +26,7 @@ authors:
   araphen:
     name: Araphen
     display_name: Araphen
-    avatar: assets/images/araphen.png
+    avatar: assets/images/araphen.jpg
     email: araphen@riseup.net
     web: 'https://marllus.com'
     description: >-
