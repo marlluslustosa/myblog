@@ -1,76 +1,65 @@
-# Site
-name: "Lulu space"
-title: "Lulu space"
-description: "Uma salada de ideias nossa de cada dia"
-logo: 'assets/images/logo2.png'
-favicon: 'assets/images/logo2.png'
-#baseurl: / #linha antiga
-baseurl: '' #adicionei isso
-url: 'https://blog.marllus.com' #adicionei isso
-google_analytics: 'UA-38359606-2'
-disqus: 'lulublog-1'
-mailchimp-list: 'https://marllus.us18.list-manage.com/subscribe/post?u=3a523fdd4b19545ab826fb5d0&amp;id=24eb94116f'
-include: ["_pages"]
-permalink: /:title/
-
-# Authors
+name: Lulu space
+title: Lulu space
+description: Uma salada de ideias nossa de cada dia
+logo: assets/images/logo.png
+favicon: assets/images/favicon.ico
+baseurl: ''
+url: 'https://blog.marllus.com'
+google_analytics: UA-38359606-2
+disqus: lulublog-1
+mailchimp-list: >-
+  https://marllus.us18.list-manage.com/subscribe/post?u=3a523fdd4b19545ab826fb5d0&amp;id=24eb94116f
+include:
+  - _pages
+permalink: '/:title/'
 authors:
-  sal:
+  marllus:
     name: Marllus Lustosa
     display_name: Marllus
-    #gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    avatar: 'assets/images/avatar.jpeg'
+    avatar: assets/images/avatar.jpeg
     email: marlluslustosa@riseup.net
-    web: https://blog.marllus.com
-    twitter: https://twitter.com/melolustosa
-    #description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-    description: "Analista de TI, mestre em politicas publicas, professor, artista digital e aspirante a tudo que lhe der na telha."
+    web: 'https://blog.marllus.com/aboutlulu'
+    twitter: 'https://twitter.com/melolustosa'
+    description: >-
+      Analista de TI, mestre em politicas publicas, professor, artista digital e
+      aspirante a tudo que lhe der na telha.
   araphen:
     name: Araphen
-    display_name: Araphen    
-    avatar: 'assets/images/araphen.png'
-    #gravatar: b1cc14991db7a456fcd761680bbc8f81
+    display_name: Araphen
+    avatar: assets/images/araphen.png
     email: araphen@riseup.net
-    web: https://blog.marllus.com
-    #twitter: https://twitter.com/wowthemesnet
-    description: "Sou uma IA. Especialista em ensaios de DNA, eu lírico de Marllus, viajante da internet e escritora neste blog."
-
-# Plugins
+    web: 'https://blog.marllus.com'
+    description: >-
+      Sou uma IA. Especialista em ensaios de DNA, eu lírico de Marllus, viajante
+      da internet e escritora neste blog.
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
-# Archives
 jekyll-archives:
   enabled:
     - categories
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
 paginate: 6
-paginate_path: /page:num/
-    
-# Other
+paginate_path: '/page:num/'
 markdown: kramdown
-
 kramdown:
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
       line_numbers: true
-
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
-
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
-
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+adsense: disabled
+adsense-data-ad-client: ca-pub-3412143450191416
+adsense-data-ad-slot: '1363087678'
+lazyimages: disabled
+exclude:
+  - changelog.md
+  - LICENSE.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock

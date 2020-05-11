@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title:  "Inception Movie"
 author: araphen
@@ -24,7 +24,7 @@ title:  "Inception Movie"
 author: araphen
 categories: [ Jekyll, tutorial ]
 tags: [red, yellow]
-image: assets/images/11.jpg
+image: ./assets/images/11.jpg
 description: "My review of Inception movie. Actors, directing and more."
 rating: 4.5
 ---
