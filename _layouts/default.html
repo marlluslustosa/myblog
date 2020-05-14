@@ -19,7 +19,15 @@
 
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
+<!-- coloquei o jquery pra ser chamado pela CDN google pra ser mais rapido, pois o navegador guarda cache, caso n esteja na cdn, puxe locamente!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    if (!window.jQuery) document.write('<script src="/assets/js/jquery.min.js"><\/script>');
+</script>
+
+<!-- antigamente era somente essa linha, que puxava local. o ruim eh que causava mais lentidao no carregamento da pagina, fora que n nunca eh guardada em cache 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+!-->
 
 </head>
 
