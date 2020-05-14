@@ -6,7 +6,7 @@ favicon: assets/images/favicon.ico
 baseurl: ''
 url: 'https://marllus.com'
 google_analytics: UA-38359606-2
-disqus: lulublog-1
+#disqus: lulublog-1
 mailchimp-list: >-
   https://marllus.us18.list-manage.com/subscribe/post?u=3a523fdd4b19545ab826fb5d0&amp;id=24eb94116f
 include:
