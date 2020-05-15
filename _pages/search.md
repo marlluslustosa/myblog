@@ -5,7 +5,7 @@ permalink: "/search"
 comments: false
 ---
 
-<p> Título, tag, descrição ou data de publicação (2020, 2016-02, 2016-07-21).
+<p> Título, tag, descrição, conteúdo ou data de publicação (2020, 2016-02, 2016-07-21).
 <!-- Html Elements for Search -->
 <div id="search-container">
 <input type="text" id="search-input" placeholder="search...">
