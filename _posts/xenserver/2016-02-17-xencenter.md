@@ -1,13 +1,11 @@
 ---
-title: "Xencenter"
+title: Xencenter
 author: marllus
-categories: [ tecnologia ]
+categories:
+- tecnologia
 layout: post
-
+image: assets/images/bikechildren.jpg
 ---
-<p class="p1">
-  Olá!
-</p>
 
 <p class="p1">
   O assunto agora é sobre gerenciamento do XenServer. Neste caso, falaremos sobre XenCenter, que é o software OFICIAL de gerência do XenServer.

@@ -1,11 +1,11 @@
 ---
-title: "Storage XenMotion no XenServer 6.5"
+title: Storage XenMotion no XenServer 6.5
 author: marllus
-categories: [ tecnologia ]
+categories:
+- tecnologia
 layout: post
-
+image: assets/images/storagemotion.jpg
 ---
-Olá, td bem?
 
 Falei, anteriormente <a href="http://ports.marllus.com/2016/02/17/xenmotion-no-xenserver-6-5/" target="_blank">aqui</a> sobre &#8220;XenMotion&#8221;. Hoje irei falar sobre &#8220;Storage XenMotion&#8221;.
   

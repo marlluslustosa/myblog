@@ -1,15 +1,13 @@
 ---
-title: "Upgrade/Update no XenServer 6.5"
+title: Upgrade/Update no XenServer 6.5
 author: marllus
-categories: [ tecnologia ]
+categories:
+- tecnologia
 layout: post
-
+image: assets/images/upgrade.jpg
 ---
-Olá amigo(a), tudo bem?
 
-Hoje falarei sobre update e upgrade de hosts XenServer.
-  
-Bem, para conceituar os termos:
+Segue abaixo uma descrição resumida sobre a conceituação dos seguintes termos. 
 
 **Update**: Atualização (hotfixes) de procedimentos críticos e não críticos de segurança, adição de drivers ou correção de bugs em pacotes → Trivial;
 

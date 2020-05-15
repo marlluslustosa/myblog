@@ -1,13 +1,13 @@
 ---
-title: "Instalar Xenserver Tools (xen-tools) em Debian 5 (Lenny) (HVM para PV)"
+title: Instalar Xenserver Tools (xen-tools) em Debian 5 (Lenny) (HVM para PV)
 author: marllus
-categories: [ tecnologia ]
+categories:
+- tecnologia
 layout: post
-
+image: assets/images/installdebian.jpg
 ---
-Olá, tudo bem?
 
-Hoje falarei sobre como instalar o XenServer Tools em uma VM Debian 5.0 (Lenny) em um Xenserver que não tem suporte a mesma (support guests), como ocorre a partir da versão 6.2.
+O tutorial de hoje é sobre como intalar o XenTools em uma VM Debian 5.0 (Lenny) em um Xenserver que não tem suporte a mesma (support guests), como ocorre a partir da versão 6.2.
 
 Bem, instalar o xen-tools vai habilitar o administrador a realizar diversas operações com a VM, como gerenciar a network da mesma, monitorar o uso de memória RAM, realizar Xen Motion além de fornecer drivers para otimização de I/O de disco e rede.
 

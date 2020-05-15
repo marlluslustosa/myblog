@@ -3,8 +3,10 @@ title: "HCL Xenserver"
 author: marllus
 categories: [ tecnologia ]
 layout: post
+image: assets/images/compatib.jpg
 
 ---
+
 <p class="p1">
   Olá, seja bem vindo!
 </p>

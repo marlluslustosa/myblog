@@ -1,11 +1,11 @@
 ---
-title: "Troubleshooting – Resolução de problemas – XenServer 6.5"
+title: Troubleshooting – Resolução de problemas – XenServer 6.5
 author: marllus
-categories: [ tecnologia ]
+categories:
+- tecnologia
 layout: post
-
+image: assets/images/trouble.jpg
 ---
-Olá, tudo bem?
 
 Hoje, o assunto é sobre troubleshooting, ou, para os menos familiarizados (adeptos do “se está funcionando, está bom” rs) sobre resolução de PROBLEMAS!! Até porque só tem problemas aqueles que fuçam na coisa!
 

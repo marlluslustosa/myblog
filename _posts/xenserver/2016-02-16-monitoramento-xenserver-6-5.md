@@ -1,10 +1,12 @@
 ---
-title: "Monitoramento – XenServer 6.5"
+title: Monitoramento – XenServer 6.5
 author: marllus
-categories: [ tecnologia ]
+categories:
+- tecnologia
 layout: post
-
+image: assets/images/monitor.jpg
 ---
+
 Olá, hoje o assunto é sobre Monitoramento do ambiente de virtualização XenServer.
 
 O assunto é bem simples, mas pouca gente sabe o quão ampla é a gama de métricas que o XenServer consegue capturar no seu funcionamento.
