@@ -1,18 +1,13 @@
 ---
-title: "HCL Xenserver"
+title: HCL Xenserver
 author: marllus
-categories: [ tecnologia ]
+categories:
+- tecnologia
 layout: post
 image: assets/images/compatib.jpg
-
 ---
 
-<p class="p1">
-  Olá, seja bem vindo!
-</p>
-
-<p class="p1">
-  O assunto aqui é sobre compatibilidade de hardware e XenServer.<br /> A Citrix mantém uma site (<a href="http://hcl.xenserver.org/">http://hcl.xenserver.org/</a>) contendo todo o conjunto de hardware homologado por ela junto a diversos fabricantes de equipamentos, como Dell, HP, Supermicro, IBM. Todo equipamento que obteve êxito nesse teste é adicionado à essa lista de compatibilidade (HCL).
+O assunto aqui é sobre compatibilidade de hardware e XenServer.<br /> A Citrix mantém uma site (<a href="http://hcl.xenserver.org/">http://hcl.xenserver.org/</a>) contendo todo o conjunto de hardware homologado por ela junto a diversos fabricantes de equipamentos, como Dell, HP, Supermicro, IBM. Todo equipamento que obteve êxito nesse teste é adicionado à essa lista de compatibilidade (HCL).
 </p>
 
 <p class="p1">
