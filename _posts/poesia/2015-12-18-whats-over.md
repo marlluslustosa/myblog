@@ -11,6 +11,7 @@ tags:
 - whatsapp
 - reflexao
 - pensamento
+hidden: true
 ---
 
 Early in the morning, I woke up...<br>
