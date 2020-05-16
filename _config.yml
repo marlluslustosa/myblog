@@ -56,7 +56,7 @@ kramdown:
 adsense: disabled
 adsense-data-ad-client: ca-pub-3412143450191416
 adsense-data-ad-slot: '1363087678'
-lazyimages: enabled
+lazyimages: disabled
 exclude:
   - changelog.md
   - LICENSE.txt
