@@ -16,7 +16,7 @@ tags:
 De manhã cedo, acordei…<br>
 Peguei no celular, nenhuma notificação. Verifiquei o link de internet acessando um site qualquer. Estava beleza. O mito então era mesmo verdadeiro.<br>
 Liguei pra um amigo, conversei sobre o projeto pra entregar e depois ele me contou uma estória que ocorrera com ele na noite anterior. Altos papos. Muitos risos para começar o dia.<br>
-Banhei, nenhuma notificação, me arrumei, nenhuma notificação, tomei café, nenhuma notificação, assisti tv, nenhuma notificação, me preparei pra sair de casa e aquele merda de notificação não vinha. Droga. Cadê a galera?<br>
+Banhei, nenhuma notificação, me arrumei, nenhuma notificação, tomei café, nenhuma notificação, assisti tv, nenhuma notificação, me preparei pra sair de casa e aquelea merda de notificação não vinha. Droga. Cadê a galera?<br>
 
 Peguei o carro e alavanquei no trânsito infernal, daqueles que a gente pára a cada instante pra olhar o WhatsApp e trocar gaitadas nos grupos.<br>
 Mas hoje não tinha ninguém, uma alma viva sequer.<br>
@@ -38,4 +38,4 @@ Tudo isso me fez repensar atitudes. Todo um turbilhão passava na minha cabeça.
 Olha aí, o Whats voltou.<br>
 
 E aí galeeeeeeeerraaaa!!<br>
-Boa noite, grupo;<br>
+Boa noite, grupo.<br>
