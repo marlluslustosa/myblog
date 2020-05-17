@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--<html lang="en">!-->
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -82,7 +82,7 @@ ga('send', 'pageview');
     </button>
 
     <div class="collapse navbar-collapse" id="navbarMediumish">
-
+    
         <!-- Begin Menu -->
 
             <ul class="navbar-nav ml-auto">
@@ -94,9 +94,51 @@ ga('send', 'pageview');
                 {% endif %}
                 <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
                 </li>
+                  
+                  <!-- muda linguagem do menu de acordo com site.lang -->
 
+                {% if site.lang == "en" %}
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/categories#Jekyll">Arte</a>
+                <a class="nav-link" href="{{ site.baseurl }}/categories#art">Art</a>
+                </li>
+
+		<li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/categories#technology">Technology</a>
+                </li>
+
+		<li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/categories#poetry">Poetry</a>
+                </li>
+
+		<li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/categories#society">Society</a>
+                </li>
+
+		<li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/categories#science">Science</a>
+                </li>
+
+		<li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/contact">Contact</a>
+                </li>
+        
+        <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                </li>
+                
+        <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl_root }}/">Português <img src=/assets/images/flag-br.svg width=17px heigth=17px></img></a>
+                </li>
+                
+        <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/search">Search</a>
+                </li>
+                
+                <!-- caso contrario aparece portugues -->
+                {% else %}
+                
+                <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/categories#arte">Arte</a>
                 </li>
 
 		<li class="nav-item">
@@ -112,15 +154,7 @@ ga('send', 'pageview');
                 </li>
 
 		<li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/categories#gastronomia">Gastronomia</a>
-                </li>
-
-		<li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl }}/categories#ciencia">Ciência</a>
-                </li>
-
-		<li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/categories#fisolofia">Filosofia</a>
                 </li>
 
 		<li class="nav-item">
@@ -128,8 +162,19 @@ ga('send', 'pageview');
                 </li>
                 
         <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/search">Busca</a>
+                <a class="nav-link" href="{{ site.baseurl }}/sobre">Sobre</a>
                 </li>
+                
+        <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/en">English <img src=/assets/images/flag-eua.svg width=15px heigth=15px></img></a>
+                </li>
+                
+        <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/busca">Busca</a>
+                </li>
+                 {% endif %}
+                 
+                <!-- finaliza condicao do menu -->
 
 
                 <!--<li class="nav-item">
@@ -171,7 +216,12 @@ ga('send', 'pageview');
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
-        {{ site.description }}
+    <!-- teste pra mudar o titulo dependendo da linguagem escolhida!-->
+    {% if site.lang == "en" %}
+    A salad of daily ideas
+    {% else %}
+        {{ site.description }} <!-- site.description definido no _config.yml!-->
+    {% endif %}
     </p>
 </div>
 
@@ -230,10 +280,10 @@ ga('send', 'pageview');
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+                <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA </a> - Contents in {{ site.name }} - {{ site.time | date: "%Y" }}
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+                <a target="_blank" href="https://opensource.org/licenses/MIT"> MIT</a> - <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a>
             </div>
         </div>
     </div>

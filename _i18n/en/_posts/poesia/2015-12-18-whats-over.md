@@ -2,7 +2,7 @@
 title: When WhatsApp ended
 author: marllus
 categories:
-- poesia
+- poetry
 layout: post
 image: assets/images/acabou.jpg
 tags:
@@ -11,6 +11,7 @@ tags:
 - whatsapp
 - reflexao
 - pensamento
+featured: true
 hidden: true
 ---
 

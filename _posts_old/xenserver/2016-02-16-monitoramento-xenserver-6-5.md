@@ -5,6 +5,7 @@ categories:
 - tecnologia
 layout: post
 image: assets/images/monitor.jpg
+lang: pt_BR
 ---
 
 Olá, hoje o assunto é sobre Monitoramento do ambiente de virtualização XenServer.

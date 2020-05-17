@@ -1,10 +1,9 @@
 ---
 title: XenMotion no XenServer 6.5
 author: marllus
-categories:
-- tecnologia
 layout: post
 image: assets/images/motion.jpg
+lang: en
 ---
 
 XenMotion é um recurso bem interessante e muito importante dentro de ambiente de virtualização do XenServer. É com ele que o HA (High Availability), WLB (Work Load Balancing &#8211; Versão paga do XenServer &#8211; 🙁  ) e Rolling Pool Upgrade funcionam direitinho, habilitando a possibilidade de mover as VMs entre hosts do mesmo pool sem (ou quase sem) downtime (geralmente 1 ou 2 pings perdidos).

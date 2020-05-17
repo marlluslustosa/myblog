@@ -1,14 +1,14 @@
 ---
 title: Busca
 layout: page
-permalink: "/search"
+permalink: "/busca"
 comments: false
 ---
 
-<p> Title, tag, description, content or publication date (2020, 2016-02, 2016-07-21).
+<p> Título, tag, descrição, conteúdo ou data de publicação (2020, 2016-02, 2016-07-21).
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
+<input type="text" id="search-input" placeholder="buscar...">
 <ul id="results-container"></ul>
 </div>
 

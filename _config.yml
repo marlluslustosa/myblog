@@ -11,18 +11,22 @@ mailchimp-list: >-
   https://marllus.us18.list-manage.com/subscribe/post?u=3a523fdd4b19545ab826fb5d0&amp;id=24eb94116f
 include:
   - _pages
-permalink: '/:title/'
+#permalink: '/:title/' #original
+permalink: /:categories/:year/:month/:day/:title:output_ext
 authors:
   marllus:
     name: Marllus Lustosa
     display_name: Marllus
     avatar: assets/images/avatar.jpeg
     email: marlluslustosa@riseup.net
-    web: 'https://marllus.com/aboutlulu'
+    web: 'about'
+    web-br: 'sobre'
     twitter: 'https://twitter.com/melolustosa'
     description: >-
-      Analista de TI, mestre em politicas publicas, professor, artista digital e
+      Analista de TI, mestre em políticas públicas, professor, artista digital e
       aspirante a tudo que lhe der na telha.
+    description-en: >-
+      IT analyst, Master of Science in Public Policy, teacher, digital artist and aspiring to everything he everything you want.
   araphen:
     name: Araphen
     display_name: Araphen
@@ -38,6 +42,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-multiple-languages-plugin
+languages: ["pt_BR", "en"]
+exclude_from_localization: ["javascript", "images", "css", "README.md"]
 jekyll-archives:
   enabled:
     - categories

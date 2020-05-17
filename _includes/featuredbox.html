@@ -51,7 +51,11 @@
                                 {% endif %}
                                 </span>
                                 <span class="author-meta">
-                                <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
+                                 {% if site.lang == "en" %}
+                                <span class="post-name"><a target="_blank" href="{{site.baseurl}}/{{ author.web }}">{{ author.display_name }}</a></span><br/>
+                                {% else %}
+                                <span class="post-name"><a target="_blank" href="{{site.baseurl}}/{{ author.web-br }}">{{ author.display_name }}</a></span><br/>
+                                {% endif %}
                                 {% endif %}
                                 <span class="post-date">{{ post.date | date_to_string }}</span>
                                 </span>

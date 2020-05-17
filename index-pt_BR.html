@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+lang: pt_BR
 ---
 
 {% if page.url == "/" %}
@@ -9,12 +10,7 @@ title: Home
 ================================================== -->
 <section class="featured-posts">
     <div class="section-title">
-    <!-- eu adicionei como teste para linguagem !-->
-    {% if site.lang == "en" %}
-        <h2><span>Featured</span></h2>
-    {% else %}
-    <h2><span>Destaque</span></h2>
-    {% endif %}
+        <h2><span>Destaque</span></h2>
     </div>
     <div class="row">
 
@@ -38,13 +34,9 @@ title: Home
 <section class="recent-posts">
 
     <div class="section-title">
-    <!-- eu adicionei como teste para linguagem !-->
-    {% if site.lang == "en" %}
-        <h2><span>All stories</span></h2>
-    {% else %}
+
         <h2><span>Todas as histórias</span></h2>
-    {% endif %}
-    
+
     </div>
 
     <div class="row listrecent">

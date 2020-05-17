@@ -18,4 +18,6 @@ group :jekyll_plugins do
     gem 'kramdown'
     gem 'rouge'
     gem 'jekyll-admin' #eu adicionei essa linha
+    #gem 'jekyll-polyglot' #linha referente ao plugin multilingual
+    gem 'jekyll-multiple-languages-plugin'
 end

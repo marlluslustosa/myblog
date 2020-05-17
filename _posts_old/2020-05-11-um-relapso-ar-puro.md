@@ -7,6 +7,7 @@ layout: post
 image: assets/images/relapsoar.jpg
 featured: true
 hidden: true
+lang: pt_BR
 ---
 
 Na verdade eu sei porque eu me sinto assim,<br>

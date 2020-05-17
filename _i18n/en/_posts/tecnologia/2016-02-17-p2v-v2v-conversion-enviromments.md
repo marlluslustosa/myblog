@@ -1,15 +1,11 @@
 ---
 title: P2V / V2V – Conversion of environments – XenServer 7.0
 author: marllus
-categories:
-- tecnologia
+categories: [ technology ]
 layout: post
-featured: true
 image: assets/images/migration.jpg
+featured: true
 hidden: true
-tags:
-- tecnologia
-- xenserver
 ---
 
 Today I&#8217;ll discuss P2V and V2V of operating systems. Well P2V and V2V, are terms that refer to system migration. And migration (since before Christ – <a href="http://www.ushistory.org/civ/4g.asp" target="_blank">40 years of migration of the Hebrews to Canaan</a> rs) is a painful process and sometimes costly (of time and physical resources).

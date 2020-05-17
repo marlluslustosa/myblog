@@ -3,6 +3,7 @@ title: "Pools no XenServer 6.5"
 author: marllus
 categories: [ tecnologia ]
 layout: post
+lang: pt_BR
 
 ---
 Olá,

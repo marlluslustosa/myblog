@@ -2,7 +2,7 @@
 title: I can only scream
 author: marllus
 categories:
-- arte
+- art
 layout: post
 image: assets/images/ogrito.jpg
 tags:
@@ -19,7 +19,6 @@ tags:
 - neuralnetworkart
 - artificialneuralnetwork
 - generativeart
-hidden: true
 ---
 
 As well as the concerns of Edvard Munch, who walk between disease, life and death, I try to describe the unique moment of this illustration from his brushstrokes, where we can raise the fragility and transience of life.
