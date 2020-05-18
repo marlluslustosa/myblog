@@ -34,8 +34,8 @@ post_class: post-template
                         {% endif %}
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                      {% if site.lang == "en" %}
-                      <a target="_blank" class="link-dark" href="{{site.baseurl}}/{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+                      {% if page.lang == "en" %}
+                      <a target="_blank" class="link-dark" href="{{site.baseurl}}/{{ page.lang }}/{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
                       <span class="author-description">{{ author.description-en }}</span>
                       {% else %}
                     <a target="_blank" class="link-dark" href="{{site.baseurl}}/{{ author.web-br }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Seguir</a>
@@ -130,11 +130,16 @@ post_class: post-template
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             {% if page.previous.url %}
+            {% if page.previous.lang == page.lang %}
             <!-- eu retirei o site.baseurl porque ele esta setado '' no _config.yml, entao coloquei o site.url, mas originalmente estava {{site.baseurl}} !-->
+            <!-- atualizacao: modifiquei o codigo para mostrar artigos proximos ou anteriores da mesma lingua do artigo da pagina atual!-->
             <a class="prev d-block col-md-6" href="{{site.baseurl}}{{page.previous.url}}"> &laquo; {{page.previous.title}}</a>
             {% endif %}
+            {% endif %}
             {% if page.next.url %}
-            <a class="next d-block col-md-6 text-lg-right" href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}} &raquo; </a>
+            {% if page.next.lang == page.lang %}
+            <a class="next d-block col-md-6 text-lg-right" href="{{site.url}}{{page.next.url}}">{{page.next.title}} &raquo; </a>
+            {% endif %}
             {% endif %}
             <div class="clearfix"></div>
             </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--<html lang="en">!-->
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,9 +25,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 !-->
 
-<link href="{{ site.baseurl_root }}/assets/css/screen.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
 
-<link href="{{ site.baseurl_root }}/assets/css/main.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
 <!-- coloquei o jquery pra ser chamado pela CDN google pra ser mais rapido, pois o navegador guarda cache, caso n esteja na cdn, ele puxa localmente! Lembrando que a versao local eh a 3.3.1, mudei para a versao mais recente por questoes de seguranca. nao quebrou em nada a estrutura atual do site.-->
 <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.5.1/dist/jquery.min.js"></script>
@@ -71,8 +71,12 @@ ga('send', 'pageview');
 
     <div class="container pr-0">
 
-    <!-- Begin Logo -->
+    <!-- Begin Logo alterei para mudar a linguagem-->
+    {% if page.lang == "en" %}
+    <a class="navbar-brand" href="{{ site.baseurl }}/{{ page.lang }}">
+    {% else %}   
     <a class="navbar-brand" href="{{ site.baseurl }}/">
+    {% endif %}
     <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
     </a>
     <!-- End Logo -->
@@ -82,48 +86,48 @@ ga('send', 'pageview');
     </button>
 
     <div class="collapse navbar-collapse" id="navbarMediumish">
-    
-        <!-- Begin Menu -->
 
-            <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto">
 
-                {% if page.url == "/" %}
+                  <!-- muda linguagem do menu de acordo com site.lang -->
+
+                {% if page.lang == "en" %}
+                
+                {% if page.url == "/en/" %}
                 <li class="nav-item active">
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}">Home</a>
                 </li>
                   
-                  <!-- muda linguagem do menu de acordo com site.lang -->
-
-                {% if site.lang == "en" %}
+                
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/categories#art">Art</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/categories#art">Art</a>
                 </li>
 
 		<li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/categories#technology">Technology</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/categories#technology">Technology</a>
                 </li>
 
 		<li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/categories#poetry">Poetry</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/categories#poetry">Poetry</a>
                 </li>
 
 		<li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/categories#society">Society</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/categories#society">Society</a>
                 </li>
 
 		<li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/categories#science">Science</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/categories#science">Science</a>
                 </li>
 
 		<li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/contact">Contact</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/contact">Contact</a>
                 </li>
         
         <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/about">About</a>
                 </li>
                 
         <li class="nav-item">
@@ -131,11 +135,20 @@ ga('send', 'pageview');
                 </li>
                 
         <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/search">Search</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/search">Search</a>
                 </li>
                 
                 <!-- caso contrario aparece portugues -->
                 {% else %}
+                
+                {% if page.url == "/" %}
+                <li class="nav-item active">
+                {% else %}
+                <li class="nav-item">
+                {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}">Home</a>
+                </li>
+                
                 
                 <li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl }}/categories#arte">Arte</a>
@@ -173,8 +186,6 @@ ga('send', 'pageview');
                 <a class="nav-link" href="{{ site.baseurl }}/busca">Busca</a>
                 </li>
                  {% endif %}
-                 
-                <!-- finaliza condicao do menu -->
 
 
                 <!--<li class="nav-item">
@@ -216,9 +227,8 @@ ga('send', 'pageview');
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
-    <!-- teste pra mudar o titulo dependendo da linguagem escolhida!-->
-    {% if site.lang == "en" %}
-    A salad of daily ideas
+        {% if page.lang == "en" %}
+         {{ site.description-en }}
     {% else %}
         {{ site.description }} <!-- site.description definido no _config.yml!-->
     {% endif %}
@@ -236,7 +246,11 @@ ga('send', 'pageview');
 ================================================== -->
 <div class="alertbar">
 	<div class="container text-center">
-		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Nunca perca uma boa <b>história</b>, se inscreva na nossa newsletter</span>
+	    {% if page.lang == "en" %}
+	    <span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a good <b>story</b>, sign up for our newsletter</span>
+        {% else %}
+        <span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Nunca perca uma boa <b>história</b>, se inscreva na nossa newsletter</span>
+        {% endif %}
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group">
             <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>

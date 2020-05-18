@@ -11,6 +11,7 @@ tags:
 - whatsapp
 - reflexao
 - pensamento
+featured: true
 ---
 
 De manhã cedo, acordei…<br>

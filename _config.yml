@@ -1,10 +1,26 @@
 name: Lulu space
 title: Lulu space
 description: Uma salada de ideias nossa de cada dia.
+description-en: A salad of daily ideas.
 logo: assets/images/logo.png
 favicon: assets/images/favicon.ico
 baseurl: ''
 url: 'https://marllus.com'
+defaults:
+  # Default language
+  -
+    scope:
+      path: ""
+    values:
+      lang: "pt_BR"
+      baseurl: ''
+  # Language for everything inside `/en`
+  -
+    scope:
+      path: en
+    values:
+      lang: "en"
+      baseurl: "/en/"
 google_analytics: UA-38359606-2
 #disqus: lulublog-1
 mailchimp-list: >-
@@ -23,7 +39,7 @@ authors:
     web-br: 'sobre'
     twitter: 'https://twitter.com/melolustosa'
     description: >-
-      Analista de TI, mestre em políticas públicas, professor, artista digital e
+      Analista de TI, mestre em politicas publicas, professor, artista digital e
       aspirante a tudo que lhe der na telha.
     description-en: >-
       IT analyst, Master of Science in Public Policy, teacher, digital artist and aspiring to everything he everything you want.
@@ -42,9 +58,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-multiple-languages-plugin
-languages: ["pt_BR", "en"]
-exclude_from_localization: ["javascript", "images", "css", "README.md"]
 jekyll-archives:
   enabled:
     - categories
