@@ -1,30 +1,841 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Lulu space</title>
+    <description>Uma salada de ideias nossa de cada dia.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 17 May 2020 21:27:16 -0300</pubDate>
+    <lastBuildDate>Sun, 17 May 2020 21:27:16 -0300</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Só me resta o grito</title>
+        <description>&lt;p&gt;Assim como as inquietações de Edvard Munch, que caminham entre doenças, vida e morte, tento descrever o momento único dessa ilustração a partir de suas pinceladas, onde podemos suscitar a fragilidade e a transitoriedade da vida.&lt;/p&gt;
+
+&lt;p&gt;Ao vigiar essa rua da cidade, temporariamente deserta, descobri um homem, arrastando seu objeto de trabalho, como se fosse em uma direção que nunca terá fim, um horizonte invisível.
+A loucura toma conta do ar, entremeada por agonia, rezas e rasga mortalhas, em um céu silencioso e de sangue.
+Estamos vivendo a passagem do próprio tempo.
+O sinal de pare pouco importa.
+Só me resta o grito.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 May 2020 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/arte/2020/05/15/so-me-resta-grito.html</link>
+        <guid isPermaLink="true">http://localhost:4000/arte/2020/05/15/so-me-resta-grito.html</guid>
+        
+        <category>arte</category>
+        
+        <category>poesia</category>
+        
+        <category>sociedade</category>
+        
+        <category>gan</category>
+        
+        <category>deeplearning</category>
+        
+        <category>ganart</category>
+        
+        
+        <category>arte</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Meu pequeno xote</title>
+        <description>&lt;p&gt;Não faço para crer, não digo para me sentir.&lt;br /&gt;
+É certo que a boca fala&lt;br /&gt;
+o que não quero ver,&lt;br /&gt;
+mas enfia goela a dentro os devaneios alheios.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ser o jeito que seria, se tivesse crédito,&lt;br /&gt;
+era a melhor coisa.&lt;br /&gt;
+Mas a vida é feito de regras.&lt;br /&gt;
+Más ou boas, sempre estarão lá,&lt;br /&gt;
+com o mesmo desafio de enterpretá-las,&lt;br /&gt;
+como que um farol, na tentativa de ver um homem urinando em sua base.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;O difícil está lá, mas também o fácil.&lt;br /&gt;
+Já falei da laranja e da faca e do João a cortando.&lt;br /&gt;
+A força, a leveza e a vontade é que vão dar o destino do ferimento.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Só sei q nada sei, já falava Sócrates.&lt;br /&gt;
+Mas será q ele mesmo poderia ou já teria feito a pergunta: Será quando?&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 May 2020 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/poesia/2020/05/04/meu-pequeno-xote.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2020/05/04/meu-pequeno-xote.html</guid>
+        
+        <category>poesia</category>
+        
+        <category>sociedade</category>
+        
+        <category>socrates</category>
+        
+        
+        <category>poesia</category>
+        
+      </item>
+    
+      <item>
+        <title>Instalar Xenserver Tools (xen-tools) em Debian 5 (Lenny) (HVM para PV)</title>
+        <description>&lt;p&gt;O tutorial de hoje é sobre como intalar o XenTools em uma VM Debian 5.0 (Lenny) em um Xenserver que não tem suporte a mesma (support guests), como ocorre a partir da versão 6.2.&lt;/p&gt;
+
+&lt;p&gt;Bem, instalar o xen-tools vai habilitar o administrador a realizar diversas operações com a VM, como gerenciar a network da mesma, monitorar o uso de memória RAM, realizar Xen Motion além de fornecer drivers para otimização de I/O de disco e rede.&lt;/p&gt;
+
+&lt;p&gt;As vezes, ocorre de você ter um sistema legado (ex. Debian 5.0), exportado de um outro hypervisor ou de uma máquina física, no seu ambiente de virtualização. Baseado nesse tipo de situação, deixo aqui um tutorial de como facilmente você pode instalar o xen-tools nessa VM e de quebra realizar a paravirtualização da mesma (HVM para PV).&lt;/p&gt;
+
+&lt;p&gt;Os passos a seguir mostram como instalar o xen-tools em um Debian 5 estando em um XenServer 7 – Dundee. Pode ser feito também em outras versões do XenServer, como 6.2 e 6.5.&lt;/p&gt;
+
+&lt;p&gt;Primeiro, vamos baixar o xen tools do XenServer 6.0 (Não é fácil encontrá-lo separado na internet, então instalei o mesmo e o peguei da pasta /&lt;em&gt;opt&lt;/em&gt;/&lt;em&gt;xensource&lt;/em&gt;/packages/iso/) e o coloquei em uma pasta pública para donwload. O link está abaixo:&lt;/p&gt;
+
+&lt;p&gt;https://dl.dropboxusercontent.com/u/4912938/xentools6.0.iso&lt;/p&gt;
+
+&lt;p&gt;Com a VM ligada, baixe o arquivo para dentro da mesma. Abaixo cito um exemplo usando wget:&lt;/p&gt;
+
+&lt;p&gt;# &lt;em&gt;wget https://dl.dropboxusercontent.com/u/4912938/xentools6.0.iso&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Após isso, monte o arquivo .iso:&lt;/p&gt;
+
+&lt;p&gt;# &lt;em&gt;mount -o loop xentools6.0.iso /mnt&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;OBS: O diretório /mnt foi colocado como exemplo. Se tiver outro diretório onde queira montar, altere-o.&lt;/p&gt;
+
+&lt;p&gt;Entre no diretório de execução do script do xen-tools e execute-o:&lt;/p&gt;
+
+&lt;p&gt;# &lt;em&gt;cd /mnt/Linux/&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;# &lt;em&gt;./install&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;O script vai gerar um informação na tela relatando que reconheceu o sistema operacional Debian 5.0 e que vai atualizar diversos arquivos, incluindo o kernel do sistema (que é um kernel paravirtualizado).&lt;/p&gt;
+
+&lt;p&gt;Pressione a tecla ‘y’ para confirmar a instalação e configuração.&lt;/p&gt;
+
+&lt;p&gt;Aguarde um instante e logo terminará a instalação. No final do relatório o testo irá relatar para reiniciar a VM.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NÃO REINICIE AINDA.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NÃO REINICIE AINDA.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NÃO REINICIE AINDA.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Se você reiniciar, o sistema não vai iniciar, pois ainda faltam configurações adicionais para o boot conseguir ser realizado.&lt;/p&gt;
+
+&lt;p&gt;Primeiro, entre no arquivo de configuração da inicialização do grub.&lt;/p&gt;
+
+&lt;p&gt;# &lt;em&gt;vim /boot/grub/menu.lst&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;No meu caso, o script do xen-tools instalou o kernel 2.6.32-5-amd64,  e o mesmo adicionou como partição do arquivo initrd e kernel a /dev/hda1.&lt;/p&gt;
+
+&lt;p&gt;A forma que o XenServer utiliza para gerenciar dispositivos de bloco virtuais de VMs é a xvda/xvdb… ao invés de hda/hdb… ou sda/sdb…. É aí que surge o problema. Se você deixar /dev/hda, quando o boot da VM ocorrer ele tentará iniciar o kernel paravirtualizado 2.6.32-5-amd64 e não irá conseguir, pois o mesmo está referenciado por /dev/xvd*, por isso, temos que alterar no arquivo do grub.&lt;/p&gt;
+
+&lt;p&gt;A imagem abaixo é para mostrar como ficará o arquivo menu.lst.&lt;/p&gt;
+
+&lt;p&gt;Percebam o ‘root=/dev/xvda1’ para mostrar que o novo dispositivo de bloco que contém o kernel e initrd estão nesse dispositivo de bloco.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/arquivos_configuracaoboot_zps8we50omg.jpeg~original&quot;&gt;&lt;img class=&quot; alignnone&quot; src=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/arquivos_configuracaoboot_zps8we50omg.jpeg~original&quot; alt=&quot;&quot; width=&quot;625&quot; height=&quot;344&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;No kernel antigo (2.6.26-2-amd64) podem deixar como está, pois não mais precisaremos dele.&lt;/p&gt;
+
+&lt;p&gt;Saia e salve o arquivo:&lt;/p&gt;
+
+&lt;p&gt;Tecle Esc e digite:&lt;/p&gt;
+
+&lt;p&gt;:w!&lt;/p&gt;
+
+&lt;p&gt;Agora vá para o arquivo padrão de montagem de partições para atualizar o novo nome:&lt;/p&gt;
+
+&lt;p&gt;# &lt;em&gt;vim /etc/fstab&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Altere todas as linhas que contém /dev/hdx* por /dev/xvdx*.&lt;/p&gt;
+
+&lt;p&gt;OBS: Substitua o ‘x’ pela letra correspondente ao dispositivo de bloco correspondente e o * pelo número referente a partição.&lt;/p&gt;
+
+&lt;p&gt;No meu caso exemplo, o arquivo ficou dessa forma:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/fstab_zps6q8iwbro.jpeg~original&quot;&gt;&lt;img class=&quot;alignnone&quot; src=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/fstab_zps6q8iwbro.jpeg~original&quot; alt=&quot;&quot; width=&quot;579&quot; height=&quot;201&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Salve e saia do arquivo:&lt;/p&gt;
+
+&lt;p&gt;Tecle esc e digite:&lt;/p&gt;
+
+&lt;p&gt;:w!&lt;/p&gt;
+
+&lt;p&gt;Agora, iremos alterar o console padrão do sistema (tty) para o padrão do XenServer (hvc):&lt;/p&gt;
+
+&lt;p&gt;Entre no arquivo /etc/inittab:&lt;/p&gt;
+
+&lt;p&gt;# &lt;em&gt;vim /etc/inittab&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Adicione a linha:&lt;/p&gt;
+
+&lt;p&gt;co:2345:respawn:/sbin/getty hvc0 9600 linux&lt;/p&gt;
+
+&lt;p&gt;antes da linha:&lt;/p&gt;
+
+&lt;p&gt;1:2345:respawn:/sbin/getty/ 38400 tty1&lt;/p&gt;
+
+&lt;p&gt;Agora tenha em mãos o uuid da VM (você pode vê-lo através do xencenter na aba _General _da VM no canto inferior.)&lt;/p&gt;
+
+&lt;p&gt;Abra o console do XenServer e digite os comandos abaixo:&lt;/p&gt;
+
+&lt;p&gt;Setar o novo kernel e initrd da VM:&lt;/p&gt;
+
+&lt;p&gt;_# xe vm-param-set uuid=&lt;vm uuid=&quot;&quot;&gt; PV-bootloader-args=&amp;#8221;&amp;#8211;kernel &lt;full path=&quot;&quot; to=&quot;&quot; xen=&quot;&quot; kernel=&quot;&quot;&gt; &amp;#8211;ramdisk &lt;full path=&quot;&quot; to=&quot;&quot; xen=&quot;&quot; initrd=&quot;&quot;&gt;&amp;#8221;&lt;/full&gt;&lt;/full&gt;&lt;/vm&gt;&lt;/p&gt;
+
+&lt;p&gt;_ No meu caso ficou assim:&lt;/p&gt;
+
+&lt;p&gt;# _xe vm-param-set uuid=&lt;vm uuid=&quot;&quot;&gt; PV-bootloader-args=&amp;#8221;&amp;#8211;kernel /boot/vmlinuz-2.6.32-5-amd64 &amp;#8211;ramdisk /boot/initrd.img-2.6.32-5-amd64&amp;#8243;_&lt;/vm&gt;&lt;/p&gt;
+
+&lt;p&gt;Setar o local dos arquivos do kernel e initrd da VM:&lt;/p&gt;
+
+&lt;p&gt;# &lt;em&gt;xe vm-param-set uuid=&lt;/em&gt;&lt;vm uuid=&quot;&quot;&gt;_ PV-args=&amp;#8221;root=/dev/xvdx* ro quiet console=hvc0&amp;#8243;&lt;/vm&gt;&lt;/p&gt;
+
+&lt;p&gt;_ No meu caso ficou assim:&lt;/p&gt;
+
+&lt;p&gt;_# xe vm-param-set uuid=__&lt;vm uuid=&quot;&quot;&gt;__ PV-args=&amp;#8221;root=/dev/xvda1 ro quiet console=hvc0&amp;#8243;_&lt;/vm&gt;&lt;/p&gt;
+
+&lt;p&gt;Setar o novo bootloader (grub) da VM:&lt;/p&gt;
+
+&lt;p&gt;_# xe vm-param-set uuid=&lt;vm uuid=&quot;&quot;&gt; PV-bootloader=pygrub_&lt;/vm&gt;&lt;/p&gt;
+
+&lt;p&gt;Setar em branco o boot antigo (HVM):&lt;/p&gt;
+
+&lt;p&gt;# _xe vm-param-set uuid=&lt;vm uuid=&quot;&quot;&gt; HVM-boot-policy=&amp;#8221;&amp;#8221;_&lt;/vm&gt;&lt;/p&gt;
+
+&lt;p&gt;Pronto, após todos os comandos sem nenhum erro, você pode reinicializar a VM.&lt;/p&gt;
+
+&lt;p&gt;Caso ocorra tudo bem, quando a mesma estiver ativa, no xencenter na aba &lt;em&gt;General&lt;/em&gt; veja seu estado de virtualização  (&lt;em&gt;Virtualization state&lt;/em&gt;) e veja se está com status &lt;em&gt;Optimized&lt;/em&gt;. Isso quer dizer que o xen-tools está instalado.&lt;/p&gt;
+
+&lt;p&gt;Para saber se a VM está rodando em modo PV, no campo “&lt;em&gt;Virtualization mode&lt;/em&gt;” vai estar escrito PV. Caso esteja utilizando o XenServer 6.5 ou 6.2 digite o comando abaixo dentro da VM:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;# dmesg&lt;/td&gt;
+      &lt;td&gt;egrep -i “xen&lt;/td&gt;
+      &lt;td&gt;front”&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Se ela estiver em PV (paravirtualizada), as seguintes linhas aparecerão, dentre outras informações:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Booting paravirtualized kernel on Xen&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;blkfront: xvda: barriers enable&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Initialising Xen virtual ethernet drive&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abaixo deixo o print da tela de opções que serão habilitadas com o xen-tools instalado:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/xen-tools_zpsd1fi5tkj.png~original&quot;&gt;&lt;img class=&quot;alignnone&quot; src=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/xen-tools_zpsd1fi5tkj.png~original&quot; alt=&quot;&quot; width=&quot;303&quot; height=&quot;271&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chegamos ao fim, enfim.&lt;/p&gt;
+
+&lt;p&gt;Grande abraço e qualquer dúvida poste nos comentários ou mande e-mail (marlluslustosa@gmail.com).&lt;/p&gt;
+
+&lt;p&gt;Se quiser ter acesso a uma série de tutorias sobre diversas funcionalidades do XenServer, acesse a página inicial do projeto: &lt;a href=&quot;http://www.marllus.com/xenserver&quot; target=&quot;_blank&quot;&gt;http://www.marllus.com/xenserver&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Referências:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://discussions.citrix.com/topic/307891-paravirtualizing-debian/&quot; target=&quot;_blank&quot;&gt;http://discussions.citrix.com/topic/307891-paravirtualizing-debian/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://discussions.citrix.com/topic/151259-howto-convert-hvm-to-paravirtmanual-p2v-rhel5sles10sp1/&quot; target=&quot;_blank&quot;&gt;http://discussions.citrix.com/topic/151259-howto-convert-hvm-to-paravirtmanual-p2v-rhel5sles10sp1/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://support.citrix.com/article/CTX121875&quot; target=&quot;_blank&quot;&gt;http://support.citrix.com/article/CTX121875&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://discussions.citrix.com/topic/259891-tut-debian-lenny-paravirtualization-with-xentools-updated/&quot; target=&quot;_blank&quot;&gt;http://discussions.citrix.com/topic/259891-tut-debian-lenny-paravirtualization-with-xentools-updated/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 21 Jul 2016 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/tecnologia/2016/07/21/instalar-xenserver-tools-xen-tools-em-debian-5-lenny-hvm-para-pv.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tecnologia/2016/07/21/instalar-xenserver-tools-xen-tools-em-debian-5-lenny-hvm-para-pv.html</guid>
+        
+        
+        <category>tecnologia</category>
+        
+      </item>
+    
+      <item>
+        <title>Véspera</title>
+        <description>&lt;p&gt;Em pé nesse caminho&lt;br /&gt;
+Me vejo insano e faminto&lt;br /&gt;
+O grito da catraca me atraca&lt;br /&gt;
+A ter vontade de esperar.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Joãos e Marias&lt;br /&gt;
+Na esperança da fina endorfina&lt;br /&gt;
+Se na Terça vem paçoca&lt;br /&gt;
+Se na quarta vem linguiça.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Os meios são nexos&lt;br /&gt;
+O caminho é certo&lt;br /&gt;
+A multidão é limpa&lt;br /&gt;
+Depois das 12, encrenca.&lt;br /&gt;
+Mas que não falte a comida.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;E ao chegar perto a tripa aperta.&lt;br /&gt;
+Com os olhos lá dentro,&lt;br /&gt;
+A saliva acomete e a vontade é certa,&lt;br /&gt;
+Na véspera.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Os meios sao nexos&lt;br /&gt;
+O caminho é certo&lt;br /&gt;
+A multidão é limpa&lt;br /&gt;
+Depois das 12, encrenca.&lt;br /&gt;
+Mas que não falte a comida.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Eita q eu vou entrar, será?&lt;br /&gt;
+Tem mais um bolinho ali.&lt;br /&gt;
+Que horas me farto? Que fardo!&lt;br /&gt;
+Vamo sim, é agora! Vamo que é hora!&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Jul 2016 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/poesia/2016/07/03/vespera.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2016/07/03/vespera.html</guid>
+        
+        <category>poesia</category>
+        
+        <category>sociedade</category>
+        
+        <category>reflexao</category>
+        
+        <category>pensamento</category>
+        
+        
+        <category>poesia</category>
+        
+      </item>
+    
+      <item>
+        <title>XenMotion no XenServer 6.5</title>
+        <description>&lt;p&gt;XenMotion é um recurso bem interessante e muito importante dentro de ambiente de virtualização do XenServer. É com ele que o HA (High Availability), WLB (Work Load Balancing – Versão paga do XenServer – 🙁  ) e Rolling Pool Upgrade funcionam direitinho, habilitando a possibilidade de mover as VMs entre hosts do mesmo pool sem (ou quase sem) downtime (geralmente 1 ou 2 pings perdidos).&lt;/p&gt;
+
+&lt;p&gt;O XenMotion já vem habilitado no XenServer na versão gratuita. E ele serve, basicamente (e como falei acima), para você poder movimentar VMs “à quente” entre hosts xen em um mesmo pool, ou seja, o storage (SR) têm de ser compartilhado entre as VMs (Geralmente um storage, adicionado em um pool, do tipo iscsi, fc, nfs).&lt;/p&gt;
+
+&lt;p&gt;Mas, quais os requisitos mais específicos para utilizar o XenMotion?&lt;/p&gt;
+
+&lt;p&gt;– O XenServer tools deve estar instalado na VM;&lt;/p&gt;
+
+&lt;p&gt;– O host xen destino têm de ter a mesma ou versão superior do XenServer do host de origem;&lt;/p&gt;
+
+&lt;p&gt;– O host xen destino têm que ter memória suficiente para o provisionamento da VM, caso contrário a VM não completará o processo de migração (isso é meio lógico, rs);&lt;/p&gt;
+
+&lt;p&gt;– O drive de DVD deve estar setado como empty (não deve ter nenhuma .iso anexada ou nenhum cd/dvd dentro do drive do host físico);&lt;/p&gt;
+
+&lt;p&gt;– Ter um SR compartilhado no pool (NFS, iSCSI/FC SAN);&lt;/p&gt;
+
+&lt;p&gt;Mas, e em quais situações você vai usar o XenMotion (fora ficar brincando de jogar uma VM de um host pra outro só pra ver como é lindo isso funcionando, rs)?&lt;/p&gt;
+
+&lt;p&gt;Você pode usar isso, por exemplo, quando for atualizar um host xen, migrando as VMs nele contidas para um outro host xen. Além disso, você pode usar pra migrar VMs enquanto faz manutenção em um host ou até planejar um script balanceador de carga entre hosts físicos (o que o Work Loading Balancig faz – na versão do Xenserver com linceça). Enfim, as possibilidades são muitas. Só a produção e o dia a dia que vai te desafiar com situações como estas. É só pensar sobre os benefícios e planejá-los bem!&lt;/p&gt;
+
+&lt;p&gt;Para saber como migrar uma VM através do XenCenter, acesse esse tutorial (&lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-manage/xs-xc-vms-relocate.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-manage/xs-xc-vms-relocate.html&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Tutoriais/ explicações em vídeo:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTlwlNjc86M&quot; target=&quot;_blank&quot;&gt;https://www.youtube.com/watch?v=hTlwlNjc86M&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=05Zc0ze5CpQ&quot; target=&quot;_blank&quot;&gt;https://www.youtube.com/watch?v=05Zc0ze5CpQ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vcPzrnrnYCU&quot; target=&quot;_blank&quot;&gt;https://www.youtube.com/watch?v=vcPzrnrnYCU&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Até breve!&lt;/p&gt;
+
+&lt;p&gt;Abraço!&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Referências:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://support.citrix.com/article/CTX115813&quot; target=&quot;_blank&quot;&gt;http://support.citrix.com/article/CTX115813&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.amazon.com.br/Mastering-Citrix-Xenserver-Martez-Reed/dp/178328739X&quot; target=&quot;_blank&quot;&gt;http://www.amazon.com.br/Mastering-Citrix-Xenserver-Martez-Reed/dp/178328739X&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-manage/xs-xc-vms-relocate.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-manage/xs-xc-vms-relocate.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://msinhore.wordpress.com/2012/09/20/storage-xenmotion/&quot; target=&quot;_blank&quot;&gt;https://msinhore.wordpress.com/2012/09/20/storage-xenmotion/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hTlwlNjc86M&quot; target=&quot;_blank&quot;&gt;https://www.youtube.com/watch?v=hTlwlNjc86M&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=05Zc0ze5CpQ&quot; target=&quot;_blank&quot;&gt;https://www.youtube.com/watch?v=05Zc0ze5CpQ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vcPzrnrnYCU&quot; target=&quot;_blank&quot;&gt;https://www.youtube.com/watch?v=vcPzrnrnYCU&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/storage-xenmotion-live-storage-migration-with-citrix-xenserver.pdf?accessmode=direct&quot; target=&quot;_blank&quot;&gt;https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/storage-xenmotion-live-storage-migration-with-citrix-xenserver.pdf?accessmode=direct&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; rel=&quot;license&quot;&gt;&lt;img style=&quot;border-width: 0;&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&quot; alt=&quot;Licença Creative Commons&quot; /&gt;&lt;/a&gt;&lt;br /&gt; Este trabalho de &lt;a href=&quot;http://ports.marllus.com&quot;&gt;Marllus&lt;/a&gt;, está licenciado com uma Licença &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; rel=&quot;license&quot;&gt;Creative Commons &amp;#8211; Atribuição-CompartilhaIgual 4.0 Internacional&lt;/a&gt;.
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Feb 2016 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/tecnologia/2016/02/17/xenmotion-no-xenserver-6-5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tecnologia/2016/02/17/xenmotion-no-xenserver-6-5.html</guid>
+        
+        
+        <category>tecnologia</category>
+        
+      </item>
+    
+      <item>
+        <title>Xencenter</title>
+        <description>&lt;p class=&quot;p1&quot;&gt;
+  O assunto agora é sobre gerenciamento do XenServer. Neste caso, falaremos sobre XenCenter, que é o software OFICIAL de gerência do XenServer.
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Antes de começar a falar sobre ele, muita gente (principalmente os #linuxUsers) tem a seguinte dúvida: Existe alguma ferramenta de gerência do XenServer que rode na web ou que rode em Linux, já que o XenCenter só funciona por padrão no Windows?
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Resposta: Sim! Existem inúmeras ferramentas que fazem esse tipo de gerenciamento do Xen (assim como outros hypervisors [esxi, kvm..]) e que funcionam tanto na plataforma web como versão desktops.
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Ex:
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Web:
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  &amp;#8211; XenOrcherstra;
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  &amp;#8211; XAC;
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  &amp;#8211; Archipel;
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  GNU/Linux / Windows:
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;OpenXenManager;&lt;/li&gt;
+  &lt;li&gt;OpenXenCenter;&lt;/li&gt;
+  &lt;li&gt;Libvirt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Explicando:
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Porém, caro usuário, a bola da vez é o seguinte dilema: Como ter eficácia/eficiência junto com estabilidade? Se queres o primeiro, significa que você quer ter uma relação perfeita, além de harmoniosa, entre que tipo de cliente (Web/Desktop) você irá usar para acessar sua infra-estrutura de virtualização e as ações que você espera o mesmo retornar a partir de seus comandos. Nem sempre é padrão a estabilidade vir com a utilização de ferramentas recomendadas oficialmente (como por muitos anos o internet explorer, arg…), mas, neste caso o que o ocorre é que várias ferramentas de terceiros (muito boas) como Xen Orcherstra e Archipel, em fase de crescimento na comunidade open source, ainda não atingiram a maturidade suficiente para ATESTAR que podem realizar, com sucesso, todos os comandos para ações realizadas em um ambiente de produção.
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  No ano de 2014 vi a oportunidade de pesquisa nesta área (ainda) obscura, então, comecei a escrever minha monografia (especialização) sobre o tema, entitulada &amp;#8220;Análise de ferramentas open-source de administração de ambientes heterogêneos de virtualização&amp;#8221;. Defendi com sucesso a mesma em 2015.
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Como resultados desta pesquisa, concluí que, a menos que você utilize estas ferramentas para medidas de montagem de ambientes futuros e testes, não é recomendado, em ambientes de alta criticidade. Imagine a seguinte situação: Acontece um congelamento da tela do programa (ou janela), por causa de um erro interno, no momento de uma operação de migração ou cópia de uma VM. Você não consegue mais visualizar os processos nem utilização dos recursos do XenServer e nem os logs e não sabe ver, rapidamente, se o processo travou, se o XAPI caiu ou se a VM está no ar ou se foi desligada.
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Resultado: Os transtornos podem ser enormes. Fora a busca por problemas, em fóruns oficiais da ferramenta, que se torna limitada pelo fato de você já estar utilizando uma ferramenta para gerenciamento do XenServer que não a oficial.
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Atenção: Não estou promovendo o uso do Windows nem desmotivando a colaboração para com a comunidade cada vez mais livre. No entanto, preste bem atenção no que você irá colocar em produção na infra-estrutura de seu trabalho (nas suas costas!). Teste bem e crie uma documentação sobre todos os testes que fizer com ela (listando o que está dando bugs e o que funciona &amp;#8220;redondinho&amp;#8221;).
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Para saber como instalar o XenCenter, deixo aqui os procedimentos da documentação oficial:
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  &lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-intro-welcome/xs-xc-intro-start.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-intro-welcome/xs-xc-intro-start.html&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  &lt;a href=&quot;http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/installation.html#center_installation&quot; target=&quot;_blank&quot;&gt;http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/installation.html#center_installation&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Espero que tenham gostado da explicação e das vantagens/desvantagens de utilização de ferramentas não oficiais.
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Abraços e até a próxima!
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  Referências:
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  &lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-intro-welcome/xs-xc-intro-start.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-intro-welcome/xs-xc-intro-start.html&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  &lt;a href=&quot;http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/installation.html#center_installation&quot; target=&quot;_blank&quot;&gt;http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/installation.html#center_installation&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;p1&quot;&gt;
+  &lt;a href=&quot;http://xenserver.org/open-source-virtualization-download.html&quot; target=&quot;_blank&quot;&gt;http://xenserver.org/open-source-virtualization-download.html&lt;/a&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Feb 2016 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/tecnologia/2016/02/17/xencenter.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tecnologia/2016/02/17/xencenter.html</guid>
+        
+        
+        <category>tecnologia</category>
+        
+      </item>
+    
+      <item>
+        <title>Upgrade/Update no XenServer 6.5</title>
+        <description>&lt;p&gt;Segue abaixo uma descrição resumida sobre a conceituação dos seguintes termos.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Atualização (hotfixes) de procedimentos críticos e não críticos de segurança, adição de drivers ou correção de bugs em pacotes → Trivial;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Upgrade&lt;/strong&gt;: Atualização de versão do sistema de virtualização XenServer, o que pode aglomerar melhorias nos drivers de dispositivos, adicionar funcionalidades, alterar versões de SO usado (neste caso, o GNU/Linux CentOS) e aumento na capacidade de processamento do próprio sistema operacional → (Geralmente crítica e menos trivial [lê-se: trabalhosa]);&lt;/p&gt;
+
+&lt;p&gt;O que ocorre?&lt;/p&gt;
+
+&lt;p&gt;Muito sysadmin deixa o seu ambiente funcional, perfeitinho e redondinho e enquanto ele estiver funcionando não meche nele porque “não se meche com quem tá queto”.&lt;/p&gt;
+
+&lt;p&gt;Nos meus tempos usando XenServer e GNU/Linux aprendi uma coisa: Sempre tente deixar seus sistemas com as últimas versões de atualização. Updates são lançados para serem usados, eles contém novos drivers, patches de segurança, novas versões de softwares com bugs, otimização de código, enfim, não ache que porque seu sistema está no ar que ele não pode cair amanhã por um erro que você já devia tê-lo imunizado.&lt;/p&gt;
+
+&lt;p&gt;Te garanto que é doloroso você ter que atualizar o seu ambiente com vários hotfixes na fila de espera, pois cada update vai gerar um mini ataque cardíaco em você.&lt;/p&gt;
+
+&lt;p&gt;Para realizar procedimento de update até a versão 6.2 do xenserver open source você teria que ir para a CLI (Linha de comando) e aplicar os passos mostrados neste tutorial:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://support.citrix.com/article/CTX132791&quot; target=&quot;_blank&quot;&gt;http://support.citrix.com/article/CTX132791&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Curiosidade: Na época em que tínhamos que ir para a linha de comando na versão sem licença paga, vários usuários da comunidade elaboraram suas próprias soluções para realização de update do ambiente. E é disso que estou sempre falando: Compartilhamento de conhecimento!!&lt;/p&gt;
+
+&lt;p&gt;Olhem os links:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://discussions.citrix.com/topic/310573-script-to-update-xenserver-with-powershell/&quot; target=&quot;_blank&quot;&gt;http://discussions.citrix.com/topic/310573-script-to-update-xenserver-with-powershell/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.citrix.com/blogs/2014/09/10/scripting-automating-vm-operations-on-xenserver-using-powershell/&quot; target=&quot;_blank&quot;&gt;https://www.citrix.com/blogs/2014/09/10/scripting-automating-vm-operations-on-xenserver-using-powershell/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.virtualexperience.no/2012/11/30/ctxupdate-a-powershell-script-to-download-any-citrix-updates/&quot; target=&quot;_blank&quot;&gt;https://www.virtualexperience.no/2012/11/30/ctxupdate-a-powershell-script-to-download-any-citrix-updates/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Felizmente hoje, a partir da versão 6.5 (versão atual até a última atualização deste tutorial), como o código do XenCenter foi liberado (assim como o código de quase todas as partes do XenServer), foi inevitável liberar a opção no GUI do próprio XenCenter para realizar operações de update.&lt;/p&gt;
+
+&lt;p&gt;Isso te dá a possibilidade de deixar a cargo do XenCenter baixar as atualizações e automaticamente aplicar e reiniciar (quando for o caso) o host, sem que se precise fazer de forma manual (apesar de ele também disponibilizar a opção de reiniciar o servidor manualmente).&lt;/p&gt;
+
+&lt;p&gt;Por padrão, o XenCenter já vem configurado para sempre checar se existem atualizações disponíveis para hosts xen nele conectados.&lt;/p&gt;
+
+&lt;p&gt;Quando for tornada disponível a update, ela vai aparecer na aba de notificações do seu XenCenter, e clicando com o botão direito do mouse em cima dela você pode baixar ou obter informações sobre ela. Antes de atualizar, leia o máximo possível sobre a mesma afim de reconhecer os impactos esperados na pré e pós atualização do ambiente.&lt;/p&gt;
+
+&lt;p&gt;Antes disso, realize backup de suas informações como metadados do pool, hosts, e VM. Saiba como realizar backup disso tudo neste &lt;strong&gt;&lt;a href=&quot;http://ports.marllus.com/?p=164&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt;&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;Eu criei um desenho do fluxo processual que me baseio sempre na hora de realizar procedimentos de update em ambientes XenServer, o qual disponibilizo abaixo:&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/update_xen_host_zpsp4q0deig.jpg~original&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/update_xen_host_zpsp4q0deig.jpg~original&quot; alt=&quot;update&quot; width=&quot;818&quot; height=&quot;589&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Nele, mostro que devemos sempre checar a criticidade e impactos institucionais e técnicos antes do procedimento de update, após isso será agendada a atualização (se tiver paradas no servidor, deverão ser previamente relatadas), realizar backups do pool, Vms e xen host (quando houver recurso para o último), desabilitar o HA (requisito técnico) e só depois iniciar a atualização.&lt;/p&gt;
+
+&lt;p&gt;Alguns procedimentos minuciosos, bem como todo o passo a passo e pré requisitos de configuração necessários para a realização de um processo de update podem ser conferidos neste link da documentação oficial:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-updates/xs-xc-updates-applying.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-updates/xs-xc-updates-applying.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Com relação à Upgrades (atualização de versão) no Xenserver, existe a possibilidade de realização do procedimento de maneira live, sem que as Vms parem, claro, se você tiver storage compartilhado. As Vms podem ser migradas de um Xenserver para outro com uma versão igual ou superior da de origem, por exemplo de um xenserver 6.2 para um 6.5. Isso é vantajoso neste tipo de atualização, onde a troca das versões é crucial.&lt;/p&gt;
+
+&lt;p&gt;Procedimentos e detalhes técnicos de realização de upgrade em um pool (Rolling Pool Upgrade) você pode continuar a leitura do link que passei anteriormente, até chegar nessa parte:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-updates/xs-xc-upgrade.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-updates/xs-xc-upgrade.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;E a mesma imagem para guiar você no processo de update (colocada acima) pode ser usada no processo de upgrade, claro, alterando os detalhes de ordem técnica (na fase de “install update”), mas, o fluxo geral é o mesmo.&lt;/p&gt;
+
+&lt;p&gt;Espero que tenha ficado claro para vocês a importância e os procedimentos da documentação oficial que disponibilizei para você.&lt;/p&gt;
+
+&lt;p&gt;Grande abraço.&lt;/p&gt;
+
+&lt;p&gt;Referências:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://support.citrix.com/article/CTX132791&quot; target=&quot;_blank&quot;&gt;http://support.citrix.com/article/CTX132791&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://discussions.citrix.com/topic/310573-script-to-update-xenserver-with-powershell/&quot; target=&quot;_blank&quot;&gt;http://discussions.citrix.com/topic/310573-script-to-update-xenserver-with-powershell/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.citrix.com/blogs/2014/09/10/scripting-automating-vm-operations-on-xenserver-using-powershell/&quot; target=&quot;_blank&quot;&gt;https://www.citrix.com/blogs/2014/09/10/scripting-automating-vm-operations-on-xenserver-using-powershell/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.virtualexperience.no/2012/11/30/ctxupdate-a-powershell-script-to-download-any-citrix-updates/&quot; target=&quot;_blank&quot;&gt;https://www.virtualexperience.no/2012/11/30/ctxupdate-a-powershell-script-to-download-any-citrix-updates/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-updates/xs-xc-updates-applying.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-updates/xs-xc-updates-applying.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-updates/xs-xc-upgrade.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-updates/xs-xc-upgrade.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; rel=&quot;license&quot;&gt;&lt;img style=&quot;border-width: 0;&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&quot; alt=&quot;Licença Creative Commons&quot; /&gt;&lt;/a&gt;&lt;br /&gt; Este trabalho de &lt;a href=&quot;http://ports.marllus.com&quot;&gt;Marllus&lt;/a&gt;, está licenciado com uma Licença &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; rel=&quot;license&quot;&gt;Creative Commons &amp;#8211; Atribuição-CompartilhaIgual 4.0 Internacional&lt;/a&gt;.
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Feb 2016 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/tecnologia/2016/02/17/upgradeupdate-no-xenserver-6-5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tecnologia/2016/02/17/upgradeupdate-no-xenserver-6-5.html</guid>
+        
+        
+        <category>tecnologia</category>
+        
+      </item>
+    
+      <item>
+        <title>Troubleshooting – Resolução de problemas – XenServer 6.5</title>
+        <description>&lt;p&gt;Hoje, o assunto é sobre troubleshooting, ou, para os menos familiarizados (adeptos do “se está funcionando, está bom” rs) sobre resolução de PROBLEMAS!! Até porque só tem problemas aqueles que fuçam na coisa!&lt;/p&gt;
+
+&lt;p&gt;De acordo com a &lt;a href=&quot;https://pt.wikipedia.org/wiki/Troubleshooting&quot; target=&quot;_blank&quot;&gt;wikipedia&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;“Troubleshooting é uma forma de resolver problemas, muitas vezes aplicada na reparação de produtos ou processos falhados. É uma busca sistemática e lógica pela raiz de um problema, de modo a que possa ser resolvido e o produto ou processo possa ficar novamente operacional.”&lt;/p&gt;
+
+&lt;p&gt;Portanto, partindo do princípio da busca sistemática e lógica, utilizarei sempre diagramas sistêmicos e fluxogramas para descrever processos de troubleshooting.&lt;/p&gt;
+
+&lt;p&gt;Mas, porque trabalhar com fluxogramas em troubleshooting?&lt;/p&gt;
+
+&lt;p&gt;Bem, a literatura educacional já tem uma muita pesquisa sobre isso ([&lt;a href=&quot;http://www.fctl.ucf.edu/TeachingAndLearningResources/SelectedPedagogies/TeachingMethods/&quot; target=&quot;_blank&quot;&gt;1&lt;/a&gt;], [&lt;a href=&quot;http://www.beds.ac.uk/jpd/volume-4-issue-2/teaching-with-infographics&quot; target=&quot;_blank&quot;&gt;2&lt;/a&gt;], [&lt;a href=&quot;http://www.academia.edu/6192606/Effectiveness_of_Flowchart_Proof_on_Selected_Topics_in_Geometry&quot; target=&quot;_blank&quot;&gt;3&lt;/a&gt;], por exemplo), mas em resumo e tomando como questões também pessoais: Entendeu ou quer que eu desenhe?&lt;/p&gt;
+
+&lt;p&gt;Sim, esta frase, muitas vezes tratada de professor para uma sala de aula ou de um amigo que é o “sabichãozão” para com os outros, é lembrada com um tom arrogante. O que quero é tirar este rótulo.&lt;/p&gt;
+
+&lt;p&gt;No sentido literal, acredito que tudo deveria ser “desenhado”. A simples forma de uma desenho e a capacidade que ele tem de armazenar várias informações em uma única imagem torna a imersão no conhecimento mais divertida e muito menos enfadonha. Para mim, este é o verdadeiro papel do professor. Aquele que guia e consegue tornar trivial um conteúdo complexo.&lt;/p&gt;
+
+&lt;p&gt;Ler slides e livros até o google voice faz.&lt;/p&gt;
+
+&lt;p&gt;Você pode perceber que na maioria dos meus tutoriais eu encaixo um desenho que tenta generalizar um processo ou a arquitetura de um sistema que estou explicando. Sempre com uma única imagem.&lt;/p&gt;
+
+&lt;p&gt;Acredito neste tipo de imersão educacional. Só não esqueçamos que as referências escritas, mesmo que muitas vezes chatas, tem de ser levadas em suma consideração. Desenhos são generalizações que quase sempre não são perfeitas. A ideia dele é fazer com que o leitor desperte um interesse ou que o processo de melhoria/releitura de um conteúdo ocorra de forma mais eficiente (em menos tempo).&lt;/p&gt;
+
+&lt;p&gt;Bem, em processos de resolução de problemas não seria diferente. Na comunidade do xenserver temos muito pouca (ou nenhuma) documentação de troubleshooting através de fluxogramas. Claro que usuários do fórum oficial (&lt;a href=&quot;https://discussions.citrix.com/&quot; target=&quot;_blank&quot;&gt;Discussion Citrix&lt;/a&gt;) e comunidades (&lt;a href=&quot;https://groups.google.com/forum/#!forum/xen-br&quot; target=&quot;_blank&quot;&gt;xen-br&lt;/a&gt;, &lt;a href=&quot;https://groups.google.com/forum/#!forum/gc-br&quot; target=&quot;_blank&quot;&gt;gc-br&lt;/a&gt;, Telegram Xenserver) ajudam bastante, mas, é como se o conhecimento estivesse espalhado e disperso em fóruns e dúvidas de usuários. Não há algo conciso, neste caso.&lt;/p&gt;
+
+&lt;p&gt;Bem, uma vez fui aplicar 5 hotfixes em um xenserver 6.2 (desculpe, me atrasei). Seguindo a documentação oficial era como roubar doce de criança (mil maravilhas), mas, na prática não é bem esse carnaval não. É como você recompilar um kernel Linux achando que ele não vai dar pelo menos um bug. Inocência.&lt;/p&gt;
+
+&lt;p&gt;Caí em várias armadilhas e situações adversas neste processo e sempre resolvia tentando encontrar soluções naquele momento. Resultado: Sanei os problemas, atualizei meu ambiente e o trabalhão que deu não foi documentado. POOFF na cara da comunidade (e na minha)!&lt;/p&gt;
+
+&lt;p&gt;A partir daí, resolvi documentar, no estilo de fluxogramas, os processos de troubleshooting do xenserver em determinadas fases de manutenção.&lt;/p&gt;
+
+&lt;p&gt;Atualmente, realizei a criação de um fluxograma do processo referente ao troubleshooting de erros na aplicação de updates no XenServer 6.5. Disponibilizo este documento logo abaixo:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://marllus.com/xenserver/trouble_update.html&quot; target=&quot;_blank&quot;&gt;Troubleshooting update – XenServer 6.5&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;Para muitos que sofrem com bugs quando vão atualizar seu ambiente, creio que este processo irá ser de grande ajuda.&lt;/p&gt;
+
+&lt;p&gt;Meu objetivo é fazer com que usuários contribuam com processos que podem ser melhorados/otimizados no fluxograma. Remodelando o documento através do perfil da comunidade, por meio de críticas e sugestões de usuários, poderemos compilar uma documentação ainda mais concisa do que disponibilizo aqui para você.&lt;/p&gt;
+
+&lt;p&gt;Com o passar do tempo creio que este post vai crescer bastante, pois novos fluxogramas irão sendo disponibilizados por mim e pela comunidade. É o que quero.&lt;/p&gt;
+
+&lt;p&gt;Um abraço! Até mais.&lt;/p&gt;
+
+&lt;p&gt;Referências:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pt.wikipedia.org/wiki/Troubleshooting&quot; target=&quot;_blank&quot;&gt;https://pt.wikipedia.org/wiki/Troubleshooting&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://discussions.citrix.com/&quot; target=&quot;_blank&quot;&gt;https://discussions.citrix.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/#!forum/xen-br&quot; target=&quot;_blank&quot;&gt;https://groups.google.com/forum/#!forum/xen-br&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/#!forum/gc-br&quot; target=&quot;_blank&quot;&gt;https://groups.google.com/forum/#!forum/gc-br&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; rel=&quot;license&quot;&gt;&lt;img style=&quot;border-width: 0;&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&quot; alt=&quot;Licença Creative Commons&quot; /&gt;&lt;/a&gt;&lt;br /&gt; Este trabalho de &lt;a href=&quot;http://ports.marllus.com&quot;&gt;Marllus&lt;/a&gt;, está licenciado com uma Licença &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; rel=&quot;license&quot;&gt;Creative Commons &amp;#8211; Atribuição-CompartilhaIgual 4.0 Internacional&lt;/a&gt;.
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Feb 2016 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/tecnologia/2016/02/17/troubleshooting-resolucao-de-problemas-xenserver-6-5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tecnologia/2016/02/17/troubleshooting-resolucao-de-problemas-xenserver-6-5.html</guid>
+        
+        
+        <category>tecnologia</category>
+        
+      </item>
+    
+      <item>
+        <title>Storage XenMotion no XenServer 6.5</title>
+        <description>&lt;p&gt;Falei, anteriormente &lt;a href=&quot;http://ports.marllus.com/2016/02/17/xenmotion-no-xenserver-6-5/&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt; sobre “XenMotion”. Hoje irei falar sobre “Storage XenMotion”.&lt;/p&gt;
+
+&lt;p&gt;Storage XenMotion nos remete a ideia de “XenMotion entre storages”, e é exatamente isso que este recurso (fascinante) faz. A partir dele, a VM pode ser transferida entre storages distintos, ou seja, os discos da VM (VDIs) podem ser migrados entre pools diferentes (entre dois sites XenServer). Tudo isso com o mínimo de downtime possível, pois geralmente se perde alguns pings quando se é re-setado a placa de rede virtual e a rota é alterada.&lt;/p&gt;
+
+&lt;p&gt;E não é propaganda Tekpix, o recurso existe e é disponível com código fonte liberado (aêêêêêê)!!!&lt;/p&gt;
+
+&lt;p&gt;OBS: Convido você a ir no site da VMware e ver a bagatela que é a licença com o recurso equivalente (&lt;a href=&quot;http://store.vmware.com/store/vmware/en_US/pd/productID.284281000?src=WWW_eBIZ_productpage_vSphere_EnterprisePlus_Buy_US&quot; target=&quot;_blank&quot;&gt;VMware Storage vMotion&lt;/a&gt;) habilitado.&lt;/p&gt;
+
+&lt;p&gt;Muitos dos requisitos necessários para utilizar Storage XenMotion são do próprio XenMotion.&lt;/p&gt;
+
+&lt;p&gt;A lista com todos é essa:&lt;/p&gt;
+
+&lt;p&gt;– O XenServer tools deve estar instalado na VM;&lt;/p&gt;
+
+&lt;p&gt;– O host xen destino têm de ter a mesma ou versão superior do XenServer do host de origem;&lt;/p&gt;
+
+&lt;p&gt;– O host xen destino têm que ter memória suficiente para provisionar a VM, caso contrário a VM não completará o processo de migração (isso é meio lógico, rs);&lt;/p&gt;
+
+&lt;p&gt;– O drive de DVD deve estar setado como empty (não deve ter nenhuma .iso anexada ou nenhum cd/dvd dentro do drive do host);&lt;/p&gt;
+
+&lt;p&gt;– Se as CPUs dos hosts de origem e destino forem diferentes, então a CPU do servidor de destino deve suportar todos os recursos da do servidor de origem, o que, por consequência, é muito improvável que as CPUs sejam de fabricantes diferentes, ou seja, é muito recomendável você trabalhar mesmo com o mesmo fabricante de processador (por exemplo, Intel ou AMD).&lt;/p&gt;
+
+&lt;p&gt;– Não é possível migrar VMs que tenham mais de um snapshot (leia &lt;a href=&quot;http://ports.marllus.com/2016/02/17/snapshots-no-xenserver-6-5/&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt; meu outro tutorial sobre snapshots e saiba o porquê disso);&lt;/p&gt;
+
+&lt;p&gt;OBS: Se a VM conter um snapshot, planeje a alocação de seu espaço no storage do host destino. Caso não entenda, o link acima sobre snapshots explica tudo isso.&lt;/p&gt;
+
+&lt;p&gt;– Não é possível migrar VMs que tenham mais que 6 VDIs anexados (como somente um VDI é transferido por vez, creio que 7 VDIs iria comprometer bastante a VM em caso de um possível falha na migração).&lt;/p&gt;
+
+&lt;p&gt;Limitações do Storage XenMotion:&lt;/p&gt;
+
+&lt;p&gt;– Não deve ser usado em ambientes com XenDesktop (&lt;a href=&quot;https://en.wikipedia.org/wiki/Desktop_virtualization&quot; target=&quot;_blank&quot;&gt;Virtual Desktop Infrastructure&lt;/a&gt;);&lt;/p&gt;
+
+&lt;p&gt;– VMs que usam PCI pass-thru não podem ser migradas;&lt;/p&gt;
+
+&lt;p&gt;– A perfomance da VM irá ser reduzida no processo de migração, então, cuidado com o horário de rush;&lt;/p&gt;
+
+&lt;p&gt;– Deve ser desabilitado qualquer HA ou WLB configurado no pool de origem ou destino;&lt;/p&gt;
+
+&lt;p&gt;Storage XenMotion é bastante utilizado em casos de Upgrade de Xenserver Standalone (hosts xen sem pool).&lt;/p&gt;
+
+&lt;p&gt;Para saber como migrar uma VM através do XenCenter, acesse esse tutorial (&lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-manage/xs-xc-vms-relocate.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-manage/xs-xc-vms-relocate.html&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Vídeo demonstração do Storage XenMotion:&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=YWGu3tT6Z18&lt;/p&gt;
+
+&lt;p&gt;Até breve!&lt;/p&gt;
+
+&lt;p&gt;Abraço!&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Referências:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.amazon.com.br/Mastering-Citrix-Xenserver-Martez-Reed/dp/178328739X&quot; target=&quot;_blank&quot;&gt;http://www.amazon.com.br/Mastering-Citrix-Xenserver-Martez-Reed/dp/178328739X&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-manage/xs-xc-vms-relocate.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-manage/xs-xc-vms-relocate.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ports.marllus.com/2016/02/17/xenmotion-no-xenserver-6-5/&quot; target=&quot;_blank&quot;&gt;https://msinhore.wordpress.com/2012/09/20/storage-xenmotion/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YWGu3tT6Z18&quot; target=&quot;_blank&quot;&gt;https://www.youtube.com/watch?v=YWGu3tT6Z18&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/storage-xenmotion-live-storage-migration-with-citrix-xenserver.pdf?accessmode=direct&quot; target=&quot;_blank&quot;&gt;https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/storage-xenmotion-live-storage-migration-with-citrix-xenserver.pdf?accessmode=direct&lt;br /&gt; http://ports.marllus.com/2016/02/15/xenmotion-no-xenserver-6-5&lt;br /&gt; http://store.vmware.com/store/vmware/en_US/pd/productID.284281000?src=WWW_eBIZ_productpage_vSphere_EnterprisePlus_Buy_US&lt;br /&gt; https://en.wikipedia.org/wiki/Desktop_virtualization&lt;br /&gt; &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; rel=&quot;license&quot;&gt;&lt;img style=&quot;border-width: 0;&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&quot; alt=&quot;Licença Creative Commons&quot; /&gt;&lt;/a&gt;&lt;br /&gt; Este trabalho de &lt;a href=&quot;http://ports.marllus.com&quot;&gt;Marllus&lt;/a&gt;, está licenciado com uma Licença &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; rel=&quot;license&quot;&gt;Creative Commons &amp;#8211; Atribuição-CompartilhaIgual 4.0 Internacional&lt;/a&gt;.
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Feb 2016 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/tecnologia/2016/02/17/storage-xenmotion-no-xenserver-6-5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tecnologia/2016/02/17/storage-xenmotion-no-xenserver-6-5.html</guid>
+        
+        
+        <category>tecnologia</category>
+        
+      </item>
+    
+      <item>
+        <title>Snapshots no XenServer 6.5</title>
+        <description>&lt;p&gt;E aí, tranquilo?&lt;/p&gt;
+
+&lt;p&gt;Mas o que são snapshots? São arquivinhos (vou chamá-los assim) que possuem informações a respeito de um ponto na vida de uma VM. Essa informação serve para o administrador XenServer, por exemplo, voltar para um momento em que ele fez uma alteração na VM, como em uma pós configuração de um serviço PHP ou antes de uma trágica atualização de sistema (kernel panic, huuuuuuu).&lt;/p&gt;
+
+&lt;p&gt;Lembre do ponto de restauração presente no Windows. É praticamente a mesma lógica.&lt;/p&gt;
+
+&lt;p&gt;Os snapshots ajudam bastante em tarefas como estas, como “voltar” uma VM no tempo (&lt;del&gt;de volta para o futuro e mart macflein&lt;/del&gt;) além de ser uma mão-na-roda para a realização de backups completos dela.&lt;/p&gt;
+
+&lt;p&gt;Para o caso de backups, eles são usados para complementar o processo de backup à quente (sem desligar a VM). Um dos métodos seria: Primeiro é tirado o snapshot da VM, depois a partir do snapshot é realizado uma cópia completa para um arquivo único de backup (.xva).&lt;/p&gt;
+
+&lt;p&gt;Porém, Snapshot, como muita gente acha, não é backup, de fato. Snapshot é informação da VM em um momento, ou seja, esse arquivinho grava os metadados da VM (cpu, ram, network, etc.) e o ponteiro que aponta para uma região do vDisk da VM naquele instante de tempo em que foi tirado o snapshot. Esse arquivo é realmente pequenininho.&lt;/p&gt;
+
+&lt;p&gt;Se você excluir sem querer um vDisk de uma VM e tentar recuperá-lo por meio de um snapshot, sinto muito meu amigo, ele não vai voltar no tempo trazendo o disco de volta, pois neste caso o próprio disco foi excluído. Como falei: Snapshot não é backup. Ele pode complementar um.&lt;/p&gt;
+
+&lt;p&gt;Então, você deve estar pensando, como esse arquivinho é pequeno, vou tirar vários snaphots a cada 2 segundos para ter todos os instantes de tempo da minha VM e voltar na hora que eu precisar!! ahahah&lt;/p&gt;
+
+&lt;p&gt;Maninho, não faça isso.&lt;/p&gt;
+
+&lt;p&gt;O motivo? Quando você tira um snapshot, outro disco (VDI – Virtual Disk Image) é criado na sequência, gerando uma espécie de árvore (com pai, filho, neto…), e caso o seu SR (Storage Repository) seja baseado em volume (LVM) esse novo disco ocupará um espaço bem relevante!&lt;/p&gt;
+
+&lt;p&gt;Para melhor explicar, desenhei o que acontece no SR (espaço consumido) em um ambiente XenServer quando se cria um snapshot de uma VM, quando o SR é iSCSI/FC ou Local LVM (onde os VDIs guardados estão em uma estrutura LVM) e quando é NFS ou Local EXT (onde os VDIs são guardados como arquivos VHD sem LVM).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Para SR’s baseado em volume (iSCSI/FC, Local LVM):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/snapshots_VOlume-based_zpslrk0ifib.png~original&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/snapshots_VOlume-based_zpslrk0ifib.png~original&quot; alt=&quot;&quot; width=&quot;691&quot; height=&quot;930&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Para SR’s baseado em arquivo (NFS, Local EXT):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/Snapshots_File-based_zpsgbae9gvc.png~original&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;&quot; src=&quot;http://i567.photobucket.com/albums/ss113/marlluslustosa/Snapshots_File-based_zpsgbae9gvc.png~original&quot; alt=&quot;&quot; width=&quot;691&quot; height=&quot;930&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Destas representações gráficas, podemos deduzir, de forma clara, que:&lt;/p&gt;
+
+&lt;p&gt;– Você deve se preocupar com o espaço alocado ao criar um snapshot quando estiver utilizando SR’s baseados em volume (Local LVM, iSCSI/FC).&lt;/p&gt;
+
+&lt;p&gt;Fique sempre ligado na seguinte fórmula do custo para se criar um snapshot:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Custo (espaço gerado no SR após snapshot) = Dados escritos no disco atual + Tamanho do disco;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Informações a respeito de criação, gerenciamento, exclusão, importação e exportação de snapshots você pode conferir nestes links:&lt;/p&gt;
+
+&lt;p&gt;(Xencenter GUI)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-snapshots/xs-xc-vms-snapshots-take.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-snapshots/xs-xc-vms-snapshots-take.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(Linha de comando)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/reference.html#id555786&quot; target=&quot;_blank&quot;&gt;http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/reference.html#id555786&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Bem, de forma rápida expliquei qual o impacto da criação de snapshots em determinados tipos SR’s. Com essa informação, você já vai ter uma boa noção técnica para trabalhar com esses “arquivinhos”.&lt;/p&gt;
+
+&lt;p&gt;Porém, o assunto não acaba por aqui. Se você quiser aprender mais sobre eles, como o que acontece quando snapshots são excluídos (coalescing) e o espaço gerado por esta operação, o limite de criação de snapshots e o porquê disso, além de outras informações “ninjas” (como o porque de não ser possível excluir um snapshot por falta de espaço no xen host) você pode conferir nos links da referência (principalmente &lt;a href=&quot;https://support.citrix.com/servlet/KbServlet/download/21626-102-714437/XenServer_Understanding_Snapshots.pdf&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt; e &lt;a href=&quot;http://xapi-project.github.io/features/snapshots/snapshots.html&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Até mais e grande abraço!&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Referências:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://avpaul.blogspot.com.br/2012/05/xenserver-losing-space-on-sr-and.html&quot; target=&quot;_blank&quot;&gt;http://avpaul.blogspot.com.br/2012/05/xenserver-losing-space-on-sr-and.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://techblog.jeppson.org/2015/02/reclaim-lost-space-xenserver-6-5/&quot; target=&quot;_blank&quot;&gt;https://techblog.jeppson.org/2015/02/reclaim-lost-space-xenserver-6-5/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://community.spiceworks.com/topic/319881-citrix-xenserver-6-0-2-out-of-disk-space&quot; target=&quot;_blank&quot;&gt;https://community.spiceworks.com/topic/319881-citrix-xenserver-6-0-2-out-of-disk-space&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://pt.slideshare.net/davidmcg/top-troubleshooting-tips-and-techniques-for-citrix-xenserver-deployments&quot; target=&quot;_blank&quot;&gt;http://pt.slideshare.net/davidmcg/top-troubleshooting-tips-and-techniques-for-citrix-xenserver-deployments&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://discussions.citrix.com/topic/355832-how-to-reclaim-disk-space-from-deleted-snapshots-on-xenserver-62/&quot; target=&quot;_blank&quot;&gt;http://discussions.citrix.com/topic/355832-how-to-reclaim-disk-space-from-deleted-snapshots-on-xenserver-62/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://support.citrix.com/servlet/KbServlet/download/21626-102-714437/XenServer_Understanding_Snapshots.pdf&quot; target=&quot;_blank&quot;&gt;https://support.citrix.com/servlet/KbServlet/download/21626-102-714437/XenServer_Understanding_Snapshots.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://xapi-project.github.io/features/snapshots/snapshots.html&quot; target=&quot;_blank&quot;&gt;http://xapi-project.github.io/features/snapshots/snapshots.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/reference.html#id555786&quot; target=&quot;_blank&quot;&gt;http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/reference.html#id555786&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-snapshots/xs-xc-vms-snapshots-take.html&quot; target=&quot;_blank&quot;&gt;http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-snapshots/xs-xc-vms-snapshots-take.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; rel=&quot;license&quot;&gt;&lt;img style=&quot;border-width: 0;&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&quot; alt=&quot;Licença Creative Commons&quot; /&gt;&lt;/a&gt;&lt;br /&gt; Este trabalho de &lt;a href=&quot;http://ports.marllus.com&quot;&gt;Marllus&lt;/a&gt;, está licenciado com uma Licença &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; rel=&quot;license&quot;&gt;Creative Commons &amp;#8211; Atribuição-CompartilhaIgual 4.0 Internacional&lt;/a&gt;.
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Feb 2016 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/tecnologia/2016/02/17/snapshots-no-xenserver-6-5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tecnologia/2016/02/17/snapshots-no-xenserver-6-5.html</guid>
+        
+        
+        <category>tecnologia</category>
+        
+      </item>
+    
   </channel>
 </rss>

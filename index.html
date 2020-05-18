@@ -1,37 +1,488 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-{% if page.url == "/" %}
+<!-- <link rel="icon" href="/assets/images/logo.png"> !-->
+
+<!-- Eu que adicionei essa linha, para puxar o caminho relativo setado no _config.yml !-->
+<!--<link rel="icon" href="http://localhost:4000/assets/images/favicon.ico">!-->
+
+<title>Home | Lulu space</title>
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Home | Lulu space</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Home" />
+<meta property="og:locale" content="pt_BR" />
+<meta name="description" content="Uma salada de ideias nossa de cada dia." />
+<meta property="og:description" content="Uma salada de ideias nossa de cada dia." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Lulu space" />
+<link rel="next" href="http://localhost:4000/page2/" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"Home","url":"http://localhost:4000/","name":"Lulu space","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"description":"Uma salada de ideias nossa de cada dia.","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<!-- originalmente era essa a chamada - bootstrap. atualizei por questoes de seguranca. caso quebre eu volto
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+!-->
+
+<!-- testando jsdelivr pra ver se melhora a performance-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
+
+<!-- new !-->
+<!--
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+!-->
+
+<link href="/assets/css/screen.css" rel="stylesheet">
+
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<!-- coloquei o jquery pra ser chamado pela CDN google pra ser mais rapido, pois o navegador guarda cache, caso n esteja na cdn, ele puxa localmente! Lembrando que a versao local eh a 3.3.1, mudei para a versao mais recente por questoes de seguranca. nao quebrou em nada a estrutura atual do site.-->
+<script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.5.1/dist/jquery.min.js"></script>
+<!-- se ficar lento ou der bug na de cima (jsdelivr) eh so voltar ao que era antes nessa linha abaixo 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    if (!window.jQuery) document.write('<script src="/assets/js/jquery.min.js"><\/script>');
+</script>
+!-->
+
+<!-- antigamente era somente essa linha, que puxava local. o ruim eh que causava mais lentidao no carregamento da pagina, fora que n nunca eh guardada em cache 
+<script src="/assets/js/jquery.min.js"></script>
+!-->
+
+</head>
+
+
+
+
+<body class="layout-default">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+    <a class="navbar-brand" href="/">
+    <img src="/assets/images/logo.png" alt="Lulu space">
+    </a>
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+    
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+                
+                <li class="nav-item active">
+                
+                <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                  
+                  <!-- muda linguagem do menu de acordo com site.lang -->
+
+                
+                
+                <li class="nav-item">
+                <a class="nav-link" href="/categories#arte">Arte</a>
+                </li>
+
+		<li class="nav-item">
+                <a class="nav-link" href="/categories#tecnologia">Tecnologia</a>
+                </li>
+
+		<li class="nav-item">
+                <a class="nav-link" href="/categories#poesia">Poesia</a>
+                </li>
+
+		<li class="nav-item">
+                <a class="nav-link" href="/categories#sociedade">Sociedade</a>
+                </li>
+
+		<li class="nav-item">
+                <a class="nav-link" href="/categories#ciencia">Ciência</a>
+                </li>
+
+		<li class="nav-item">
+                <a class="nav-link" href="/contato">Contato</a>
+                </li>
+                
+        <li class="nav-item">
+                <a class="nav-link" href="/sobre">Sobre</a>
+                </li>
+                
+        <li class="nav-item">
+                <a class="nav-link" href="/en">English <img src=/assets/images/flag-eua.svg width=15px heigth=15px></img></a>
+                </li>
+                
+        <li class="nav-item">
+                <a class="nav-link" href="/busca">Busca</a>
+                </li>
+                 
+                 
+                <!-- finaliza condicao do menu -->
+
+
+                <!--<li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Dev</a>
+		</li>-->
+		
+		<!--
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> Infra</a>
+		</li>-->
+
+                <!--<li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Poemas</a>
+		</li>-->
+
+                <!--<li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Sociedade</a>
+                </li>
+		-->
+            <!-- isso era o que estava causando a lentidao !-->
+               <!-- <script src="/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script> !-->
+            </ul>
+
+        <!-- End Menu -->
+
+    </div>
+
+    </div>
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+    <h1 class="sitetitle">Lulu space</h1>
+    <p class="lead">
+    <!-- teste pra mudar o titulo dependendo da linguagem escolhida!-->
+    
+        Uma salada de ideias nossa de cada dia. <!-- site.description definido no _config.yml!-->
+    
+    </p>
+</div>
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+    
 
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
     <div class="section-title">
     <!-- eu adicionei como teste para linguagem !-->
-    {% if site.lang == "en" %}
-        <h2><span>Featured</span></h2>
-    {% else %}
+    
     <h2><span>Destaque</span></h2>
-    {% endif %}
+    
     </div>
     <div class="row">
 
-    {% for post in site.posts %}
+    
 
-        {% if post.featured == true %}
+        
 
-            {% include featuredbox.html %}
+    
 
-        {% endif %}
+        
 
-    {% endfor %}
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+            <!-- begin post -->
+
+<div class="col-md-6 mb-30px">
+    <div class="listfeaturedtag h-100">
+        <div class="row h-100">
+            <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
+                <div class="h-100">
+                    <div class="wrapthumbnail">
+                        <a href="/tecnologia/2016/02/17/p2v-v2v-conversao-de-ambientes-xenserver-6-5.html">
+                            
+                            <img class="featured-box-img-cover" src="/assets/images/migration.jpg">
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-7">
+                <div class="h-100 card-group">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                <a class="text-dark" href="/tecnologia/2016/02/17/p2v-v2v-conversao-de-ambientes-xenserver-6-5.html">P2V / V2V – Conversão de ambientes – XenServer 6.5</a>
+                                <!-- Adicionei isso para colocar a tag da categoria antes de iniciar o post !-->
+                                <small class="d-block text-muted">
+                                <span class="catlist">
+                                
+                                    <a class="text-capitalize text-muted smoothscroll" href="/categories.html#tecnologia">tecnologia</a><span class="sep"></span>
+                                
+                                </span>
+                                <!-- fim do codigo !-->
+                                </small>	
+                                
+                            </h2>
+
+                            <h4 class="card-text">Bem, P2V e V2V são termos que remetem à migração de sistemas. E migração (desde antes de cristo – 40 anos de migração dos hebreus...</h4>
+                        </div>
+                        <div class="card-footer b-0 bg-white mt-auto">
+                            <div class="wrapfooter">
+                                
+                                <span class="meta-footer-thumb">
+                                
+                                <img class="author-thumb" src="/assets/images/avatar.jpeg" alt="Marllus">
+                                
+                                </span>
+                                <span class="author-meta">
+                                 
+                                <span class="post-name"><a target="_blank" href="/sobre">Marllus</a></span><br/>
+                                
+                                
+                                <span class="post-date">17 Feb 2016</span>
+                                </span>
+                                <!-- comentei de baseurl para site.url !-->
+                                <span class="post-read-more"><a href="http://localhost:4000/tecnologia/2016/02/17/p2v-v2v-conversao-de-ambientes-xenserver-6-5.html" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+    
+
+        
+
+            <!-- begin post -->
+
+<div class="col-md-6 mb-30px">
+    <div class="listfeaturedtag h-100">
+        <div class="row h-100">
+            <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
+                <div class="h-100">
+                    <div class="wrapthumbnail">
+                        <a href="/poesia/2015/12/18/quando-whatsapp-acabou.html">
+                            
+                            <img class="featured-box-img-cover" src="/assets/images/acabou.jpg">
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-7">
+                <div class="h-100 card-group">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                <a class="text-dark" href="/poesia/2015/12/18/quando-whatsapp-acabou.html">Quando o WhatsApp acabou</a>
+                                <!-- Adicionei isso para colocar a tag da categoria antes de iniciar o post !-->
+                                <small class="d-block text-muted">
+                                <span class="catlist">
+                                
+                                    <a class="text-capitalize text-muted smoothscroll" href="/categories.html#poesia">poesia</a><span class="sep"></span>
+                                
+                                </span>
+                                <!-- fim do codigo !-->
+                                </small>	
+                                
+                            </h2>
+
+                            <h4 class="card-text">De manhã cedo, acordei… Peguei no celular, nenhuma notificação. Verifiquei o link de internet acessando um site qualquer. Estava beleza. O mito então era mesmo...</h4>
+                        </div>
+                        <div class="card-footer b-0 bg-white mt-auto">
+                            <div class="wrapfooter">
+                                
+                                <span class="meta-footer-thumb">
+                                
+                                <img class="author-thumb" src="/assets/images/avatar.jpeg" alt="Marllus">
+                                
+                                </span>
+                                <span class="author-meta">
+                                 
+                                <span class="post-name"><a target="_blank" href="/sobre">Marllus</a></span><br/>
+                                
+                                
+                                <span class="post-date">18 Dec 2015</span>
+                                </span>
+                                <!-- comentei de baseurl para site.url !-->
+                                <span class="post-read-more"><a href="http://localhost:4000/poesia/2015/12/18/quando-whatsapp-acabou.html" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+
+        
+
+    
 
     </div>
 </section>
 
-{% endif %}
+
 
 <!-- Posts Index
 ================================================== -->
@@ -39,21 +490,383 @@ title: Home
 
     <div class="section-title">
     <!-- eu adicionei como teste para linguagem !-->
-    {% if site.lang == "en" %}
-        <h2><span>All stories</span></h2>
-    {% else %}
+    
         <h2><span>Todas as histórias</span></h2>
-    {% endif %}
+    
     
     </div>
 
     <div class="row listrecent">
 
-        {% for post in paginator.posts %}
+        
 
-        {% include postbox.html %}
+        <!-- begin post -->
 
-        {% endfor %}
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/arte/2020/05/15/so-me-resta-grito.html">
+                
+
+                    
+                        <img class="img-fluid" src="/assets/images/ogrito.jpg" alt="Só me resta o grito"> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/arte/2020/05/15/so-me-resta-grito.html">Só me resta o grito</a>
+                        <!-- Adicionei isso para colocar a tag da categoria antes de iniciar o post !-->
+                        <small class="d-block text-muted">
+                        <span class="catlist">
+                        
+                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#arte">arte</a>
+                        
+                        </span>
+                        </small>
+                        <!-- fim do codigo !-->
+                
+            </h2>
+            <h4 class="card-text">Assim como as inquietações de Edvard Munch, que caminham entre doenças, vida e morte, tento descrever o momento único dessa ilustração a partir de suas pinceladas, onde podemos suscitar a...</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/assets/images/avatar.jpeg" alt="Marllus">
+                
+                </span>
+                <span class="author-meta">
+                
+                <span class="post-name"><a target="_blank" href="/sobre">Marllus</a></span><br/>
+                
+                
+                <span class="post-date">15 May 2020</span>
+                </span>
+                <!-- mudei de baseurl para site.url !-->
+                <span class="post-read-more"><a href="http://localhost:4000/arte/2020/05/15/so-me-resta-grito.html" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+
+        
+
+        <!-- begin post -->
+
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/poesia/2020/05/04/meu-pequeno-xote.html">
+                
+
+                    
+                        <img class="img-fluid" src="/assets/images/farol.jpg" alt="Meu pequeno xote"> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/poesia/2020/05/04/meu-pequeno-xote.html">Meu pequeno xote</a>
+                        <!-- Adicionei isso para colocar a tag da categoria antes de iniciar o post !-->
+                        <small class="d-block text-muted">
+                        <span class="catlist">
+                        
+                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#poesia">poesia</a>
+                        
+                        </span>
+                        </small>
+                        <!-- fim do codigo !-->
+                
+            </h2>
+            <h4 class="card-text">Não faço para crer, não digo para me sentir.
+É certo que a boca fala
+o que não quero ver,
+mas enfia goela a dentro os devaneios alheios.
+
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/assets/images/avatar.jpeg" alt="Marllus">
+                
+                </span>
+                <span class="author-meta">
+                
+                <span class="post-name"><a target="_blank" href="/sobre">Marllus</a></span><br/>
+                
+                
+                <span class="post-date">04 May 2020</span>
+                </span>
+                <!-- mudei de baseurl para site.url !-->
+                <span class="post-read-more"><a href="http://localhost:4000/poesia/2020/05/04/meu-pequeno-xote.html" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+
+        
+
+        <!-- begin post -->
+
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/tecnologia/2016/07/21/instalar-xenserver-tools-xen-tools-em-debian-5-lenny-hvm-para-pv.html">
+                
+
+                    
+                        <img class="img-fluid" src="/assets/images/installdebian.jpg" alt="Instalar Xenserver Tools (xen-tools) em Debian 5 (Lenny) (HVM para PV)"> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/tecnologia/2016/07/21/instalar-xenserver-tools-xen-tools-em-debian-5-lenny-hvm-para-pv.html">Instalar Xenserver Tools (xen-tools) em Debian 5 (Lenny) (HVM para PV)</a>
+                        <!-- Adicionei isso para colocar a tag da categoria antes de iniciar o post !-->
+                        <small class="d-block text-muted">
+                        <span class="catlist">
+                        
+                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#tecnologia">tecnologia</a>
+                        
+                        </span>
+                        </small>
+                        <!-- fim do codigo !-->
+                
+            </h2>
+            <h4 class="card-text">O tutorial de hoje é sobre como intalar o XenTools em uma VM Debian 5.0 (Lenny) em um Xenserver que não tem suporte a mesma (support guests), como ocorre a...</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/assets/images/avatar.jpeg" alt="Marllus">
+                
+                </span>
+                <span class="author-meta">
+                
+                <span class="post-name"><a target="_blank" href="/sobre">Marllus</a></span><br/>
+                
+                
+                <span class="post-date">21 Jul 2016</span>
+                </span>
+                <!-- mudei de baseurl para site.url !-->
+                <span class="post-read-more"><a href="http://localhost:4000/tecnologia/2016/07/21/instalar-xenserver-tools-xen-tools-em-debian-5-lenny-hvm-para-pv.html" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+
+        
+
+        <!-- begin post -->
+
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/poesia/2016/07/03/vespera.html">
+                
+
+                    
+                        <img class="img-fluid" src="/assets/images/fila.jpg" alt="Véspera"> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/poesia/2016/07/03/vespera.html">Véspera</a>
+                        <!-- Adicionei isso para colocar a tag da categoria antes de iniciar o post !-->
+                        <small class="d-block text-muted">
+                        <span class="catlist">
+                        
+                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#poesia">poesia</a>
+                        
+                        </span>
+                        </small>
+                        <!-- fim do codigo !-->
+                
+            </h2>
+            <h4 class="card-text">Em pé nesse caminho
+Me vejo insano e faminto
+O grito da catraca me atraca
+A ter vontade de esperar.
+
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/assets/images/avatar.jpeg" alt="Marllus">
+                
+                </span>
+                <span class="author-meta">
+                
+                <span class="post-name"><a target="_blank" href="/sobre">Marllus</a></span><br/>
+                
+                
+                <span class="post-date">03 Jul 2016</span>
+                </span>
+                <!-- mudei de baseurl para site.url !-->
+                <span class="post-read-more"><a href="http://localhost:4000/poesia/2016/07/03/vespera.html" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+
+        
+
+        <!-- begin post -->
+
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/tecnologia/2016/02/17/xenmotion-no-xenserver-6-5.html">
+                
+
+                    
+                        <img class="img-fluid" src="/assets/images/motion.jpg" alt="XenMotion no XenServer 6.5"> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/tecnologia/2016/02/17/xenmotion-no-xenserver-6-5.html">XenMotion no XenServer 6.5</a>
+                        <!-- Adicionei isso para colocar a tag da categoria antes de iniciar o post !-->
+                        <small class="d-block text-muted">
+                        <span class="catlist">
+                        
+                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#tecnologia">tecnologia</a>
+                        
+                        </span>
+                        </small>
+                        <!-- fim do codigo !-->
+                
+            </h2>
+            <h4 class="card-text">XenMotion é um recurso bem interessante e muito importante dentro de ambiente de virtualização do XenServer. É com ele que o HA (High Availability), WLB (Work Load Balancing – Versão...</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/assets/images/avatar.jpeg" alt="Marllus">
+                
+                </span>
+                <span class="author-meta">
+                
+                <span class="post-name"><a target="_blank" href="/sobre">Marllus</a></span><br/>
+                
+                
+                <span class="post-date">17 Feb 2016</span>
+                </span>
+                <!-- mudei de baseurl para site.url !-->
+                <span class="post-read-more"><a href="http://localhost:4000/tecnologia/2016/02/17/xenmotion-no-xenserver-6-5.html" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+
+        
+
+        <!-- begin post -->
+
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/tecnologia/2016/02/17/xencenter.html">
+                
+
+                    
+                        <img class="img-fluid" src="/assets/images/bikechildren.jpg" alt="Xencenter"> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/tecnologia/2016/02/17/xencenter.html">Xencenter</a>
+                        <!-- Adicionei isso para colocar a tag da categoria antes de iniciar o post !-->
+                        <small class="d-block text-muted">
+                        <span class="catlist">
+                        
+                        <a class="text-capitalize text-muted smoothscroll" href="/categories.html#tecnologia">tecnologia</a>
+                        
+                        </span>
+                        </small>
+                        <!-- fim do codigo !-->
+                
+            </h2>
+            <h4 class="card-text">
+  O assunto agora é sobre gerenciamento do XenServer. Neste caso, falaremos sobre XenCenter, que é o software OFICIAL de gerência do XenServer.
+
+
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/assets/images/avatar.jpeg" alt="Marllus">
+                
+                </span>
+                <span class="author-meta">
+                
+                <span class="post-name"><a target="_blank" href="/sobre">Marllus</a></span><br/>
+                
+                
+                <span class="post-date">17 Feb 2016</span>
+                </span>
+                <!-- mudei de baseurl para site.url !-->
+                <span class="post-read-more"><a href="http://localhost:4000/tecnologia/2016/02/17/xencenter.html" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+
+        
 
     </div>
 
@@ -64,7 +877,130 @@ title: Home
 <div class="bottompagination">
 <div class="pointerup"><i class="fa fa-caret-up"></i></div>
 <span class="navigation" role="navigation">
-    {% include pagination.html %}
+    
+<div class="pagination">
+  
+    <span>&laquo; Prev</span>
+  
+
+  
+    
+      <span class="ml-1 mr-1">1</span>
+    
+  
+    
+      <a class="ml-1 mr-1" href="/page2/">2</a>
+    
+  
+    
+      <a class="ml-1 mr-1" href="/page3/">3</a>
+    
+  
+    
+      <a class="ml-1 mr-1" href="/page4/">4</a>
+    
+  
+    
+      <a class="ml-1 mr-1" href="/page5/">5</a>
+    
+  
+
+  
+    <a class="ml-1 mr-1" href="/page2/">Next &raquo;</a>
+  
+</div>
+
 </span>
 </div>
 
+
+</div>
+
+
+<!-- Bottom Alert Bar
+================================================== -->
+<div class="alertbar">
+	<div class="container text-center">
+		<span><img src="/assets/images/logo.png" alt="Lulu space"> &nbsp; Nunca perca uma boa <b>história</b>, se inscreva na nossa newsletter</span>
+        <form action="https://marllus.us18.list-manage.com/subscribe/post?u=3a523fdd4b19545ab826fb5d0&amp;id=24eb94116f" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group">
+            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            </div>
+        </form>
+	</div>
+</div>
+
+    
+</div>
+
+<!-- Categories Jumbotron
+================================================== -->
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div class="d-md-flex align-items-center justify-content-center h-100">
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+            </div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+            
+            
+                
+                    <a class="mt-1 mb-1" href="/categories#poesia">poesia (3)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#tecnologia">tecnologia (26)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#arte">arte (1)</a>
+                
+            
+            
+		</div>
+	</div>
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA </a> - Contents in Lulu space - 2020
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <a target="_blank" href="https://opensource.org/licenses/MIT"> MIT</a> - <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts
+================================================== -->
+
+<!-- originalmente era essa a chamada - bootstrap e popper. atualizei por questoes de seguranca. caso quebre eu volto
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+!-->
+
+<!-- testando a cdn jsdelivr puxando varios js em uma unica requisicao !-->
+<script src="https://cdn.jsdelivr.net/combine/npm/popper.js@1.16.0/dist/umd/popper.min.js,gh/twbs/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+
+<!-- new !-->
+<!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+!-->
+
+<script src="/assets/js/mediumish.js"></script>
+
+
+
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+
+
+</body>
+</html>
