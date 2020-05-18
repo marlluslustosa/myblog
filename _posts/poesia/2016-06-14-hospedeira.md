@@ -12,7 +12,7 @@ tags:
 - pensamento
 ---
 
-Uma dia triste<br>
+Um dia triste<br>
 Uma noite fria<br>
 Um chão vazio<br>
 Uma janela amiga.<br>
