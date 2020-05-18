@@ -1,215 +1,33 @@
-<!DOCTYPE html>
-<html lang="pt_BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+---
+layout: default
+title: Home
+lang: pt_BR
+---
 
-<!-- <link rel="icon" href="/assets/images/logo.png"> !-->
+{% if page.url == "/" %}
 
-<!-- Eu que adicionei essa linha, para puxar o caminho relativo setado no _config.yml !-->
-<!--<link rel="icon" href="http://localhost:4000/assets/images/favicon.ico">!-->
-
-<title>Home | Lulu space</title>
-
-<!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Home | Lulu space</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Home" />
-<meta property="og:locale" content="pt_BR" />
-<meta name="description" content="Uma salada de ideias nossa de cada dia." />
-<meta property="og:description" content="Uma salada de ideias nossa de cada dia." />
-<link rel="canonical" href="http://localhost:4000/index-pt_BR.html" />
-<meta property="og:url" content="http://localhost:4000/index-pt_BR.html" />
-<meta property="og:site_name" content="Lulu space" />
-<script type="application/ld+json">
-{"@type":"WebPage","headline":"Home","url":"http://localhost:4000/index-pt_BR.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"description":"Uma salada de ideias nossa de cada dia.","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-<!-- originalmente era essa a chamada - bootstrap. atualizei por questoes de seguranca. caso quebre eu volto
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-!-->
-
-<!-- testando jsdelivr pra ver se melhora a performance-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
-
-<!-- new !-->
-<!--
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-!-->
-
-<link href="/assets/css/screen.css" rel="stylesheet">
-
-<link href="/assets/css/main.css" rel="stylesheet">
-
-<!-- coloquei o jquery pra ser chamado pela CDN google pra ser mais rapido, pois o navegador guarda cache, caso n esteja na cdn, ele puxa localmente! Lembrando que a versao local eh a 3.3.1, mudei para a versao mais recente por questoes de seguranca. nao quebrou em nada a estrutura atual do site.-->
-<script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.5.1/dist/jquery.min.js"></script>
-<!-- se ficar lento ou der bug na de cima (jsdelivr) eh so voltar ao que era antes nessa linha abaixo 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-    if (!window.jQuery) document.write('<script src="/assets/js/jquery.min.js"><\/script>');
-</script>
-!-->
-
-<!-- antigamente era somente essa linha, que puxava local. o ruim eh que causava mais lentidao no carregamento da pagina, fora que n nunca eh guardada em cache 
-<script src="/assets/js/jquery.min.js"></script>
-!-->
-
-</head>
-
-
-
-
-<body class="layout-default">
-	<!-- defer loading of font and font awesome -->
-	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	</noscript>
-
-
-<!-- Begin Menu Navigation
+<!-- Featured
 ================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Destaque</span></h2>
+    </div>
+    <div class="row">
 
-    <div class="container pr-0">
+    {% for post in site.posts %}
 
-    <!-- Begin Logo -->
-    <a class="navbar-brand" href="/">
-    <img src="/assets/images/logo.png" alt="Lulu space">
-    </a>
-    <!-- End Logo -->
+        {% if post.featured == true %}
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
+            {% include featuredbox.html %}
 
-    <div class="collapse navbar-collapse" id="navbarMediumish">
-    
-        <!-- Begin Menu -->
+        {% endif %}
 
-            <ul class="navbar-nav ml-auto">
-
-                
-                <li class="nav-item">
-                
-                <a class="nav-link" href="/index.html">Home</a>
-                </li>
-                  
-                  <!-- muda linguagem do menu de acordo com site.lang -->
-
-                
-                
-                <li class="nav-item">
-                <a class="nav-link" href="/categories#arte">Arte</a>
-                </li>
-
-		<li class="nav-item">
-                <a class="nav-link" href="/categories#tecnologia">Tecnologia</a>
-                </li>
-
-		<li class="nav-item">
-                <a class="nav-link" href="/categories#poesia">Poesia</a>
-                </li>
-
-		<li class="nav-item">
-                <a class="nav-link" href="/categories#sociedade">Sociedade</a>
-                </li>
-
-		<li class="nav-item">
-                <a class="nav-link" href="/categories#ciencia">Ciência</a>
-                </li>
-
-		<li class="nav-item">
-                <a class="nav-link" href="/contato">Contato</a>
-                </li>
-                
-        <li class="nav-item">
-                <a class="nav-link" href="/sobre">Sobre</a>
-                </li>
-                
-        <li class="nav-item">
-                <a class="nav-link" href="/en">English <img src=/assets/images/flag-eua.svg width=15px heigth=15px></img></a>
-                </li>
-                
-        <li class="nav-item">
-                <a class="nav-link" href="/busca">Busca</a>
-                </li>
-                 
-                 
-                <!-- finaliza condicao do menu -->
-
-
-                <!--<li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Dev</a>
-		</li>-->
-		
-		<!--
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> Infra</a>
-		</li>-->
-
-                <!--<li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Poemas</a>
-		</li>-->
-
-                <!--<li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Sociedade</a>
-                </li>
-		-->
-            <!-- isso era o que estava causando a lentidao !-->
-               <!-- <script src="/assets/js/lunr.js"></script>
-
-
-<style>
-    .lunrsearchresult .title {color: #d9230f;}
-    .lunrsearchresult .url {color: silver;}
-    .lunrsearchresult a {display: block; color: #777;}
-    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
-    .lunrsearchresult a:hover .title {text-decoration: underline;}
-</style>
-
-
-<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
-</form>
-
-<div id="lunrsearchresults">
-    <ul></ul>
-</div>
-
-<script src="/assets/js/lunrsearchengine.js"></script> !-->
-            </ul>
-
-        <!-- End Menu -->
+    {% endfor %}
 
     </div>
+</section>
 
-    </div>
-</nav>
-<!-- End Navigation
-================================================== -->
-
-<div class="site-content">
-
-<div class="container">
-
-<!-- Site Title
-================================================== -->
-<div class="mainheading">
-    <h1 class="sitetitle">Lulu space</h1>
-    <p class="lead">
-    <!-- teste pra mudar o titulo dependendo da linguagem escolhida!-->
-    
-        Uma salada de ideias nossa de cada dia. <!-- site.description definido no _config.yml!-->
-    
-    </p>
-</div>
-
-<!-- Content
-================================================== -->
-<div class="main-content">
-    
+{% endif %}
 
 <!-- Posts Index
 ================================================== -->
@@ -223,7 +41,11 @@
 
     <div class="row listrecent">
 
-        
+        {% for post in paginator.posts %}
+
+        {% include postbox.html %}
+
+        {% endfor %}
 
     </div>
 
@@ -234,98 +56,7 @@
 <div class="bottompagination">
 <div class="pointerup"><i class="fa fa-caret-up"></i></div>
 <span class="navigation" role="navigation">
-    
+    {% include pagination.html %}
 </span>
 </div>
 
-
-</div>
-
-
-<!-- Bottom Alert Bar
-================================================== -->
-<div class="alertbar">
-	<div class="container text-center">
-		<span><img src="/assets/images/logo.png" alt="Lulu space"> &nbsp; Nunca perca uma boa <b>história</b>, se inscreva na nossa newsletter</span>
-        <form action="https://marllus.us18.list-manage.com/subscribe/post?u=3a523fdd4b19545ab826fb5d0&amp;id=24eb94116f" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
-            <div class="mc-field-group">
-            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
-            <input type="submit" value="Subscribe" name="subscribe" class="heart">
-            </div>
-        </form>
-	</div>
-</div>
-
-    
-</div>
-
-<!-- Categories Jumbotron
-================================================== -->
-<div class="jumbotron fortags">
-	<div class="d-md-flex h-100">
-		<div class="col-md-4 transpdark align-self-center text-center h-100">
-            <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
-            </div>
-		</div>
-		<div class="col-md-8 p-5 align-self-center text-center">
-            
-            
-                
-                    <a class="mt-1 mb-1" href="/categories#poesia">poesia (3)</a>
-                
-                    <a class="mt-1 mb-1" href="/categories#tecnologia">tecnologia (26)</a>
-                
-                    <a class="mt-1 mb-1" href="/categories#arte">arte (1)</a>
-                
-            
-            
-		</div>
-	</div>
-</div>
-
-<!-- Begin Footer
-================================================== -->
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA </a> - Contents in Lulu space - 2020
-            </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://opensource.org/licenses/MIT"> MIT</a> - <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- End Footer
-================================================== -->
-
-</div> <!-- /.site-content -->
-
-<!-- Scripts
-================================================== -->
-
-<!-- originalmente era essa a chamada - bootstrap e popper. atualizei por questoes de seguranca. caso quebre eu volto
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-!-->
-
-<!-- testando a cdn jsdelivr puxando varios js em uma unica requisicao !-->
-<script src="https://cdn.jsdelivr.net/combine/npm/popper.js@1.16.0/dist/umd/popper.min.js,gh/twbs/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
-
-<!-- new !-->
-<!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-!-->
-
-<script src="/assets/js/mediumish.js"></script>
-
-
-
-<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
-
-
-
-</body>
-</html>
