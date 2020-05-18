@@ -20,4 +20,6 @@ group :jekyll_plugins do
     gem 'jekyll-admin' #eu adicionei essa linha
     #gem 'jekyll-polyglot' #linha referente ao plugin multilingual
     gem 'jekyll-multiple-languages-plugin'
+    gem "jekyll-paginate"
+    gem "redcarpet"
 end
