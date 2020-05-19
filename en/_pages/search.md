@@ -20,6 +20,6 @@ comments: false
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: '{{site.baseurl}}/search.json'
+  json: '{{site.baseurl}}/search-en.json'
 })
 </script> 
