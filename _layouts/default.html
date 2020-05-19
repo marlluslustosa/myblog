@@ -60,8 +60,9 @@ ga('send', 'pageview');
 <body class="{{layout}}">
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<!-- antigamente era assim, pois chamava a Righteous para o sitetitle <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet"> !-->
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> !-->
 	</noscript>
 
 
@@ -123,19 +124,19 @@ ga('send', 'pageview');
                 </li>
 
 		<li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/contact">Contact</a>
-                </li>
-        
-        <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/about">About</a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/contact">Contact <img src=/assets/images/icon-contact4.svg width=17px heigth=17px style="vertical-align: top; margin: 5px 0px"></a>
                 </li>
                 
         <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl_root }}/">Português <img src=/assets/images/flag-br.svg width=17px heigth=17px></img></a>
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/about">About <img src=/assets/images/avatar.svg width=18px heigth=18px style="vertical-align: top; margin: 3px 0px"></a>
                 </li>
                 
         <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/search">Search</a>
+                <a class="nav-link" href="{{ site.baseurl }}/">Português <img src=/assets/images/flag-br.svg width=15px heigth=15px style="vertical-align: top; margin: 4px 0px"></img></a>
+                </li>
+                
+        <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/{{ page.lang }}/search">Busca<img src=/assets/images/icon-search.svg width=24px heigth=24px style="vertical-align: top; margin:-2px 0px"></img></a>
                 </li>
                 
                 <!-- caso contrario aparece portugues -->
@@ -171,19 +172,19 @@ ga('send', 'pageview');
                 </li>
 
 		<li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/contato">Contato</a>
+                <a class="nav-link" href="{{ site.baseurl }}/contato">Contato <img src=/assets/images/icon-contact4.svg width=17px heigth=17px style="vertical-align: top; margin: 5px 0px"></a>
                 </li>
                 
         <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/sobre">Sobre</a>
+                <a class="nav-link" href="{{ site.baseurl }}/sobre">Sobre <img src=/assets/images/avatar.svg width=18px heigth=18px style="vertical-align: top; margin: 3px 0px"></a>
                 </li>
                 
         <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/en">English <img src=/assets/images/flag-eua.svg width=15px heigth=15px></img></a>
+                <a class="nav-link" href="{{ site.baseurl }}/en">English <img src=/assets/images/flag-eua.svg width=15px heigth=15px style="vertical-align: top; margin: 4px 0px"></img></a>
                 </li>
                 
         <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/busca">Busca</a>
+                <a class="nav-link" href="{{ site.baseurl }}/busca">Busca<img src=/assets/images/icon-search.svg width=24px heigth=24px style="vertical-align: top; margin:-2px 0px"></img></a>
                 </li>
                  {% endif %}
 
