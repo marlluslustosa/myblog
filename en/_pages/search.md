@@ -8,7 +8,7 @@ comments: false
 <p> Title, tag, description, content or publication date (2020, 2016-02, 2016-07-21).
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
+<input type="text" id="search-input" placeholder="search..."> <a href="{{site.baseurl}}/busca">pt_BR</a>
 <ul id="results-container"></ul>
 </div>
 

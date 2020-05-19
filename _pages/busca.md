@@ -8,7 +8,7 @@ comments: false
 <p> Título, tag, descrição, conteúdo ou data de publicação (2020, 2016-02, 2016-07-21).
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="buscar...">
+<input type="text" id="search-input" placeholder="buscar..."> <a href="{{site.baseurl}}/en/search">en</a>
 <ul id="results-container"></ul>
 </div>
 
