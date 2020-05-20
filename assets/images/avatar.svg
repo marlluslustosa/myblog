@@ -11,7 +11,7 @@
    data-name="Layer 1"
    viewBox="0 0 128 128"
    version="1.1"
-   sodipodi:docname="avatar2.svg"
+   sodipodi:docname="avatar.svg"
    inkscape:version="0.92.4 (unknown)">
   <metadata
      id="metadata17">
@@ -35,11 +35,11 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1675"
-     inkscape:window-height="1047"
+     inkscape:window-height="1011"
      id="namedview15"
      showgrid="false"
      inkscape:zoom="1.84375"
-     inkscape:cx="64"
+     inkscape:cx="-30.372881"
      inkscape:cy="64"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -55,7 +55,8 @@
   <path
      class="cls-1"
      d="M63.99993,6.0564A57.9436,57.9436,0,1,0,121.9436,63.99993,58.00916,58.00916,0,0,0,63.99993,6.0564Zm0,104.44631a46.50272,46.50272,0,1,1,46.50278-46.50278A46.55537,46.55537,0,0,1,63.99993,110.50272Z"
-     id="path8" />
+     id="path8"
+     style="fill:#000000" />
   <circle
      class="cls-2"
      cx="61.48833"
