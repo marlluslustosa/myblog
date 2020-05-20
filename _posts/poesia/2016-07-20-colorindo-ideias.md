@@ -18,7 +18,7 @@ tags:
 id-ref: colorindo-ideias
 ---
 
-Recentemente andei lendo mil críticas aos famosos livros de colorir. A máxima sempre é a mesma: O "algo simples e engraçado" mascara nãosomente a relutância da sociedade para a leitura “formal” mas escancara aignorância de mentes cada vez mais vazias dos nossos ditos “adultos”. Aliadas a isto, vêm as inúmeras negativas pela falta de formalidade para um best-seller. Esses críticos nos passam a ideia de que há um abuso escandaloso bem no meio disso tudo. Desde Zeca Camargo (e sua “singela” analogia entre Cristiano Araújo e estes livros) o bicho vem (seriamente) pegando fogo.
+Recentemente, andei lendo mil críticas aos famosos livros de colorir. A máxima sempre é a mesma: O "algo simples e engraçado" mascara não somente a relutância da sociedade para a leitura "formal" mas, escancara a ignorância de mentes cada vez mais vazias dos nossos ditos "adultos". Aliadas a isso, vêm as inúmeras negativas pela falta de formalidade para um best-seller. Esses críticos, nos passam a ideia de que há um abuso escandaloso bem no meio disso tudo. Desde Zeca Camargo (e sua "singela" analogia entre Cristiano Araújo e estes livros) o bicho vem (seriamente) pegando fogo.
 
 Livros,  por mais obscuros, caretas, imorais, perversos e românticos, 
 podem ser, diversas vezes, vazios como um manequim nu de vitrine ou tão 
