@@ -14,6 +14,7 @@ tags:
 featured: true
 hidden: true
 lang: en
+id-ref: quando-whats-acabou
 ---
 
 Early in the morning, I woke up...<br>I took out my cell phone, no notification. I checked the internet link by accessing any website. It was beautiful. The myth was then true.

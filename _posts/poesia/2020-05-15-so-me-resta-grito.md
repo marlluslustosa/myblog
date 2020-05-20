@@ -12,6 +12,7 @@ tags:
 - gan
 - deeplearning
 - ganart
+id-ref: so-me-resta-grito
 ---
 
 Assim como as inquietações de Edvard Munch, que caminham entre doenças, vida e morte, tento descrever o momento único dessa ilustração a partir de suas pinceladas, onde podemos suscitar a fragilidade e a transitoriedade da vida.

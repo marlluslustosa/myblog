@@ -13,6 +13,7 @@ defaults:
       path: ""
     values:
       lang: "pt_BR"
+      id-ref: "na"
       baseurl: ''
   # Language for everything inside `/en`
   -
@@ -20,6 +21,8 @@ defaults:
       path: en
     values:
       lang: "en"
+      #coloquei essa variavel pra auxiliar o laco na pagina post.html, onde procuro traducoes disponiveis
+      id-ref: "na"
       baseurl: "/en/"
 google_analytics: UA-38359606-2
 #disqus: lulublog-1

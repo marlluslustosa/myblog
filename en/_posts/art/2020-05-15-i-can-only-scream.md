@@ -20,6 +20,7 @@ tags:
 - generativeart
 lang: en
 hidden: true
+id-ref: so-me-resta-grito
 ---
 
 As well as the concerns of Edvard Munch, who walk between disease, life and death, I try to describe the unique moment of this illustration from his brushstrokes, where we can raise the fragility and transience of life.

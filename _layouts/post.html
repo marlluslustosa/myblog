@@ -46,8 +46,25 @@ post_class: post-template
                 {% endif %}
 
                 <!-- Post Title -->
-                <h1 class="posttitle">{{ page.title }}</h1>
-
+                <h1 class="posttitle">{{ page.title }} 
+            
+        <!-- laco que percorre todos os posts, e procura existe outra pagina com o mesmo id-ref, ou seja, se existe uma traducao -->
+            {% if page.id-ref != "na" %} <!-- nao percorrer posts que nao tem id-ref no front matter!-->
+                {% for post in site.posts %}
+                    {% if post.title == page.title %} <!-- teste rapido para excluir post igual ao da pagina atual-->
+                       {% continue %}
+                    {% else %}
+                       {% if post.id-ref == page.id-ref %} <!-- aqui testa se os id-ref sao iguais, caso seja, verificar em qual lingua a pagina esta para escolher o que mostrar ao usuario-->
+                       <!-- usei essa linha como opcao para usar o arquivo recem criado _data/languages.yml mas o icone saiu muito feio, por isso nao usei
+                            (<a class="link-dark" href="{{ post.url }}">{{ site.data.languages[post.lang].icon }}</a>)
+                       !-->    
+                            <a class="link-dark" href="{{ post.url }}"><img src=/assets/images/flag-{{post.lang}}.svg width=23px heigth=23px style="vertical-align: top; margin: 11px 0px"></img><img src=/assets/images/seta.svg width=8px heigth=8px style="vertical-align: top; margin: 9px 0px"></img></a>
+                           {% break %}
+                       {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+            </h1>
             </div>
 
             <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->

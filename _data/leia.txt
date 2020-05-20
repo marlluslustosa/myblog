@@ -1,0 +1,6 @@
+eu criei esse arquivo pra poder utilizar algum dia. com ele, vc pode chamar variáveis dentro de um arquivo html como:
+(<a class="link-dark" href="{{ post.url }}">{{ site.data.languages[post.lang].icon }}</a>)
+
+tentei esse código acima na página post.html, para colocar um ícone da bandeira no título, quando tivesse tradução disponível. Porém, o ícone é horrível e eu não quiz.
+Porém, deixei o arquivo aí para poder chamar em alguma necessidade algum dia.
+na sequência ele chama o "site.pasta.nomedoarquivo.variável", no caso acima, site.data.languages.[en].icon
