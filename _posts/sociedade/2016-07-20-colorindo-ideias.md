@@ -2,11 +2,10 @@
 title: Colorindo ideias, colorindo ideais
 author: marllus
 categories:
-- poesia
+- sociedade
 layout: post
 image: assets/images/jardim-secret.jpg
 tags:
-- poesia
 - sociedade
 - colorir
 - reflexao
