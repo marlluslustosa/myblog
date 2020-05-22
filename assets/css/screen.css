@@ -16,6 +16,13 @@ a {
     transition: all 0.2s;
 }
 
+/* personalizacao do caption da imagem */
+.image-caption {
+  text-align: center;
+  font-size: smaller;
+  color: light-grey;
+  }
+
 a:hover {
     color: #038252;
     text-decoration: none;
