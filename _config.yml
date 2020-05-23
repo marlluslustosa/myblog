@@ -3,7 +3,8 @@ title: Lulu space
 description: Uma salada de ideias nossa de cada dia.
 description-en: A salad of daily ideas.
 logo: assets/images/logo.png
-favicon: assets/images/favicon.ico
+logo_top: assets/images/logo_top.png
+favicon: favicon.ico
 baseurl: ''
 url: 'https://marllus.com'
 defaults:

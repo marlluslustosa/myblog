@@ -7,7 +7,7 @@
 <!-- <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png"> !-->
 
 <!-- Eu que adicionei essa linha, para puxar o caminho relativo setado no _config.yml !-->
-<!--<link rel="icon" href="{{ site.url }}/{{ site.favicon }}">!-->
+<link rel="icon" href="{{ site.url }}/{{ site.favicon }}">
 
 <title>{{ page.title }} | {{site.name}}</title>
 
@@ -78,7 +78,7 @@ ga('send', 'pageview');
     {% else %}   
     <a class="navbar-brand" href="{{ site.baseurl }}/">
     {% endif %}
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    <img src="{{ site.baseurl }}/{{ site.logo_top }}" alt="{{ site.name }}">
     </a>
     <!-- End Logo -->
 
