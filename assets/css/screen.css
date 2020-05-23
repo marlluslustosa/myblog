@@ -732,6 +732,11 @@ img {
     max-width: 100%;
 }
 
+.img-mailchimp {
+    width: 80px;
+    weight: 70px;
+}
+
 .bottompagination span.navigation {
     display: block;
     font-size: 0.93rem;
