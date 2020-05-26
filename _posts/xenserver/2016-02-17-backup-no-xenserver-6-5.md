@@ -3,11 +3,9 @@ title: "Backup no XenServer 6.5"
 author: marllus
 categories: [ tecnologia ]
 layout: post
-
+image: assets/images/casulo-vm.jpeg
+image-ref: Photo by <a href="https://unsplash.com/@scw1217" target=_blank>Suzanne D. Williams </a>
 ---
-E aí, tudo certinho?
-
-Bem, hoje o tutorial será sobre backup!
 
 Tão falado, mas tão pouco usado, o backup no XenServer parece ser complicado, mas é mais simples do que se imagina.
 
@@ -22,19 +20,19 @@ Primeiro, existem três níveis de backup no XenServer:
 O ideal é se planejar um backup utilizando todos esses níveis, para compor uma solução onde eu tenho tanto a agilidade de recuperação de uma VM, de um host e de um pool. Porém, muitas vezes por falta de recursos disponíveis (lê-se: espaço de armazenamento), elaboramos abordagens que se focam mais em backups de pool e Vms, pois a partir desses dois, pode se construir novamente um pool falhado. A janela de recuperação, nesse caso, será um pouco menor, mas, dependendo do nível de criticidade do ambiente, tende a ser aceitável.
 
 As possibilidades são inúmeras e se diferenciam para cada ambiente. O “know-how” do backup é definir o planejamento dele. Após isso, só passo-a-passo.
-  
+
 Para compor sua solução open source de backup, sugiro pesquisar sobre o software Bacula: <a href="http://blog.bacula.org/about-bacula/what-is-bacula/" target="_blank">http://blog.bacula.org/about-bacula/what-is-bacula/</a>
 
 Os procedimentos para realização dos diversos tipos de backup no Xenserver está disponível na documentação oficial, a qual se encontra aqui:
-  
+
 <a href="http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/reference.html#backups" target="_blank">http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/reference.html#backups</a>
 
 Abraços e espero que tenham gostado da explicação sobre os níveis de backup existentes no Xenserver!
 
 Referências:
-  
+
 <a href="http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/reference.html#backups" target="_blank">http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/reference.html#backups</a>
-  
+
 <a href="http://blog.bacula.org/about-bacula/what-is-bacula/" target="_blank">http://blog.bacula.org/about-bacula/what-is-bacula/</a>
 
 &nbsp;

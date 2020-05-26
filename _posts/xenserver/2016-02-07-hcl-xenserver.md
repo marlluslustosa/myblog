@@ -7,8 +7,9 @@ layout: post
 image: assets/images/compatib.jpg
 ---
 
-O assunto aqui é sobre compatibilidade de hardware e XenServer.<br /> A Citrix mantém uma site (<a href="http://hcl.xenserver.org/">http://hcl.xenserver.org/</a>) contendo todo o conjunto de hardware homologado por ela junto a diversos fabricantes de equipamentos, como Dell, HP, Supermicro, IBM. Todo equipamento que obteve êxito nesse teste é adicionado à essa lista de compatibilidade (HCL).
-</p>
+O assunto aqui é sobre compatibilidade de hardware e XenServer.
+
+ A Citrix mantém uma site (<a href="http://hcl.xenserver.org/">http://hcl.xenserver.org/</a>) contendo todo o conjunto de hardware homologado por ela junto a diversos fabricantes de equipamentos, como Dell, HP, Supermicro, IBM. Todo equipamento que obteve êxito nesse teste é adicionado à essa lista de compatibilidade (HCL).
 
 <p class="p1">
   Mas, o que é essa tal de compatibilidade? Ela serve para oficializar que o XenServer vai conseguir &#8220;enxergar&#8221; (instalar os drivers) qualquer hardware que contenha na lista em questão. <span class="Apple-converted-space">   </span>
