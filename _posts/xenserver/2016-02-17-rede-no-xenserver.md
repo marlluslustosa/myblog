@@ -3,12 +3,12 @@ title: "Rede no XenServer"
 author: marllus
 categories: [ tecnologia ]
 layout: post
-
+image-ref: Photo by <a href="https://unsplash.com/@diesektion" target=_blank>Robert Anasch</a>
+image: assets/images/rede.jpeg
 ---
-Olá!
 
 Hoje estarei te guiando a criar e configurar redes virtuais no XenServer 6.5.
-  
+
 Mas, primeiro iniciarei conceituando os termos:
 
 NIC: Adaptador de Rede (Network Interface Card). A NIC é a placa de rede física, propriamente dita, instalada no host XenServer.
@@ -32,7 +32,7 @@ LACP baseado em IP e porta: Funciona da mesma forma do bondig active-active, só
 LACP baseado em MAC address: A mesma coisa do anterior, porém, baseado no endereço MAC da VIF da VM, ou seja, o roteamento é selecionado em função da VM. Esse balanceamento é legal quando se vai utilizar várias VMs dentro de um mesmo host sem muitas aplicações funcionando em portas distintas.
 
 A escolha desses modos irá se basear no tipo de aplicação que funcionará no ambiente, que tipo de arquitetura de rede foi planejada (quantidade de NICs, throughput, topologia, etc), que tipo de storage vai ser conectado, enfim, há uma série de pontos a serem levados em consideração para se dizer &#8220;esse é melhor do que aquele&#8221;.
-  
+
 OBS: XenServer 6.5 SP1 suporta o limite de 16 NICs por host xenserver e cada VM suporta até 7 VIFs associadas.
 
 Desenhando:
@@ -46,7 +46,7 @@ Para criação e gerenciamento de BONDs e outros tipos de objetos no xenserver, 
 Praticando:
 
 OBS: MTU significa Unidade Máxima de Transmissão e isso é um fator crucial (se bem configurado &#8211; Jumbo Frames) para uma maior eficiência na transmissão de dados para a VM, porém, existem certas limitações no Xenserver. Estas e outras informações mais detalhadas, você pode consultar no tópico &#8220;4.3.4. Jumbo frames&#8221; do &#8220;[Citrix XenServer 6.5 SP1 Administrator&#8217;s Guide][1]&#8220;.
-  
+
 Caso não saiba sobre MTU e nem o que colocar como valor no campo quando estiver criando um BOND ou VLAN, deixe o padrão 1500 e siga em frente.
 
 Espero que tenha sido claro neste tutorial! Qualquer dúvida só perguntar nos comentários!

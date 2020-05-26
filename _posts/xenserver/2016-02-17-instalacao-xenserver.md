@@ -3,11 +3,10 @@ title: "Instalação XenServer"
 author: marllus
 categories: [ tecnologia ]
 layout: post
+image-ref: Photo by <a href="https://unsplash.com/@jramos10" target=_blank>Josue Figueroa</a>
+image: assets/images/instalacao-xen.jpeg
 
 ---
-<p class="p1">
-  Olá!
-</p>
 
 <p class="p1">
   Neste tutorial, guiarei você no processo de instalação do XenServer.

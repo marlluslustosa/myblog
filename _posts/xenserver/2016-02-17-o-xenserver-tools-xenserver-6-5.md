@@ -3,11 +3,9 @@ title: "O XenServer Tools – XenServer 6.5"
 author: marllus
 categories: [ tecnologia ]
 layout: post
-
+image-ref: Photo by <a href="https://unsplash.com/@ashkfor121" target=_blank>Ashkan Forouzani</a>
+image: assets/images/xentools.jpeg
 ---
-Olá. Td bem?
-
-**Bem, o que é o XenServer Tools?**
 
 Xen Tools (carinhosamente apelidado) é um pacote de drivers de rede e disco paravirtualizados. Existe tanto a versão para Guests Windows quanto GNU/Linux e o XenServer já traz, por padrão, este pacote habilitado para ser instalado em uma VM com alguns destes sistemas operacionais instalados (e suportados).
 
@@ -28,7 +26,7 @@ As instruções para instalação do Xen tools em Windows e GNU/Linux está disp
 &nbsp;
 
 Referências
-  
+
 <a href="http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/guest.html#creatingVMs_supported_OS_minimums" target="_blank">http://docs.vmd.citrix.com/XenServer/6.5.0/1.0/en_gb/guest.html#creatingVMs_supported_OS_minimums</a>
-  
+
 <a href="http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-configuring/xs-xc-vms-installtools.html" target="_blank">http://docs.citrix.com/en-us/xencenter/6-5/xs-xc-vms-configuring/xs-xc-vms-installtools.html<br /> http://ports.marllus.com/2016/02/12/pv-hvm-hvm-com-drivers-pv-pvhvm-pvh-no-xenserver-a-sopa-de-letrinhas-da-virtualizacao</a>
