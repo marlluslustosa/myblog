@@ -5,8 +5,6 @@ author: marllus
 rating: 4
 layout: post
 image: assets/images/relapsoar.jpg
-featured: true
-hidden: true
 ---
 
 Na verdade eu sei porque eu me sinto assim,<br>
