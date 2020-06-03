@@ -16,11 +16,7 @@ tags:
 id-ref: raios-pessoais
 ---
 
-Desde
- os primórdios, raiva é um tema instigante. Para mim, ela é um sinônimo 
-de persuasão inapropriada para com o próximo. E depois de anos pensando,
- chego à conclusão de que esse sentimento ou estado de consciência não 
-se equivale aos fatores que o levaram à sua auto existência.
+Desde os primórdios, raiva é um tema instigante. Para mim, ela é um sinônimo de persuasão inapropriada para com o próximo. E depois de anos pensando, chego à conclusão de que esse sentimento ou estado de consciência não se equivale aos fatores que o levaram à sua auto existência.
 
 Da mesma forma que alguém sofre uma agressão, nós agredimos. Por quê? A resposta é simples, apesar de parecer difícil. A raiva, o ódio e a revolta persistem desde à criação, e ao que parece não há fatores que alimente uma pausa consolidada disso tudo. Nós, como animais, reagimos à ação ou causa que nos perturba, assim como os seres ditos irracionais e na utilização do seu extinto “primitivo”. O estopim está aí: perceber o momento em que está saindo do próprio controle. Talvez essa pausa não seja tão “não trivial” assim.
 
