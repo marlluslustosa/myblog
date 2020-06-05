@@ -1,5 +1,5 @@
 ---
-title: Por que um novo site?
+title: Por que um novo blog?
 author: marllus
 categories:
 layout: post
@@ -22,7 +22,7 @@ tags:
 - steam
 hidden: true
 featured: true
-id-ref: porque-novo-site
+id-ref: porque-novo-blog
 ---
 
 Se você me conhece há pelo menos 5 anos, saberá que sempre gostei de escrever. E lembro, como se fosse hoje, o dia em que subi meu primeiro blog, em um serviço antigo de sites chamado <a href="https://web.archive.org/web/20060827035924/http://www.ubbi.com.br/" target="_blank_">Ubbi</a>. Lá, eu falava sobre ocultismo, esoterismo e coisas afins, como um bom adolescente, em busca do desconhecido. E não, não consegui encontrar seus rastros pelo <a href="https://archive.org/" target="_blank">*internet archive*</a>, rs.
