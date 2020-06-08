@@ -14,8 +14,6 @@ tags:
 - pensamento
 - mudanca
 rating: 5
-featured: true
-hidden: true
 id-ref: no-inicio-nos
 ---
 
