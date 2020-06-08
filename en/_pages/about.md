@@ -14,14 +14,13 @@ comments: false
 	
 <div class="sticky-top sticky-top-80">
 <h5>Skills</h5>
-*      PHP/JS/Python/C<br>
-* Digital art <br>
-* 	   Neural Networks<br>
-*      Network computer<br>
-	* 	Data science<br>
-* DevOps<br>
-*      Containers<br>
-*      Virtualization/Cloud<br>
-* Blockchain<br>
-* Teaching <br>
-* Writing <br>
+*      <a href="https://gitlab.com/mlustosa/kodi.libreflix.plugin" target="_blank"> Dev</a><br>
+* <a href="https://instagram.com/ganartedigital" target="_blank">Digital art</a> <br>
+* 	   <a href="https://share.zabbix.com/monitoring-xenserver-xcp-host-and-vms-python" target="_blank">Network computer</a><br>
+	* 	<a href="https://medium.com/p/an%C3%A1lise-de-dados-como-nossos-deputados-andam-se-alimentando-1d9a55f50ce7" target="_blank">Data science</a><br> 
+* <a href="https://github.com/marlluslustosa/ttrss-tor" target="_blank">DevOps</a><br>
+* <a href="https://github.com/marlluslustosa/Floccus-WebDavDocker" target="_blank">Containers</a><br> 
+*      <a href="https://github.com/marlluslustosa/ttrss-tor" target="_blank">Tor</a><br>
+*      <a href="https://marllus.com/categories#tecnologia" target="_blank">Virtualization/Cloud</a><br>
+* <a href="https://br.linkedin.com/in/marllus-lustosa-37215038" target="_blank">Teaching</a><br>
+* <a href="https://marllus.com/" target="_blank">Writing</a> <br>
