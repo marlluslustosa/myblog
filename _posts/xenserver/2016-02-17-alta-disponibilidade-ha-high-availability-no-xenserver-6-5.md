@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image-ref: Photo by <a href="https://unsplash.com/@karim_manjra" target=_blank>Karim Manjra</a>
+tags: xenserver
 image: assets/images/ha-vm.jpeg
 
 ---

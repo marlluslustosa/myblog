@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image-ref: Photo by <a href="https://unsplash.com/@diesektion" target=_blank>Robert Anasch</a>
+tags: xenserver
 image: assets/images/rede.jpeg
 ---
 

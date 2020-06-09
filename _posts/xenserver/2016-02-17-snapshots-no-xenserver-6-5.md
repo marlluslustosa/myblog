@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image-ref: Photo by <a href="https://unsplash.com/@naomitamar" target=_blank>naomi tamar</a>
+tags: xenserver
 image: assets/images/snapshots.jpeg
 ---
 

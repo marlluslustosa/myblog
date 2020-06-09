@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image: assets/images/casulo-vm.jpeg
+tags: xenserver
 image-ref: Photo by <a href="https://unsplash.com/@scw1217" target=_blank>Suzanne D. Williams </a>
 ---
 

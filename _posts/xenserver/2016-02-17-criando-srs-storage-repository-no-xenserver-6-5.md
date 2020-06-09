@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image: assets/images/storage-vm.jpeg
+tags: xenserver
 image-ref: Photo by <a href="https://unsplash.com/@erdaest" target=_blank>Erda Estremera</a>
 
 ---

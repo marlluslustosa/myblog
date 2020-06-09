@@ -21,6 +21,6 @@ comments: false
 * <a href="https://github.com/marlluslustosa/ttrss-tor" target="_blank">DevOps</a><br>
 * <a href="https://github.com/marlluslustosa/Floccus-WebDavDocker" target="_blank">Containers</a><br> 
 *      <a href="https://github.com/marlluslustosa/ttrss-tor" target="_blank">Tor</a><br>
-*      <a href="https://marllus.com/categories#tecnologia" target="_blank">Virtualization/Cloud</a><br>
+*      <a href="https://marllus.com/tags#xenserver" target="_blank">Virtualization/Cloud</a><br>
 * <a href="https://br.linkedin.com/in/marllus-lustosa-37215038" target="_blank">Teaching</a><br>
 * <a href="https://marllus.com/" target="_blank">Writing</a> <br>

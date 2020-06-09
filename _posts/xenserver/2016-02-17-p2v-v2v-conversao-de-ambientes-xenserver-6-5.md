@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 id-ref: p2v-v2v-conversion
+tags: xenserver
 image: assets/images/migration.jpg
 ---
 

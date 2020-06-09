@@ -21,6 +21,6 @@ Sou bacharel em Ciência da Computação pela Universidade Federal do Piauí (UF
 * <a href="https://github.com/marlluslustosa/ttrss-tor" target="_blank">DevOps</a><br>
 * <a href="https://github.com/marlluslustosa/Floccus-WebDavDocker" target="_blank">Containers</a><br> 
 *      <a href="https://github.com/marlluslustosa/ttrss-tor" target="_blank">Tor</a><br>
-*      <a href="https://marllus.com/categories#tecnologia" target="_blank">Virtualização/Nuvem</a><br>
+*      <a href="https://marllus.com/tags#xenserver" target="_blank">Virtualização/Nuvem</a><br>
 * <a href="https://br.linkedin.com/in/marllus-lustosa-37215038" target="_blank">Docência</a><br>
 * <a href="https://marllus.com/" target="_blank">Escrita</a> <br>

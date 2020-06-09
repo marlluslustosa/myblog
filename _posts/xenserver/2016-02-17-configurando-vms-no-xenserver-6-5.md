@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image: assets/images/configure-vm.jpeg
+tags: xenserver
 image-ref: Photo by <a href="https://unsplash.com/@mpho_mojapelo">Mpho Mojapelo </a>
 ---
 

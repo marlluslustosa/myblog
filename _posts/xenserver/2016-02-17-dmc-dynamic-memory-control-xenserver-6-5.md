@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image: assets/images/dmc-vm.jpeg
+tags: xenserver
 image-ref: Photo by <a href="https://pixabay.com/users/lukasbieri-4664461/" target=_blank>Lukas Bieri</a>
 
 ---

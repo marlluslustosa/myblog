@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image-ref: Photo by <a href="https://unsplash.com/@jramos10" target=_blank>Josue Figueroa</a>
+tags: xenserver
 image: assets/images/instalacao-xen.jpeg
 
 ---

@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image-ref: Photo by <a href="https://unsplash.com/@gofabio" target=_blank>Fábio Hanashiro</a>
+tags: xenserver
 image: assets/images/pools.jpeg
 ---
 

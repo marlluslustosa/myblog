@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image-ref: Photo by <a href="https://unsplash.com/@meemeeno" target=_blank>Do mee</a>
+tags: xenserver
 image: assets/images/sopaletrinhas.jpeg
 ---
 

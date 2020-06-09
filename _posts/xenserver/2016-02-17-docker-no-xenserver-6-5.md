@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image: assets/images/docker-vm.jpeg
+tags: xenserver
 image-ref: Photo by <a href="https://unsplash.com/@vidarnm" target=_blank>Vidar Nordli-Mathisen</a>
 
 

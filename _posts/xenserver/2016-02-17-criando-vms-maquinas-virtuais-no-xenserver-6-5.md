@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image: assets/images/criando-vms.jpeg
+tags: xenserver
 image-ref: Photo by <a href="https://unsplash.com/@noah_n" target=_blank>Noah Negishi</a>
 
 ---

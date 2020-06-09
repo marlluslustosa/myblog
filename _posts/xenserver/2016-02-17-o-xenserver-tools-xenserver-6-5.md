@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image-ref: Photo by <a href="https://unsplash.com/@ashkfor121" target=_blank>Ashkan Forouzani</a>
+tags: xenserver
 image: assets/images/xentools.jpeg
 ---
 

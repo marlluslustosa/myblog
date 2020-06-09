@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image-ref: Photo by <a href="https://unsplash.com/@diegocatto" target=_blank>Diego Catto</a>
+tags: xenserver
 image: assets/images/exportacao-vm.jpeg
 ---
 

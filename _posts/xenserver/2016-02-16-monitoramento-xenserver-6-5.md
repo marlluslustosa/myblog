@@ -4,6 +4,7 @@ author: marllus
 categories:
 - tecnologia
 layout: post
+tags: xenserver
 image: assets/images/monitor.jpg
 ---
 

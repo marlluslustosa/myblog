@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image: assets/images/clone-vm.jpeg
+tags: xenserver
 image-ref: Photo by <a href="https://unsplash.com/@ferguso" target=_blank>Fergus So</a>
 ---
 

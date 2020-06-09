@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image: assets/images/templates-vm.jpeg
+tags: xenserver
 image-ref: Photo by <a href="https://unsplash.com/@polarmermaid" target=_blank>VidarAnne Nygård</a>
 
 ---

@@ -4,6 +4,7 @@ author: marllus
 categories: [ tecnologia ]
 layout: post
 image: assets/images/resizing-vdi.jpg
+tags: xenserver
 ---
 
 Bem, o tema discutido de hoje será redimensionamento de disco virtual no XenServer.
