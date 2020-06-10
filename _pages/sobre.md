@@ -3,7 +3,17 @@ layout: page
 title: Sobre mim
 permalink: /sobre
 comments: false
+intro_paragraph: |-
+  **isso aí!**
+
+
+
+  [fsdfdsfdsfsdf](https://)
 ---
+[tste](https://)
+
+
+
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
