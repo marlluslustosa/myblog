@@ -24,3 +24,7 @@ Sou bacharel em Ciência da Computação pela Universidade Federal do Piauí (UF
 *      <a href="https://marllus.com/tags#xenserver" target="_blank">Virtualização/Nuvem</a><br>
 * <a href="https://br.linkedin.com/in/marllus-lustosa-37215038" target="_blank">Docência</a><br>
 * <a href="https://marllus.com/" target="_blank">Escrita</a> <br>
+
+<p>
+<h6>Chave PGP</h6>
+marlluslustosa@riseup.net - <a href="https://memoria.rnp.br/keyserver/pks/lookup?op=get&search=0xBF2347A4E389C83D" target="_blank">0xBF2347A4E389C83D</a>
