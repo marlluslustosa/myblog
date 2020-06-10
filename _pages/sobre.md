@@ -3,18 +3,9 @@ layout: page
 title: Sobre mim
 permalink: /sobre
 comments: false
-intro_paragraph: |-
-  **isso aí!**
-
-
-
-  [fsdfdsfdsfsdf](https://)
+intro_paragraph: ""
 ---
-[tste](https://)
-
-
-
-<div class="row justify-content-between">
+[](https://)<div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
 Sou bacharel em Ciência da Computação pela Universidade Federal do Piauí (UFPI) e mestre em Políticas Públicas e Gestão do Ensino Superior pela Universidade Federal do Ceará (UFC). Trabalho como analista de TI nessa mesma instituição. Paralelamente, atuo como professor universitário em cursos de TI. <p>
