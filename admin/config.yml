@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: marlluslustosa/marlluslustosa.github.io
+  repo: marlluslustosa/myblog
   branch: master
   site_domain: practical-bohr-bc74e3.netlify.app
 
