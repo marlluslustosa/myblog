@@ -2,7 +2,7 @@ backend:
   name: github
   repo: marlluslustosa/marlluslustosa.github.io
   branch: master
-  site_domain: relaxed-johnson-178955.netlify.app
+  site_domain: practical-bohr-bc74e3.netlify.app
 
 media_folder: "assets/images/" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/images/" # The src attribute for uploaded media will begin with /images/uploads
