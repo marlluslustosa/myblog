@@ -9,7 +9,7 @@ comments: false
 
 Sou bacharel em Ciência da Computação pela Universidade Federal do Piauí (UFPI) e mestre em Políticas Públicas e Gestão do Ensino Superior pela Universidade Federal do Ceará (UFC). Trabalho como analista de TI nessa mesma instituição. Paralelamente, atuo como professor universitário em cursos de TI. <p>
 
-<p> **Mergulho** sempre em tudo que achar interessante, como agroecologia, ciência de dados, conectivismo, blockchain, capital social, ativismo político, software livre, segurança, além de contribuir para projetos e ideias que realmente importam para uma internet democrática. Sou entusiasta do Tor, ZeroNet, Subutai, XCP-ng, redes federadas e JAMstack. Atualmente, meu hobbie são as Redes Adversárias Generativas (GANs) como ferramenta para geração de arte. Confira meu <a target="_blank" href="https://instagram.com/ganartedigital">Instagram</a>.</p>
+<p> Mergulho sempre em tudo que achar interessante, como agroecologia, ciência de dados, conectivismo, blockchain, capital social, ativismo político, software livre, segurança, além de contribuir para projetos e ideias que realmente importam para uma internet democrática. Sou entusiasta do Tor, ZeroNet, Subutai, XCP-ng, redes federadas e JAMstack. Atualmente, meu hobbie são as Redes Adversárias Generativas (GANs) como ferramenta para geração de arte. Confira meu <a target="_blank" href="https://instagram.com/ganartedigital">Instagram</a>.</p>
 	
 <div class="sticky-top sticky-top-80"> 
 <h5>Habilidades</h5> 
