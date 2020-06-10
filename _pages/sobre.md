@@ -6,11 +6,6 @@ comments: false
 intro_paragraph: ""
 ---
 
-<div class="row justify-content-between">
-<<<<<<< HEAD
-=======
-
->>>>>>> 72dea47fca76673f1e642222fe793f7835d62094
 <div class="col-md-8 pr-5">
 
 Sou bacharel em Ciência da Computação pela Universidade Federal do Piauí (UFPI) e mestre em Políticas Públicas e Gestão do Ensino Superior pela Universidade Federal do Ceará (UFC). Trabalho como analista de TI nessa mesma instituição. Paralelamente, atuo como professor universitário em cursos de TI. <p>
