@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: myblog-netlify/marlluslustosa.github.io
+  repo: marlluslustosa/marlluslustosa.github.io
   branch: master
   site_domain: relaxed-johnson-178955.netlify.app
 
