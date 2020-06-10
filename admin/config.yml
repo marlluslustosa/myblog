@@ -2,9 +2,10 @@ backend:
   name: github
   repo: marlluslustosa/myblog
   branch: master
-  site_domain: practical-bohr-bc74e3.netlify.app
+  #site_domain: practical-bohr-bc74e3.netlify.app
+  site_domain: marllus.com
 
-media_folder: "assets/images/" # Media files will be stored in the repo under images/uploads
+media_folder: "/assets/images/" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/images/" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
@@ -28,3 +29,19 @@ collections:
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Categories", name: "categories", widget: "string", required: false}  
+  # PAGES
+  - name: "page"
+    label: "Page"
+    folder: "_pages"
+    sort: "title:asc"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Meta Description", name: "meta_description", widget: "string", required: false}
+      - {label: "Permalink", name: "permalink", widget: "hidden"}
+      - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
+      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+
