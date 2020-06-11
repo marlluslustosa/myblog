@@ -12,11 +12,12 @@ publish_mode: editorial_workflow
 collections:
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "_posts/{{categories}}/" # The path to the folder where the documents are stored
+    folder: "_posts/" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
-    path: "{{categories}}/{{year}}-{{month}}-{{day}}-{{slug}}"
+    path: "{{categories}}/{{slug}}"
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "blog/{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
