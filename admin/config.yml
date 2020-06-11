@@ -5,7 +5,7 @@ backend:
   #site_domain: practical-bohr-bc74e3.netlify.app
   site_domain: marllus.com
 
-media_folder: "/assets/images/" # Media files will be stored in the repo under images/uploads
+media_folder: "assets/images/" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/images/" # The src attribute for uploaded media will begin with /images/uploads
 publish_mode: editorial_workflow
 
@@ -19,12 +19,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - label: "Image"
-        name: "image"
-        widget: "image"
-        media_library:
-          config:
-            multiple: false
+      - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - label: "Author"
         name: "author"
@@ -38,7 +33,7 @@ collections:
       - {label: "id-ref", name: "id-ref", widget: "string", required: false}
       - {label: "Featured", name: "featured", widget: "boolean", required: false}
       - {label: "Hidden", name: "hidden", widget: "boolean", required: false}
-      - {label: "Tags", name: "tags", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
   # PAGES
   - name: "page"
     label: "Page"
