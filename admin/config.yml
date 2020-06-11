@@ -22,12 +22,10 @@ collections:
       - label: "Image"
         name: "image"
         widget: "image"
-        default: "/assets/images/"
         media_library:
           config:
             multiple: false
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-        #- {label: "Meta Description", name: "meta_description", widget: "string", required: false}
       - label: "Author"
         name: "author"
         widget: "select"
@@ -35,12 +33,11 @@ collections:
           - { label: "Marllus Lustosa", value: "marllus" }
           - { label: "Araphen", value: "araphen" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
-        #- {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Categories", name: "categories", widget: "string", required: false}
       - {label: "id-ref", name: "id-ref", widget: "string", required: false}
-      - {label: "Featured", name: "featured", widget: "string", required: false}
-      - {label: "Hidden", name: "hidden", widget: "string", required: false}
+      - {label: "Featured", name: "featured", widget: "boolean", required: false}
+      - {label: "Hidden", name: "hidden", widget: "boolean", required: false}
       - {label: "Tags", name: "tags", widget: "string", required: false}
   # PAGES
   - name: "page"
