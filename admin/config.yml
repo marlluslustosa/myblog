@@ -17,9 +17,15 @@ collections:
     path: "{{categories}}/{{slug}}"
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    preview_path: "blog/{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        default: "/assets/images/"
+        media_library:
+          config:
+            multiple: false
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
         #- {label: "Meta Description", name: "meta_description", widget: "string", required: false}
       - label: "Author"
@@ -35,7 +41,7 @@ collections:
       - {label: "id-ref", name: "id-ref", widget: "string", required: false}
       - {label: "Featured", name: "featured", widget: "string", required: false}
       - {label: "Hidden", name: "hidden", widget: "string", required: false}
-      - {label: "Tags", name: "tags", widget: "markdown", required: false}
+      - {label: "Tags", name: "tags", widget: "string", required: false}
   # PAGES
   - name: "page"
     label: "Page"
