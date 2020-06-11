@@ -2,7 +2,6 @@ backend:
   name: github
   repo: marlluslustosa/myblog
   branch: master
-  #site_domain: practical-bohr-bc74e3.netlify.app
   site_domain: marllus.com
 
 media_folder: "assets/images/" # Media files will be stored in the repo under images/uploads
@@ -19,7 +18,8 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Image (path: assets/images/img.jpg)", name: "image", widget: "string", required: true}
+      - {label: "Image-ref (Photo by <a href=..)", name: "image-ref", widget: "string", required: false}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - label: "Author"
         name: "author"
