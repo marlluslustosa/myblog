@@ -21,17 +21,21 @@ collections:
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Meta Description", name: "meta_description", widget: "string", required: false}
+        #- {label: "Meta Description", name: "meta_description", widget: "string", required: false}
       - label: "Author"
         name: "author"
         widget: "select"
         options:
-          - { label: "Dan Urbanowicz", value: "dan_urbanowicz" }
-          - { label: "John Doe", value: "john_doe" }
+          - { label: "Marllus Lustosa", value: "marllus" }
+          - { label: "Araphen", value: "araphen" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
-      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+        #- {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Categories", name: "categories", widget: "string", required: false}  
+      - {label: "Categories", name: "categories", widget: "string", required: false}
+      - {label: "id-ref", name: "id-ref", widget: "string", required: false}
+      - {label: "Featured", name: "featured", widget: "string", required: false}
+      - {label: "Hidden", name: "hidden", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "string", required: false}
   # PAGES
   - name: "page"
     label: "Page"
