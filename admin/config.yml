@@ -35,7 +35,7 @@ collections:
       - {label: "id-ref", name: "id-ref", widget: "string", required: false}
       - {label: "Featured", name: "featured", widget: "string", required: false}
       - {label: "Hidden", name: "hidden", widget: "string", required: false}
-      - {label: "Tags", name: "tags", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "markdown", required: false}
   # PAGES
   - name: "page"
     label: "Page"
