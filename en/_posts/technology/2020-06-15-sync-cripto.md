@@ -19,6 +19,8 @@ tags:
 - full volume
 - adaptive volume
 id-ref: sincronia-criptografia
+hidden: true
+lang: en
 ---
 
 This article provides a brief discussion of the types of cryptography available at the 'day to day' level and the implications of its use, both locally and in the cloud. Advanced technical procedures regarding the theoretical functioning of the mentioned types were not addressed here.
