@@ -84,6 +84,6 @@ gráfica que auxilia no processo de configuração de um *sandbox*.
 
 Se até aqui ficou meio nebuloso o processo de entendimento sobre o funcionamento desse tipo de isolamento, seguem [aqui](https://medium.com/@lets00/namespace-14c4e64d0559) e [aqui](https://www.redhat.com/pt-br/topics/virtualization/what-is-virtualization) alguns textos legais para o entendimento do conceitos iniciais sobre a temática.
 
-Esse artigo contou com a revisão do amigo [Eugênio](https://github.com/eugeniucarvalho), e as alterações no texto sugeridas por ele podem ser conferidas nesse [*commit*](https://github.com/marlluslustosa/myblog/commit/c6af8160ed6a36b04375b7792bec176feba7bbea#diff-2a07d11bb396a08c71442c36ab307dc2).
+Esse artigo contou com a revisão do amigo [Eugênio](https://github.com/eugeniucarvalho), e as alterações no texto sugeridas por ele podem ser conferidas neste [*commit*](https://github.com/marlluslustosa/myblog/commit/c6af8160ed6a36b04375b7792bec176feba7bbea#diff-2a07d11bb396a08c71442c36ab307dc2).
 
 É isso! Dúvidas nos comentários!<br>Obrigado! <br>:)
