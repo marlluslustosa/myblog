@@ -10,6 +10,8 @@ publish_mode: editorial_workflow
 
 collections:
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    preview_path: blog/{{year}}/{{month}}/{{title}}
+    preview_path_date_field: published_at
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "_posts/" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
