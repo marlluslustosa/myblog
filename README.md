@@ -6,7 +6,7 @@
 
 **The content** in Lulu space [marllus.com](https://marllus.com) it is [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). 
 
-### 🚀 Build and deploy
+### 🚀 Build
 
 ```bash
 git clone https://github.com/marlluslustosa/myblog
