@@ -40,7 +40,7 @@ rodeiam ou até um novo jeito de tentar mudar. Uma nova história.
 O radicalismo é perfeitamente intendível. Não há espaços para retórica, 
 pois a sua luta é direta e chocante (para o bem ou para o mal). O 
 moderado, na maioria das vezes, é associado a uma lesma: lento e 
-escorregadio e que só parece criar um ciclo sem fim (de pretenções). 
+escorregadio e que só parece criar um ciclo sem fim (de pretensões). 
 Mas, afinal, o quão ruim é ser comedido nas mudanças? Ou seria melhor 
 perguntar qual a melhor forma de se ter representatividade nas ações 
 para uma mudança plena, sendo ameno ou radical? Não se sabe…
@@ -100,14 +100,14 @@ não vou nem falar do efeito ‘de grão em grão’, mas do impacto pessoal da
 Sabe a teoria das [janelas quebradas](https://drauziovarella.com.br/drauzio/janelas-quebradas/)? Pois é, analogando seu princípio, um dos tipos de influência ideológica que mais ocorre pelo senso comum são as práticas contínuas de mudança  social, onde as culturas vão se modificando através da percepção do  outro, influenciado por atos alheios a ele. Seja descontentamento,  ambição, alegria ou desprezo, você vai atrair os mais diversos olhares  com a proposta de hábitos novos ou reciclados.
 
 > “O sistema cultural não é um sistema fechado, antes vai crescendo e 
-> transformando-se com o contributo intelectual e artístico dos homens e  mulheres de cada tempo e lugar. Sendo um fenômeno participado, que  concretiza a forma de expressão e de realização de um grupo, cada  geração irá dar-lhe o seu contributo ao encontrar novas formas e  idealizar outros valores, ao inventar outras formas de relacionamento e ao criar novas tecnologias. [1]”
+> transformando-se com o contributo intelectual e artístico dos homens e  mulheres de cada tempo e lugar. Sendo um fenômeno participado, que  concretiza a forma de expressão e de realização de um grupo, cada  geração irá dar-lhe o seu contributo ao encontrar novas formas e  idealizar outros valores, ao inventar outras formas de relacionamento e ao criar novas tecnologias.[[1]](https://www.scielo.br/scielo.php?pid=S0103-20702002000100002&script=sci_arttext&tlng=pt)”
 
 Acredito também nas mudanças radicais, porém, para se ter validade na manutenção de um ambiente coletivo e progressista, todas têm de ter como base os princípios e direitos humanos universais (ou pelo menos não 
 subvertê-los). Um sistema de mudança que leva consigo estes princípios 
 pode ser colocado em prática, chocando ou não.
 
-A enorme fatia mundial de deslizes humanos não está no ato de tentar 
+<mark>A enorme fatia mundial de deslizes humanos não está no ato de tentar 
 praticar algo que você não sabe se vai dar certo, mas, de supor que uma 
-solução não abrupta será pior que não fazer nada.
+solução não abrupta será pior que não fazer nada.</mark>
 
 {% include image.html url="/assets/images/pilao.jpg" description="Paçoca sendo batida no pilão. Chocante." %}
