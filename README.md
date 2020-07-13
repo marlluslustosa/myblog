@@ -1,6 +1,6 @@
 # Source code of my blog - Lulu space
 
-![logo](https://marllus.com/assets/images/logo.png =80x80)
+<img src="https://raw.githubusercontent.com/marlluslustosa/myblog/master/assets/images/logo.png" data-canonical-src="https://marllus.com/assets/images/logo.png" width="120" height="116" />
 
 **Mediumish for Jekyll theme** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license.
 
