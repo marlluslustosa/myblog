@@ -1,50 +1,40 @@
 ---
-title: Tempos loucos
+title: Voando consigo
 author: marllus
 categories:
 - poesia
 layout: post
-image: assets/images/tempos-loucos.jpeg
-image-ref: Photo by <a href="https://unsplash.com/@neonbrand">NeONBRAND</a>
+image: assets/images/voando-consigo.jpeg
+image-ref: Photo by <a href="https://unsplash.com/@rbmadaci">Rabie Madaci</a>
 tags:
 - poesia
 - sociedade
-- quarentena
-- isolamento
-- história
 - pensamentos
-id-ref: tempos-loucos
+id-ref: voando-consigo
 ---
 
-Já existiam os dias<br>
-E também as noites,<br>
-Loucas, mas sim,<br>
-Existiam.<br>
+Quando falo e penso,  
+Examino o mundo,  
+Cheio de arredores. No agora.
 
-Os navios negreiros,<br>
-Os fétidos corpos,<br>
-Aqueles corpos<br>
-Que nunca saíram de lá.<br>
+Deixo passar todo o resto,  
+Aquele resto que pode vir noutro tempo.  
+Naquela hora do outro agora.  
+O resto que não precisa, praquele momento.
 
-E os tempos foram passando<br>
-Como se realmente<br>
-Existissem ceitas<br>
-Ou pragas.<br>
+Mas sempre penso no que pode ficar.  
+Aquele dito que peguei.  
+E que reluto pra não desapegar.
 
-Bichos, Ternuras<br>
-travessuras, Desvios.<br>
+Talvez seja minha sina.  
+A de deixar passar.  
+Seja A ou B.  
+Pego tudo.  
+Mas, sabendo deixar ficar.
 
-Mas como sabemos, <br>
-Que sempre, um dia<br>
-Devemos saber,<br>
-Que podemos existir?<br>
+O eu se mistura com o ser.  
+Os dados estão dispersos.  
+A gente organiza.  
+E se vai.
 
-Essas curvas nunca acabam,<br>
-É um grande ping pong<br>
-De obscuras chamas<br>
-Que nunca cessam.<br>
-
-Os tempos parecem passar<br>
-Mas na verdade<br>
-São estáticos.<br>
-São os corpos, os andantes.<br>
+Imortalizado, escrito, eternizado.
