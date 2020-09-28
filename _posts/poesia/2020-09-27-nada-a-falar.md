@@ -1,5 +1,5 @@
 ---
-title: Nada a falar, mas tudo a dizer
+title: Nada a falar. Tudo a dizer
 author: marllus
 categories:
 - poesia
