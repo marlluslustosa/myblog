@@ -25,7 +25,7 @@ Este é o primeiro artigo de uma série chamada: "<mark>Na trilha com Qubes OS</
 
 #### Afinal, por que escolhi o Qubes OS?
 
-Primeiro, me considero um entusiasta dos mais diversos tipos de estratégias/metodologias/ferramentas que vão aparecendo no mundo da tecnologia. Além disso, tenho um pé nas áreas de virtualização, redes de computadores, segurança e uma intensa vontade de buscar a melhoria da proteção e privacidade do usuário comum. 
+Primeiro, me considero um entusiasta dos mais diversos tipos de estratégias/metodologias/ferramentas que vão aparecendo no mundo da tecnologia. Além disso, tenho um pé nas áreas de virtualização, redes de computadores, segurança e uma intensa vontade de buscar a melhoria da proteção da privacidade do usuário comum. 
 
 Ao longo dos anos, fui colocando em prática conceitos da [segurança por isolamento](https://dance.csc.ncsu.edu/papers/CSUR2016.pdf), em níveis cada vez mais profundos. Até chegar um momento em que me vi usando um Fedora onde quase todas as aplicações utilizadas eram isoladas com o uso da ferramenta [firejail](https://firejail.wordpress.com/), com regras específicas de bloqueio/liberação para cada uma delas. Para você ter noção, eu desligava a network do aplicativo calculadora, com medo de backdoors...
 
