@@ -25,9 +25,9 @@ Este é o primeiro artigo de uma série chamada: "<mark>Na trilha com Qubes OS</
 
 #### Afinal, por que escolhi o Qubes OS?
 
-Primeiro, me considero um entusiasta dos mais diversos tipos de estratégias/metodologias/ferramentas que vão aparecendo no mundo da tecnologia. Além disso, tenho um pé nas áreas de virtualização, redes de computadores, segurança e uma intensa vontade de buscar a melhora da proteção e privacidade do usuário comum. 
+Primeiro, me considero um entusiasta dos mais diversos tipos de estratégias/metodologias/ferramentas que vão aparecendo no mundo da tecnologia. Além disso, tenho um pé nas áreas de virtualização, redes de computadores, segurança e uma intensa vontade de buscar a melhoria da proteção e privacidade do usuário comum. 
 
-Ao longo dos anos, fui colocando em prática conceitos da [segurança por isolamento](https://dance.csc.ncsu.edu/papers/CSUR2016.pdf) em níveis cada vez mais profundos. Até chegar um momento em que me vi usando um Fedora onde quase todas as aplicações utilizadas era isoladas com o uso da ferramenta [firejail](https://firejail.wordpress.com/), com regras específicas de bloqueio/liberação para cada uma delas. Para você ter noção, eu desligava a network do aplicativo calculadora, com medo de backdoors...
+Ao longo dos anos, fui colocando em prática conceitos da [segurança por isolamento](https://dance.csc.ncsu.edu/papers/CSUR2016.pdf), em níveis cada vez mais profundos. Até chegar um momento em que me vi usando um Fedora onde quase todas as aplicações utilizadas eram isoladas com o uso da ferramenta [firejail](https://firejail.wordpress.com/), com regras específicas de bloqueio/liberação para cada uma delas. Para você ter noção, eu desligava a network do aplicativo calculadora, com medo de backdoors...
 
 Já escrevi sobre o firejail por [aqui](https://marllus.com/tecnologia/2020/07/03/sandbox-gnulinux.html). Fique à vontade para degustar.
 
@@ -47,7 +47,7 @@ Terminada a instalação do sistema operacional, setado uma senha de encriptaç�
 
 Nada demais, somente um xfce com algumas aplicações GNU/Linux pré instaladas, além de um gerenciador chamado *Dom0 Qube Manager*. Como o sistema tem por baixo o virtualizador Xen, Dom0 significa a primeira máquina virtual carregada, e que controla todo o hardware disponível, ou seja, é a primeira camada que tem acesso privilegiado à todo o hardware (e com isso, o isola). Para saber mais sobre Dom0 e DomU, leia a documentação [Xen](https://wiki.xenproject.org/wiki/Dom0).
 
-Ao utilizar o Qubes, o usuário tem que ter em mente **uma forma isolada de utilizar as coisas**. Antigamente, no meu uso isolado com firejail, mesmo utilizando diversas aplicações, ainda sim tinha um único sistema operacional como gerenciador do kernel principal. Com o Qubes OS, tenho vários kernels, o do Dom0, das DomU (e estas podem ser máquinas templates ou autônomas/standalones). Isso quer dizer que, na linguagem do usuário comum, tenho um grande virtualbox, onde cada máquina virtual (VM) representa uma apliciação nesse ambiente.
+Ao utilizar o Qubes, o usuário tem que ter em mente **uma forma isolada de utilizar as coisas**. Antigamente, no meu uso com firejail, mesmo utilizando diversas aplicações, ainda sim sabia que somente tinha um único sistema operacional como gerenciador do kernel principal. Com o Qubes OS, tenho vários kernels, o do Dom0, das DomUs (e estas podem ser máquinas templates ou autônomas/standalones). Isso quer dizer que, na linguagem do usuário comum, tenho um grande virtualbox, onde cada máquina virtual (VM) representa uma apliciação nesse ambiente.
 
 Então, com isso em mente, comecei a criar cada um de meus *qubes* - é assim que cada VMzinha é chamada dentro dele -, para os mais diversos fins.
 
@@ -57,7 +57,7 @@ Alguns modelos/templates já vêm pré instalados para utilização, como Fedora
 
 A vantagem da primeira estratégia é que você instalará o pacote normalmente no template, que por sua vez será replicado para o AppVM, após a próxima inicialização. A desvantagem é que qualquer AppVM baseado naquele template também terá esse aplicativo presente, o que pode não ser uma boa ideia, caso queira manter um aplicativo somente em um contexto de qubes.
 
-Já a segunda e terceira abordagens exigem que você especifique, em um arquivo de configuração, quais pastas deverão ser persistidas, o que acaba por aumentar o nível de complexidade, caso seja um usuário sem tanta experiência em administração de pacotes de softwares em ambiente GNU/Linux. Se for um programa que será compilado no sistema, e quiser definir a instalação no próprio qubes - e não no template -, é só marcar *--prefix=/usr/local/bin* no ato do *./configure*. 
+Já a segunda e terceira abordagens exigem que você especifique, em um arquivo de configuração, quais pastas deverão ser persistidas, o que acaba por aumentar o nível de complexidade, caso seja um usuário sem tanta experiência em administração de pacotes de softwares em ambiente GNU/Linux. Se for um programa que será compilado no sistema, e quiser definir a instalação no próprio qubes - e não no template -, é só marcar *\-\-prefix=/usr/local/bin* no ato do *./configure*. 
 
 Eu gosto de uma abordagem onde eu mesclo a primeira com a segunda estratégia, onde faço uma cópia de um template e o utilizo para algumas aplicações específicas, e nas configurações do AppVM, seto esse novo clone para ser a base do sistema operacional.
 
@@ -83,7 +83,7 @@ Após isso, aumentei o tamanho do armazenamento privado (*/rw*) do qubes para n�
 
 > Então, você deve estar se perguntando: Como diabos eu não tenho um overhead maluco por conta de tantos qubes, já que todos eles são mini sistemas operacionais?
 
-É aí onde mora a beleza. A forma como o sistema foi projetado faz com que ele crie uma ilusão de que cada qubes é autônomo - uma máquina virtual completa -, e que pode ler e escrever em todos os diretórios, inclusive na raiz (*/*). <mark>Mas é tudo ilusão</mark>, ou seja, você pode até tentar instalar uma aplicação localmente, e ela até funcionará, mas se reiniciar seu qubes tudo será perdido, porque você instalou em um lugar fake, no contexto de AppVM.
+É aí onde mora a beleza. A forma como o sistema foi projetado faz com que ele crie uma ilusão de que cada qubes é autônomo - uma máquina virtual completa -, e que pode ler e escrever em todos os diretórios, inclusive na raiz (*/*). <mark>Mas é tudo ilusão</mark>, ou seja, você pode até tentar instalar uma aplicação localmente, e ela até funcionará, mas se reiniciar seu qubes, tudo será perdido, porque você instalou em um lugar fake, no contexto de AppVM.
 
  Segundo a [documentação oficial](https://www.qubes-os.org/doc/templates/), o sistema de TemplateVM tem benefícios significativos:
 
