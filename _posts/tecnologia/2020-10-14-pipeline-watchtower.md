@@ -27,15 +27,15 @@ Pois bem, com o tempo esse processo começa a ficar efadonho, até você tomar a
 
 Bem, na literatura DevOps, quando há uma implantação replicável, descritiva e automatizada, dizemos que esse processo faz parte de um CD (Continuous Deployment). E aqui, proponho um pipeline CI/CD para este cenário, onde terei as seguintes ações:
 
-1. Build da imagem Docker (CI);
+1. <mark>Build da imagem Docker (CI);</mark>
 
-2. Push dessa imagem para um registry (CD - Continuous Delivery);
+2. <mark>Push dessa imagem para um registry (CD - Continuous Delivery);</mark>
 
-3. Notificação, por e-mail, da entrada de uma nova imagem no registry (passo anterior);
+3. <mark>Notificação, por e-mail, da entrada de uma nova imagem no registry (passo anterior);</mark>
 
-4. Pull da imagem e atualização dos containers (CD - Continuous Deployment);
+4. <mark>Pull da imagem e atualização dos containers (CD - Continuous Deployment);</mark>
 
-5. Notificação, por e-mail, da atualização dos containers (passo anterior);
+5. <mark>Notificação, por e-mail, da atualização dos containers (passo anterior);</mark>
 
 Com estes passos, todas as vezes que uma atualização de imagens no repositório ocorrer, ela irá ser testada e enviada para o registry e, automaticamente, será feita a atualização (pull) dessa imagem no Docker host que a hospeda, além disso, os containers também serão atualizados. Neste cenário, o seu trabalho passará a ser a espera de novas notificações sobre os processos de build, push e pull das imagens para a produção (trabalho muito difícil - :)) rs
 
