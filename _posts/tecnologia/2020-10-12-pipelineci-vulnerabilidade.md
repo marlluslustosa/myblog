@@ -1,5 +1,5 @@
 ---
-title: DevSecOps - Pipeline CI para gestão de vulnerabilidades em imagens Docker com  Github Actions
+title: DevSecOps - Pipeline CI/CD para gestão de vulnerabilidades em imagens Docker com  Github Actions
 author: marllus
 categories:
 - tecnologia
