@@ -13,7 +13,9 @@ comments: false
 </div>
 
 <!-- Script pointing to search-script.js -->
-<script src="{{site.baseurl}}/assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
+<!-- anteriormente estava usando arquivo local .js (linha abaixo), porém, vi que o dev atualizou o repo e o colocou no unpkg, então mudei para lá. Além disso, não está mais dando um erro, quando se verificava o console debug (firefox), apesar de funcionar normal. -->
+<!-- <script src="{{site.baseurl}}/assets/js/simple-jekyll-search.min.js" type="text/javascript"></script> -->
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
 
 <!-- Configuration -->
 <script>

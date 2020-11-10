@@ -57,22 +57,9 @@ Para implantação contínua, iremos utilizar o serviço [Watch Tower](https://g
 
 Então, no mesmo Docker host onde estão os containers referentes às imagens que acabou de atualizar, você vai subir um container do Watch Tower, já passando todos os parâmetros necessários:
 
-```bash
-docker run -d \
-  --name watchtower \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -e WATCHTOWER_NOTIFICATIONS=email \
-  -e WATCHTOWER_NOTIFICATION_EMAIL_FROM=fromaddresssengrid@example.com \
-  -e WATCHTOWER_NOTIFICATION_EMAIL_TO=toaddress@example.com \
-  -e WATCHTOWER_NOTIFICATION_EMAIL_SERVER=smtp.sendgrid.net \
-  -e WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PORT=587 \  
-  -e WATCHTOWER_NOTIFICATION_EMAIL_SERVER_USER=apikey \
-  -e WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PASSWORD=tokensendgrid \
-  -e WATCHTOWER_NOTIFICATION_EMAIL_DELAY=2 \
-  containrrr/watchtower
-```
+<script src="https://gist.github.com/marlluslustosa/23c21d5fa92d83743edda1b0056abb8c.js"></script>
 
- O comando acima sobe um container Watch Tower que vai monitorar todas as imagens, em um intervalo padrão de 5min, e caso alguma atualização aconteça, ele enviará uma notificação para o email setado (`EMAIL_TO`). Existem vários argumentos que ele suporta, inclusive, colocá-lo para monitorar hosts remotos, modo HTTP API, para somente aceitar triggers remotas, alterar o intervalo de monitoramento, excluir as imagens antigas, após a atualização, dentre vários outros pontos definidos na [documentação](https://containrrr.dev/watchtower/arguments/). Você pode também definir um `docker-compose.yml` para a subida do serviço, colocando as senhas e tokens como [arquivos env](https://docs.docker.com/compose/environment-variables/#the-env_file-configuration-option), e criptografá-los em repouso, usando, por exemplo, o [blackbox](https://github.com/StackExchange/blackbox), caso não queira deixá-los em texto plano.  
+ O comando acima sobe um container Watch Tower que vai monitorar todas as imagens, em um intervalo padrão de 5min, e caso alguma atualização aconteça, ele enviará uma notificação para o email setado (`EMAIL_TO`). Existem vários argumentos que ele suporta, inclusive, colocá-lo para monitorar hosts remotos, modo HTTP API, para somente aceitar triggers remotas, alterar o intervalo de monitoramento, excluir as imagens antigas, após a atualização, dentre vários outros pontos definidos na [documentação](https://containrrr.dev/watchtower/arguments/). Você pode também definir um `docker-compose.yml` para a subida do serviço, colocando as senhas e tokens como [arquivos env](https://docs.docker.com/compose/environment-variables/#the-env_file-configuration-option), e criptografá-los em repouso, usando, por exemplo, o [blackbox](https://github.com/StackExchange/blackbox), caso não queira deixá-los em texto plano.
 
 Com isso, finalizamos a definição de nosso pipeline CI/CD com integração, entrega e implantação contínuas de microsserviços Docker em produção, com notificação para todos os membros integrantes do processo. Fica a dica para implantar também um Job para análise de vulnerabilidade na imagem gerada, como escrevi [neste post](https://marllus.com/tecnologia/2020/10/12/pipelineci-vulnerabilidade.html). São muitas as possibilidades...
 
