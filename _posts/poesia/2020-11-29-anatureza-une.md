@@ -7,6 +7,7 @@ layout: post
 image: assets/images/ovos.jpg
 image-ref: Photo by <a href="https://unsplash.com/@nordwood">NordWood Themes</a>
 tags:
+- crônica
 - pensamento
 - reflexão
 - observação
