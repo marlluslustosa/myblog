@@ -21,3 +21,5 @@ Assim como as inquietações de Edvard Munch, que caminham entre doenças, vida 
 A loucura toma conta do ar, entremeada por agonia, rezas e rasga mortalhas, em um céu silencioso e de sangue.<br>
 Estamos vivendo a passagem do próprio tempo.<br>
 O sinal de pare pouco importa*.<br>
+
+Selecionado em:<br>[1ª exposição internacional de arte postal - coletivo engasga gato](https://www.instagram.com/coletivoengasgato/) <br>[Galera virtual da revista VemTambém - edição de maio/2020](https://vemtambem.com/revistamaio/0001.html) <br>[Casa Clic - Pausa na rede - expressões artísticas em tempos de quarentena](https://casaclicpalmas.wixsite.com/casaclic)
