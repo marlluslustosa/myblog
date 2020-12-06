@@ -32,6 +32,6 @@ The stop sign little matters.<br>
 I can only scream.<br>
 
 Exhibitions:  
-[1st international exhibition of postal art - engasga gato collective](https://www.instagram.com/coletivoengasgato/)
-[Virtual galley of VemTambém magazine - May/2020 edition](https://vemtambem.com/revistamaio/0001.html)
+[1st international exhibition of postal art - engasga gato collective](https://www.instagram.com/coletivoengasgato/)<br>
+[Virtual galley of VemTambém magazine - May/2020 edition](https://vemtambem.com/revistamaio/0001.html)<br>
 [Casa Clic - Pause on the network - artistic expressions in quarantine times](https://casaclicpalmas.wixsite.com/casaclic)
