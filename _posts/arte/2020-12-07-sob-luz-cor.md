@@ -27,7 +27,6 @@ Versão 1
 Versão 2
 
 <iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/LTvyR2oCjes" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
 
-> Produção: Marllus Lustosa
-> 
-> Roteiro: Cássia Mateus
+> Produção: Marllus Lustosa<br>Roteiro: Cássia Mateus
