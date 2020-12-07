@@ -19,7 +19,7 @@ tags:
 id-ref: nst-arte
 ---
 
-<br> 
+
 
 Minicurso sobre o processo criativo que apresenta o conceito de “Transferência de Estilo Neural”, técnica utilizada por mim na produção de ilustrações digitais. Ao mesmo tempo, trás à tona a reflexão sobre o uso da Inteligência Artificial como ferramenta de compreensão da habilidade de criação de experiências visuais únicas, através da formalização de uma interação complexa entre o conteúdo e o estilo de um artista. 
 
