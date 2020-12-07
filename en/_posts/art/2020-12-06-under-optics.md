@@ -30,6 +30,8 @@ id-ref: sob-otica
 
 <br>
 
-What would the works of artists Chico da Silva, Aldemir Martins and Raimundo Cela look like, from the perspective of Pablo Picasso, Claude Monet or Van Gogh? This collection of illustrations uses Artificial Intelligence (AI) to propose a method to understand how these concepts could converge, in addition to bringing up the reflection on the use of AI as a tool for understanding the ability to create visual experiences unique, through the formalization of a complex interaction between an artist's content and style. This work brings to light the concept of ‘Generative Adversary Networks (GAN)’, which is linked to a field in the area of Computer Science, called Deep Neural Networks (Deep Learning). Currently, GANs are considered a vanguard in contemporary art.
+*What would the works of artists Chico da Silva, Aldemir Martins and Raimundo Cela look like, from the perspective of Pablo Picasso, Claude Monet or Van Gogh?*
+
+This collection of illustrations uses Artificial Intelligence (AI) to propose a method to understand how these concepts could converge, in addition to bringing up the reflection on the use of AI as a tool for understanding the ability to create visual experiences unique, through the formalization of a complex interaction between an artist's content and style. This work brings to light the concept of ‘Generative Adversary Networks (GAN)’, which is linked to a field in the area of Computer Science, called Deep Neural Networks (Deep Learning). Currently, GANs are considered a vanguard in contemporary art.
 
 Exhibitions:<br>[Art in COVID-19 times - UFC Art Museum (Federal University of Ceará - Brazil)](https://mauc.ufc.br/pt/marllus-lustosa/)
