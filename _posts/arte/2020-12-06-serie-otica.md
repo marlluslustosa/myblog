@@ -1,0 +1,43 @@
+---
+title: Sob a ótica
+author: marllus
+categories:
+- arte
+layout: post
+image: assets/images/gato-gogh.jpg
+image-ref: Gato na noite de Van Gogh (Arte digital – ilustração, 2700 x 2100 pixels, 2020. Marllus Lustosa)
+tags:
+- arte
+- poesia
+- pintores ceará
+- gan
+- deeplearning
+- ganart
+- chico da silva
+- aldemir martins
+- raimundo cela
+- pablo picasso
+- claude monet
+- van gogh
+id-ref: sob-otica
+---
+
+{% include image.html url="/assets/images/cela-picasso.jpeg" description="Cabeça de homem sob Picasso. (Arte digital – ilustração, 2832 x 2688 pixels, 2020. Marllus Lustosa)" %}<br>
+
+{% include image.html url="/assets/images/galo-monet.jpeg" description="Um galo no jardim de Monet (Arte digital – ilustração, 1856 x 2688 pixels, 2020. Marllus Lustosa)" %}
+
+<br>
+
+Como seriam as obras dos artistas Chico da Silva, Aldemir Martins e Raimundo Cela, sob a ótica de Pablo 
+Picasso, Claude Monet ou Van Gogh? Essa coleção de ilustrações, utiliza a
+ Inteligência Artificial (IA) na proposta de um método no entendimento 
+de como esses conceitos poderiam se convergir, além de trazer à tona a 
+reflexão sobre o uso da IA como ferramenta de compreensão da habilidade 
+de criação de experiências visuais únicas, através da formalização de 
+uma interação complexa entre o conteúdo e o estilo de um artista. Este 
+trabalho traz à tona o conceito de ‘Redes Adversárias Generativas 
+(GAN)’, o qual é atrelado a um campo na área da Ciência da Computação, 
+chamado de Redes Neurais Profundas (Deep Learning). Atualmente, as GANs 
+são consideradas uma vanguarda na arte contemporânea.
+
+Exposição:<br>[Exposição 2020.6 – Arte em tempos de COVID-19](https://mauc.ufc.br/pt/marllus-lustosa/)
