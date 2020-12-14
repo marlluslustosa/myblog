@@ -17,7 +17,7 @@ tags:
 id-ref: cripto-blackbox
 ---
 
-Continuando com a temática [DevSecOps]({{site.baseurl}}/tags#devsecops), esse artigo apresenta o conceito de criptografia de dados em repouso e trás um HandsOn sobre essa proteção, apresentando um design de criptografia, que utiliza dados em repositórios git e chaves assimétricas GPG.
+Continuando com a temática [DevSecOps]({{site.baseurl}}/tags#devsecops), esse artigo apresenta o conceito de criptografia de dados em repouso e trás um *HandsOn* sobre essa proteção, apresentando um design de criptografia, que utiliza dados em repositórios git e chaves assimétricas GPG.
 
 #### Criptografia em repouso
 
