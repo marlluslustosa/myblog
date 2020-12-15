@@ -87,3 +87,8 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+#add snipcart collection
+collections:
+ - products
+

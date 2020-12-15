@@ -2,7 +2,7 @@
 title: Under the optics
 author: marllus
 categories:
-- arte
+- art
 layout: post
 image: assets/images/gato-gogh.jpg
 image-ref: Van Gogh Night Cat (Digital art – illustration, 2700 x 2100 pixels, 2020. Marllus Lustosa)
