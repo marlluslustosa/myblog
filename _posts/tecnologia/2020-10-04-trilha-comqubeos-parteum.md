@@ -17,7 +17,7 @@ id-ref: qubesos-parteum
 
 Em meados de 2018, conheci o sistema operacional Qubes OS (Um sistema operacional razoavelmente seguro - em tradução literal). Na época, não tinha tanta memória RAM (um dos principais requisitos para utilizá-lo de forma eficaz). Por conta disso, minha experiência não foi legal, apesar de admirar o sistema. Com a pandemia, tive que reformar minha estação de trabalho, para poder melhorar a agilidade na entrega - agora à distância -, e conciliar um notebook para uso pessoal e profissional.
 
-Comprei uma memória RAM de 16GB e a anexei ao segundo slot vazio do meu note, totalizando 26GB (com os 8 que já tinha). Então, é chegada a hora de retorno aos meus  testes com o Qubes OS, nessa trilha com sol escaldante e poucos suprimentos. 
+Comprei uma memória RAM de 16GB e a anexei ao segundo slot vazio do meu note, totalizando 24GB (com os 8 que já tinha). Então, é chegada a hora de retorno aos meus  testes com o Qubes OS, nessa trilha com sol escaldante e poucos suprimentos. 
 
 Nesta jornada, compartilharei minha experiência de uso, em formato de diário digital.
 
