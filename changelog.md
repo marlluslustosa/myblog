@@ -52,6 +52,7 @@
 ## 2019-02-10
 - Fixed CSS Jumbotron categories
 
+
 ## 2019-02-09
 - Fixed Category links are now compatible with Github pages. Archive still available for non Github pages.
 - Added Search
