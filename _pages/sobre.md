@@ -10,7 +10,7 @@ intro_paragraph: ""
 
 Nasci e me criei em Teresina-PI, fiz o bacharelado em Ciência da Computação pela Universidade Federal do Piauí (UFPI) e mestrado em Políticas Públicas e Gestão do Ensino Superior pela Universidade Federal do Ceará (UFC). Trabalho como analista de TI nessa mesma instituição e moro atualmente em Fortaleza-CE. Paralelamente, atuo como professor universitário em cursos de TI. <p>
 
-<p> Mergulho sempre em tudo que achar interessante, como agroecologia, filosofia, ciência de dados, conectivismo, blockchain, capital social, ativismo político, software livre, segurança, além de contribuir para projetos e ideias que realmente importam para uma internet democrática. Sou entusiasta do Tor, ZeroNet, Subutai, XCP-ng, redes federadas e JAMstack. Atualmente, meu hobbie são as Redes Adversárias Generativas (GANs) como ferramenta para geração de arte. Confira meu <a target="_blank" href="https://instagram.com/ganartedigital">Instagram</a>.</p>
+<p> Mergulho sempre em tudo que achar interessante, como agroecologia, filosofia, ciência de dados, conectivismo, blockchain, capital social, ativismo político, software livre, segurança e privacidade e arte generativa, além de contribuir para projetos e ideias que realmente importam para uma internet democrática. Sou entusiasta do Tor, ZeroNet, Subutai, XCP-ng, redes federadas e JAMstack. Atualmente, utilizo Machine Learning como ferramenta para produção de arte. Confira meu <a target="_blank" href="https://instagram.com/ganartedigital">Instagram</a>.</p>
 	
 <div class="sticky-top sticky-top-80"> 
 <h5>Habilidades</h5> 
