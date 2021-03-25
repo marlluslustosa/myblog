@@ -10,7 +10,7 @@ comments: false
 
 Me envie uma mensagem segura, usando minha <a href="https://memoria.rnp.br/keyserver/pks/lookup?op=get&search=0xBF2347A4E389C83D" target="_blank">chave Pública PGP</a>. <br>
 Digite a mensagem abaixo e clique em <b>Encrypt</b>.  <br>
-    Após isso, copie o texto gerado e me envie por <a href="mailto:marlluslustosa@riseup.net">e-mail</a>, <a href="https://t.me/lulusto"  target="_blank"> telegram</a>, <a href="https://instagram.com/ganartedigital"  target="_blank">instagram</a>, <a href="{{ site.baseurl }}/directmsg" target="_blank">anonimamente</a> ou qualquer outra forma de comunicação textual. <br>
+    Após isso, copie o texto gerado e me envie por <a href="mailto:marlluslustosa@riseup.net">e-mail</a>, <a href="https://t.me/lulu1430"  target="_blank"> telegram</a>, <a href="https://instagram.com/ganartedigital"  target="_blank">instagram</a>, <a href="{{ site.baseurl }}/directmsg" target="_blank">anonimamente</a> ou qualquer outra forma de comunicação textual. <br>
     Somente <b>eu</b> conseguirei abrir a mensagem.
 
 <p><textarea id="input" class="contact-form" style="width: 300px; height: 140px;"></textarea><br>
