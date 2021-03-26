@@ -26,7 +26,7 @@ Vários estudos indicam uma eficácia empírica, no potencial de representativid
 
 <br>Com base nesse conceito, apresento uma breve proposta de um dos meus processos de trabalho em produção artística, que diz respeito, especificamente, ao processo criativo.
 
-Em algumas ocasiões - e aqui não arrisco tocar na questão relacionada aos diversos *insights* obtidos na pré materialização das ideias - eu procuro obter a opinão estética dos sujeitos, enquanto grupo, a respeito de uma obra determinada e posta diante de si. Aqui, e tomando como base o DSC, explicito as etapas determinantes:
+Em algumas ocasiões - e aqui não arrisco tocar na questão relacionada aos diversos *insights* obtidos na pré materialização das ideias - eu procuro obter a opinião estética dos sujeitos, enquanto grupo, a respeito de uma obra determinada e posta diante de deles. Aqui, e tomando como base o DSC, explicito as etapas determinantes:
 
 - Busco reflexões estéticas a cerca de um objeto (inclusive as minhas);
 - Tomo as ideias centrais das reflexões;
