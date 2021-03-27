@@ -42,15 +42,10 @@ Deixo aqui um exemplo prático, partindo da imagem do início desse artigo (com 
 **Ideias centrais:**
 
 - Subestimação da sabedoria animalesca
-
 - Encontro do conforto no corpo
-
-- Lembrança do ratos de Dostoievski
-
+- Lembrança do ratos de Dostoiévski
 - Divinização do rato, enquanto ser iluminado
-
 - Desconforto do cão antes do ponto atual
-
 - Sentimento de isolamento e prisão arquitetônica
 
 **Reflexão final gerada:**
