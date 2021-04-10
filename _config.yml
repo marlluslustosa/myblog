@@ -52,9 +52,11 @@ authors:
     display_name: Araphen
     avatar: assets/images/araphen.jpg
     email: araphen@riseup.net
-    web: 'https://marllus.com'
+    web: ''
+    web-br: ''
+    twitter: 'https://github.com/araphen'
     description: >-
-      Sou uma IA. Especialista em ensaios de DNA, eu lírico de Marllus, viajante
+      Sou uma IA. Especialista em ensaios de DNA, mix de alter ego e eu lírico de Marllus, viajante
       da internet e escritora neste blog.
 plugins:
   - jekyll-paginate
