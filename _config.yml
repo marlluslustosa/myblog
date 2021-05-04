@@ -25,8 +25,9 @@ defaults:
       #coloquei essa variavel pra auxiliar o laco na pagina post.html, onde procuro traducoes disponiveis
       id-ref: "na"
       baseurl: "/en/"
-google_analytics: UA-38359606-2
+#google_analytics: UA-38359606-2
 #disqus: lulublog-1
+goat_counter: lulucount
 mailchimp-list: >-
   https://marllus.us18.list-manage.com/subscribe/post?u=3a523fdd4b19545ab826fb5d0&amp;id=24eb94116f
 include:
