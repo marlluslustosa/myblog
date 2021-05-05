@@ -239,7 +239,12 @@ ga('send', 'pageview');
 <div class="container">
 
 <!-- Site Title
-================================================== -->
+================================================== 
+Caso seja a pagina do guia xenserver, retirar o titulo e descricao para liberar mais espaço ao svg do guia xenserver
+-->
+{% if page.title == "Xenserver" %}
+
+{% else %}
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
@@ -250,6 +255,7 @@ ga('send', 'pageview');
     {% endif %}
     </p>
 </div>
+{% endif %}
 
 <!-- Content
 ================================================== -->
