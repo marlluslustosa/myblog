@@ -48,4 +48,4 @@ ____
 
 *Se quiser contribuir com um gole fugaz de apoio, pode comprar meu livro:* 
 
-[Livro físico ou virtual](http://kutt.marllus.com/PEU6tO)
+[Livro físico ou virtual](http://kutt.marllus.com/4Py84v)
