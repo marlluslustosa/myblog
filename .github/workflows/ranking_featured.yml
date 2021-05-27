@@ -15,6 +15,8 @@ jobs:
     - name: Create local changes
       run: |
         bash export_goat.sh ${{ secrets.TOKEN_GOAT }} ${{ secrets.API_URL_GOAT }} > export.txt
+        bash edit_ranking.sh
+        rm -rf export.txt
 
     - name: Commit files
       run: |
