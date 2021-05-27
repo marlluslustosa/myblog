@@ -4,6 +4,10 @@ on:
   push:
     branches: [ master ]
 
+  schedule:
+    # toda segunda-feira às 8 horas da matina!
+    - cron: '0 8 * * 1'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,14 +20,13 @@ jobs:
       run: |
         bash export_goat.sh ${{ secrets.TOKEN_GOAT }} ${{ secrets.API_URL_GOAT }} > export.txt
         bash edit_ranking.sh
-        rm -rf export.txt
 
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        git commit -m "add exports.txt" -a
+        git commit -m "edit ranking featured posts"
 
     - name: Push changes
       uses: ad-m/github-push-action@master
