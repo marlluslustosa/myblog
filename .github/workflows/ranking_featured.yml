@@ -6,7 +6,8 @@ on:
 
   schedule:
     # toda segunda-feira às 8 horas da matina!
-    - cron: '0 8 * * 1'
+    #- cron: '0 8 * * 1'
+    - cron: '0 */1 * * *'
 
 jobs:
   build:
