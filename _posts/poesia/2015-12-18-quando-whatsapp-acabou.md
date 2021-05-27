@@ -11,7 +11,6 @@ tags:
 - whatsapp
 - reflexao
 - pensamento
-rating: 5
 id-ref: quando-whats-acabou
 ---
 

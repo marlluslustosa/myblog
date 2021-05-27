@@ -13,7 +13,6 @@ tags:
 - reflexao
 - pensamento
 - mudanca
-rating: 5
 id-ref: no-inicio-nos
 ---
 

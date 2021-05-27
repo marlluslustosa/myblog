@@ -2,7 +2,6 @@
 title: Um relapso ar puro
 categories: [ poesia ]
 author: marllus
-rating: 4
 layout: post
 image: assets/images/relapsoar.jpg
 ---
