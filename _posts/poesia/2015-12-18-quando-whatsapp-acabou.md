@@ -12,7 +12,6 @@ tags:
 - reflexao
 - pensamento
 rating: 5
-featured: true
 id-ref: quando-whats-acabou
 ---
 

@@ -1,5 +1,8 @@
 ---
 title: Xenserver/XCP-ng - Cópia de VMs com RAM
+featured: true
+hidden: true
+rating: 4
 author: marllus
 categories:
 - tecnologia

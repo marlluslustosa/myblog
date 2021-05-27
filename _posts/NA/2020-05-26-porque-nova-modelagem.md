@@ -20,8 +20,6 @@ tags:
 - medium
 - gan
 - steam
-hidden: true
-featured: true
 id-ref: porque-novo-blog
 ---
 
