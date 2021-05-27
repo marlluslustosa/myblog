@@ -14,12 +14,13 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create local changes
       run: |
-        bash export_goat.sh > export.txt
+        bash export_goat.sh ${{ secrets.TOKEN_GOAT }} ${{ secrets.API_URL_GOAT }} > export.txt
 
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
+        git add .
         git commit -m "add exports.txt" -a
 
     - name: Push changes
