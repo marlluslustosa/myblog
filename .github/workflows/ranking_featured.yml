@@ -49,7 +49,7 @@ jobs:
     - name: SendGrid Action
       if: ${{ steps.ranking.outputs.NEWFILERANKING }} == false
       uses: mmichailidis/sendgrid-mail-action@v1.0
-     with:
+      with:
         sendgrid-token: ${{ secrets.SENDGRID_API_KEY }}
         mail: marlluslustosa@gmail.com #email de destino
         #from definido no sendgrid - https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html
