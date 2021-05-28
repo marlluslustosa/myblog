@@ -20,14 +20,17 @@ jobs:
       id: ranking
       run: |
         bash export_goat.sh ${{ secrets.TOKEN_GOAT }} ${{ secrets.API_URL_GOAT }} > export.txt
+        rm -rf ranking_posts_old
         cp ranking_posts ranking_posts_old
         bash edit_ranking.sh
         diff ranking_posts ranking_posts_old
         if [ $? -eq 0 ]; then
-            echo ::set-output name=newrankingfile::true
+          echo '::set-output name=NEWFILERANKING::true'
         else
-            echo ::set-output name=newrankingfile::false
+          echo '::set-output name=NEWFILERANKING::false'
         fi
+        rm -rf ranking_posts_old
+        rm -rf export.txt
 
     - name: Commit files
       id: commit
@@ -43,7 +46,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
 
-    - if: ${{ steps.commit.outputs.newrankingfile }} == true
+    - if: ${{ steps.ranking.outputs.NEWFILERANKING }} == true
       name: SendGrid Action
       uses: mmichailidis/sendgrid-mail-action@v1.0
       with:
