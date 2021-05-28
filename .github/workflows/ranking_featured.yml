@@ -39,7 +39,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: rankingposts
-        path: ranking_posts
+        path: ./ranking_posts
 
     - name: Commit files
       id: commit
@@ -73,7 +73,7 @@ jobs:
     - uses: actions/download-artifact@v2
       with:
         name: rankingposts
-        path: ranking_posts
+        path: ./ranking_posts
         
     - uses: mmichailidis/sendgrid-mail-action@v1.0
       with:
