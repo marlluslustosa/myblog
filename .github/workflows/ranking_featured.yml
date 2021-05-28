@@ -24,11 +24,11 @@ jobs:
         cp ranking_posts ranking_posts_old
         bash edit_ranking.sh
         diff ranking_posts ranking_posts_old
-        if [ $? -eq 0 ]; then
-          echo '::set-output name=NEWFILERANKING::true'
-        else
-          echo '::set-output name=NEWFILERANKING::false'
-        fi
+        #if [ $? -eq 0 ]; then
+        echo '::set-output name=NEWFILERANKING::true'
+          #else
+        #echo '::set-output name=NEWFILERANKING::false'
+        #fi
         rm -rf ranking_posts_old
         rm -rf export.txt
 
@@ -46,7 +46,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
 
-    - if: ${{ steps.ranking.outputs.NEWFILERANKING }} == true
+    - if: ${{ steps.ranking.outputs.NEWFILERANKING }} == false
       name: SendGrid Action
       uses: mmichailidis/sendgrid-mail-action@v1.0
       with:
