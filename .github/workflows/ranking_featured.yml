@@ -24,6 +24,7 @@ jobs:
         cp ranking_posts ranking_posts_old
         bash edit_ranking.sh
         diff ranking_posts ranking_posts_old
+        #test - compare two files byte by byte
         if cmp -s ranking_posts ranking_posts_old ; then
           echo '::set-output name=NEWFILERANKING::false'
         else
