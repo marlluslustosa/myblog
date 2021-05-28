@@ -35,12 +35,6 @@ jobs:
         rm -rf ranking_posts_old
         rm -rf export.txt
 
-    - name: Upload ranking_posts
-      uses: actions/upload-artifact@v2
-      with:
-        name: rankingposts
-        path: ./ranking_posts
-
     - name: Commit files
       id: commit
       run: |
