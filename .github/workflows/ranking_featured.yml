@@ -64,7 +64,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     #- name: SendGrid Action
-      uses: mmichailidis/sendgrid-mail-action@v1.0
+    - uses: mmichailidis/sendgrid-mail-action@v1.0
       with:
         sendgrid-token: ${{ secrets.SENDGRID_API_KEY }}
         mail: marlluslustosa@gmail.com #email de destino
