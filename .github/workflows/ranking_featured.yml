@@ -78,4 +78,4 @@ jobs:
         subject: Artigos em destaque - Lulu space
         text: Uma mudança foi detectada nos artigos destacados!
       #if files not equals then
-      if: needs.build.outputs.newfileranking == 'true'
+      if: needs.build.outputs.newfileranking == 'false'
