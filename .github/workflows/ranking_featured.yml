@@ -34,6 +34,7 @@ jobs:
         else
             echo ::set-output name=newfeaturedfile::true
         fi
+        echo 0
 
     - name: Push changes
       uses: ad-m/github-push-action@master
