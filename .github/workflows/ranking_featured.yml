@@ -32,8 +32,8 @@ jobs:
         if [ $? -eq 1 ]; then
             echo ::set-output name=newfeaturedfile::false
         else
-	    echo ::set-output name=newfeaturedfile::true
-	fi
+            echo ::set-output name=newfeaturedfile::true
+        fi
 
     - name: Push changes
       uses: ad-m/github-push-action@master
