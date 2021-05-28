@@ -70,8 +70,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     #- name: SendGrid Action
-    - name: Download ranking_posts job build
-      uses: actions/download-artifact@v2
+    - uses: actions/download-artifact@v2
       with:
         name: rankingposts
 
