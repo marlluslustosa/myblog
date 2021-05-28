@@ -20,7 +20,7 @@ jobs:
       run: |
         bash export_goat.sh ${{ secrets.TOKEN_GOAT }} ${{ secrets.API_URL_GOAT }} > export.txt
         bash edit_ranking.sh
-	rm -rf export.txt
+        rm -rf export.txt
 
     - name: Commit files
       id: commit
@@ -29,7 +29,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add .
         git commit -m "edit ranking featured posts"
-	if [ $? -eq 1 ]; then
+        if [ $? -eq 1 ]; then
             echo ::set-output name=newfeaturedfile::false
         else
 	    echo ::set-output name=newfeaturedfile::true
