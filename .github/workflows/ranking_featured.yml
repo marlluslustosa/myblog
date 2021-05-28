@@ -11,8 +11,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    outputs:
-      newfileranking: ${{ steps.ranking.outputs.NEWFILERANKING }}
     steps:
     - uses: actions/checkout@v2
       with:
@@ -49,27 +47,14 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
 
-#    - name: SendGrid Action
-#      uses: mmichailidis/sendgrid-mail-action@v1.0
-#      with:
-#        sendgrid-token: ${{ secrets.SENDGRID_API_KEY }}
-#        mail: marlluslustosa@gmail.com #email de destino
-##        #from definido no sendgrid - https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html
-#        from: lulusendgrid@riseup.net
-#        subject: Artigos em destaque - Lulu space
-#        text: Aqui é um exemplo de notificação de arquivos de destaque por email!
-#      #if files not equals then
-#      if: steps.ranking.outputs.NEWFILERANKING == 'true'
-  mail:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: mmichailidis/sendgrid-mail-action@v1.0
+    - name: SendGrid Action
+      uses: mmichailidis/sendgrid-mail-action@v1.0
       with:
         sendgrid-token: ${{ secrets.SENDGRID_API_KEY }}
         mail: marlluslustosa@gmail.com #email de destino
         #from definido no sendgrid - https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html
         from: lulusendgrid@riseup.net
         subject: Artigos em destaque - Lulu space
-        text: Uma mudança foi detectada nos artigos destacados!
+        text: Aqui é um exemplo de notificação de arquivos de destaque por email!
       #if files not equals then
-      if: needs.build.outputs.newfileranking == 'true'
+      if: steps.ranking.outputs.NEWFILERANKING == 'false'
