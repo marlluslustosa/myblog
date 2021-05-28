@@ -61,6 +61,7 @@ jobs:
 #      #if files not equals then
 #      if: steps.ranking.outputs.NEWFILERANKING == 'true'
   mail:
+    runs-on: ubuntu-latest
     - name: SendGrid Action
       uses: mmichailidis/sendgrid-mail-action@v1.0
       with:
