@@ -62,7 +62,8 @@ jobs:
 #      if: steps.ranking.outputs.NEWFILERANKING == 'true'
   mail:
     runs-on: ubuntu-latest
-    - name: SendGrid Action
+    steps:
+    #- name: SendGrid Action
       uses: mmichailidis/sendgrid-mail-action@v1.0
       with:
         sendgrid-token: ${{ secrets.SENDGRID_API_KEY }}
