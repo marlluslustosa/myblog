@@ -55,6 +55,6 @@ jobs:
         #from definido no sendgrid - https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html
         from: lulusendgrid@riseup.net
         subject: Artigos em destaque - Lulu space
-        text: Aqui é um exemplo de notificação de arquivos de destaque por email!
+        text: Há uma mudança nos destaques do blog!
       #if files not equals then
-      if: steps.ranking.outputs.NEWFILERANKING == 'false'
+      if: steps.ranking.outputs.NEWFILERANKING == 'true'
