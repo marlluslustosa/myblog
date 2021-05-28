@@ -26,11 +26,21 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        git commit -m "edit ranking featured posts"
+        git commit -m "edit ranking featured posts" --allow-empty
 
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
+
+    - name: SendGrid Action
+      uses: mmichailidis/sendgrid-mail-action@v1.0
+      with:
+        sendgrid-token: ${{ secrets.SENDGRID_API_KEY }}
+        mail: marlluslustosa@gmail.com #email de destino
+        #from definido no sendgrid - https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html
+        from: lulusendgrid@riseup.net
+        subject: Artigos em destaque - Lulu space
+        text: Aqui é um exemplo de notificação de arquivos de destaque por email!
 
