@@ -1,7 +1,7 @@
 ---
 layout: post
 image: assets/images/ogrito.jpg
-title: Só me resta o grito
+title: Esse é um post de teste usando CMS lulu
 author: marllus
 date: 2021-05-28 12:24:48
 categories:
