@@ -69,12 +69,6 @@ jobs:
   mail:
     runs-on: ubuntu-latest
     steps:
-    #- name: SendGrid Action
-    - uses: actions/download-artifact@v2
-      with:
-        name: rankingposts
-        path: ./ranking_posts
-        
     - uses: mmichailidis/sendgrid-mail-action@v1.0
       with:
         sendgrid-token: ${{ secrets.SENDGRID_API_KEY }}
@@ -82,6 +76,6 @@ jobs:
         #from definido no sendgrid - https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html
         from: lulusendgrid@riseup.net
         subject: Artigos em destaque - Lulu space
-        text: Aqui é um exemplo de notificação de arquivos de destaque por email!
+        text: Uma mudança foi detectada nos artigos destacados!
       #if files not equals then
       if: needs.build.outputs.newfileranking == 'true'
