@@ -35,6 +35,12 @@ jobs:
         rm -rf ranking_posts_old
         rm -rf export.txt
 
+    - name: Upload ranking_posts
+        uses: actions/upload-artifact@v2
+        with:
+          name: rankingposts
+          path: ranking_posts
+
     - name: Commit files
       id: commit
       run: |
@@ -64,6 +70,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     #- name: SendGrid Action
+    - name: Download ranking_posts job build
+      uses: actions/download-artifact@v2
+      with:
+        name: rankingposts
+
     - uses: mmichailidis/sendgrid-mail-action@v1.0
       with:
         sendgrid-token: ${{ secrets.SENDGRID_API_KEY }}
