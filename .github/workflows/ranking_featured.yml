@@ -27,6 +27,8 @@ jobs:
         #test - compare two files byte by byte
         if cmp -s ranking_posts ranking_posts_old ; then
           echo '::set-output name=NEWFILERANKING::false'
+          ranking_list=`cat ranking_posts`
+          echo '::set-output name=RANKING_LIST::$ranking_list'
         else
           echo '::set-output name=NEWFILERANKING::true'
         fi
@@ -55,6 +57,6 @@ jobs:
         #from sendgrid - https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html
         from: lulusendgrid@riseup.net
         subject: Artigos em destaque - Lulu space
-        text: Há uma mudança nos destaques do blog! echo ${{ steps.ranking.outputs.NEWFILERANKING }}
+        text: Há uma mudança nos destaques do blog! "echo -e ${{ steps.ranking.outputs.RANKING_LIST }}"
       #if files not equals then
       if: steps.ranking.outputs.NEWFILERANKING == 'false'
