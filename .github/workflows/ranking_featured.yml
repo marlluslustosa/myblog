@@ -29,11 +29,12 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add -A
         git diff-index --quiet HEAD || git commit -m "edit ranking featured posts"
-        if [ ! $? -eq 0 ]; then
-            echo ::set-output name=newfeaturedfile::false
-        else
+        if [ $? -eq 0 ]; then
             echo ::set-output name=newfeaturedfile::true
+        else
+            echo ::set-output name=newfeaturedfile::false
         fi
+        echo $newfeaturedfile
 
     - name: Push changes
       uses: ad-m/github-push-action@master
