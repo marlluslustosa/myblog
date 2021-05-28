@@ -17,10 +17,17 @@ jobs:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create local changes
+      id: ranking
       run: |
         bash export_goat.sh ${{ secrets.TOKEN_GOAT }} ${{ secrets.API_URL_GOAT }} > export.txt
+        cp ranking_posts ranking_posts_old
         bash edit_ranking.sh
-        rm -rf export.txt
+        diff ranking_posts ranking_posts_old
+        if [ $? -eq 0 ]; then
+            echo ::set-output name=newrankingfile::true
+        else
+            echo ::set-output name=newrankingfile::false
+        fi
 
     - name: Commit files
       id: commit
@@ -29,12 +36,6 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add -A
         git diff-index --quiet HEAD || git commit -m "edit ranking featured posts"
-        if [ $? -eq 0 ]; then
-            echo ::set-output name=newfeaturedfile::true
-        else
-            echo ::set-output name=newfeaturedfile::false
-        fi
-        echo ${{ steps.commit.outputs.newfeaturedfile }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -42,7 +43,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
 
-    - if: ${{ steps.commit.outputs.newfeaturedfile }} == false
+    - if: ${{ steps.commit.outputs.newrankingfile }} == true
       name: SendGrid Action
       uses: mmichailidis/sendgrid-mail-action@v1.0
       with:
