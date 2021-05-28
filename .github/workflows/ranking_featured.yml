@@ -20,13 +20,20 @@ jobs:
       run: |
         bash export_goat.sh ${{ secrets.TOKEN_GOAT }} ${{ secrets.API_URL_GOAT }} > export.txt
         bash edit_ranking.sh
+	rm -rf export.txt
 
     - name: Commit files
+      id: commit
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        git commit -m "edit ranking featured posts" --allow-empty
+        git commit -m "edit ranking featured posts"
+	if [ $? -eq 1 ]; then
+            echo ::set-output name=newfeaturedfile::false
+        else
+	    echo ::set-output name=newfeaturedfile::true
+	fi
 
     - name: Push changes
       uses: ad-m/github-push-action@master
@@ -34,7 +41,8 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
 
-    - name: SendGrid Action
+    - if: ${{ steps.pullimage.outputs.newfeaturedfile }} == 'true'
+      name: SendGrid Action
       uses: mmichailidis/sendgrid-mail-action@v1.0
       with:
         sendgrid-token: ${{ secrets.SENDGRID_API_KEY }}
