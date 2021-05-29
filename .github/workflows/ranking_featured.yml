@@ -69,11 +69,11 @@ jobs:
       #if files not equals then
       if: steps.ranking.outputs.NEWFILERANKING == 'false'
 
-    - name: send custom message
+    - name: Notifier telegram bot
       uses: appleboy/telegram-action@master
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: |
-          The ${{ github.event_name }} event triggered final step.
-          echo This event is a pull request that had an assignee removed.
+          Só passando pra avisar que há uma mudança nos artigos em destaque no blog!
+        document: ranking_posts_name
