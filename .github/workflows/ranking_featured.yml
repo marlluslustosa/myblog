@@ -27,7 +27,7 @@ jobs:
         #test - compare two files byte by byte
         if cmp -s ranking_posts ranking_posts_old ; then
           echo '::set-output name=NEWFILERANKING::false'
-          text="$(yarn run --silent changelog:release --starting-version v1.0.1)"
+          text="$(ls -la)"
           echo "$text"
           text="${text//'%'/'%25'}"
           text="${text//$'\n'/'%0A'}"
