@@ -32,7 +32,7 @@ jobs:
           ranking_list="${ranking_list//$'\n'/'%0A'}"
           ranking_list="${ranking_list//$'\r'/'%0D'}"
           echo $ranking_list
-          echo '::set-output name=RANKING_LIST::$ranking_list'
+          echo '::set-output name=RANKING_LIST::$(cat ranking_posts_name)'
         else
           echo '::set-output name=NEWFILERANKING::true'
         fi
