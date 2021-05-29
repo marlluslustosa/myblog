@@ -28,6 +28,10 @@ jobs:
         if cmp -s ranking_posts ranking_posts_old ; then
           echo '::set-output name=NEWFILERANKING::false'
           ranking_list=$(cat ranking_posts_name)
+          ranking_list="${ranking_list//'%'/'%25'}"
+          ranking_list="${ranking_list//$'\n'/'%0A'}"
+          ranking_list="${ranking_list//$'\r'/'%0D'}"
+          echo $ranking_list
           echo '::set-output name=RANKING_LIST::$ranking_list'
         else
           echo '::set-output name=NEWFILERANKING::true'
