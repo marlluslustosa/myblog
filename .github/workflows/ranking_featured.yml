@@ -27,7 +27,7 @@ jobs:
         #test - compare two files byte by byte
         if cmp -s ranking_posts ranking_posts_old ; then
           echo '::set-output name=NEWFILERANKING::false'
-          text="$(ls -la)"
+          text="$(cat ranking_posts_name)"
           echo "$text"
           text="${text//'%'/'%25'}"
           text="${text//$'\n'/'%0A'}"
