@@ -32,6 +32,9 @@ jobs:
           #ranking_list="${ranking_list//$'\n'/'%0A'}"
           #ranking_list="${ranking_list//$'\r'/'%0D'}"
           echo $ranking_list
+          echo "$ranking_list<<EOF" >> $GITHUB_ENV
+          echo "$ranking_list" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
           echo '::set-output name=RANKING_LIST::$(cat ranking_posts_name)'
           echo "::set-output name=report eof=EOF::"
           cat ranking_posts_name
@@ -66,7 +69,7 @@ jobs:
         from: lulusendgrid@riseup.net
         subject: Artigos em destaque - Lulu space
         text: |
-          Há uma mudança nos destaques do blog!  ${{ steps.ranking.outputs.RANKING_LIST }}
+          Há uma mudança nos destaques do blog!  ${{ env.ranking_list }} 
           ${{ steps.ranking.outputs.report }}
       #if files not equals then
       if: steps.ranking.outputs.NEWFILERANKING == 'false'
