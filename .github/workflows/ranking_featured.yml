@@ -74,7 +74,6 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        #message: |
-        #  Só passando pra avisar que há uma mudança nos artigos em destaque no blog!
-        document: ranking_posts_name
+        message: |
+          Só passando pra avisar que há uma mudança nos artigos em destaque no blog!
         message_file: ranking_posts_name
