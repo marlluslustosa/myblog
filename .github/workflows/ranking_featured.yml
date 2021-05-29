@@ -27,7 +27,7 @@ jobs:
         #test - compare two files byte by byte
         if cmp -s ranking_posts ranking_posts_old ; then
           echo '::set-output name=NEWFILERANKING::false'
-          ranking_list=`cat ranking_posts`
+          ranking_list=$(cat ranking_posts_name)
           echo '::set-output name=RANKING_LIST::$ranking_list'
         else
           echo '::set-output name=NEWFILERANKING::true'
