@@ -28,11 +28,15 @@ jobs:
         if cmp -s ranking_posts ranking_posts_old ; then
           echo '::set-output name=NEWFILERANKING::false'
           ranking_list=$(cat ranking_posts_name)
-          ranking_list="${ranking_list//'%'/'%25'}"
-          ranking_list="${ranking_list//$'\n'/'%0A'}"
-          ranking_list="${ranking_list//$'\r'/'%0D'}"
+          #ranking_list="${ranking_list//'%'/'%25'}"
+          #ranking_list="${ranking_list//$'\n'/'%0A'}"
+          #ranking_list="${ranking_list//$'\r'/'%0D'}"
           echo $ranking_list
           echo '::set-output name=RANKING_LIST::$(cat ranking_posts_name)'
+          echo "::set-output name=report eof=EOF::"
+          cat ranking_posts_name
+          echo "$ranking_list"
+          echo "EOF"
         else
           echo '::set-output name=NEWFILERANKING::true'
         fi
@@ -61,6 +65,8 @@ jobs:
         #from sendgrid - https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html
         from: lulusendgrid@riseup.net
         subject: Artigos em destaque - Lulu space
-        text: Há uma mudança nos destaques do blog!  ${{ steps.ranking.outputs.RANKING_LIST }}
+        text: |
+          Há uma mudança nos destaques do blog!  ${{ steps.ranking.outputs.RANKING_LIST }}
+          ${{ steps.ranking.outputs.report }}
       #if files not equals then
       if: steps.ranking.outputs.NEWFILERANKING == 'false'
