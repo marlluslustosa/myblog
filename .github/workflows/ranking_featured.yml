@@ -20,10 +20,8 @@ jobs:
       id: ranking
       run: |
         bash export_goat.sh ${{ secrets.TOKEN_GOAT }} ${{ secrets.API_URL_GOAT }} > export.txt
-        rm -rf ranking_posts_old
         cp ranking_posts ranking_posts_old
         bash edit_ranking.sh
-        diff ranking_posts ranking_posts_old
         #test - compare two files byte by byte
         if cmp -s ranking_posts ranking_posts_old ; then
           echo '::set-output name=NEWFILERANKING::false'
@@ -37,8 +35,7 @@ jobs:
           echo "$text"
           echo "::set-output name=ranking_list_name::$text"
         fi
-        rm -rf ranking_posts_old
-        rm -rf export.txt
+        rm -rf ranking_posts_old export.txt
 
     - name: Commit files
       id: commit
@@ -72,7 +69,5 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: |
-          Só passando pra avisar que há uma mudança nos artigos em destaque no blog!
-        message_file: ranking_posts_name
+        message_file: ranking_posts_name #file with message about new ranking posts
       if: steps.ranking.outputs.NEWFILERANKING == 'true'
