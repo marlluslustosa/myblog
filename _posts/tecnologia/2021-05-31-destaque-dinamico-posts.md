@@ -76,17 +76,21 @@ A lógica que eu desenvolvi para o processo global foi:
 
 Basicamente são esses passos, que traduzindo sua lógica para um fluxograma simples, é algo como isso:
 
-<!--- graph TD
+<!--- 
 retire as barras antes do hífen para funcionar. coloquei somente porque o jekyll estava reconhecendo como fechamento do comentário.
 criar o fluxo: https://mermaid-js.github.io/mermaid-live-editor
 downloag svg file: https://jakearchibald.github.io/svgomg/ 
-A[Inicia execução] \-\->|job build| B(Create local changes)
-B \-\-> |se tiver alterações| M[commit/push]
-B \-\-> C{ranking_posts alterado}
-C \-\->|ativa| E[Telegram]
-E \-\-> H[Notify telegram bot]
-C \-\->|ativa| F[Email]
-F \-\-> G[SendGrid Actions 
+graph TD
+    A[Inicia execução] \-\->|job build| B(Create local changes)
+    B \-\-> M{commit/push}
+    M \-\-> |sim| M
+    M \-\-> |não| J
+    M \-\-> |sim| C{ranking_posts alterado}
+    C \-\-> |sim| E[Telegram]
+    E \-\-> H[Notify telegram bot]
+    C \-\-> |sim| F[Email]
+    C \-\-> |não| J[finaliza]
+    F \-\-> G[SendGrid Actions]
 --->
 
  {% include image.html url="/assets/images/chart1_ghactions.svg" description="" %} 
