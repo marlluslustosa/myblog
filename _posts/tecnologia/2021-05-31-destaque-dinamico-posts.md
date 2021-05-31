@@ -107,7 +107,7 @@ E o disparo final no meu telegram:
 
 E então, ao conferir a página inicial:
 
-{% include image.html url="/assets/images/marllus-featured.png" description="" %}<br>
+{% include image.html url="/assets/images/marllus-featured.png" description="Artigos em destaque e estrelinhas nos seus lugares" %}<br>
 
 Desafio aceito e saga concluída. Agora os destaques serão automaticamente reorganizados no meu blog e ainda serei notificado sobre isso por e-mail e telegram! Tudo isso de graça, usando *Github Actions*, *Jekyll* e o contador "catraca" *Goatcounter*. As possibilidades são inúmeras, pois como viu, da pra pensar em fluxos bem poderosos, como exemplo os [fluxos hierárquicos](https://docs.github.com/pt/actions/reference/events-that-trigger-workflows#), onde a execução de um depende de outros terminarem com sucesso ou falharem. 
 
