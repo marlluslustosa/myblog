@@ -113,6 +113,6 @@ E então, ao conferir a página inicial:
 
 {% include image.html url="/assets/images/marllus-featured.png" description="Artigos em destaque e estrelinhas nos seus lugares" %}<br>
 
-Desafio aceito e saga concluída. Agora os destaques serão automaticamente reorganizados no meu blog e ainda serei notificado sobre isso por e-mail e telegram! Tudo isso de graça, usando *Github Actions*, *Jekyll* e o contador "catraca" *Goatcounter*. As possibilidades são inúmeras, pois como viu, da pra pensar em fluxos bem poderosos, como exemplo os [fluxos hierárquicos](https://docs.github.com/pt/actions/reference/events-that-trigger-workflows#), onde a execução de um depende de outros terminarem com sucesso ou falharem. 
+Desafio aceito e saga concluída. Agora os destaques serão automaticamente reorganizados no meu blog e ainda serei notificado sobre isso por e-mail e telegram! Tudo isso de graça, usando *Github Actions*, *Jekyll* e o contador "catraca" *Goatcounter*. As possibilidades são inúmeras, pois como viu, da pra pensar em fluxos bem poderosos, como exemplo os [fluxos hierárquicos](https://docs.github.com/pt/actions/reference/events-that-trigger-workflows#), onde a execução de um depende de outros terminarem, com sucesso ou falha. 
 
 Enfim, me despeço com um velho ditado que sempre sigo: <mark>o mais importante é focar na resolução mental do problema, pois o resto é só ferramenta!</mark> Um abraço e espero que tenha iluminado um pouco seu caminho!<br>Pensou em um fluxo e não sabe se é possível? Comenta aí!<br>:)
