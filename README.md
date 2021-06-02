@@ -13,4 +13,4 @@ git clone https://github.com/marlluslustosa/myblog
 sudo docker-compose up -d
 ```
 
-and `http://localhost:4000`.
+and `http://localhost:4000`
