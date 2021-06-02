@@ -47,6 +47,9 @@
 
 </head>
 
+<!--
+Essa variavel de teste nao funciona no cloudflare pages
+!-->
 {% if jekyll.environment == 'production' %}
 <!-- change your GA id in _config.yml 
 <script>
@@ -58,10 +61,10 @@ ga('create', '{{site.google_analytics}}', 'auto');
 ga('send', 'pageview');
 </script>
 -->
+{% endif %}
 
 <script data-goatcounter="https://{{ site.goat_counter }}.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
-{% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{layout}}">
