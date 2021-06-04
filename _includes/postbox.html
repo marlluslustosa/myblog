@@ -23,11 +23,15 @@
                         <small class="d-block text-muted">
                         <span class="catlist">
                         {% for category in post.categories %}
+                        <!-- Adicionei isso para colocar nao aparecer en como categoria !-->
+                        {% if category != "en" %}
+                        <!-- E mais uma condicao caso a pagina seja em ingles !-->
                         {% if page.lang == "en" %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{ site.baseurl }}/{{ page.lang }}/categories.html#{{ category | downcase }}">{{ category }}</a>
                         {% else %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a>
                         {% endif %}
+                        {% endif %} 
                         {% endfor %}
                         </span>
                         </small>

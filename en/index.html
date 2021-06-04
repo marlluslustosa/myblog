@@ -43,16 +43,17 @@ title: Home
     </div>
 
     <div class="row listrecent">
-
-        {% for post in site.posts %}
+<!-- Aqui eu estabeleco para o for somente percorrer os posts com lang=en no frontmatter, entao seleciono somente uma quantidade especifica para ficar
+    na pagina index principal, pois se ficar todos os posts a tendencia eh ficar muito lento. Isso eh uma gambiarra porque eu nao consegui ainda
+    adicionar a paginacao para as paginas em ingles, por conta da limitacao da subida do plugin.
+================================================== -->
+        {% assign posts_en = site.posts | where:"lang","en" %}
+        <!---limitado somente a 6 posts na pagina inicial -->
+        {% for post in posts_en limit:6 %}
 
         {% if post.featured != true %}
             
-            {% if post.lang == "en" %}  
-
-                {% include postbox.html %}
-            
-            {% endif %}
+        {% include postbox.html %}
             
         {% endif %}
 
@@ -67,7 +68,7 @@ title: Home
 <div class="bottompagination">
 <div class="pointerup"><i class="fa fa-caret-up"></i></div>
 <span class="navigation" role="navigation">
-    {% include pagination.html %}
+    {% include pagination_en.html %}
 </span>
 </div>
 
