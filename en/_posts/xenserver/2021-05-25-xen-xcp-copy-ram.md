@@ -2,7 +2,7 @@
 title: Xenserver/XCP-ng - Copy of VM with RAM
 author: marllus
 categories:
-- tecnologia
+- technology
 layout: post
 image: assets/images/cofre-mar.jpg
 image-ref: <a href="https://www.reddit.com/r/blender/comments/1zn20x/treasure_chest_floating_in_the_ocean_it_turned/">Treasure chest floating in the ocean</a>
