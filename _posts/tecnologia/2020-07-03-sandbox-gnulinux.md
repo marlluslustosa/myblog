@@ -1,5 +1,8 @@
 ---
 title: Segurança por isolamento em aplicações GNU/Linux (Firejail Sandbox)
+featured: true
+hidden: true
+rating: 4
 author: marllus
 categories:
 - tecnologia
