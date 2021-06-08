@@ -1,0 +1,50 @@
+name: Publica artigos agendados
+
+on:
+  push:
+    branches: [ master ]
+
+#  schedule:
+    # At 07:00 (every day)
+#    - cron: '0 7 * * *'
+
+jobs:
+  publicaAgendados:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Create local changes
+      id: ranking
+      run: |
+        bash publica_agendados_teste.sh
+        FILE=_posts/agendados/logs_publicados
+        if [ -f "$FILE" ]; then
+          echo '::set-output name=NEWPUBLICATION::true'
+        else
+          echo '::set-output name=NEWPUBLICATION::false'  
+        fi
+
+    - name: Commit files
+      id: commit
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -A
+        git diff-index --quiet HEAD || git commit -m "Publicando artigos programados"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
+
+    - name: Notifier telegram bot
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        message_file: _posts/agendados/logs_publicados #file with message about new publications
+      if: steps.ranking.outputs.NEWPUBLICATION == 'true'
