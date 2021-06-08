@@ -1,12 +1,12 @@
 name: Publica artigos agendados
 
 on:
-  push:
-    branches: [ master ]
+#  push:
+#    branches: [ master ]
 
-#  schedule:
-    # At 07:00 (every day)
-#    - cron: '0 7 * * *'
+  schedule:
+    # At 03:00 (every day)
+    - cron: '0 3 * * *'
 
 jobs:
   publicaAgendados:
