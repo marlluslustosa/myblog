@@ -19,6 +19,7 @@ jobs:
     - name: Create local changes
       id: ranking
       run: |
+        git pull #atualiza o repositorio (caso algum outro workflow esteja em execucao)
         bash export_goat.sh ${{ secrets.TOKEN_GOAT }} ${{ secrets.API_URL_GOAT }} > export.txt
         cp ranking_posts ranking_posts_old
         bash edit_ranking.sh

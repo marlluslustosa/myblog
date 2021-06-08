@@ -19,6 +19,7 @@ jobs:
     - name: Create local changes
       id: ranking
       run: |
+        git pull # (atualiza repo, caso algum outro workflow esteja em execução)
         bash publica_agendados_teste.sh
         FILE=_posts/agendados/logs_publicados
         if [ -f "$FILE" ]; then
