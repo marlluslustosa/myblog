@@ -201,7 +201,7 @@ tivessem uma média de R$ 50,00 cada uma. É uma conta simples, mas
 profunda quando você ‘bate o olho’ no resultado.
 
 No mais, segue o link dos arquivos que utilizei neste trabalho, o que inclui os *scripts* e o conjunto de dados.  
-[Análise de dados](https://github.com/marlluslustosa/myblog/blob/master/Analise_dados.tar.gz)
+[Análise de dados](https://github.com/marlluslustosa/myblog/blob/master/anexos/Analise_dados.tar.gz)
 
 Abraços e vamos apoiar o serenata!  
 [Operação Serenata de Amor](https://serenata.ai/)
