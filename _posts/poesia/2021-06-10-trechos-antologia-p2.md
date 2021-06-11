@@ -33,3 +33,6 @@ Quando se chama de si mesmo<br>
 Sem me perguntar o que fica<br>
 E o que me resta do passado<br>
 Correndo a tua vida como agora.<br>
+
+----
+*Trechos do meu livro [AntologIA poética](https://marllus.com/arte/2021/05/16/livro-antologia-poetica.html).*

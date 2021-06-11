@@ -47,3 +47,6 @@ Tenho o amor que de repente<br>
 Era por essa rua o sol que ele tinha o seu mar.<br>
 Tenho o mundo perdido<br>
 Tendo tudo que o mundo perdia.<br>
+
+----
+*Trechos do meu livro [AntologIA poética](https://marllus.com/arte/2021/05/16/livro-antologia-poetica.html).*

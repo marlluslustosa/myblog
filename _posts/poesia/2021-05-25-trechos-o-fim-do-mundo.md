@@ -35,3 +35,6 @@ da mente do mundo<br>
 e o fim da mente<br>
 é o começo do fim<br>
 do mundo.
+
+----
+*Trechos do meu livro [AntologIA poética](https://marllus.com/arte/2021/05/16/livro-antologia-poetica.html).*

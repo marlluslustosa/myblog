@@ -31,3 +31,6 @@ O poder da ponte, a coluna, os barris,<br>
 O grande polegar do passado<br>
 Pela fisionomia cegas de uvas.<br>
 Meus olhos vão se lembrar.<br>
+
+----
+*Trechos do meu livro [AntologIA poética](https://marllus.com/arte/2021/05/16/livro-antologia-poetica.html).*
