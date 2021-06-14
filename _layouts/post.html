@@ -150,14 +150,13 @@ post_class: post-template
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             {% if page.previous.url %}
             {% if page.previous.lang == page.lang %}
-            <!-- eu retirei o site.baseurl porque ele esta setado '' no _config.yml, entao coloquei o site.url, mas originalmente estava {{site.baseurl}} !-->
             <!-- atualizacao: modifiquei o codigo para mostrar artigos proximos ou anteriores da mesma lingua do artigo da pagina atual!-->
             <a class="prev d-block col-md-6" href="{{site.baseurl}}{{page.previous.url}}"> &laquo; {{page.previous.title}}</a>
             {% endif %}
             {% endif %}
             {% if page.next.url %}
             {% if page.next.lang == page.lang %}
-            <a class="next d-block col-md-6 text-lg-right" href="{{site.url}}{{page.next.url}}">{{page.next.title}} &raquo; </a>
+            <a class="next d-block col-md-6 text-lg-right" href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}} &raquo; </a>
             {% endif %}
             {% endif %}
             <div class="clearfix"></div>
