@@ -12,8 +12,8 @@ const gitalk = new Gitalk({
   admin: ['marlluslustosa'],
   id: location.pathname,      // Ensure uniqueness and length less than 50
   server: {
-	  oauth_api: 'https://gitalk-anonmously-comment-kappa.vercel.app//api/authorize',
-	  anonymous_api: 'https://gitalk-anonmously-comment-kappa.vercel.app//api/comment'
+	  oauth_api: 'https://gitalk-anonmously-comment-kappa.vercel.app/api/authorize',
+	  anonymous_api: 'https://gitalk-anonmously-comment-kappa.vercel.app/api/comment'
   },
   anonymous: {
 	  accountName: 'araphen'
@@ -23,3 +23,5 @@ const gitalk = new Gitalk({
 
 gitalk.render('gitalk-container')
 </script>
+
+
