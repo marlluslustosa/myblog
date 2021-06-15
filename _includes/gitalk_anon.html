@@ -1,0 +1,39 @@
+<div id="js-gitalk-container"></div>
+
+<script>
+		window.Lazyload.css('https://bigbyto.gitee.io/assets/js/gitalk/v1.6.8/gitalk.css');
+		window.Lazyload.js('https://bigbyto.gitee.io/assets/js/gitalk/v1.6.8/gitalk.min.js', function() {
+			var gitalk = new Gitalk({
+				clientID: '6db7d880f65d6a6191c6',
+				clientSecret: 'fdeaade4d90a94e7e795f5c23edc811f5febbbc8',
+				repo: 'xingty.github.io',
+				owner: 'xingty',
+				admin: ['xingty'],
+				id: 'gitalk-anonymous-comment',
+				perPage: 20,
+				proxy: 'https://github-api.wiyi.org',
+				server: {
+					oauth_api: 'https://github-api.wiyi.org/api/authorize',
+					anonymous_api: 'https://github-api.wiyi.org/api/comment'
+				},
+				anonymous: {
+					accountName: 'bigbyto-anon'
+				},
+				cache: {
+					comments: {
+						enable: true,
+						ttl: 600
+					},
+					userInfo: {
+						enable: true,
+						ttl: 3600
+					},
+					issue: {
+						enable: true,
+						ttl: -1
+					}
+				}
+			});
+			gitalk.render('js-gitalk-container');
+		});
+	</script>
