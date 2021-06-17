@@ -405,7 +405,7 @@ blockquote {
 }
 
 .commento-root .commento-submit-button {
-    background: #00ab6b !important;
+    background: #00ab6b !Important;
 }
 
 @media (max-width:999px) {
