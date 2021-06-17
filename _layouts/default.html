@@ -266,9 +266,12 @@ Caso seja a pagina do guia xenserver, retirar o titulo e descricao para liberar 
     {{ content }}
 </div>
 
+<!-- coloquei somente na página sobre para não poluir com alertas nas outras páginas -->
+{% if page.layout == 'page' %}
+{% if page.url == "/sobre" or page.url == "/en/about" %}
 {% if site.mailchimp-list %}
 <!-- Bottom Alert Bar
-================================================== -->
+================================================== !-->
 <div class="alertbar">
 	<div class="container text-center">
 	    {% if page.lang == "en" %}
@@ -285,6 +288,9 @@ Caso seja a pagina do guia xenserver, retirar o titulo e descricao para liberar 
 	</div>
 </div>
 {% endif %}
+{% endif %}
+{% endif %}
+
     
 </div>
 
