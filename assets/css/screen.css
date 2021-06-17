@@ -404,6 +404,10 @@ blockquote {
     }
 }
 
+.commento-root .commento-submit-button {
+    background: #00ab6b !important;
+}
+
 @media (max-width:999px) {
     .featured-box-img-cover {
         height: 359px;
