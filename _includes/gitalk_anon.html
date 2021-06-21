@@ -1,24 +1,21 @@
-<!--
-<link rel="stylesheet" href="https://bigbyto.gitee.io/assets/js/gitalk/v1.6.8/gitalk.css">
-<script src="https://bigbyto.gitee.io/assets/js/gitalk/v1.6.8/gitalk.min.js"></script>
--->
-
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/js/gitalk/v1.6.8/gitalk.css">
 <script src="{{ site.baseurl }}/assets/js/gitalk/v1.6.8/gitalk.min.js"></script>
 
 <div id="js-gitalk-container"></div><script>
 
-			var locationArr = location.pathname.split('/')
+			var locationArr = window.location.pathname.split('/')
 			var gitalk = new Gitalk({
-				clientID: '3b56f6c043a50d32dd82',
-				clientSecret: '0b0ea67ff9b13f768064aacf117643b45759b1ba',
+				//clientID: '3b56f6c043a50d32dd82',
+				//clientSecret: '0b0ea67ff9b13f768064aacf117643b45759b1ba',
+				clientID: '',
+				clientSecret: '',				
 				repo: 'gitalk_comments',
 				owner: 'marlluslustosa',
 				admin: ['marlluslustosa'],
 				//id: location.pathname,
 				id: locationArr[locationArr.length - 1],
 				perPage: 20,
-				proxy: 'https://gitalk-anonmously-comment-kappa.vercel.app',
+				//proxy: 'https://gitalk-anonmously-comment-kappa.vercel.app',
 				server: {
 					oauth_api: 'https://gitalk-anonmously-comment-kappa.vercel.app/api/authorize',
 					anonymous_api: 'https://gitalk-anonmously-comment-kappa.vercel.app/api/comment'
@@ -42,41 +39,6 @@
 				}
 			});
 
-
-/*
-var locationArr = location.pathname.split('/')
-var gitalk = new Gitalk({
-    clientID: '3b56f6c043a50d32dd82'
-    repo: 'gitalk_comments',
-    owner: 'marlluslustosa',
-    admin: ['marlluslustosa'],
-    //id: location.pathname,
-    id: locationArr[locationArr.length - 1],
-    perPage: 20,
-    proxy: 'https://gitalk-anonmously-comment-kappa.vercel.app',
-    server: {
-      oauth_api: 'https://gitalk-anonmously-comment-kappa.vercel.app/api/authorize',
-      anonymous_api: 'https://gitalk-anonmously-comment-kappa.vercel.app/api/comment'
-    },
-    anonymous: {
-      accountName: 'araphen'
-    },
-    cache: {
-      comments: {
-        enable: true,
-        ttl: 600
-      },
-      userInfo: {
-        enable: true,
-        ttl: 3600
-      },
-      issue: {
-        enable: true,
-        ttl: -1
-      }
-    }
-  });
-*/
 			gitalk.render('js-gitalk-container');
 </script>
 
