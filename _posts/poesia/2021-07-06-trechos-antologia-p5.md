@@ -27,6 +27,3 @@ Não é um mistério para mim.<br>
 
 ----
 *Trechos do meu livro [AntologIA poética](https://marllus.com/arte/2021/05/16/livro-antologia-poetica.html).*
-
-----
-*Trechos do meu livro [AntologIA poética](https://marllus.com/arte/2021/05/16/livro-antologia-poetica.html).*
