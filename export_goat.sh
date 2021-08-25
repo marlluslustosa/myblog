@@ -6,7 +6,8 @@ curl() {
     \command curl \
         -H 'Content-Type: application/json' \
         -H "Authorization: Bearer $token" \
-        "$@"
+        "$@" \
+	-k
 }
 
 # Start a new export, get ID from response object.
