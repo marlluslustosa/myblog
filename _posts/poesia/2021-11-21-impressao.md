@@ -52,5 +52,5 @@ descrever sua vida, <br>
 esboçar sua reação<br>
 e daí teorizar seus pensamentos<br>
 Mas não capturando o homem<br>
-Mas reduzí-lo ao seu momento.<br>
-Para sentí-lo, depois existí-lo.
+Mas reduzi-lo ao seu momento.<br>
+Para senti-lo, depois existi-lo.
