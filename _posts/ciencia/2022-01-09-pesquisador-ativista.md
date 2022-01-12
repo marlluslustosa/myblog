@@ -40,8 +40,12 @@ Ora, essas questões sobre juízo de fato e de valor não são contemporâneas; 
 
 > *A prática sociológica deve ou não ser engajada? A ciência pode ou não 
 > enunciar juízos de valor sobre o real? Ou ainda, ela pode nos dizer o 
-> que fazer? [\[1]](https://www.scielo.br/j/rsocp/a/ncsQKC3XZjnGD4Qw4f3pwyw/?lang=pt)*
+> que fazer? \[[1]](https://www.scielo.br/j/rsocp/a/ncsQKC3XZjnGD4Qw4f3pwyw/?lang=pt)*
 
 Ao contrário de valorar sobre a maldade dos algoritmos e das *bigtechs*, defendo a análise dos fatos e propostas para novas resoluções de problemas de pesquisa na área deste 'capitalismo baseado em dados' e da modulação ou tentativa de predição comportamental com base nesses dados pessoais. Questões chave nesse âmbito giram em torno das seguintes abordagens: Como auditar os modelos de inteligência artificial? Quais os princípios éticos que deverão ser levados em conta em uma análise sistemática de um algoritmo, antes e depois de ser utilizado em um treinamento? Com isso, é possível regulá-lo em âmbito jurídico? Quais os limites desta regulação? Qual o limite humano aceitável para o uso do parâmetro 'predição comportamental' nas instituições da esfera pública/privada? Se for estipulado um limite, como lidar com o determinismo social algorítmico? 
 
 Se os juízos valorativos devem ou não se submeter exclusivamente ao âmbito da filosofia moral, da política e do senso comum ainda é uma pergunta em aberto; de um lado, os apoiadores da normalização desses juízos na ciência acreditam que não é possível abster-se de suas paixões na análise do objeto, ou, em outras palavras, que a prática sociológica pode ser 'engajada'; e do outro, os que defendem uma análise antecipada sobre o plano de pesquisa - para conhecer previamente, e deixar de lado, os aspectos contaminados do pensamento e do discurso social, que podem, a *priori* ou a *posteriori*, contaminar as análises - reconhecem que apostar em uma máxima neutralidade valorativa é o melhor caminho epistemológico para o fazer científico.
+
+__
+
+Esse artigo foi atualizado em 12/01/22. A versão anterior ([09/01/12](https://100306c5.myblog-bkz.pages.dev/ciencia/2022/01/09/pesquisador-ativista)) continha termos que eu resolvi retirar, através de sugestões recebidas. A detalhamento da modificação se encontra [aqui](https://github.com/marlluslustosa/myblog/pull/36/files#diff-57edb4a6f55518e7746f37c30fa4184f361d5422118d30002a98afb1eb4d2905).
