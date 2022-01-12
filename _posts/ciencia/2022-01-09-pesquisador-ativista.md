@@ -40,7 +40,7 @@ Ora, essas questões sobre juízo de fato e de valor não são contemporâneas; 
 
 > *A prática sociológica deve ou não ser engajada? A ciência pode ou não 
 > enunciar juízos de valor sobre o real? Ou ainda, ela pode nos dizer o 
-> que fazer? \[[1]](https://www.scielo.br/j/rsocp/a/ncsQKC3XZjnGD4Qw4f3pwyw/?lang=pt)*
+> que fazer?* [[1]](https://www.scielo.br/j/rsocp/a/ncsQKC3XZjnGD4Qw4f3pwyw/?lang=pt)
 
 Ao contrário de valorar sobre a maldade dos algoritmos e das *bigtechs*, defendo a análise dos fatos e propostas para novas resoluções de problemas de pesquisa na área deste 'capitalismo baseado em dados' e da modulação ou tentativa de predição comportamental com base nesses dados pessoais. Questões chave nesse âmbito giram em torno das seguintes abordagens: Como auditar os modelos de inteligência artificial? Quais os princípios éticos que deverão ser levados em conta em uma análise sistemática de um algoritmo, antes e depois de ser utilizado em um treinamento? Com isso, é possível regulá-lo em âmbito jurídico? Quais os limites desta regulação? Qual o limite humano aceitável para o uso do parâmetro 'predição comportamental' nas instituições da esfera pública/privada? Se for estipulado um limite, como lidar com o determinismo social algorítmico? 
 
