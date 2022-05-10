@@ -1,8 +1,5 @@
 ---
 title: Livro - AntologIA poética
-featured: true
-hidden: true
-rating: 4
 author: marllus
 categories:
 - arte
