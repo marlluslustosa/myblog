@@ -1,5 +1,8 @@
 ---
 title: "Importação/Exportação de VMs no XenServer 6.5"
+featured: true
+hidden: true
+rating: 5
 author: marllus
 categories: [ tecnologia ]
 layout: post
