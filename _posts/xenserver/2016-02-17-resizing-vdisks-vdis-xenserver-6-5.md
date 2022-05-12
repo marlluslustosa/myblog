@@ -2,7 +2,7 @@
 title: "Resizing vDisks (VDIs) – XenServer 6.5"
 featured: true
 hidden: true
-rating: 3
+rating: 4
 author: marllus
 categories: [ tecnologia ]
 layout: post
