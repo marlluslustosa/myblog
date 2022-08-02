@@ -1,8 +1,11 @@
-jekyll:
+version: "3"
+
+services:
+  jekyll:
     image: jekyll/jekyll:latest
     container_name: jekyll
     command: jekyll serve --force_polling
     ports:
-        - 4001:4000
+      - 4001:4000
     volumes:
-        - .:/srv/jekyll
+      - .:/srv/jekyll
