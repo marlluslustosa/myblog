@@ -20,7 +20,7 @@ while :; do
     finished=$(curl "$api/export/$id" | jq .finished_at)
     if [ "$finished" != "null" ]; then
         # Download the export.
-        curl "$api/export/$id/download" | gzip -d
+        curl -L "$api/export/$id/download" | gzip -d
 
         break
     fi
