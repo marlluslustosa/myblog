@@ -1,7 +1,7 @@
 #!/bin/bash
 
 token=$1
-api=$2
+api=https://lulucount.goatcounter.com/api/v0
 curl() {
     \command curl \
         -H 'Content-Type: application/json' \

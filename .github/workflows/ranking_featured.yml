@@ -20,7 +20,13 @@ jobs:
       id: ranking
       run: |
         git pull #atualiza o repositorio (caso algum outro workflow esteja em execucao)
-        bash export_goat.sh ${{ secrets.TOKEN_GOAT }} ${{ secrets.API_URL_GOAT }} > export.txt
+        while :; do
+          bash export_goat.sh ${{ secrets.TOKEN_GOAT }} > export.txt #esse script oficial costuma dar erro de gzip entao faco um teste se realment ele esta geralmente o export.txt corretamente, senao espero 10s e repito novamente
+          if [ -s export.txt ]; then
+          break
+          fi
+          sleep 10
+        done
         cp ranking_posts ranking_posts_old
         bash edit_ranking.sh
         #test - compare two files byte by byte
