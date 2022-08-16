@@ -1,5 +1,5 @@
 ---
-title: IA balizando a arte?
+title: IA banalizando a arte?
 author: marllus
 categories:
 - arte
