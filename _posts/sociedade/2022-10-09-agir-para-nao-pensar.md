@@ -16,7 +16,7 @@ tags:
 id-ref: agir-pensar
 ---
 
-Um leitor impaciente poderia, no entanto, se perguntar: por que perder tempo com teoria e discussão sobre princípios se as urgências práticas da política parecem tão prementes. Nesse sentido, valeria a pena lembrá-lo dos parágrafos iniciais de C.aria sobre o humanismo, em que Martin Heidegger é confrontado com uma pergunta a respeito da relação entre pensamento e práxis. Marx já dissera que a função da filosofia era transformar o mundo, e nao simplesmente pensá-lo. Heidegger faz um adendo de rara precisão: o pensamento age quando pensa.
+Um leitor impaciente poderia, no entanto, se perguntar: por que perder tempo com teoria e discussão sobre princípios se as urgências práticas da política parecem tão prementes. Nesse sentido, valeria a pena lembrá-lo dos parágrafos iniciais de *Carta sobre sobre o humanismo*, em que Martin Heidegger é confrontado com uma pergunta a respeito da relação entre pensamento e práxis. Marx já dissera que a função da filosofia era transformar o mundo, e nao simplesmente pensá-lo. Heidegger faz um adendo de rara precisão: o pensamento age quando pensa.
 
 Na verdade, esse agir próprio ao pensamento é talvez o agir mais difícil e decisivo. Não se trata da velha crença de o pensamento, no fundo, ser um subterfúgio para a ação, uma compensação quando não somos capazes de agir. Se podemos dizer que o pensamento age quando pensa, é porque ele é a única atividade que tem a força de modificar nossa compreensão do que é, de fato, um problema, qual é o verdadeiro problema que temos diante de nós e que nos impulsiona a agir. E o pensamento que nos permite compreender como há uma série de ações que são, apenas, lances no interior de um jogo cujo resultado já está decidido de antemão.
 
