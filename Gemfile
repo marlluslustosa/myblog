@@ -19,3 +19,5 @@ group :jekyll_plugins do
     gem 'rouge'
     gem 'jekyll-admin' #eu adicionei essa linha
 end
+
+gem "webrick", "~> 1.7"
