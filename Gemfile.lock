@@ -29,7 +29,7 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
-      terminal-table (>= 1.8.0)
+      terminal-table (~> 2.0)
       webrick (~> 1.7)
     jekyll-admin (0.11.0)
       jekyll (>= 3.7, < 5.0)
