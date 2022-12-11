@@ -29,7 +29,7 @@ Eu idealizei uma série, que espero materializar um dia em desenhos, com cenas q
 
 Ao pensar no Anum, certamente posso inverter a lógica de análise, e agora é a natureza - não humana - a responsável por resistir, por um ato natural, de sobrevivência, de extinto, da teimosia, nessas cidades de sentidos impossíveis. O Anum é esse representante, tanto dos seus como dos nossos. Se aglomerar nas veredas asfálticas é definitivamente um ato de resistência.
 
-Desde o Assum, o Corvo e o Black Bird, estamos em movimento, como falaria Marx, e esse movimento, essa dialética (o materialismo dialético), nos ajuda a entender a analogia do Anum, sobre como a história levou a natureza a ser a teimosa, bem na minha frente. Esse ciclo de viver e pensar, esse laço, nos mostra desafios nem sempre previstos. Por isso a transformação da vida material, nesse processo dialético, define como o mundo se modifica pelo homem, e como a natureza reage a ele.
+Desde o Assum, o Corvo e o Black Bird, estamos em movimento, como falaria Marx, e esse movimento, essa dialética (o materialismo dialético), nos ajuda a entender a analogia do Anum, sobre como fatos históricos levaram a natureza à teimosia, bem na minha frente. Esse ciclo de viver e pensar, esse laço, nos mostra desafios nem sempre previstos. Por isso a transformação da vida material, nesse processo dialético, define como o mundo se modifica pelo homem, e como a natureza reage a ele.
 
 Proponho, então, uma continuação poética para os três pássaros do Belchior, que seria a inclusão de mais um: o Anum preto! Uma arte intertextual, somente entendida enquanto quatripartite. O tradicional romântico e regional; o novo modernista; e o contemporâneo ecológico. 
 
