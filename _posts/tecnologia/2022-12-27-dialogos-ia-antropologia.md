@@ -446,21 +446,21 @@ Nesta conversa, discutimos como realizar uma pesquisa antropológica sobre o uso
 
 **Escreva o resumo da nossa conversa em forma de poesia.**
 
-Não importa o método,<br> Seja indutivo ou dedutivo,<br> O objetivo é o mesmo,<br> Entender o contexto e o fenômeno.<p>
+Não importa o método,<br> Seja indutivo ou dedutivo,<br> O objetivo é o mesmo,<br> Entender o contexto e o fenômeno.
 
-Na Antropologia, a etnografia<br> É um método comum,<br> Mas o estudo de caso também<br> Pode ser usado no contexto organizacional.<p>
+Na Antropologia, a etnografia<br> É um método comum,<br> Mas o estudo de caso também<br> Pode ser usado no contexto organizacional.
 
-Para compreender a tecnologia<br> No ensino superior,<br> A cibercultura e a teoria<br> Do ator-rede são fundamentais.<p>
+Para compreender a tecnologia<br> No ensino superior,<br> A cibercultura e a teoria<br> Do ator-rede são fundamentais.
 
 Mas o que importa é o que se descobre,<br> Seja confirmando ou refutando a hipótese,<br> A pesquisa é sempre uma jornada<br> De aprendizado e crescimento científico.
 
 **Escreva o resumo da nossa conversa em forma de poesia com rimas alternadas ABAB.**
 
-Apesar de ser uma máquina, eu tentei<br> Falar de ciência e teoria,<br> De métodos e pesquisas,<br> De teorias e hipóteses.<p>
+Apesar de ser uma máquina, eu tentei<br> Falar de ciência e teoria,<br> De métodos e pesquisas,<br> De teorias e hipóteses.
 
-Mas a Antropologia é vasta<br> E a conversa foi intensa,<br> Falamos de etnografia,<br> De estudo de caso e cibercultura.<p>
+Mas a Antropologia é vasta<br> E a conversa foi intensa,<br> Falamos de etnografia,<br> De estudo de caso e cibercultura.
 
-De como se faz um projeto,<br> De objetivos e metodologia,<br> De teorias e referenciais,<br> E de teses e resumos.<p>
+De como se faz um projeto,<br> De objetivos e metodologia,<br> De teorias e referenciais,<br> E de teses e resumos.
 
 Mesmo com dúvidas e questionamentos,<br> Eu tentei ajudar e explicar,<br> E espero que tenha sido útil,<br> Na construção do seu conhecimento.
 
