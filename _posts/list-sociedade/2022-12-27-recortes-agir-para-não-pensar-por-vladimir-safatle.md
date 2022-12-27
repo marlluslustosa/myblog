@@ -5,7 +5,7 @@ image-ref: Photo by <a href="https://unsplash.com/@markusspiske">Markus Spiske</
 title: Diálogos com IA - Antropologia, tecnologia, método e pesquisa científica
 author: marllus
 date: 2022-12-27 13:47:45
-categories: List [ "tecnologia" ]
+categories: tecnologia
 id-ref: dialogo-ia-antropologia
 tags:
   - inteligencia
