@@ -10,7 +10,7 @@ id-ref: dialogo-ia-antropologia
 tags:
   - inteligencia
   - tecnologia
-  - inteligênciaartificial
+  - inteligência artificial
   - discurso
   - chatbot
   - chatgpt
