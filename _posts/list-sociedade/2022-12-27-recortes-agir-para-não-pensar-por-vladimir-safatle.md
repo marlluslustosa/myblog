@@ -17,7 +17,7 @@ tags:
   - openai
   - ciencia
 ---
-Resolvi testar o mais recente modelo de linguagem da OpenAI, [ChatGPT](https://openai.com/blog/chatgpt/). Em forma de diálogo, abordei temas temas que vão desde o conceito de Antropologia ao metodo de abordagem em um exemplo hipottico, usando acabouços teóricos para tal.
+Resolvi testar o mais recente modelo de linguagem da OpenAI, [ChatGPT](https://openai.com/blog/chatgpt/). Em forma de diálogo, abordei temas temas que vão desde o conceito de Antropologia ao mtodo de abordagem, a partir de um exemplo hipotético, usando acabouços teóricos para tal. E no final ainda houve uma tentativa de abordagem poética.
 
 Nota: Todos os negritos foram elaborados por mim.\
 Acompanhe. 
@@ -98,12 +98,6 @@ Em resumo, a abordagem etnográfica é geralmente considerada a base da metodolo
 Apesar de ser amplamente usado em outras áreas do conhecimento, o método hipotético-dedutivo é menos comum na antropologia devido ao seu enfoque em teorias pré-estabelecidas e na verificação de hipóteses por meio de dados empíricos. Na antropologia, é mais comum usar uma abordagem indutiva, ou seja, partir da observação dos fatos e da coleta de dados empíricos para chegar a conclusões gerais. Isso é considerado mais adequado para a compreensão de culturas e sociedades complexas, pois permite que o pesquisador tenha uma visão mais ampla e detalhada do assunto em questão.
 
 No entanto, isso não significa que o método hipotético-dedutivo seja completamente inaplicável na antropologia. Algumas pesquisas antropológicas podem usar uma abordagem hipotético-dedutivo pode ser usado em algumas pesquisas antropológicas, especialmente quando o objetivo da pesquisa é testar uma hipótese específica. No entanto, é importante que o pesquisador esteja ciente de que essa abordagem pode ser limitada na compreensão de culturas e sociedades complexas e que pode ser necessário usar outras abordagens e métodos de pesquisa para obter uma visão mais ampla e detalhada do assunto em questão. Além disso, é importante lembrar que o método hipotético-dedutivo pode levar o pesquisador a procurar e interpretar os dados de uma forma que confirme a hipótese inicial, mesmo que os dados possam apontar para conclusões diferentes.
-
-**E qual a abordagem você recomendaria para realizar um estudo antropológico utilizando como objeto principal a plataformização do ensino superior?**
-
-Para realizar um estudo antropológico sobre a plataformização do ensino superior, uma abordagem recomendável seria a etnográfica. Nessa abordagem, o pesquisador vive e participa da vida de um grupo ou comunidade por um período prolongado de tempo para compreender sua cultura e modo de vida. No caso de um estudo sobre a plataformização do ensino superior, isso poderia envolver a participação em aulas online, entrevistas com professores e alunos, observação participante de atividades presenciais e online, análise de documentos e outras técnicas de pesquisa.
-
-A abordagem etnográfica é valorizada por sua capacidade de fornecer uma compreensão profunda e detalhada do assunto em questão e de como ele se relaciona com o contexto maior em que está inserido. Nesse caso, essa abordagem permitiria que o pesquisador obtivesse uma compreensão detalhada das experiências dos professores e alunos com a plataformização do ensino superior e como ela está afetando a forma como o ensino é ministrado e recebido. Além disso, a abordagem etnográfica permitiria que o pesquisador levasse em conta as perspectivas e os pontos de vista dos diferentes atores envolvidos no processo de plataformização.
 
 **É possível realizar uma pesquisa antropológica sobre os fatores que levam os profissionais da educação a utilizarem tecnologias digitais no ambiente de trabalho?**
 
@@ -296,7 +290,7 @@ A etnografia é uma abordagem de pesquisa que enfatiza o estudo em profundidade 
 
 A análise quantitativa de dados pode ser uma ferramenta útil para complementar a análise qualitativa em uma pesquisa etnográfica e fornecer uma visão mais ampla do fenômeno em estudo. No entanto, é importante lembrar que a análise quantitativa deve ser utilizada de maneira complementar à análise qualitativa e não como um substituto para ela. A análise qualitativa fornece informações mais profundas e detalhadas sobre o contexto cultural e o significado das experiências dos participantes.
 
-**Então a análise quantitativa é uma análise complementar dos dados que eu capturei a partir da pesquisa etnográfica, e não parte do método em si, pois ele é entrinsicamente qualitativo.**
+**Então a análise quantitativa é uma análise complementar dos dados que eu capturei a partir da pesquisa etnográfica, e não parte do método em si, pois ele é intrinsecamente qualitativo.**
 
 Exatamente. A etnografia é uma abordagem de pesquisa que enfatiza o estudo em profundidade de um contexto cultural particular e é conhecida por sua ênfase em métodos qualitativos, como a observação participante e as entrevistas. A análise quantitativa de dados pode ser uma ferramenta útil para complementar a análise qualitativa em uma pesquisa etnográfica, mas não é parte intrínseca do método etnográfico.
 
@@ -377,9 +371,9 @@ O referencial teórico dessa pesquisa estará baseado nas teorias da cibercultur
 
 A teoria ator-rede, proposta por Bruno Latour e Pierre Lévy, aborda a forma como os indivíduos e as instituições interagem e se relacionam através de redes de relações sociais e tecnológicas. Essa teoria é relevante para entender como os profissionais da educação se relacionam com as tecnologias digitais no ambiente de trabalho e como essas relações afetam o uso dessas tecnologias.
 
-Além dessas teorias, a pesquisa também se baseiará em outras fontes de literatura, como estudos sobre o uso de tecnologias digitais no ensino e sobre as práticas pedagógicas inovadoras. Serão consideradas também fontes qualitativas, como entrevistas com os participantes e observação participante, para entender os contextos específicos em que ocorre o uso das tecnologias e como ele é percebido pelos profissionais da educação.
+Além dessas teorias, a pesquisa também se baseará em outras fontes de literatura, como estudos sobre o uso de tecnologias digitais no ensino e sobre as práticas pedagógicas inovadoras. Serão consideradas também fontes qualitativas, como entrevistas com os participantes e observação participante, para entender os contextos específicos em que ocorre o uso das tecnologias e como ele é percebido pelos profissionais da educação.
 
-**Cite as referências do referecnial teórico**
+**Cite as referências do referencial teórico**
 
 Referências do referencial teórico:
 
