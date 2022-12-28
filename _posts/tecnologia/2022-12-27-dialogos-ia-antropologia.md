@@ -17,7 +17,7 @@ tags:
   - openai
   - ciencia
 ---
-Resolvi testar o mais recente modelo de linguagem da OpenAI, [ChatGPT](https://openai.com/blog/chatgpt/). Em forma de diálogo, abordei temas que vão desde o conceito de Antropologia ao seu método de abordagem, e a partir de um exemplo hipotético, tentei investigar acabouços teóricos para pressupostos. E no final ainda houve uma tentativa de abordagem poética.
+Resolvi testar o mais recente modelo de linguagem da OpenAI, [ChatGPT](https://openai.com/blog/chatgpt/). Em forma de diálogo, abordei temas que vão desde o conceito de Antropologia ao seu método de abordagem, e a partir de um exemplo hipotético, tentei investigar arcabouços teóricos para pressupostos. E no final ainda houve uma tentativa de abordagem poética.
 
 Nota: Todos os negritos foram elaborados por mim.\
 Acompanhe. 
@@ -100,7 +100,7 @@ Sim, aqui estão algumas fontes que discutem a utilização de hipóteses em pes
 
 Essas fontes destacam a importância de formular hipóteses de pesquisa e de utilizá-las como um guia para a coleta e análise de dados em pesquisas qualitativas. Também discutem como as hipóteses podem ser formuladas de forma flexível e exploratória e como podem ser adaptadas à medida que a pesquisa avança. Além disso, essas fontes também destacam a importância de demonstrar rigor na pesquisa qualitativa, incluindo a utilização de técnicas de análise rigorosas e a reflexão crítica sobre o processo de pesquisa.
 
-**Eu já li a maioria dessas referências e nenhuma das que li, relata sobre criar hipóteses em pesquisa qualitativa, pelo contrário, ratificam que hipóteses são destinadas à pesquisa quantitativa. Creswell fala que em pesquisas qualitativas há suposições construtivistas como alegação do conhecimento e não hipóteses. Esse artigo clássico do Fereday também não defende isso. Afinal, você acabou de citar hipóteses claramente em um estudo qualitativo, que eu fiz você escrever. Valide o seu rigor acadêmico**
+**Eu já li a maioria dessas referências e nenhuma das que li, relata sobre criar hipóteses em pesquisa qualitativa, pelo contrário, ratificam que hipóteses são destinadas à pesquisa quantitativa. Creswell fala que em pesquisas qualitativas há suposições construtivistas como alegação do conhecimento e não hipóteses. Esse artigo clássico do Fereday também não defende isso.**
 
 Desculpe, minha resposta anterior foi incorreta. Você está correto em afirmar que a utilização de hipóteses é mais comum em estudos quantitativos do que em estudos qualitativos. Na pesquisa qualitativa, em vez de formular hipóteses, os pesquisadores geralmente partem de uma perspectiva construtivista, ou seja, a ideia de que o conhecimento é construído pelos participantes da pesquisa e pelo pesquisador através da interação e da reflexão crítica. Portanto, em vez de formular hipóteses, os pesquisadores qualitativos podem formular suposições construtivistas, que são suposições iniciais sobre o que pode ser descoberto através da pesquisa.
 
