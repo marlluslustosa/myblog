@@ -17,7 +17,7 @@ tags:
   - openai
   - ciencia
 ---
-Resolvi testar o mais recente modelo de linguagem da OpenAI, [ChatGPT](https://openai.com/blog/chatgpt/). Em forma de diálogo, abordei temas que vão desde o conceito de Antropologia ao seu método de abordagem, e a partir de um exemplo hipotético, tentei investigar arcabouços teóricos para pressupostos. E no final ainda houve uma tentativa de abordagem poética.
+Resolvi testar o mais recente modelo de linguagem da OpenAI, [ChatGPT](https://openai.com/blog/chatgpt/). Em forma de diálogo, abordei temas que vão desde o conceito de Antropologia ao seu método de abordagem, e a partir de um exemplo hipotético, tentei investigar arcabouços teóricos para elaboração de um projeto de tese na área. E no final ainda houve uma tentativa de abordagem poética.
 
 Nota: Todos os negritos foram elaborados por mim.\
 Acompanhe. 
