@@ -49,7 +49,7 @@ Baseado nos pontos supracitados, tendo em vista o conteúdo diverso produzido no
 Definitivamente não vou dar um desdobro qualquer na tentativa de ofuscar uma impossibilidade técnica, preguiça ou de simplesmente vergonha de não ter o conhecimento para tal. Acho que tudo na vida é aprendizado e todos nós deveríamos entender até onde podemos chegar naquele momento e qual a direção querer seguir, mesmo usando, mas não gostando da solução atual. Percebi que o IanVoyager, [nesta postagem](https://lanvoyager.github.io/posts/66a6d538/), e continuando com meu questionamento nos comentários do artigo, ainda almeja a função dos comentários anônimos.
 
 #### Retomando...
-
+ 
 Pois bem, eu testei a solução customizada do Bigbyto. Rodei um código backend que ele mesmo tinha feito e hospedado [aqui](https://github.com/xingty/gitalk-anonmously-comment), tentei rodar no [Cloudflare workers](https://workers.cloudflare.com/), porém ele relatou que só foi usado no [Vercel](https://vercel.com). Então, criei uma conta no serviço e subi a aplicação. Depois de idas e vindas eu tinha conseguido replicar seu experimento, meio no escuro, já que ele mesmo relatou que o código estava muito "plástico" e não documentado (apesar de ter esse plano no futuro).
 
 Depois de conseguir rodar, fiquei pensando que ainda não poderia usá-lo em produção, pois o meu conhecimento estava muito cru com relação ao sistema, e tudo que aparecesse de problemas eu talvez não conseguiria resolver (por falta de tempo hábil ou conhecimento). Então, sentei mais alguns dias (mesmo nem tendo esse tempo) e comecei a destrinchar todo esse modelo. Código a código, linha a linha de arquivo. 
