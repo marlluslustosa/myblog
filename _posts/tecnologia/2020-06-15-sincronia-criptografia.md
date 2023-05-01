@@ -1,24 +1,26 @@
 ---
-title: LUKS, VeraCrypt, CryFS, EncFS, gocryptfs...? Uma discussão prática sobre sincronização de arquivos criptografados
-author: marllus
-categories:
-- tecnologia
 layout: post
 image: assets/images/sinc_cript.jpeg
 image-ref: Photo by <a href="https://unsplash.com/@patrickian4">Patrick Fore</a>
-tags:
-- gocryptfs
-- cryfs
-- sincronia
-- encfs
-- luks
-- truecrypt
-- veracrypt
-- nuvem
-- dropbox
-- volume cheio
-- volume adaptativo
+title: LUKS, VeraCrypt, CryFS, EncFS, gocryptfs...? Uma discussão prática sobre
+  sincronização de arquivos criptografados
+author: marllus
+date: 2023-05-01 15:09:56
+categories:
+  - tecnologia
 id-ref: sincronia-criptografia
+tags:
+  - gocryptfs
+  - cryfs
+  - sincronia
+  - encfs
+  - luks
+  - truecrypt
+  - veracrypt
+  - nuvem
+  - dropbox
+  - volume cheio
+  - volume adaptativo
 ---
 
 Esse artigo trás uma discussão resumida sobre os tipos de criptografia disponíveis em nível do ‘dia a dia’ e sobre as implicações do seu uso, tanto localmente como em nuvem. Não foram abordados aqui procedimentos técnicos avançados a respeito do funcionamento teórico dos tipos citados.
@@ -69,6 +71,6 @@ cheio e a segunda de um volume adaptativo.
 
 Você deve estar se perguntando o por quê de não usar somente criptografia de volume adaptativo, já que ela parece ser muito boa, pois pode ser facilmente sincronizada para um repositório na nuvem. Bem, é uma pergunta pertinente e isso mereceria outro artigo com discussões a respeito da utilidade, as restrições, os níveis de privacidade pretendidos, tipos de arquivos e locais de sincronização. Mas, encerro por aqui com a sugestão de duas ferramentas com interfaces de janela bem legais para criação e gestão de volumes criptografados ‘cheios’ e ‘adaptativos’. A primeira é a [ZuluCrypt/ZuluMount](https://mhogomchungu.github.io/zuluCrypt/), que trabalha com LUKS e VeraCrypt (recomendados) e a segunda é a [Sirikali](https://mhogomchungu.github.io/sirikali/), que faz a gestão de volumes adaptativos, como CryFS e gocryptfs (recomendados).
 
-Há de se considerar questões sobre segurança e eficiência dos algoritmos de criptografia mencionados. [Aqui](https://www.cryfs.org/comparison/) no site do projeto CryFS você pode ler um ótimo texto sobre isso, além dos pontos elencados nesse artigo. Para mais informações a respeito da performance, recomendo um comparativo realizado no [site do projeto do gocryptfs](https://nuetzlich.net/gocryptfs/comparison/).
+Há de se considerar questões sobre segurança e eficiência dos algoritmos de criptografia mencionados. [Aqui](https://www.cryfs.org/comparison) no site do projeto CryFS você pode ler um ótimo texto sobre isso, além dos pontos elencados nesse artigo. Para mais informações a respeito da performance, recomendo um comparativo realizado no [site do projeto do gocryptfs](https://nuetzlich.net/gocryptfs/comparison/).
 
 Obrigado!<br>:)
