@@ -5,7 +5,7 @@ image-ref: Photo by <a href="https://unsplash.com/@patrickian4">Patrick Fore</a>
 title: LUKS, VeraCrypt, CryFS, EncFS, gocryptfs...? Uma discussão prática sobre
   sincronização de arquivos criptografados
 author: marllus
-date: 2023-05-01 15:09:56
+date: 2020-06-15 00:00:00
 categories:
   - tecnologia
 id-ref: sincronia-criptografia
