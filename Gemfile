@@ -20,4 +20,4 @@ group :jekyll_plugins do
     gem 'jekyll-admin' #eu adicionei essa linha
 end
 
-gem "webrick", "~> 1.7"
+gem 'jekyll', '~> 4.3', '>= 4.3.3'
