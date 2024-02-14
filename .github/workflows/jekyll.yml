@@ -17,7 +17,7 @@ jobs:
     - name: Build the site in the jekyll/builder container
       run: |
         #cp Gemfile.lock.bk Gemfile.lock
-        chmod a+w Gemfile.lock &&
+        #chmod a+w Gemfile.lock &&
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
