@@ -26,7 +26,7 @@ Primeiro, faça seu cadastro na plataforma (https://github.com), se ainda não t
 
 Depois, vem a parte de escolher um template para seu blog. Abaixo eu listo uma recomendação:<br>
 - [https://github.com/henrythemes/jekyll-minimal-theme](https://github.com/henrythemes/jekyll-minimal-theme)
-- [https://github.com/marlluslustosa/kiko-now](https://github.com/marlluslustosa/kiko-now)
+- [https://github.com/aweekj/kiko-now](https://github.com/aweekj/kiko-now)
 - [https://github.com/DavideBri/Gesko](https://github.com/DavideBri/Gesko)
 - [https://github.com/ronv/sidey](https://github.com/ronv/sidey)
 
