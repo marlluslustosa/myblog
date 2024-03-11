@@ -4,7 +4,7 @@ image: assets/images/obsidian-git.webp
 image-ref: Art by <a href="https://medium.com/@yanfernandes404">Yan Fernandes</a>
 title: Criando um blog gratuito com github + obsidian
 author: marllus
-date: 2024-03-10 23:00:00
+date: 2024-03-11
 categories:
   - tecnologia
 id-ref: git-blog-obsidian
