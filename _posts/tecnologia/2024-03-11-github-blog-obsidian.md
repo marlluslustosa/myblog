@@ -24,11 +24,11 @@ Para quem não sabe, o github é um serviço de versionamento de códigos, muita
 
 Primeiro, faça seu cadastro na plataforma (https://github.com), se ainda não tiver.
 
-Depois, vem a parte de escolher um template para seu blog. Abaixo eu listo uma recomendação:
-https://github.com/henrythemes/jekyll-minimal-theme
-https://github.com/marlluslustosa/kiko-now
-https://github.com/DavideBri/Gesko
-https://github.com/ronv/sidey
+Depois, vem a parte de escolher um template para seu blog. Abaixo eu listo uma recomendação:<br>
+- [[https://github.com/henrythemes/jekyll-minimal-theme]]
+- [[https://github.com/marlluslustosa/kiko-now]]
+- [[https://github.com/DavideBri/Gesko]]
+- [[https://github.com/ronv/sidey]]
 
 Se você preferir, pode também acessar https://jamstackthemes.dev/ e mergulhar por centenas de templates de sites estáticos construídos nos mesmos moldes para funcionar com este tutorial. Tudo que você precisa ter é o repositório github do template, como algum dos quais listei acima.
 
