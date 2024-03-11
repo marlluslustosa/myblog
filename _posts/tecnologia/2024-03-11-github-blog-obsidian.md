@@ -1,7 +1,7 @@
 ---
 layout: post
-image: assets/images/dialogo-ia-antropologia.jpg
-image-ref: Photo by <a href="https://unsplash.com/@markusspiske">Markus Spiske</a>
+image: assets/images/obsidian-git.webp
+image-ref: Art by <a href="https://medium.com/@yanfernandes404">Yan Fernandes</a>
 title: Criando um blog gratuito com github + obsidian
 author: marllus
 date: 2024-03-10 23:00:00
