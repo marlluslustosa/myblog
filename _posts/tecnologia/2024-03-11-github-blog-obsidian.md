@@ -25,20 +25,20 @@ Para quem não sabe, o github é um serviço de versionamento de códigos, muita
 Primeiro, faça seu cadastro na plataforma (https://github.com), se ainda não tiver.
 
 Depois, vem a parte de escolher um template para seu blog. Abaixo eu listo uma recomendação:<br>
-- [[https://github.com/henrythemes/jekyll-minimal-theme]]
-- [[https://github.com/marlluslustosa/kiko-now]]
-- [[https://github.com/DavideBri/Gesko]]
-- [[https://github.com/ronv/sidey]]
+- [https://github.com/henrythemes/jekyll-minimal-theme](https://github.com/henrythemes/jekyll-minimal-theme)
+- [https://github.com/marlluslustosa/kiko-now](https://github.com/marlluslustosa/kiko-now)
+- [https://github.com/DavideBri/Gesko](https://github.com/DavideBri/Gesko)
+- [https://github.com/ronv/sidey](https://github.com/ronv/sidey)
 
-Se você preferir, pode também acessar https://jamstackthemes.dev/ e mergulhar por centenas de templates de sites estáticos construídos nos mesmos moldes para funcionar com este tutorial. Tudo que você precisa ter é o repositório github do template, como algum dos quais listei acima.
+Se você preferir, pode também acessar [https://jamstackthemes.dev/](https://jamstackthemes.dev/) e mergulhar por centenas de templates de sites estáticos construídos nos mesmos moldes para funcionar com este tutorial. Tudo que você precisa ter é o repositório github do template, como algum dos quais listei acima.
 
-Bem, para nosso tutorial, vou escolher o template https://github.com/DavideBri/Gesko. Então, clique nele e vamos forkeá-lo!
+Bem, para nosso tutorial, vou escolher o template [https://github.com/DavideBri/Gesko](https://github.com/DavideBri/Gesko). Então, clique nele e vamos forkeá-lo!
 Fork significa uma ramificação ou filho, ou uma cópia do repositório disponibilizado por alguma pessoa no github (ou repositório pai). Neste caso, faremos uma cópia do template para nosso blog.
-Para realizar o fork, basta acessar https://github.com/DavideBri/Gesko/fork ou entrar dentro do repositório em questão e clicar no botão fork:
+Para realizar o fork, basta acessar [https://github.com/DavideBri/Gesko/fork](https://github.com/DavideBri/Gesko/fork) ou entrar dentro do repositório em questão e clicar no botão fork:
 
 {% include image.html url="/assets/images/fork-git.jpg" description="Fork de um repositório'" %}<br>
 
-Após criar o fork, um repositório aparecerá na sua lista de repositórios com o mesmo nome do pai, assim: https://github.com/marlluslustosa/Gesko. Neste caso, como eu forkeei o repositório Gesko do usuário DavideBri, o mesmo entrou para minha lista pessoal marlluslustosa/Gesko. Agora tudo que eu alterar no meu repositório não irá para o repositório dele, a não ser que eu faça isso explicitamente (o que não é o objetivo desse tutorial). Sacou mais ou menos como funciona? Pois bem, essa é um pouco da magia do compartilhamento de códigos em muitas comunidades virtuais hoje. Baixo o que o outro fez, melhoro, compartilho, etc.
+Após criar o fork, um repositório aparecerá na sua lista de repositórios com o mesmo nome do pai, assim: [https://github.com/marlluslustosa/Gesko](https://github.com/marlluslustosa/Gesko). Neste caso, como eu forkeei o repositório Gesko do usuário DavideBri, o mesmo entrou para minha lista pessoal marlluslustosa/Gesko. Agora tudo que eu alterar no meu repositório não irá para o repositório dele, a não ser que eu faça isso explicitamente (o que não é o objetivo desse tutorial). Sacou mais ou menos como funciona? Pois bem, essa é um pouco da magia do compartilhamento de códigos em muitas comunidades virtuais hoje. Baixo o que o outro fez, melhoro, compartilho, etc.
 
 Antes de colocar o site no ar, precisamos alterar algumas configurações do antigo dono, como metadados e url do site, senão vamos ter problemas de redirecionamentos de links e cairemos em páginas do repositório pai.
 Para isso, vamos editar o arquivo _config.yml. 
@@ -68,7 +68,7 @@ Em pouco tempo o site estará no ar. Então, atualize essa mesma página (Settin
 
 {% include image.html url="/assets/images/githubpages3.jpg" description="Página no ar!'" %}<br>
 
-Agora o site está no ar https://marlluslustosa.github.io/Gesko/
+Agora o site está no ar [https://marlluslustosa.github.io/Gesko/](https://marlluslustosa.github.io/Gesko/)
 
 Agora seja curioso para saber como funcionam as páginas, os locais para alterar os estilos de página, html, css e coisas e tal...
 Mas, de antemão, para criar qualquer post novo você precisará incluir dentro da pasta "_posts" do repositório um arquivo com o padrão "AAAA-MM-DD-titulo-do-post.md". Após fazer o deploy (commit changes) o post então entrará no ar. Fácil né? Você já poderia parar o tutorial aqui mesmo, pois já tem um blog no ar, podendo alterar seus arquivos e incluir novos artigos via github.
@@ -123,7 +123,7 @@ Após isso, copie o conteúdo que aparecerá na tela e vamos para o segundo pass
 
 Passo 2 - [Inserir sua chave pública no github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?platform=linux)
 
-Clique no link https://github.com/settings/ssh/new para adicionar uma chave pública de autenticação.
+Clique no link [https://github.com/settings/ssh/new](https://github.com/settings/ssh/new) para adicionar uma chave pública de autenticação.
 
 {% include image.html url="/assets/images/git-ssh.jpg" description="Inserindo a chave pública no github.'" %}<br>
 
@@ -155,7 +155,7 @@ E agora se você clicar na opções Actions, no github, verá que o serviço est
 
 {% include image.html url="/assets/images/github-action2.jpg" description="Site provicionado ou 'aka deployado''" %}<br>
 
-Por debaixo dos panos, o github ao reconhecer novas alterações na estrutura, recompila os arquivos e gera novamente o site estático. Para confirmar isso, vamos acessar a página que acabamos de criar: https://marlluslustosa.github.io/Gesko/2024/03/11/site-obsidian-com-git. E prontinha, está lá!
+Por debaixo dos panos, o github ao reconhecer novas alterações na estrutura, recompila os arquivos e gera novamente o site estático. Para confirmar isso, vamos acessar a página que acabamos de criar: [https://marlluslustosa.github.io/Gesko/2024/03/11/site-obsidian-com-git](https://marlluslustosa.github.io/Gesko/2024/03/11/site-obsidian-com-git). E prontinha, está lá!
 
 {% include image.html url="/assets/images/git-page.jpg" description="Post no ar!" %}<br>
 
