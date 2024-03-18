@@ -29,6 +29,6 @@ Percebe o quanto as perguntas - mais do que as respostas - muitas vezes é que s
 Se considerarmos o capitalismo com mais de 500 anos de existência e ainda ser um sistema que permite que boa parte da população mundial passe fome e compararmos com o socialismo chinês que erradicou a extrema pobreza em poucas décadas, podemos considerar esse modelo como o que 'deu certo'?
 Produzir mais riquezas, mesmo concentrando nas mãos de somente 1% da população, é dar certo?<br>
 Perguntas, perguntas...
-___
+---
 
 *Notas sobre o vídeo " [Onde o socialismo deu certo?](https://www.youtube.com/watch?v=gNRSJ6z6eMg), do canal [Filosofia Vermelha](https://www.youtube.com/@FilosofiaVermelha)"*
