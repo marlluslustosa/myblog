@@ -1,5 +1,8 @@
 ---
 title: DevOps - Pipeline CI/CD para atualização de containers Docker em produção - e com notificação
+featured: true
+hidden: true
+rating: 2
 author: marllus
 categories:
 - tecnologia
