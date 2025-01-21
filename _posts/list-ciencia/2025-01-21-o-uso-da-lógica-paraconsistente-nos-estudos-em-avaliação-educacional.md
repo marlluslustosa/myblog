@@ -19,13 +19,17 @@ Recentemente, tive a oportunidade de assistir a um webinar apresentado por Silvi
 
 Ao explorar o *e-book*, um dos aspectos mais marcantes foi o destaque dado ao brasileiro Newton da Costa (1929–2024), renomado lógico e criador da lógica paraconsistente, como um dos principais referenciais teóricos da obra.
 
+A lógica paraconsistente é uma abordagem não clássica que permite trabalhar com contradições de maneira formal e sistemática, sem levar à conclusões arbitrárias ou inconsistentes. Diferentemente da lógica clássica, que considera uma proposição contraditória automaticamente falsa, a lógica paraconsistente admite que duas proposições contraditórias podem coexistir, desde que isso seja devidamente gerenciado. Criada pelo lógico brasileiro Newton da Costa, essa lógica é particularmente útil para analisar sistemas complexos, onde as informações podem ser ambíguas, conflitantes ou incompletas, como ocorre frequentemente no mundo real.
+
 Essa perspectiva me levou a refletir sobre algumas questões relevantes, especialmente no campo da avaliação educacional e da análise de fenômenos complexos:
 
 * A aceitação de sistemas contraditórios pode ser considerada a fronteira atual para analisar e compreender a complexidade dos fenômenos?
 * A lógica paraconsistente seria uma proposta formal para operacionalizar abordagens que consideram o movimento e as contradições do real, como a lógica dialética de Hegel e Marx ou as redes rizomáticas de Deleuze e Guattari?
 * De que forma a lógica paraconsistente pode ser aplicada no estudo da avaliação educacional, considerando os desafios e paradoxos intrínsecos ao campo?
 
-Para pesquisadores em busca de temas inovadores, essa é uma área rica em possibilidades. A exploração da paraconsistência, especialmente no contexto estratégico e educacional, abre caminhos para novos estudos.
+Na área de avaliação institucional e educacional, a lógica paraconsistente pode ser aplicada para lidar com a complexidade e os paradoxos inerentes a esses contextos. Por exemplo, instituições de ensino frequentemente enfrentam situações em que dados indicam resultados contraditórios, como, por exemplo, altos índices de aprovação coexistindo com baixa satisfação dos alunos. A lógica paraconsistente permite analisar tais cenários de forma a considerar ambas as dimensões sem descartar nenhuma delas.. Além disso, essa abordagem pode auxiliar no desenvolvimento de indicadores de desempenho que incorporam e gerenciam a pluralidade de fatores, contribuindo para avaliações mais robustas e alinhadas à realidade multidimensional das instituições educacionais.
+
+Para pesquisadores em busca de temas inovadores, essa é uma área rica em possibilidades. A exploração da paraconsistência, especialmente no contexto estratégico e educacional, abre muitos caminhos para novos estudos!
 
 Para saber mais, recomendo conferir este artigo: [Paraconsistência: O Poder das Contradições Estratégicas](https://pt.linkedin.com/pulse/paraconsist%C3%AAncia-o-poder-das-contradi%C3%A7%C3%B5es-estrat%C3%A9gicas-tdscompany-reaie).
 
