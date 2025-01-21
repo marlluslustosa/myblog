@@ -7,7 +7,7 @@ image-ref: Diagrama com os graus de certeza e de incerteza - <a
 title: O uso da Lógica Paraconsistente nos estudos em Avaliação Educacional
 author: marllus
 date: 2025-01-20 21:49:16
-categories: List [ "ciencia" ]
+categories: ciencia
 id-ref: logica-paraconsistente
 tags:
   - ciencia
