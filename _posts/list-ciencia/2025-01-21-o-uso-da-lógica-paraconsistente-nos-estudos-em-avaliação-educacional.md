@@ -19,11 +19,11 @@ Recentemente, tive a oportunidade de assistir a um webinar apresentado por Silvi
 
 Ao explorar o *e-book*, um dos aspectos mais marcantes foi o destaque dado ao brasileiro Newton da Costa (1929–2024), renomado lógico e criador da lógica paraconsistente, como um dos principais referenciais teóricos da obra.
 
-A lógica paraconsistente é uma abordagem não clássica que permite trabalhar com contradições de maneira formal e sistemática, sem levar à conclusões arbitrárias ou inconsistentes. Diferentemente da lógica clássica, que considera uma proposição contraditória automaticamente falsa, a lógica paraconsistente admite que duas proposições contraditórias podem coexistir, desde que isso seja devidamente gerenciado. Criada pelo lógico brasileiro Newton da Costa, essa lógica é particularmente útil para analisar sistemas complexos, onde as informações podem ser ambíguas, conflitantes ou incompletas, como ocorre frequentemente no mundo real.
+A lógica paraconsistente é uma abordagem não clássica que permite trabalhar com contradições de maneira formal e sistemática, sem levar à conclusões arbitrárias ou inconsistentes. Diferentemente da lógica clássica, que considera uma proposição contraditória automaticamente falsa, a lógica paraconsistente admite que duas proposições contraditórias podem coexistir, desde que isso seja devidamente gerenciado. Criada pelo lógico brasileiro Newton da Costa (1929-2024), essa lógica é útil para analisar sistemas complexos, onde as informações podem ser ambíguas, conflitantes ou incompletas, como ocorre frequentemente no mundo real.
 
 Essa perspectiva me levou a refletir sobre algumas questões relevantes, especialmente no campo da avaliação educacional e da análise de fenômenos complexos:
 
-* A aceitação de sistemas contraditórios pode ser considerada a fronteira atual para analisar e compreender a complexidade dos fenômenos?
+* A aceitação de sistemas contraditórios pode ser considerada a fronteira atual para analisar e compreender fenômenos complexos?
 * A lógica paraconsistente seria uma proposta formal para operacionalizar abordagens que consideram o movimento e as contradições do real, como a lógica dialética de Hegel e Marx ou as redes rizomáticas de Deleuze e Guattari?
 * De que forma a lógica paraconsistente pode ser aplicada no estudo da avaliação educacional, considerando os desafios e paradoxos intrínsecos ao campo?
 
