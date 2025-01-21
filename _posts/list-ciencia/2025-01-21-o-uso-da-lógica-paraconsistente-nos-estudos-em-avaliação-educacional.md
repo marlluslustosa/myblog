@@ -30,5 +30,5 @@ Para pesquisadores em busca de temas inovadores, essa é uma área rica em possi
 Para saber mais, recomendo conferir este artigo: [Paraconsistência: O Poder das Contradições Estratégicas](https://pt.linkedin.com/pulse/paraconsist%C3%AAncia-o-poder-das-contradi%C3%A7%C3%B5es-estrat%C3%A9gicas-tdscompany-reaie).
 
 Para quem se interessar mais, existem alguns trabalhos na literatura, mas não muitos:
-[Learning Evaluation Using Non-classical Logics](https://link.springer.com/chapter/10.1007/978-3-319-22756-6_68)
+[Learning Evaluation Using Non-classical Logics](https://link.springer.com/chapter/10.1007/978-3-319-22756-6_68)<br>
 [Uma Ferramenta de Lógica na Contradição da Avaliação de Ensino-Aprendizado](https://sol.sbc.org.br/index.php/wie/article/view/21788)
