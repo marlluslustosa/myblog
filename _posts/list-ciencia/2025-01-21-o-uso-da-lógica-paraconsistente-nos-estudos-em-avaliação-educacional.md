@@ -17,7 +17,7 @@ tags:
 ---
 Recentemente, tive a oportunidade de assistir a um webinar apresentado por Silvio Meira, onde ele discutiu seu livro intitulado *“Exploring the Paraconsistency of Strategies in Minimally Complex Businesses”*. A obra aborda como “aceitar e gerenciar” conflitos estratégicos pode se tornar uma vantagem competitiva essencial em negócios complexos. Em outras palavras, trata-se de adotar uma abordagem estratégica baseada em uma lógica não clássica para lidar com as contradições que permeiam o mundo real.
 
-Ao explorar o e-book, um dos aspectos mais marcantes foi o destaque dado ao brasileiro Newton da Costa (1929–2024), renomado lógico e criador da lógica paraconsistente, como um dos principais referenciais teóricos da obra.
+Ao explorar o *e-book*, um dos aspectos mais marcantes foi o destaque dado ao brasileiro Newton da Costa (1929–2024), renomado lógico e criador da lógica paraconsistente, como um dos principais referenciais teóricos da obra.
 
 Essa perspectiva me levou a refletir sobre algumas questões relevantes, especialmente no campo da avaliação educacional e da análise de fenômenos complexos:
 
