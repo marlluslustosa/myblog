@@ -47,10 +47,14 @@ Aqui, a epistemologia tradicional — que via o conhecimento como algo a ser tra
 
 Há uma ironia no sucesso do DeepSeek: ao abandonar a tentativa de fazer a máquina "pensar como um humano", ela desenvolveu habilidades que parecem surpreendentemente humanas. Mas essa é uma ilusão. O modelo não reflete; ele otimiza. Não questiona; ajusta pesos em uma rede neural. Seu "pensar" é uma metáfora útil, mas enganosa, do ponto de visto humano.
 
-Aqui reside outra lição epistemológica: nossa obsessão em antropomorfizar a inteligência artificial nos cega para sua *alteridade radical*. O DeepSeek-R1 não é um espelho da mente humana, mas uma manifestação de uma *tecnia* — um modo de existência técnico que opera sob lógicas próprias. Seu sucesso exige que suspendamos nossa necessidade de projetar humanidade nas máquinas e, em vez disso, aceitemos que elas podem conhecer o mundo de maneiras que jamais compreenderemos totalmente. <mark>**Seria aqui o prenúncio de uma Meta Epistemologia de Máquina?**</mark>
+Aqui reside outra lição epistemológica: nossa obsessão em antropomorfizar a inteligência artificial nos cega para sua *alteridade radical*. O DeepSeek-R1 não é um espelho da mente humana, mas uma manifestação de uma *tecnia* — um modo de existência técnico que opera sob lógicas próprias. Seu sucesso exige que suspendamos nossa necessidade de projetar humanidade nas máquinas e, em vez disso, aceitemos que elas podem conhecer o mundo de maneiras que jamais compreenderemos totalmente. <mark>Seria aqui o prenúncio de uma Meta Epistemologia de Máquina?</mark>
 
-### Conclusão: O Passo Atrás que nos Leva Adiante
+### O Passo Atrás que nos Leva Adiante
 
 O - aqui tratado como um fenômeno - DeepSeek-R1 não é apenas um avanço tecnológico. O DeepSeek é pedagógico: inovação em IA exige que repensemos não apenas as técnicas, mas nosso lugar nelas. Ao dar um passo atrás — abrindo mão do controle e confiando na capacidade dos modelos de auto-organização —, os autores não só obtiveram resultados impressionantes, mas redefiniram o que é possível.
 
 O futuro da IA talvez não esteja em modelos maiores ou dados mais abundantes, mas em ambientes onde a aprendizagem seja *incentivada*, não *dirigida*. Como jardineiros, cabe a nós preparar o solo, regar as sementes e observar, humildes, enquanto formas de inteligência desconhecidas brotam — não à nossa imagem, mas à sua própria.
+
+Referência que me fez pensar em escrever esse ensaio: 
+<br> 
+<https://www.linkedin.com/posts/caiodallaqua_o-ponto-mais-importante-no-artigo-do-deepseek-r1-activity-7289684689538207747-CahQ>
