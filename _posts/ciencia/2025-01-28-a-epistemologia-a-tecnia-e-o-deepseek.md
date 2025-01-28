@@ -15,7 +15,7 @@ tags:
   - epistemologia
   - tecnia
 ---
-Mais do que a própria ferramenta de Inteligência Artificial DeepSeek, o *[paper](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf)*, que apresenta sua base de funcionamento abalou os alicerces do mundo das IAs. Nele, pesquisadores da DeepSeek revelaram que, para criar modelos capazes de resolver problemas complexos de matemática, programação e ciências, precisaram dar um passo atrás. Um passo tão radical que redefiniu não apenas *como* os modelos aprendem, mas *o que significa ensiná-los*. Esse fenômeno — batizado de DeepSeek-R1 — não é apenas uma inovação técnica. É uma revolução epistemológica, uma mudança na própria maneira como entendemos o "conhecer" nas máquinas.
+Mais do que a própria ferramenta de Inteligência Artificial DeepSeek, o *[paper](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf)*, que apresenta sua base de funcionamento, abalou os alicerces do mundo das IAs. Nele, pesquisadores da DeepSeek revelaram que, para criar modelos capazes de resolver problemas complexos de matemática, programação e ciências, precisaram dar um passo atrás. Um passo tão radical que redefiniu não apenas *como* os modelos aprendem, mas *o que significa ensiná-los*. Esse fenômeno — batizado de DeepSeek-R1 — não é apenas uma inovação técnica. É uma revolução epistemológica, uma mudança na própria maneira como entendemos o "conhecer" nas máquinas.
 
 ### A Ilusão do Controle: Quando o Professor Atrapalha
 
