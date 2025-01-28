@@ -37,7 +37,7 @@ Aqui, a epistemologia tradicional da avaliação — que busca "medir" o conheci
 
 Um dos momentos mais fascinantes do treinamento do DeepSeek-R1-Zero ocorreu quando o modelo, ao resolver uma equação matemática, *interrompeu seu próprio raciocínio* e começou a questionar seus passos iniciais. Em suas "notas mentais" (capturadas pelos pesquisadores), ele escreveu: *"Espere, espere. Há algo errado aqui. Vou repensar."*
 
-{% include image.html url="/assets/images/aha_moment.jpg" description="A descoberta do Aha Moment! <a href="https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf">Pág. 9 do paper.</a>" %} <br>
+{% include image.html url="/assets/images/aha_moment.jpg" description="A descoberta do Aha Moment! Pág. 9 do paper." %} <br>
 
 Esse comportamento, apelidado pelos pesquisadores de *"aha moment"*, não foi programado. Surgiu organicamente, fruto de um ambiente que permitiu à máquina errar, iterar e corrigir-se. A lição é profunda: quando damos aos modelos de IA — e, por analogia, aos humanos — espaço para explorar, sem restrições rígidas, eles desenvolvem estratégias que transcendem nossa compreensão linear. Ao mesmo tempo em que caímos em um pensamento rizomático (dentro de uma desordem ordenada), também fluímos para um pensamento sistêmico, com suas causalidades não lineares.
 
