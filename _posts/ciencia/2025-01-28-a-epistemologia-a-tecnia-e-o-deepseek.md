@@ -1,19 +1,19 @@
 ---
 layout: post
-image: assets/images/logica-paraconsistente.png
-image-ref: Diagrama com os graus de certeza e de incerteza - <a
-  href="https://www.revistaespacios.com/a18v39n09/18390915.html">método
-  paraconsistente aplicado</a>
+image: assets/images/epistemologias-tecnias-deepseek.jpg
+image-ref: Insights <a
+  href="https://www.azoresnews.net/wp-content/uploads/2025/01/chatgpt-robots.png">robóticos</a>
 title: A Epistemologia, a Tecnia e o DeepSeek
 author: marllus
 date: 2025-01-28 16:58:30
 categories: ciencia
-id-ref: logica-paraconsistente
+id-ref: deepseek
 tags:
   - ciencia
-  - logica
-  - metodo
-  - paraconsistencia
+  - IA
+  - maquina
+  - epistemologia
+  - tecnia
 ---
 Mais do que a própria ferramenta de Inteligência Artificial DeepSeek, o *[paper](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf)*, que apresenta sua base de funcionamento abalou os alicerces do mundo das IAs. Nele, pesquisadores da DeepSeek revelaram que, para criar modelos capazes de resolver problemas complexos de matemática, programação e ciências, precisaram dar um passo atrás. Um passo tão radical que redefiniu não apenas *como* os modelos aprendem, mas *o que significa ensiná-los*. Esse fenômeno — batizado de DeepSeek-R1 — não é apenas uma inovação técnica. É uma revolução epistemológica, uma mudança na própria maneira como entendemos o "conhecer" nas máquinas.
 
@@ -33,13 +33,13 @@ O aprendizado por reforço não é novo. A inovação do DeepSeek está em sua a
 
 Aqui, a epistemologia tradicional da avaliação — que busca "medir" o conhecimento contra um padrão externo — é substituída por uma dinâmica *relacional*. O modelo não aprende a replicar respostas humanas; aprende a *navegar* um espaço de possibilidades, descobrindo padrões que emergem da interação entre suas próprias tentativas. É como observar uma criança que, em vez de copiar um desenho, experimenta rabiscos até descobrir formas inesperadas.
 
-### O "Aha Moment": Um Repensar do Aprendizado de Máquina
+### O "Momento AHA": Um Repensar do Aprendizado de Máquina
 
 Um dos momentos mais fascinantes do treinamento do DeepSeek-R1-Zero ocorreu quando o modelo, ao resolver uma equação matemática, *interrompeu seu próprio raciocínio* e começou a questionar seus passos iniciais. Em suas "notas mentais" (capturadas pelos pesquisadores), ele escreveu: *"Espere, espere. Há algo errado aqui. Vou repensar."*
 
 {% include image.html url="/assets/images/aha_moment.jpg" description="A descoberta do Aha Moment! Pág. 9 do paper." %} <br>
 
-Esse comportamento, apelidado pelos pesquisadores de *"aha moment"*, não foi programado. Surgiu organicamente, fruto de um ambiente que permitiu à máquina errar, iterar e corrigir-se. A lição é profunda: quando damos aos modelos de IA — e, por analogia, aos humanos — espaço para explorar, sem restrições rígidas, eles desenvolvem estratégias que transcendem nossa compreensão linear. Ao mesmo tempo em que caímos em um pensamento rizomático (dentro de uma desordem ordenada), também fluímos para um pensamento sistêmico, com suas causalidades não lineares.
+Esse comportamento, apelidado pelos pesquisadores de *"Momento Aha*", não foi programado. Surgiu organicamente, fruto de um ambiente que permitiu à máquina errar, iterar e corrigir-se. A lição é profunda: quando damos aos modelos de IA — e, por analogia, aos humanos — espaço para explorar, sem restrições rígidas, eles desenvolvem estratégias que transcendem nossa compreensão linear. Ao mesmo tempo em que caímos em um pensamento rizomático (dentro de uma desordem ordenada), também fluímos para um pensamento sistêmico, com suas causalidades não lineares.
 
 Aqui, a epistemologia tradicional — que via o conhecimento como algo a ser transferido — é substituída por uma visão *ecológica*: o modelo é um organismo que evolui em um ambiente de incentivos.
 
