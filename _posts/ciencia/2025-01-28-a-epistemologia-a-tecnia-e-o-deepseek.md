@@ -15,7 +15,7 @@ tags:
   - epistemologia
   - tecnia
 ---
-Mais do que a própria ferramenta de Inteligência Artificial DeepSeek, o *[paper](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf)*, que apresenta sua base de funcionamento, abalou os alicerces do mundo das IAs. Nele, pesquisadores da DeepSeek revelaram que, para criar modelos capazes de resolver problemas complexos de matemática, programação e ciências, precisaram dar um passo atrás. Um passo tão radical que redefiniu não apenas *como* os modelos aprendem, mas *o que significa ensiná-los*. Esse fenômeno — batizado de DeepSeek-R1 — não é apenas uma inovação técnica. É uma revolução epistemológica, uma mudança na própria maneira como entendemos o "conhecer" nas máquinas.
+Mais do que a própria ferramenta de Inteligência Artificial DeepSeek, o conteúdo do *[paper](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf)*, que apresenta sua base de funcionamento, abalou os alicerces do mundo das IAs. Nele, pesquisadores da DeepSeek revelaram que, para criar modelos capazes de resolver problemas complexos de matemática, programação e ciências, precisaram dar um passo atrás. Um passo tão radical que redefiniu não apenas *como* os modelos aprendem, mas *o que significa ensiná-los*. Esse fenômeno — batizado de DeepSeek-R1 — não é apenas uma inovação técnica. É uma revolução epistemológica, uma mudança na própria maneira como entendemos o "conhecer" nas máquinas.
 
 ### A Ilusão do Controle: Quando o Professor Atrapalha
 
@@ -35,7 +35,7 @@ Aqui, a epistemologia tradicional da avaliação — que busca "medir" o conheci
 
 ### O "Momento AHA": Um Repensar do Aprendizado de Máquina
 
-Um dos momentos mais fascinantes do treinamento do DeepSeek-R1-Zero ocorreu quando o modelo, ao resolver uma equação matemática, *interrompeu seu próprio raciocínio* e começou a questionar seus passos iniciais. Em suas "notas mentais" (capturadas pelos pesquisadores), ele escreveu: *"Espere, espere. Há algo errado aqui. Vou repensar."*
+Um dos momentos mais fascinantes do treinamento do DeepSeek-R1-Zero ocorreu quando o modelo, ao resolver uma equação matemática, *interrompeu seu próprio raciocínio* e começou a questionar seus passos iniciais. Em suas "notas mentais" (capturadas pelos pesquisadores), ele escreveu: *"Espere, espere. Espere. Esse é um momento aha que posso sinalizar aqui."*
 
 {% include image.html url="/assets/images/aha_moment.jpg" description="A descoberta do Aha Moment! Pág. 9 do paper." %} <br>
 
@@ -45,16 +45,20 @@ Aqui, a epistemologia tradicional — que via o conhecimento como algo a ser tra
 
 ### A Tecnia como Fenômeno Emergente: Para Além do Antropomorfismo
 
-Há uma ironia no sucesso do DeepSeek: ao abandonar a tentativa de fazer a máquina "pensar como um humano", ela desenvolveu habilidades que parecem surpreendentemente humanas. Mas essa é uma ilusão. O modelo não reflete; ele otimiza. Não questiona; ajusta pesos em uma rede neural. Seu "pensar" é uma metáfora útil, mas enganosa, do ponto de visto humano.
+Há uma ironia no sucesso do DeepSeek: ao abandonar a tentativa de fazer a máquina "pensar como um humano", ela desenvolveu habilidades que parecem surpreendentemente humanas. Mas essa é uma ilusão. O modelo não reflete; ele otimiza. Não questiona; ajusta pesos em uma rede neural. Seu "pensar" é uma metáfora útil, mas enganosa, do ponto de vista humano.
 
 Aqui reside outra lição epistemológica: nossa obsessão em antropomorfizar a inteligência artificial nos cega para sua *alteridade radical*. O DeepSeek-R1 não é um espelho da mente humana, mas uma manifestação de uma *tecnia* — um modo de existência técnico que opera sob lógicas próprias. Seu sucesso exige que suspendamos nossa necessidade de projetar humanidade nas máquinas e, em vez disso, aceitemos que elas podem conhecer o mundo de maneiras que jamais compreenderemos totalmente. <mark>Seria aqui o prenúncio de uma Meta Epistemologia de Máquina?</mark>
 
 ### O Passo Atrás que nos Leva Adiante
 
-O - aqui tratado como um fenômeno - DeepSeek-R1 não é apenas um avanço tecnológico. O DeepSeek é pedagógico: inovação em IA exige que repensemos não apenas as técnicas, mas nosso lugar nelas. Ao dar um passo atrás — abrindo mão do controle e confiando na capacidade dos modelos de auto-organização —, os autores não só obtiveram resultados impressionantes, mas redefiniram o que é possível.
+O - aqui tratado como um fenômeno - DeepSeek-R1 não é apenas um avanço tecnológico. Ele é pedagógico: inovação em IA exige que repensemos não apenas as técnicas, mas nosso lugar nelas. Ao dar um passo atrás — abrindo mão do controle e confiando na capacidade dos modelos de auto-organização —, os autores não só obtiveram resultados impressionantes, mas redefiniram o que é possível.
 
 O futuro da IA talvez não esteja em modelos maiores ou dados mais abundantes, mas em ambientes onde a aprendizagem seja *incentivada*, não *dirigida*. Como jardineiros, cabe a nós preparar o solo, regar as sementes e observar, humildes, enquanto formas de inteligência desconhecidas brotam — não à nossa imagem, mas à sua própria.
 
-Referência que me fez pensar em escrever esse ensaio: 
+Referências: 
 <br> 
-<https://www.linkedin.com/posts/caiodallaqua_o-ponto-mais-importante-no-artigo-do-deepseek-r1-activity-7289684689538207747-CahQ>
+
+[Esse post do Caio Dallaqua me fez pensar em escrever este ensaio](<https://www.linkedin.com/posts/caiodallaqua_o-ponto-mais-importante-no-artigo-do-deepseek-r1-activity-7289684689538207747-CahQ>)
+<br>[The Math Behind DeepSeek: A Deep Dive into Group Relative Policy Optimization (GRPO)](<https://medium.com/@sahin.samia/the-math-behind-deepseek-a-deep-dive-into-group-relative-policy-optimization-grpo-8a75007491ba>)
+[](https://medium.com/@sahin.samia/the-math-behind-deepseek-a-deep-dive-into-group-relative-policy-optimization-grpo-8a75007491ba)<br>
+[DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/pdf/2402.03300)
