@@ -55,9 +55,7 @@ O - aqui tratado como um fenômeno - DeepSeek-R1 não é apenas um avanço tecno
 
 O futuro da IA talvez não esteja em modelos maiores ou dados mais abundantes, mas em ambientes onde a aprendizagem seja *incentivada*, não *dirigida*. Como jardineiros, cabe a nós preparar o solo, regar as sementes e observar, humildes, enquanto formas de inteligência desconhecidas brotam — não à nossa imagem, mas à sua própria.
 
-Referências: 
-<br> 
-
+Referências:<br> 
 [Esse post do Caio Dallaqua me fez pensar em escrever este ensaio](<https://www.linkedin.com/posts/caiodallaqua_o-ponto-mais-importante-no-artigo-do-deepseek-r1-activity-7289684689538207747-CahQ>)
 <br>[The Math Behind DeepSeek: A Deep Dive into Group Relative Policy Optimization (GRPO)](<https://medium.com/@sahin.samia/the-math-behind-deepseek-a-deep-dive-into-group-relative-policy-optimization-grpo-8a75007491ba>)
 [](https://medium.com/@sahin.samia/the-math-behind-deepseek-a-deep-dive-into-group-relative-policy-optimization-grpo-8a75007491ba)<br>
