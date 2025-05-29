@@ -25,7 +25,7 @@ A pesquisa supracitada encontrou os seguintes resultados:
 
 Vale destacar que falhas como falsos positivos e falsos negativos já foram documentadas em diversos outros estudos na literatura, reforçando a necessidade de cautela antes de tomar decisões unicamente amparadas por essas ferramentas.
 
-Além disso, os casos reais desses tipos de erros em detecções de plágio por IA aumentam rapidamente. A [tese](https://www.mozillafoundation.org/pt-BR/blog/who-wrote-that-evaluating-tools-to-detect-ai-generated-text/) central: “*o texto gerado por IA simplesmente não é diferente o suficiente do texto gerado por humanos para ser capaz de diferenciá-los de forma consistente”[](#sdendnote4sym).*
+Além disso, os casos reais desses tipos de erros em detecções de plágio por IA aumentam rapidamente. A [tese](https://www.mozillafoundation.org/pt-BR/blog/who-wrote-that-evaluating-tools-to-detect-ai-generated-text/) central: “*o texto gerado por IA simplesmente não é diferente o suficiente do texto gerado por humanos para ser capaz de diferenciá-los de forma consistente”*[](#sdendnote4sym)*.*
 
 Esses achados acendem um alerta: estamos prontos para cobrar autores por suposto plágio quando a decisão parte de um sistema com viés e limitações claras?
 
@@ -40,14 +40,15 @@ Em outras palavras, cada técnica de ofuscação — trocar palavras por sinôni
 
 ##### **O motor do jogo de gato e rato**
 
-Com o avanço da engenharia de prompt (*prompt engineering[](#sdendnote6sym)* \[2]), basta um comando simples para pedir ao ChatGPT: “*Reescreva este parágrafo de modo a não ser identificado como gerado por IA.”* Pronto: temos um novo exemplo que derruba a regra original. É o mesmo dilema descrito pelos positivistas lógicos de Viena e refutado por Popper: tentar verificar universalmente uma hipótese pela indução é uma briga sem fim.
+Com o avanço da engenharia de prompt (*prompt engineering*[](#sdendnote6sym) \[2]), basta um comando simples para pedir ao ChatGPT: “*Reescreva este parágrafo de modo a não ser identificado como gerado por IA.”* Pronto: temos um novo exemplo que derruba a regra original. É o mesmo dilema descrito pelos positivistas lógicos de Viena e refutado por Popper: tentar verificar universalmente uma hipótese pela indução é uma briga sem fim.
 
 ##### **E agora? perguntas para refletir**
 
-1. *Diante das reflexões finais de Spinak, principalmente sobre a autoria do conteúdo gerado por IA, adiciono outras:*
-2. **Detectar IA ou avaliar qualidade?** Será que não faz mais sentido concentrar esforços em medir a originalidade e relevância do texto — seja humano ou artificial — do que em descobrir quem (ou o quê) o escreveu?
-3. **Quem dá o veredito final?** Até que ponto podemos delegar à algoritmos a autoridade de julgar plágio ou criar políticas sobre uso de IA na escrita?
-4. **Plágio de IA é plágio?** Se um pesquisador incorpora *insights* de um modelo de linguagem em seu próprio texto, isso configura plágio ou inovação colaborativa?
+*Diante das reflexões finais de Spinak, principalmente sobre a autoria do conteúdo gerado por IA, adiciono outras:*
+
+1. **Detectar IA ou avaliar qualidade?** Será que não faz mais sentido concentrar esforços em medir a originalidade e relevância do texto — seja humano ou artificial — do que em descobrir quem (ou o quê) o escreveu?
+2. **Quem dá o veredito final?** Até que ponto podemos delegar à algoritmos a autoridade de julgar plágio ou criar políticas sobre uso de IA na escrita?
+3. **Plágio de IA é plágio?** Se um pesquisador incorpora *insights* de um modelo de linguagem em seu próprio texto, isso configura plágio ou inovação colaborativa?
 
 ##### **Jogo do “quem é quem?”**
 
@@ -79,8 +80,8 @@ TIWARI, Shreeji, SHARMA, Rohit, SIKARWAR, Rishabh Singh, DUBEY, Ghanshyam Prasad
 
 Estudante falsamente acusado por detectores de IA | Undetectable AI - Blog, 2023. . Online. Available from: <https://undetectable.ai/blog/br/estudante-falsamente-acusado-por-detectores-de-ia/> \[Accessed 7 May 2025].
 
-Descubra como se proteger contra falsas acusações de fraude de IA e defender sua integridade acadêmica.
+Descubra como se proteger contra falsas acusações de fraude de IA e defender sua integridade acadêmica. Available from: <https://www.estadao.com.br/link/cultura-digital/foi-acusado-de-trapacear-usando-ia-veja-o-que-fazer/> \[Accessed 7 May 2025].
 
 STYLINGIRL289, 2023. I was falsely accused of AI cheating and successfully appealed my case to the Department Chair at my school. Here’s how I did it. *r/college*. Online. 17 November 2023. Available from: <https://www.reddit.com/r/college/comments/17x954b/i_was_falsely_accused_of_ai_cheating_and/> \[Accessed 7 May 2025].
 
-Uso do ChatGPT gera conflitos na sala de aula e acusações de plágio sem provas, \[no date]. . Online. Available from: <https://www.aosfatos.org/noticias/chatgpt-alunos-professores-plagio/> \[Accessed 7 May 2025].
+Uso do ChatGPT gera conflitos na sala de aula e acusações de plágio sem provas, \[no date]. Online. Available from: <https://www.aosfatos.org/noticias/chatgpt-alunos-professores-plagio/> \[Accessed 7 May 2025].
