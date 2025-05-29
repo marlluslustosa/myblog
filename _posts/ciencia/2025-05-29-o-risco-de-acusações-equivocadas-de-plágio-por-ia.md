@@ -13,8 +13,6 @@ tags:
   - maquina
   - plagio
 ---
-##### **Introdução**
-
 Imagine receber uma acusação de plágio e descobrir que, na verdade, foi um algoritmo que se enganou. Em 2023, Ernesto Spinak publicou no blog Scielo “*[IA: Cómo detectar textos producidos por chatbox y sus plagios](https://blog.scielo.org/es/2023/11/17/ia-como-detectar-textos-producidos-por-chatbox-y-sus-plagios/)*”[](#sdendnote1sym) uma reflexão sobre como distinguimos textos humanos de textos gerados por inteligência artificial. Na mesma época, um grupo de pesquisadores publicou um artigo no periódico *International Journal for Educational Integrity*, intitulado “*[Testing of detection tools for AI-generated text](https://edintegrity.biomedcentral.com/articles/10.1007/s40979-023-00146-z)”*, colocando fogo na discussão ao testar 14 das ferramentas mais populares de detecção de IA.
 
 Algumas abordagens de detecção de plágio por IA são comumentes citadas na [literatura](https://link.springer.com/chapter/10.1007/978-981-97-7423-4_13) — métodos baseados em linguagem, métodos baseados em estatística e métodos baseados em aprendizagem[](#sdendnote2sym). Spinak as listou em seu post, mas careceu de evidências empíricas robustas sobre a precisão das ferramentas que acoplam essas abordagens.
