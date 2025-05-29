@@ -4,7 +4,7 @@ image: assets/images/plagioia.jpg
 image-ref: Cortesia <a href="https://chatgpt.com">ChatGPT</a>
 title: O risco de acusações equivocadas de plágio por IA
 author: marllus
-date: 2025-05-28 23:39:08
+date: 2025-05-29 02:45:59
 categories: ciencia
 id-ref: ia-plagio
 tags:
@@ -58,7 +58,7 @@ A curiosa “certeza” de que o amanhã será como hoje anda de licença perman
 
 **Para conferir o resultado, clique [aqui](https://chatgpt.com/share/681b6493-2334-8011-b802-950697d89a50).**
 
-Após isso, avalie o texto a partir de ferramentas de detecção de plágio por IA, usando [ZeroGPT](https://www.zerogpt.com/) ou [undetectableAI](https://undetectable.ai/) e se surpreenda
+Após isso, avalie o texto a partir de ferramentas de detecção de plágio por IA, usando [ZeroGPT](https://www.zerogpt.com/) ou [undetectableAI](https://undetectable.ai/) e se surpreenda.
 
 **Notas explicativas:**
 
