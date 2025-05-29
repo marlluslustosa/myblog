@@ -78,9 +78,9 @@ LIANG, Weixin, YUKSEKGONUL, Mert, MAO, Yining, WU, Eric and ZOU, James, 2023. GP
 
 TIWARI, Shreeji, SHARMA, Rohit, SIKARWAR, Rishabh Singh, DUBEY, Ghanshyam Prasad, BAJPAI, Nidhi and SINGHATIYA, Smriti, 2024. Detecting AI Generated Content: A Study of Methods and Applications. In: KUMAR, Sandeep, HIRANWAL, Saroj, GARG, Ritu and PUROHIT, S. D. (eds.), *Proceedings of International Conference on Communication and Computational Technologies*. Singapore: Springer Nature. 2024. p. 161–176. ISBN 978-981-9774-23-4. DOI [10.1007/978-981-97-7423-4_13](https://doi.org/10.1007/978-981-97-7423-4_13).
 
-Estudante falsamente acusado por detectores de IA | Undetectable AI - Blog, 2023. . Online. Available from: <https://undetectable.ai/blog/br/estudante-falsamente-acusado-por-detectores-de-ia/> \[Accessed 7 May 2025].
+Estudante falsamente acusado por detectores de IA - Undetectable AI - Blog, 2023. Online. Available from: <https://undetectable.ai/blog/br/estudante-falsamente-acusado-por-detectores-de-ia/>. \[Accessed 7 May 2025].
 
-Descubra como se proteger contra falsas acusações de fraude de IA e defender sua integridade acadêmica. Available from: <https://www.estadao.com.br/link/cultura-digital/foi-acusado-de-trapacear-usando-ia-veja-o-que-fazer/> \[Accessed 7 May 2025].
+Descubra como se proteger contra falsas acusações de fraude de IA e defender sua integridade acadêmica. Available from: <https://www.estadao.com.br/link/cultura-digital/foi-acusado-de-trapacear-usando-ia-veja-o-que-fazer/>. \[Accessed 7 May 2025].
 
 STYLINGIRL289, 2023. I was falsely accused of AI cheating and successfully appealed my case to the Department Chair at my school. Here’s how I did it. *r/college*. Online. 17 November 2023. Available from: <https://www.reddit.com/r/college/comments/17x954b/i_was_falsely_accused_of_ai_cheating_and/> \[Accessed 7 May 2025].
 
