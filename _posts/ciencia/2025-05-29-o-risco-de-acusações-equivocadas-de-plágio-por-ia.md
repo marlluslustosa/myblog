@@ -1,6 +1,6 @@
 ---
 layout: post
-image: assets/images/plagioIA.jpg
+image: assets/images/plagioia.jpg
 image-ref: Cortesia <a href="https://chatgpt.com">ChatGPT</a>
 title: O risco de acusações equivocadas de plágio por IA
 author: marllus
