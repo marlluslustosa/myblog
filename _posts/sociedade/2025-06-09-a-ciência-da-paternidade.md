@@ -28,8 +28,8 @@ A criatividade toma conta do meu ser, e as novas hipóteses surgem a cada dia. A
 Já falaram por aí sobre a dialética da paternidade. Mas aqui descrevo um pouco uma ciência da paternidade. Ou sobre como, através de métodos, um pesquisador, embebido com sua presença, derrama em diversas situações o conteúdo necessário para tentar entender as coisas a partir de perspectivas que lhe cabem.
 Enquanto a dialética espera o negativo, a ciência me trás as bases lógicas para se pensar os fenômenos. Talvez nem tenha como fugir disso. Como diria um amigo: somos pura cultura. 
 
-Agora sigo acertando, e errando menos. Os choros vão cessando, as lógicas mudando conforme a oportunidade de melhoria empírica; e os processos estabilizando.
-Há uma verdade interessante quando se assume a postura de continuar menos errado, do que mais certo sobre as coisas - principalmente se for um filho.
+Agora sigo errando menos. Os choros vão cessando, as lógicas mudando conforme a oportunidade de melhoria empírica; e os processos estabilizando.
+Há uma verdade interessante quando se assume a postura de continuar menos errado - do que mais certo - sobre as coisas, principalmente se essa for um filho.
 
-Os recomeços são sempre constantes. 
+Os recomeços são sempre constantes. <br>
 Mais 120 noites daqui a pouco...
