@@ -29,7 +29,6 @@ Já falaram por aí sobre a dialética da paternidade. Mas aqui descrevo um pouc
 Enquanto a dialética espera o negativo, a ciência me trás as bases lógicas para se pensar os fenômenos. Talvez nem tenha como fugir disso. Como diria um amigo: somos pura cultura. 
 
 Agora sigo errando menos. Os choros vão cessando, as lógicas mudando conforme a oportunidade de melhoria empírica; e os processos estabilizando.
-Há uma verdade interessante quando se assume a postura de continuar menos errado - do que mais certo - sobre as coisas, principalmente se essa for um filho.
+Há uma verdade interessante quando se assume a postura de continuar menos errado - do que mais certo - sobre as coisas, principalmente se essa for um filho.  
 
-Os recomeços são sempre constantes. <br>
-Mais 120 noites daqui a pouco...
+O real é contingente e os recomeços são sempre constantes, mesmo as próximas 120 noites que virão.
