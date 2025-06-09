@@ -4,14 +4,14 @@ image: assets/images/ver_logica.jpg
 image-ref: A lógica define a forma como se vê.
 title: A ciência da paternidade
 author: marllus
-date: 2025-06-08 23:00:38
+date: 2025-06-09 02:34:10
 categories: sociedade
 id-ref: ciencia-paternidade
 tags:
   - ciencia
-  - IA
-  - maquina
-  - plagio
+  - paternidade
+  - sociedade
+  - logica
 ---
 É isso aí. Pai. Ponto final. Ou seria um recomeço?
 
@@ -31,4 +31,4 @@ Enquanto a dialética espera o negativo, a ciência me trás as bases lógicas p
 Agora sigo errando menos. Os choros vão cessando, as lógicas mudando conforme a oportunidade de melhoria empírica; e os processos estabilizando.
 Há uma verdade interessante quando se assume a postura de continuar menos errado - do que mais certo - sobre as coisas, principalmente se essa for um filho.  
 
-O real é contingente e os recomeços são sempre constantes, mesmo as próximas 120 noites que virão.
+O real é contingente e os recomeços são sempre constantes, mesmo as próximas 120 noites que virão...
