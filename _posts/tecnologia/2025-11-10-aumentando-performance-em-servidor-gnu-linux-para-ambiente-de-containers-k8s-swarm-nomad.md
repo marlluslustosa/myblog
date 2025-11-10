@@ -292,7 +292,7 @@ Configurações das máquinas:
 * RAM: 8GB
 * vCPU: 4
 
-{% include image.html url="assets/images/aha_moment.jpg" description="Boxsplot IO - TPS." %}<br>
+{% include image.html url="/assets/images/series_temporais_comparacao_v5.png" description="Boxsplot IO - TPS." %}<br>
 
 Além disso, seguem as estatísticas resumidas também geradas pelo script, para as métricas analisadas (Utilização de CPU (usuário e sistema), Memória utilizada, Swap utilizada, Entrada/Saída em transações por segundo), utilizando a média como indicador de tendência central.
 
@@ -368,9 +368,9 @@ Com isso em mente, adaptei uma função em Python no script principal do relató
 
 Então os gráficos:
 
-{% include image.html url="assets/images/dist_io_tps_boxplot.png" description="Boxsplot IO - TPS." %}
+{% include image.html url="/assets/images/dist_io_tps_boxplot.png" description="Boxsplot IO - TPS." %}
 
-{% include image.html url="assets/images/dist_swap_used_boxplot.jpg" description="Boxsplot Swap." %}
+{% include image.html url="/assets/images/dist_swap_used_boxplot.jpg" description="Boxsplot Swap." %}
 
 <br>Ao observarmos as distribuições das métricas por meio dos gráficos de boxplot, ficou evidente que algumas delas apresentaram grande variação durante o teste de estresse. 
 
