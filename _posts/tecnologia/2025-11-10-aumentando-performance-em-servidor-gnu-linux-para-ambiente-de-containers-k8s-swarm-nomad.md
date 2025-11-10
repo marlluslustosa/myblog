@@ -37,7 +37,7 @@ O que eu tirei disso foi que, em ambientes virtualizados, o hipervisor (Dom0 - n
 
 Mas, na tentativa de analisar mais profundamente o cerne da performance em sistemas operacionais *cloud-native* - como na maioria do casos -, decidi estudar e tomar como referência alguns livros, que me ajudaram muito por sinal:
 
-!\[[Livros_performance.png]]
+{% include image.html url="/assets/images/livros_performance.png" description="Pérolas de Brendan Gregg." %}
 
 - - -
 
@@ -61,7 +61,7 @@ O `cloud-config` abaixo aplica o seguinte:
 
 ### Método 1: O `cloud-config` (Para Provisionamento)
 
-Use este código no campo "user-data" ao criar uma nova VM. Ele é 100% automatizado.
+Use este código no campo "cloud-config" ao criar uma nova VM. Ele é 100% automatizado. Você também pode [baixá-lo aqui](https://github.com/marlluslustosa/tunning-performance-linux/blob/main/cloud-config).
 
 YAML
 
@@ -292,7 +292,7 @@ Configurações das máquinas:
 * RAM: 8GB
 * vCPU: 4
 
-{% include image.html url="/assets/images/series_temporais_comparacao_v5.png" description="Boxsplot IO - TPS." %}<br>
+{% include image.html url="/assets/images/series_temporais_comparacao_v5.png" description="Séries temporais - Métricas de performance." %}<br>
 
 Além disso, seguem as estatísticas resumidas também geradas pelo script, para as métricas analisadas (Utilização de CPU (usuário e sistema), Memória utilizada, Swap utilizada, Entrada/Saída em transações por segundo), utilizando a média como indicador de tendência central.
 
@@ -370,7 +370,7 @@ Então os gráficos:
 
 {% include image.html url="/assets/images/dist_io_tps_boxplot.png" description="Boxsplot IO - TPS." %}
 
-{% include image.html url="/assets/images/dist_swap_used_boxplot.jpg" description="Boxsplot Swap." %}
+{% include image.html url="/assets/images/dist_swap_used_boxplot.png" description="Boxsplot Swap." %}
 
 <br>Ao observarmos as distribuições das métricas por meio dos gráficos de boxplot, ficou evidente que algumas delas apresentaram grande variação durante o teste de estresse. 
 
@@ -437,13 +437,11 @@ Apesar disso, quando comparamos diretamente os valores numéricos de média e me
 
 ## Síntese Geral
 
-| Métrica        | Melhor             | Por quê                                        |
-| -------------- | ------------------ | ---------------------------------------------- |
-| CPU uso útil   | **VM1**            | Mais tempo executando trabalho real            |
-| CPU sistema    | **Empate prático** | Diferenças normais de carga                    |
-| Memória RAM    | **VM1**            | Está processando mais sem estourar             |
-| Swap           | **VM1** (de longe) | VM2 está "engasgando" por falta de RAM efetiva |
-| I/O Sustentado | **VM1**            | Menos swap → menos latência → mais TPS         |
+* **CPU uso útil:** Melhor na **VM1**, pois passa mais tempo executando trabalho real das aplicações.
+* **CPU sistema:** **Empate prático**, apresentando apenas diferenças normais de carga entre os ambientes.
+* **Memória RAM:** Ponto para a **VM1**, que consegue processar uma carga maior sem estourar a capacidade disponível.
+* **Swap:** Vitória da **VM1** (de longe). A VM2 está "engasgando" e perdendo performance por falta de RAM efetiva.
+* **I/O Sustentado:** Melhor na **VM1**. O menor uso de swap resulta em menos latência e, consequentemente, mais transações por segundo (TPS).
 
 - - -
 
