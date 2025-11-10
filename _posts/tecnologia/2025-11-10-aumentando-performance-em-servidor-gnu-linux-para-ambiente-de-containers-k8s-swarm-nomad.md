@@ -11,8 +11,6 @@ tags:
   - linux
   - performance
 ---
-<style> /* --- Estilos de Tabela Apenas para esta Página --- */ .post-content table, .post-content th, .post-content td { border: 1px solid #ccc; border-collapse: collapse; } .post-content th, .post-content td { padding: 8px; text-align: left; } </style>
-
 Ao provisionar um novo cluster de orquestração, seja Docker Swarm, Kubernetes ou Nomad, a expectativa é de alta performance. No entanto, é comum que, após a implantação, os nós (nodes) apresentem gargalos inexplicáveis, baixa taxa de I/O e alta latência, mesmo com hardware robusto.
 
 A problemática é que uma instalação padrão do GNU/Linux não é otimizada para cargas de trabalho de containers.
@@ -334,87 +332,9 @@ Os gráficos anteriores mostraram as séries temporais, mas essas séries utiliz
 
 Por isso, a mediana frequentemente é uma medida melhor para indicar o valor típico da métrica. A mediana é resistente a valores extremos: se acontecer um pico isolado de CPU ou I/O, a média sobe, porém a mediana permanece indicando o comportamento real da maior parte do período. Assim, quando a distribuição é muito irregular, a mediana se torna mais fiel que a média. 
 
-Para avaliar isso de maneira objetiva, eu desenvolvi um script que calcula o Coeficiente de Variação (CV) das métricas coletadas. Esse indicador mostra o quanto os valores flutuam em relação à média. Quando o CV é alto, isso é um sinal claro de que há oscilações ou picos, e nesses casos a mediana é um melhor indicador para interpretar o desempenho real da métrica analisada.
+Para avaliar isso de maneira objetiva, eu [desenvolvi um script](https://github.com/marlluslustosa/tunning-performance-linux/blob/main/CV_metric_final.py) que calcula o Coeficiente de Variação (CV) das métricas coletadas. Esse indicador mostra o quanto os valores flutuam em relação à média. Quando o CV é alto, isso é um sinal claro de que há oscilações ou picos, e nesses casos a mediana é um melhor indicador para interpretar o desempenho real da métrica analisada. A execução no ambiente produz o seguinte resultado comparativo por métrica:
 
-```
-#!/usr/bin/env python3  
-# Marllus Lustosa - 07-11-2025
-# python3 CV_metric_final.py vm1_report.sar vm2_report.sar
-
-import subprocess  
-import sys  
-import pandas as pd  
-import numpy as np  
-  
-def load_sar(filename, flag, column):  
-   cmd = f"sadf -d {filename} -- {flag}"  
-   out = subprocess.check_output(cmd, shell=True).decode("utf-8")  
-  
-   df = pd.read_csv(pd.io.common.StringIO(out), sep=';')  
-  
-   # Remove '#' do início da primeira coluna e tira espaços extras  
-   df.columns = df.columns.str.replace('#', '', regex=False).str.strip()  
-  
-   # Troca vírgula decimal por ponto  
-   if column in df.columns:  
-       df[column] = df[column].astype(str).str.replace(',', '.', regex=False)  
-       df[column] = pd.to_numeric(df[column], errors='coerce')  
-       return df[column].dropna()  
-   else:  
-       print(f"[debug] Colunas disponíveis: {list(df.columns)}")  
-       return None  
-  
-def stats(series):  
-   mean = series.mean()  
-   median = series.median()  
-   std = series.std()  
-   cv = std / mean if mean != 0 else np.nan  
-   return mean, median, std, cv  
-  
-def show(metric_name, series):  
-   if series is None:  
-       print(f"{metric_name:<12}:  (coluna não encontrada)")  
-       return  
-      
-   mean, median, std, cv = stats(series)  
-   print(f"{metric_name:<12}: Média={mean:.2f} | Mediana={median:.2f} | Desvio={std:.2f} | CV={cv:.3f}")  
-  
-   if cv <= 0.30:  
-       print("   → Baixa variação → **Use Média**")  
-   elif cv > 1.0:  
-       print("   → Alta variação → **Use Mediana**")  
-   else:  
-       print("   → Variação moderada → Ambas são aceitáveis")  
-  
-def process(vm, name):  
-   print(f"\n=== {name} ===")  
-  
-   show("CPU_User",       load_sar(vm, "-u", "%user"))  
-   show("CPU_System",     load_sar(vm, "-u", "%system"))  
-   show("Mem_Used",       load_sar(vm, "-r", "%memused"))  
-   show("Swap_Used",      load_sar(vm, "-S", "%swpused"))  
-   show("IO_TPS",         load_sar(vm, "-b", "tps"))  
-  
-def main():  
-   if len(sys.argv) != 3:  
-       print("Uso: python3 CV_metric_final.py vm1_report.sar vm2_report.sar")  
-       sys.exit(1)  
-  
-   process(sys.argv[1], "VM1")  
-   process(sys.argv[2], "VM2")  
-  
-   print("""  
-Interpretação do CV:  
- CV <= 0.30  → Média representa bem (baixa variação)  
- CV >  1.00  → Mediana é mais confiável (muita oscilação / picos)  
-""")  
-  
-if __name__ == "__main__":  
-   main()
-```
-
-**A saída:**<br>
-=== VM1 ===\
+\=== VM1 ===\
 CPU_User    : Média=93.10 | Mediana=96.25 | Desvio=12.34 | CV=0.133\
   → Baixa variação → **Use Média**\
 CPU_System  : Média=5.25 | Mediana=3.37 | Desvio=5.72 | CV=1.090\
@@ -444,74 +364,15 @@ Interpretação do CV:\
 
 Quando o Coeficiente de Variação (CV) ultrapassa 1, isso significa que a dispersão dos dados é tão grande que a média deixa de ser um indicador confiável do comportamento real. Nesse caso, quem melhor representa o valor típico é a mediana. No presente conjunto de testes, os picos que justificam essa substituição ocorreram principalmente nas métricas IO_TPS e Swap_Used, que sofreram oscilações intensas durante o estresse, podendo distorcer a interpretação se apenas olharmos a média.
 
-Com isso em mente, adaptei uma função em Python no script principal do relatório para gerar automaticamente os boxplots que mostram a distribuição das medições. Esses gráficos representam visualmente como os valores se espalham ao longo do tempo e ajudam na comparação direta entre a VM1 e a VM2 durante a carga. A “caixa” (box) corresponde aos 50% centrais das medições (entre o 1º e o 3º quartil), ou seja, o comportamento considerado mais frequente. O topo da caixa (3º quartil) indica o limite superior desse comportamento típico antes de entrarmos nos valores extremos.
-
-```
-def create_distribution_plots(parser, vm1_label='VM1', vm2_label='VM2'):  
-   """  
-   Gera boxplot + histograma para cada métrica principal,  
-   comparando a distribuição entre VM1 e VM2.  
-   """  
-  
-   import matplotlib.pyplot as plt  
-  
-   metrics = [  
-       ('CPU', ['%user', '%system'], ['cpu_user', 'cpu_system']),  
-       ('MEMORY', ['%memused'], ['mem_used']),  
-       ('SWAP', ['%swpused'], ['swap_used']),  
-       ('IO', ['tps'], ['io_tps'])  
-   ]  
-  
-   for section, col_candidates, names in metrics:  
-       vm1_key = f'{vm1_label}_{section}'  
-       vm2_key = f'{vm2_label}_{section}'  
-       if vm1_key not in parser.data or vm2_key not in parser.data:  
-           continue  
-  
-       vm1_df = parser.data[vm1_key]  
-       vm2_df = parser.data[vm2_key]  
-  
-       for col_cand, metric_name in zip(col_candidates, names):  
-           col1 = parser.get_column_by_candidates(vm1_key, [col_cand])  
-           col2 = parser.get_column_by_candidates(vm2_key, [col_cand])  
-           if not col1 or not col2:  
-               continue  
-  
-           s1 = vm1_df[col1].dropna().astype(float)  
-           s2 = vm2_df[col2].dropna().astype(float)  
-  
-           if len(s1) < 3 or len(s2) < 3:  
-               continue  
-  
-           # ---------------- BOX PLOT ----------------  
-           plt.figure(figsize=(8,5))  
-           plt.boxplot([s1, s2], labels=[vm1_label, vm2_label], showmeans=True)  
-           plt.title(f"Distribuição - {metric_name.replace('_',' ').upper()}")  
-           plt.ylabel("Valor")  
-           plt.grid(alpha=0.3)  
-           plt.savefig(f"dist_{metric_name}_boxplot.png", dpi=300, bbox_inches='tight')  
-           plt.close()  
-  
-           # ---------------- HISTOGRAMA ----------------  
-           plt.figure(figsize=(8,5))  
-           plt.hist(s1, bins=20, alpha=0.5, label=f'{vm1_label}')  
-           plt.hist(s2, bins=20, alpha=0.5, label=f'{vm2_label}')  
-           plt.title(f"Histograma - {metric_name.replace('_',' ').upper()}")  
-           plt.xlabel("Valor")  
-           plt.ylabel("Frequência")  
-           plt.legend()  
-           plt.grid(alpha=0.3)  
-           plt.savefig(f"dist_{metric_name}_hist.png", dpi=300, bbox_inches='tight')  
-           plt.close()
-```
+Com isso em mente, adaptei uma função em Python no script principal do relatório para gerar automaticamente os boxplots que mostram a distribuição das medições ([você pode baixá-lo aqui](https://github.com/marlluslustosa/tunning-performance-linux/blob/main/sar_visualize_boxsplot.py)). Esses gráficos representam visualmente como os valores se espalham ao longo do tempo e ajudam na comparação direta entre a VM1 e a VM2 durante a carga. A “caixa” (box) corresponde aos 50% centrais das medições (entre o 1º e o 3º quartil), ou seja, o comportamento considerado mais frequente. O topo da caixa (3º quartil) indica o limite superior desse comportamento típico antes de entrarmos nos valores extremos.
 
 Então os gráficos:
 
-!\[[dist_io_tps_boxplot.png]]
+{% include image.html url="assets/images/dist_io_tps_boxplot.png" description="Boxsplot IO - TPS." %}
 
-!\[[dist_swap_used_boxplot.png]]
+{% include image.html url="assets/images/dist_swap_used_boxplot.png" description="Boxsplot Swap." %}
 
-Ao observarmos as distribuições das métricas por meio dos gráficos de boxplot, ficou evidente que algumas delas apresentaram grande variação durante o teste de estresse. 
+<br>Ao observarmos as distribuições das métricas por meio dos gráficos de boxplot, ficou evidente que algumas delas apresentaram grande variação durante o teste de estresse. 
 
 No caso do IO_TPS, o boxplot mostra que a VM1 opera rotineiramente em níveis de IO bem mais altos: o topo da caixa está aproximadamente em \~2.200 TPS, enquanto na VM2 isso ocorre em torno de \~1.250 TPS. Mesmo desconsiderando picos, a faixa operacional normal da VM1 foi consistentemente superior. Já no gráfico de Swap_Used, observa-se uma diferença ainda mais marcante: a VM1 praticamente não usa swap, com a caixa comprimida em zero; enquanto a VM2 apresenta uma caixa alta, indicando que usar swap faz parte de seu comportamento normal, com presença de outliers que alcançam valores extremos, reforçando que ela trabalha sob pressão constante de memória.
 
