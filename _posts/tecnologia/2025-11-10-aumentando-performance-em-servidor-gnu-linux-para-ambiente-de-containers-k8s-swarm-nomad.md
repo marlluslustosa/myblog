@@ -519,10 +519,10 @@ Apesar disso, quando comparamos diretamente os valores numéricos de média e me
 
 ### CPU_User (processamento feito pelas aplicações do usuário)
 
-|               | VM1                                                 | VM2        |
-| ------------- | --------------------------------------------------- | ---------- |
-| **Média**     | **93.10%**                                          | **88.64%** |
-| **Diferença** | +4.45% (VM1 usa mais CPU diretamente no user space) |            |
+| | VM1 | VM2 |
+|---|---|---|
+| **Média** | **93.10%** | **88.64%** |
+| **Diferença** | +4.45% (VM1 usa mais CPU diretamente no user space) | |
 
 A VM1 apresentou maior uso de CPU em modo usuário (93% contra 89%), indicando que ela passou mais tempo executando cálculos reais da aplicação em vez de tarefas de supervisão do sistema. Isso sugere que a VM1 aproveitou melhor o processador para trabalho útil, enquanto a VM2 gastou um pouco mais de tempo em atividades indiretas ou espera. Na prática, a VM1 conseguiu converter mais tempo de CPU em produtividade real durante o teste de estresse.
 
