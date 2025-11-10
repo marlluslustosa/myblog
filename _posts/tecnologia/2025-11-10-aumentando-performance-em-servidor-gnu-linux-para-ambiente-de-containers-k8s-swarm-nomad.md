@@ -11,6 +11,8 @@ tags:
   - linux
   - performance
 ---
+<style> /* --- Estilos de Tabela Apenas para esta Página --- */ .post-content table, .post-content th, .post-content td { border: 1px solid #ccc; border-collapse: collapse; } .post-content th, .post-content td { padding: 8px; text-align: left; } </style>
+
 Ao provisionar um novo cluster de orquestração, seja Docker Swarm, Kubernetes ou Nomad, a expectativa é de alta performance. No entanto, é comum que, após a implantação, os nós (nodes) apresentem gargalos inexplicáveis, baixa taxa de I/O e alta latência, mesmo com hardware robusto.
 
 A problemática é que uma instalação padrão do GNU/Linux não é otimizada para cargas de trabalho de containers.
@@ -292,7 +294,7 @@ Configurações das máquinas:
 * RAM: 8GB
 * vCPU: 4
 
-![Séries temporais - Comparação de performance](series_temporais_comparacao_v5.png "Séries temporais - Comparação de performance")
+![Séries temporais - Comparação de performance]( "Séries temporais - Comparação de performance")
 
 Além disso, seguem as estatísticas resumidas também geradas pelo script, para as métricas analisadas (Utilização de CPU (usuário e sistema), Memória utilizada, Swap utilizada, Entrada/Saída em transações por segundo), utilizando a média como indicador de tendência central.
 
@@ -411,7 +413,7 @@ if __name__ == "__main__":
    main()
 ```
 
-A saída:
+**A saída:**<br>
 === VM1 ===\
 CPU_User    : Média=93.10 | Mediana=96.25 | Desvio=12.34 | CV=0.133\
   → Baixa variação → **Use Média**\
@@ -519,12 +521,12 @@ Apesar disso, quando comparamos diretamente os valores numéricos de média e me
 
 ### CPU_User (processamento feito pelas aplicações do usuário)
 
-| | VM1 | VM2 |
-|---|---|---|
-| **Média** | **93.10%** | **88.64%** |
-| **Diferença** | +4.45% (VM1 usa mais CPU diretamente no user space) | |
+|               | VM1                                                 | VM2        |
+| ------------- | --------------------------------------------------- | ---------- |
+| **Média**     | **93.10%**                                          | **88.64%** |
+| **Diferença** | +4.45% (VM1 usa mais CPU diretamente no user space) |            |
 
-A VM1 apresentou maior uso de CPU em modo usuário (93% contra 89%), indicando que ela passou mais tempo executando cálculos reais da aplicação em vez de tarefas de supervisão do sistema. Isso sugere que a VM1 aproveitou melhor o processador para trabalho útil, enquanto a VM2 gastou um pouco mais de tempo em atividades indiretas ou espera. Na prática, a VM1 conseguiu converter mais tempo de CPU em produtividade real durante o teste de estresse.
+<br>A VM1 apresentou maior uso de CPU em modo usuário (93% contra 89%), indicando que ela passou mais tempo executando cálculos reais da aplicação em vez de tarefas de supervisão do sistema. Isso sugere que a VM1 aproveitou melhor o processador para trabalho útil, enquanto a VM2 gastou um pouco mais de tempo em atividades indiretas ou espera. Na prática, a VM1 conseguiu converter mais tempo de CPU em produtividade real durante o teste de estresse.
 
 - - -
 
@@ -535,7 +537,7 @@ A VM1 apresentou maior uso de CPU em modo usuário (93% contra 89%), indicando q
 | **Média**     | 5.25%                           | 3.45% |
 | **Diferença** | VM1 +1.79% mais gasto no kernel |       |
 
-A VM1 gastou um pouco mais de tempo no kernel (5.25% vs 3.45%), o que é esperado, pois ela estava processando mais operações e, portanto, fez mais chamadas de sistema, interrupções e gerenciamento de I/O. Esse valor ainda permanece dentro do normal para carga elevada e não indica problema. Em resumo, a VM1 chamou mais o kernel porque estava trabalhando mais, e não porque havia sobrecarga ou ineficiência.
+<br>A VM1 gastou um pouco mais de tempo no kernel (5.25% vs 3.45%), o que é esperado, pois ela estava processando mais operações e, portanto, fez mais chamadas de sistema, interrupções e gerenciamento de I/O. Esse valor ainda permanece dentro do normal para carga elevada e não indica problema. Em resumo, a VM1 chamou mais o kernel porque estava trabalhando mais, e não porque havia sobrecarga ou ineficiência.
 
 - - -
 
@@ -546,7 +548,7 @@ A VM1 gastou um pouco mais de tempo no kernel (5.25% vs 3.45%), o que é esperad
 | **Média**     | 8.24 GB                | 7.55 GB |
 | **Diferença** | VM1 usa ~0.7 GB a mais |         |
 
-O uso médio de RAM foi semelhante entre as máquinas, mas a VM1 utilizou cerca de 0.7 GB a mais, o que provavelmente significa que ela conseguiu manter mais dados úteis em cache durante o processamento. Isso é positivo: mais RAM efetivamente utilizada para trabalho significa menos ida ao disco e menor latência. Portanto, a VM1 estava aproveitando melhor a memória disponível, sem sinais de saturação.
+<br>O uso médio de RAM foi semelhante entre as máquinas, mas a VM1 utilizou cerca de 0.7 GB a mais, o que provavelmente significa que ela conseguiu manter mais dados úteis em cache durante o processamento. Isso é positivo: mais RAM efetivamente utilizada para trabalho significa menos ida ao disco e menor latência. Portanto, a VM1 estava aproveitando melhor a memória disponível, sem sinais de saturação.
 
 - - -
 
@@ -557,7 +559,7 @@ O uso médio de RAM foi semelhante entre as máquinas, mas a VM1 utilizou cerca 
 | **Média**     | **1.19 GB**                                        | **9.80 GB** |
 | **Diferença** | VM2 usa **8.6 GB a mais de Swap** (isso é péssimo) |             |
 
-Aqui há uma diferença crítica: enquanto a VM1 praticamente não dependeu de swap (1.19 GB), a VM2 consumiu quase 10 GB, o que é um forte indicativo de que sua RAM efetiva não foi suficiente. Quando o sistema começa a usar swap intensivamente, a performance degrada porque o acesso ao disco é muito mais lento que o acesso à RAM. Por isso, a VM2 sofreu travamentos, maior latência e perda de desempenho. Ou seja, a VM2 estava visivelmente sob pressão de memória durante o teste.
+<br>Aqui há uma diferença crítica: enquanto a VM1 praticamente não dependeu de swap (1.19 GB), a VM2 consumiu quase 10 GB, o que é um forte indicativo de que sua RAM efetiva não foi suficiente. Quando o sistema começa a usar swap intensivamente, a performance degrada porque o acesso ao disco é muito mais lento que o acesso à RAM. Por isso, a VM2 sofreu travamentos, maior latência e perda de desempenho. Ou seja, a VM2 estava visivelmente sob pressão de memória durante o teste.
 
 - - -
 
@@ -568,7 +570,7 @@ Aqui há uma diferença crítica: enquanto a VM1 praticamente não dependeu de s
 | **Média**     | **1902.34**                  | **1563.17** |
 | **Diferença** | VM1 é ~339 ops/s mais rápida |             |
 
-A VM1 manteve um throughput de I/O mais consistente (1902 ops/s vs 1563 ops/s), o que significa que ela conseguiu realizar mais operações por segundo de forma estável. Mesmo que a VM2 tenha registrado picos maiores, esses foram momentâneos e não sustentados, o que indica instabilidade. Como o desempenho de I/O é fortemente afetado pelo uso de swap, é coerente que a VM1, com menos swap, tenha apresentado I/O mais rápido e estável.
+<br>A VM1 manteve um throughput de I/O mais consistente (1902 ops/s vs 1563 ops/s), o que significa que ela conseguiu realizar mais operações por segundo de forma estável. Mesmo que a VM2 tenha registrado picos maiores, esses foram momentâneos e não sustentados, o que indica instabilidade. Como o desempenho de I/O é fortemente afetado pelo uso de swap, é coerente que a VM1, com menos swap, tenha apresentado I/O mais rápido e estável.
 
 - - -
 
