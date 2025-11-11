@@ -5,7 +5,7 @@ image-ref: Lapidando sistemas
 title: Aumentando performance em servidor GNU/Linux para ambiente de containers
   (K8s, Swarm, Nomad)
 author: marllus
-date: 2025-11-10 17:35:08
+date: 2025-11-11 01:16:36
 categories: tecnologia
 tags:
   - linux
