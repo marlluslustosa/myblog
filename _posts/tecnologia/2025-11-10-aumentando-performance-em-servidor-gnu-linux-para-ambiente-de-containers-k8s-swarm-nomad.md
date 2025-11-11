@@ -35,7 +35,7 @@ Em testes em um ambiente virtualizado (XCP-ng), descobri que as "otimizações d
 
 O que eu tirei disso foi que, em ambientes virtualizados, o hipervisor (Dom0 - no caso Xen) já está gerenciando o I/O. Então, algumas otimizações de I/O dentro da VM (guest DomU) conflita com o host e destrói a performance. A melhor otimização de I/O é deixar o kernel padrão fazer o seu trabalho, na maioria das vezes.
 
-Mas, na tentativa de analisar mais profundamente o cerne da performance em sistemas operacionais *cloud-native* - como na maioria do casos -, decidi estudar e tomar como referência alguns livros, que me ajudaram muito por sinal:
+Mas, na tentativa de analisar mais profundamente o cerne da performance em sistemas operacionais *cloud-native* - como na maioria do casos -, decidi estudar e tomar como referência alguns livros, que me ajudaram muito por sinal. Os dois de referencia são do [Bredan Gregg](https://www.brendangregg.com/), que acredito ser referência na área: 
 
 {% include image.html url="/assets/images/livros_performance.png" description="Pérolas de Brendan Gregg." %}
 
@@ -290,7 +290,7 @@ Configurações das máquinas:
 
 * Debian 13 - Trixie
 * RAM: 8GB
-* vCPU: 4
+* vCPU: 4 (as duas utilizaram os mesmos núcleos virtuais em períodos distintos, sem competição mútua)
 
 {% include image.html url="/assets/images/series_temporais_comparacao_v5.png" description="Séries temporais - Métricas de performance." %}<br>
 
@@ -328,7 +328,7 @@ IO_TPS:
 Concluído. Gráfico salvo em 'series_temporais_comparacao.png'
 ```
 
-Os gráficos anteriores mostraram as séries temporais, mas essas séries utilizam a média como medida de tendência central. Ocorre que a média nem sempre representa bem um conjunto de dados, especialmente quando a distribuição não é uniforme ou quando há valores muito altos ou muito baixos que puxam o resultado. Como aponta Brendan Gregg (Systems Performance, 2020), a forma da distribuição dos dados importa. Quando analisamos os gráficos de boxplot, podemos observar se os dados apresentam uma distribuição simétrica, deslocada ou até multimodal (com dois ou mais pontos onde os valores se concentram). Nesses casos, a média pode acabar posicionada em uma região onde quase não há dados. Ou seja, a média *parece representar o centro*, mas na prática não representa aquilo que realmente ocorre na maior parte do tempo.
+Os gráficos anteriores mostraram as séries temporais, mas perceba que eu utilizei a média como medida de tendência central. Ocorre que a média nem sempre representa bem um conjunto de dados, especialmente quando a distribuição não é uniforme ou quando há valores muito altos ou muito baixos que puxam o resultado. Como aponta o próprio Brendan Gregg (Systems Performance, 2020), a forma da distribuição dos dados importa. Quando analisamos os gráficos de boxplot, podemos observar se os dados apresentam uma distribuição simétrica, deslocada ou até multimodal (com dois ou mais pontos onde os valores se concentram). Nesses casos, a média pode acabar posicionada em uma região onde quase não há dados. Ou seja, a média *parece representar o centro*, mas na prática não representa aquilo que realmente ocorre na maior parte do tempo.
 
 Por isso, a mediana frequentemente é uma medida melhor para indicar o valor típico da métrica. A mediana é resistente a valores extremos: se acontecer um pico isolado de CPU ou I/O, a média sobe, porém a mediana permanece indicando o comportamento real da maior parte do período. Assim, quando a distribuição é muito irregular, a mediana se torna mais fiel que a média. 
 
@@ -377,6 +377,8 @@ Então os gráficos:
 No caso do IO_TPS, o boxplot mostra que a VM1 opera rotineiramente em níveis de IO bem mais altos: o topo da caixa está aproximadamente em \~2.200 TPS, enquanto na VM2 isso ocorre em torno de \~1.250 TPS. Mesmo desconsiderando picos, a faixa operacional normal da VM1 foi consistentemente superior. Já no gráfico de Swap_Used, observa-se uma diferença ainda mais marcante: a VM1 praticamente não usa swap, com a caixa comprimida em zero; enquanto a VM2 apresenta uma caixa alta, indicando que usar swap faz parte de seu comportamento normal, com presença de outliers que alcançam valores extremos, reforçando que ela trabalha sob pressão constante de memória.
 
 Apesar disso, quando comparamos diretamente os valores numéricos de média e mediana dessas duas métricas, observa-se que a diferença entre elas não é tão grande a ponto de inviabilizar o uso da média como indicador geral. Ou seja, na prática, mesmo em IO_TPS e Swap_Used, a média ainda representa bem a tendência central, já que ela segue próxima à mediana e descreve adequadamente o comportamento típico ao longo do teste.
+
+Segue-se, portanto, com a utilização desse indicador de tendência central.
 
 - - -
 
@@ -447,8 +449,6 @@ Apesar disso, quando comparamos diretamente os valores numéricos de média e me
 
 ### Conclusão
 
-Otimizar um nó de container não é sobre aplicar todas as “dicas de performance” que aparecem por aí. Como demonstrado, algumas configurações populares de I/O simplesmente não fazem sentido em ambientes virtualizados e podem até piorar o throughput e a latência sob carga. A análise comparativa mostrou que o verdadeiro ganho está em ajustar os pontos estruturais: a pilha de rede com BBR para melhorar congestionamento e latência, as políticas de gerenciamento de memória com Swappiness e Transparent Huge Pages para evitar uso excessivo de swap, e os C-States para manter a CPU responsiva e estável em cargas variáveis.
+Otimizar um nó para rodar container não é sobre aplicar todas as “dicas de performance” que aparecem por aí. Como relatei, algumas configurações populares de I/O simplesmente não fazem sentido em ambientes virtualizados e podem até piorar o throughput e a latência sob carga. A análise comparativa mostrou que o verdadeiro ganho está em ajustar os pontos estruturais: a pilha de rede com BBR para melhorar congestionamento e latência, as políticas de gerenciamento de memória com Swappiness e Transparent Huge Pages para evitar uso excessivo de swap, e os C-States para manter a CPU responsiva e estável em cargas variáveis. Otimizando, portanto, o que importa para o ambiente trabalhar.
 
-Em resumo, não se trata de “otimizar tudo”, e sim de otimizar o que importa. Ajustando rede, memória e CPU da forma correta, o cluster passa a entregar mais desempenho, mais estabilidade e mais previsibilidade, garantindo que você esteja realmente extraindo 100% do hardware pelo qual está pagando.
-
-Este tutorial também serviu como um exercício pedagógico, para mostrar como interpretar métricas de uso de recursos e por quê de, em muitos casos, a média não ser o indicador mais confiável de tendência. Em distribuições multimodais, ou quando há muitos picos extremos, a média pode "cair" em um ponto que não representa o comportamento real dos dados. Nesses cenários, a mediana (e a análise dos percentis por boxplots) traz uma visão mais fiel da realidade operacional. Entender isso é essencial para quem administra infraestrutura e depende de ferramentas de observabilidade para tomada de decisão.
+Este tutorial também serviu como um exercício pedagógico, para mostrar como interpretar métricas de uso de recursos e o por quê de, em muitos casos, a média não ser o indicador mais confiável de tendência. Em distribuições multimodais, ou quando há muitos picos extremos, ela pode "cair" em um ponto que não representa o comportamento real dos dados. Nesses cenários, a mediana (e a análise dos percentis por boxplots) traz uma visão mais fiel da realidade operacional. Entender isso é essencial para quem administra infraestrutura e depende de ferramentas de observabilidade ('DevPisando' a questão) para tomada de decisão.
