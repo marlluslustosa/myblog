@@ -1,7 +1,8 @@
 ---
 layout: post
-image: assets/images/plagioia.jpg
-image-ref: Cortesia <a href="https://chatgpt.com">ChatGPT</a>
+image: assets/images/geometria-riemanniana.jpg
+image-ref: A Geometria Diferencial de Riemann <a
+  href="https://www.researchgate.net/figure/Fig-Conceptos-esenciales-de-la-geometria-riemanniana-ilustrados_fig7_348355106">Researchgate</a>
 title: Atualizações Físico-Filosóficas da Ontologia Imanente
 author: marllus
 date: 2025-12-07 20:58:19
