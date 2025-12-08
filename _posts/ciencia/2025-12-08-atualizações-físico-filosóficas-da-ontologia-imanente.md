@@ -32,6 +32,8 @@ Contrapondo-se a essa hegemonia, Gottfried Leibniz sustentava uma visão, digamo
 
 Essa nova geometria forneceu a base para a Teoria da Relatividade Geral de Einstein, operando uma verdadeira revolução: o espaço (agora espaço-tempo) deixa de ser um palco passivo e externo (euclidiano/newtoniano) para se tornar uma estrutura dinâmica que emerge internamente. No universo de Einstein, a geometria se deforma e curva em resposta à presença da massa e da energia. Há uma vitória tardia da imanência: o espaço, ao invés de ser mais um absoluto transcendente, é uma realidade moldada relacionalmente "de dentro para fora", um conceito que reverberou profundamente no pensamento filosófico de Henri Bergson e Gilles Deleuze, ao tratarem das multiplicidades.
 
+{% include image.html url="/assets/images/espacos-possiveis.jpg" description="Espaços possíveis da Geometria DIferencial" %}
+
 Deleuze não possuía o rigor técnico de um matemático, mas compreendia perfeitamente a intuição revolucionária por trás da geometria de Riemann: o conceito de que um espaço (uma "variedade" ou "multiplicidade") pode ser definido intrinsecamente, a partir de suas próprias regras e conexões internas, sem necessidade de ser encaixado ou referenciado a um espaço externo maior (como o espaço tridimensional euclidiano). Ele captou que isso representava um novo conceito filosófico de espaço — um espaço que surge de suas relações internas, não de uma estrutura transcendente — e é essa ideia de multiplicidade auto-constituída e imanente, a qual incorporou profundamente em sua filosofia.
 
 Continuando com as influências, no séc. XX, o  físico David Bohm introduziu o conceito de Holomovimento para descrever uma totalidade dinâmica e indivisível que subjaz a toda a realidade. O Holomovimento integra duas ideias cruciais: totalidade indivisível e processo constante, sustentando que tudo no universo está interconectado e em movimento contínuo.
@@ -56,6 +58,8 @@ Sem dúvidas isso se alinha à Vontade de Potência, na qual já escrevera Nietz
 
 Ao contrário da potencialidade irracional (que é teleológica e predeterminada a um único fim, como uma semente), a Potencialidade Racional - conceito aristotélico recuperado por [Christian de Ronde](https://arxiv.org/abs/1711.02997) para fundamentar a ontologia da Mecânica Quântica -, é uma capacidade real e independente do reino atual, capaz de gerar efeitos contrários e sustentar a contradição de "ser e não-ser" simultaneamente. Esse conceito é a base para a noção de Força Imanente, do mesmo autor, descrevendo uma realidade que existe plenamente no domínio potencial, regida pelo que ele chama de Causa Imanente, sem depender de sua atualização ou manifestação concreta para ser considerada real.
 
+{% include image.html url="/assets/images/repensando-espaco.jpg" description="A 'coisa' extensa e a 'coisa' potência." %}
+
 Partindo de uma perspectiva neo-spinozista, o autor defende que a intensidade dessa força é medida pela *Potentia*, que foge da lógica binária clássica (existir ou não existir) para operar em um intervalo de intensidades contínuas. Quando um evento finalmente ocorre ou é medido — o que chamamos de Atualização —, ele é apenas uma expressão momentânea que não destrói nem altera o vasto reservatório de possibilidades latentes, que ele chama de Estado Potencial da Situação (*Potential State of Affairs -* PSA). Operando pela lógica da Causa Imanente, a potência permanece intacta em seu próprio reino mesmo enquanto gera efeitos visíveis, o que torna a nossa realidade atual apenas uma janela parcial e limitada (epistêmica) para vislumbrar a verdadeira densidade ontológica do mundo potencial. 
 
 ### Intra-ação, não interação
@@ -79,6 +83,8 @@ Porém, uma questão físico-filosófica fundamental que surge é sobre a nature
 Lima tenta resolver essa problemática na sua filosofia diferencial com o conceito de pericorpório — o espaço fronteiriço entre o virtual e o atual, o domínio intermediário e dinâmico onde a potência da Vida se expressa — e funciona como uma composição dinâmica de forças que navegam na contradição do vivido. Então, ao invés de atacar o problema de como operar uma avaliação no virtual, o autor deslocou a potência para essa zona que gera sentido pelo ato avaliativo. 
 Aqui há um claro paralelo com a Causa Imanente, pois a potência permanece plena em seu próprio reino, mesmo ao produzir efeitos visíveis, e é o local fundamental onde ocorre a avaliação imanente e a constituição dos sentidos.
 Assim, posso argumentar que a Avaliação Diferencial é intrinsecamente Paraconsistente.
+
+{% include image.html url="/assets/images/pericorporio-imanencia.jpg" description="A Avaliação Diferencial Paraconsistente." %}
 
 A analogia é pensar a realidade como um bolo. O pericorpório seria a camada de interface onde os reinos *virtual* (os ingredientes, como a potencialidade) e *atual* (o bolo assado, o que é observável) se misturam e se cozinham, gerando o sabor e a textura (o sentido e a potência), que não são apenas a soma das partes, mas uma nova composição que está sempre em processo de devir. Segundo o mesmo autor, o pericorpório é o espaço entre as realidades virtual (incorpórea) e atual (corpórea), onde a avaliação opera.
 
