@@ -17,7 +17,7 @@ tags:
   - realidade
   - filosofia
 ---
-Por séculos, a ciência e a filosofia ocidentais operaram sob o pressuposto de um mundo transcendente, onde as leis e as realidades essenciais pairavam acima ou fora dos fenômenos concretos. No entanto, o advento da física moderna, especialmente a mecânica quântica e a relatividade, forçou um retorno a uma Filosofia da Imanência, onde a realidade é vista como brotando de dentro, em um fluxo contínuo de criação e diferença.
+Por séculos, a ciência e a filosofia ocidentais operaram sob o pressuposto de um mundo transcendente, onde as leis e as realidades essenciais pairavam acima ou fora dos fenômenos concretos. No entanto, o advento da física moderna, especialmente a mecânica quântica e a relatividade, muito contribuiu para forçar o retorno a uma Filosofia da Imanência, onde a realidade é vista como brotando de dentro, em um fluxo contínuo de criação e diferença.
 A primeira operando no âmbito técnico científico e rigor matemático, a segunda, no rigor intuitivo, lógico argumentativo.
 
 No seio da filosofia, a ideia da imanência remonta à antiguidade (como no devir de Heráclito e no materialismo dos Estoicos), mas ganha sua expressão plena e rigorosa com Baruch Spinoza. Pulando alguns séculos, com Nietzsche, Foucault, e desembocando em Gilles Deleuze e Félix Guattari, a busca pela imanência continua sendo a "questão candente de toda a filosofia". Essa perspectiva culmina na "fórmula mágica" de que [PLURALISMO = MONISMO](https://monoskop.org/images/0/08/Deleuze_Gilles_Guattari_Felix_Mil_platos_capitalismo_e_esquizofrenia_1.pdf), sugerindo que a multiplicidade não está separada de um Ser único, mas é a sua própria expressão. O conceito de imanência absoluta é definido, enfim, como "UMA VIDA".
