@@ -82,7 +82,7 @@ Porém, uma questão físico-filosófica fundamental que surge é sobre a nature
 
 Lima tenta resolver essa problemática na sua filosofia diferencial com o conceito de pericorpório — o espaço fronteiriço entre o virtual e o atual, o domínio intermediário e dinâmico onde a potência da Vida se expressa — e funciona como uma composição dinâmica de forças que navegam na contradição do vivido. Então, ao invés de atacar o problema de como operar uma avaliação no virtual, o autor deslocou a potência para essa zona que gera sentido pelo ato avaliativo. 
 Aqui há um claro paralelo com a Causa Imanente, pois a potência permanece plena em seu próprio reino, mesmo ao produzir efeitos visíveis, e é o local fundamental onde ocorre a avaliação imanente e a constituição dos sentidos.
-Assim, posso argumentar que a Avaliação Diferencial é intrinsecamente Paraconsistente.
+Assim, posso argumentar que a <mark> Avaliação Diferencial é intrinsecamente Paraconsistente </mark>.
 
 {% include image.html url="/assets/images/pericorporio-imanencia.jpg" description="A Avaliação Diferencial Paraconsistente." %}
 
