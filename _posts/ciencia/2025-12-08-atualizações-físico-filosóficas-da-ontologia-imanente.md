@@ -1,18 +1,21 @@
 ---
 layout: post
 image: assets/images/geometria-riemanniana.jpg
-image-ref: A Geometria Diferencial de Riemann <a
+image-ref: A Geometria Diferencial de Riemann - <a
   href="https://www.researchgate.net/figure/Fig-Conceptos-esenciales-de-la-geometria-riemanniana-ilustrados_fig7_348355106">Researchgate</a>
 title: Atualizações Físico-Filosóficas da Ontologia Imanente
 author: marllus
-date: 2025-12-07 20:58:19
+date: 2025-12-08 01:55:07
 categories: ciencia
-id-ref: ia-plagio
+id-ref: ""
 tags:
   - ciencia
-  - IA
-  - maquina
-  - plagio
+  - geometriareimann
+  - imanente
+  - fisica
+  - ontologia
+  - realidade
+  - filosofia
 ---
 Por séculos, a ciência e a filosofia ocidentais operaram sob o pressuposto de um mundo transcendente, onde as leis e as realidades essenciais pairavam acima ou fora dos fenômenos concretos. No entanto, o advento da física moderna, especialmente a mecânica quântica e a relatividade, forçou um retorno a uma Filosofia da Imanência, onde a realidade é vista como brotando de dentro, em um fluxo contínuo de criação e diferença.
 A primeira operando no âmbito técnico científico e rigor matemático, a segunda, no rigor intuitivo, lógico argumentativo.
@@ -92,23 +95,3 @@ Ao traçarmos esse arco que vai da curvatura do espaço de Riemann à avaliaçã
 Essa revolução ontológica impõe um desafio urgente ao *como* produzimos conhecimento. Se o mundo é feito de emaranhamentos e devir, nossos métodos tradicionais — pautados na representação fixa e na separação sujeito-objeto — tornam-se ferramentas rombudas, incapazes de tocar a delicadeza do virtual. É nessa fenda que florescem os <mark>Novos Empirismos e a Pesquisa Pós-Qualitativa</mark>. Eles surgem como a resposta metodológica necessária a esse grito da imanência: modos de investigar que não buscam capturar ou congelar a realidade, mas sim experimentar com ela, cartografando as forças do "ainda não" e assumindo o risco de pesquisar de dentro do próprio turbilhão da criação.
 
  A virada ontológica, a Pesquisa Pós-Qualitativa e os Novos Empirismos serão tema de um próximo post aqui no blog. Acompanhem.
-
-
-
-**Referências:**
-
-DALALAH, Doraid and DALALAH, Osama M. A., 2023. The false positives and false negatives of generative AI detection tools in education and academic research: The case of ChatGPT. *The International Journal of Management Education*. 1 July 2023. Vol. 21, no. 2, p. 100822. DOI [10.1016/j.ijme.2023.100822](https://doi.org/10.1016/j.ijme.2023.100822).
-
-KHALIL, Mohammad and ER, Erkan, 2023. Will ChatGPT Get You Caught? Rethinking of Plagiarism Detection. In: ZAPHIRIS, Panayiotis and IOANNOU, Andri (eds.), *Learning and Collaboration Technologies*. Cham: Springer Nature Switzerland. 2023. p. 475–487. ISBN 978-3-031-34411-4. DOI [10.1007/978-3-031-34411-4_32](https://doi.org/10.1007/978-3-031-34411-4_32).
-
-LIANG, Weixin, YUKSEKGONUL, Mert, MAO, Yining, WU, Eric and ZOU, James, 2023. GPT detectors are biased against non-native English writers. . Online. 2023. DOI [10.48550/ARXIV.2304.02819](https://doi.org/10.48550/ARXIV.2304.02819). \[Accessed 25 April 2024].
-
-TIWARI, Shreeji, SHARMA, Rohit, SIKARWAR, Rishabh Singh, DUBEY, Ghanshyam Prasad, BAJPAI, Nidhi and SINGHATIYA, Smriti, 2024. Detecting AI Generated Content: A Study of Methods and Applications. In: KUMAR, Sandeep, HIRANWAL, Saroj, GARG, Ritu and PUROHIT, S. D. (eds.), *Proceedings of International Conference on Communication and Computational Technologies*. Singapore: Springer Nature. 2024. p. 161–176. ISBN 978-981-9774-23-4. DOI [10.1007/978-981-97-7423-4_13](https://doi.org/10.1007/978-981-97-7423-4_13).
-
-Estudante falsamente acusado por detectores de IA - Undetectable AI - Blog, 2023. Online. Available from: <https://undetectable.ai/blog/br/estudante-falsamente-acusado-por-detectores-de-ia/>. \[Accessed 7 May 2025].
-
-Descubra como se proteger contra falsas acusações de fraude de IA e defender sua integridade acadêmica. Available from: <https://www.estadao.com.br/link/cultura-digital/foi-acusado-de-trapacear-usando-ia-veja-o-que-fazer/>. \[Accessed 7 May 2025].
-
-STYLINGIRL289, 2023. I was falsely accused of AI cheating and successfully appealed my case to the Department Chair at my school. Here’s how I did it. *r/college*. Online. 17 November 2023. Available from: <https://www.reddit.com/r/college/comments/17x954b/i_was_falsely_accused_of_ai_cheating_and/> \[Accessed 7 May 2025].
-
-Uso do ChatGPT gera conflitos na sala de aula e acusações de plágio sem provas, \[no date]. Online. Available from: <https://www.aosfatos.org/noticias/chatgpt-alunos-professores-plagio/> \[Accessed 7 May 2025].
