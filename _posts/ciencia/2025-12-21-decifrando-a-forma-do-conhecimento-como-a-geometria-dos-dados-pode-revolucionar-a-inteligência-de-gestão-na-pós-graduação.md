@@ -16,23 +16,25 @@ tags:
   - dados
   - gráficos
 ---
-Este post tem por objetivo lançar bases empíricas para a aplicação da Ciência da Informação no campo da Avaliação Institucional. Apresento aqui uma análise da produção acadêmica de todos os pesquisadores atualmente ativos no Programa de Pós-Graduação em Educação da Universidade Federal do Ceará (UFC), desde a criação do programa, focada nos estratos CAPES do Quadriênio 2017-2020.
+Este post tem por objetivo lançar bases empíricas para a aplicação da Ciência da Informação no campo da Avaliação Institucional. Apresento aqui uma análise da produção acadêmica (artigos em periódicos) dos pesquisadores atualmente ativos no Programa de Pós-Graduação em Educação da Universidade Federal do Ceará (UFC), desde à sua criação ([1977](https://ppge.ufc.br/ppge/wp-content/uploads/2020/11/Orienta%C3%A7%C3%B5es-Acad%C3%AAmicas.pdf)), focada nos estratos [CAPES Periódicos do Quadriênio 2017-2020](https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf).
 
 A proposta carrega uma inovação metodológica inerente: o translado de ferramentas analíticas típicas da Ciência da Informação para o território da Educação. Ao aplicar métodos bibliométricos e de visualização de dados em uma área distinta, pretendo romper com o isolamento disciplinar, permitindo que padrões invisíveis a olho nu sejam revelados.
 
-Para navegar por esses dados, é crucial compreender que a noção de 'valor' aqui empregada possui raízes no pragmatismo epistemológico de Charles S. Peirce. Nessa filosofia, o significado de qualquer conceito intelectual reside inteiramente na soma de suas consequências práticas concebíveis. Portanto, ao realizar esta análise, tomo como pressuposto o sistema de crenças institucionalizado pela CAPES, sem que isso implique em juízos axiológicos adicionais ou na invalidação da qualidade intrínseca desse sistema de avaliação. Opero, portanto, dentro da lógica dos *efeitos*: neste recorte pragmático, o valor de um artigo publicado foi aqui definido estritamente pela convenção que rege a comunidade.
+Para navegar por esses dados, é crucial compreender que a noção de valor aqui empregada possui raízes no [pragmatismo epistemológico de Charles S. Peirce](https://pt.wikipedia.org/wiki/Pragmatismo). Nessa filosofia, o significado de qualquer conceito intelectual reside inteiramente na soma de suas consequências práticas concebíveis. Portanto, ao realizar esta análise, tomo como pressuposto o sistema de crenças institucionalizado pela CAPES, sem que isso implique em juízos axiológicos adicionais ou na invalidação da qualidade intrínseca desse sistema de avaliação. Opero, portanto, dentro da lógica dos *efeitos*: neste recorte pragmático, o valor de um artigo publicado foi aqui definido estritamente pela convenção que rege a comunidade.
 
-Assim, assume-se a 'gramática' estabelecida pelo Qualis, onde a relevância é traduzida nos seguintes efeitos numéricos: a excelência máxima é codificada como **A1 (100 pontos)** e **A2 (85 pontos)**; os estratos intermediários como **A3 (75)** e **A4 (65)**; consolidando-se a base nos estratos B (**B1=55, B2=40, B3=25, B4=10**).
+Assim, assume-se a gramática estabelecida pela [Ficha de Avaliação da Área de Educação – 2017/2020](https://www.gov.br/capes/pt-br/centrais-de-conteudo/documentos/avaliacao/FICHA_EDUCACAO_ATUALIZADA.pdf), onde a relevância é traduzida nos seguintes efeitos numéricos: a excelência máxima é codificada como **A1 (100 pontos)** e **A2 (85 pontos)**; os estratos intermediários como **A3 (75)** e **A4 (65)**; consolidando-se a base nos estratos B (**B1=55, B2=40, B3=25, B4=10**).
 
 Ao adotar esse sistema de signos como ferramenta analítica falível — e não necessariamente como verdade absoluta —, meu objetivo é mapear a geometria oculta que revela como esse grupo se estabelece a partir da publicação de seus membros.
 
 Nesse sentido, a Visualização de Dados foi operada aqui como o instrumento óptico da Ciência da Informação, permitindo que se enxergue a complexa 'biologia' da comunicação científica. Ao utilizar essas lentes, realizo um exercício prático de Organização e Representação do Conhecimento, onde a plotagem de coordenadas espaciais investiga os fluxos de produção do programa em análise. Dessa forma, converto metadados brutos em inteligência competitiva, transformando os padrões gráficos revelados em diagnósticos precisos para a gestão acadêmica.
 
+- - -
+
 **A Pergunta:**
 
 > *"Como foi construída a trajetória de produção do programa ao longo dos anos e quem são as referências históricas que impulsionaram esse crescimento?"*
 
-![Pasted image 20251219004009.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251219004009.png?1766115609292)
+{% include image.html url="/assets/images/grafico1-serie.jpg" description="Linha do Tempo de Produção Acumulada - PPGE-UFC" %}
 
 **A Resposta e Análise:**
 
@@ -40,13 +42,15 @@ Ao observarmos o Gráfico de Linha do Tempo de Produção Acumulada, estamos dia
 
 Logo abaixo, vemos a consolidação de outros pilares fundamentais, como Gilberto Cerqueira, Raquel Crosara e Marcos Lima, cujas contribuições individuais (entre 4.7% e 5.4%) formam a segunda camada de sustentação em publicações do programa. Já a base do gráfico, composta pela maioria dos docentes, representa o esforço coletivo que, somado, dá corpo e diversidade ao programa. É natural em grupos acadêmicos grandes termos essa distribuição, onde diferentes momentos de carreira e perfis de atuação se encontram.
 
-Sob a lente da Ciência da Informação, essa assimetria visual não é um acidente, mas a manifestação empírica da **Lei de Lotka**. Formulada na década de 1920, essa lei bibliométrica prevê que a produtividade científica nunca se distribui de forma igualitária, mas segue invariavelmente uma lógica de cauda longa: uma pequena elite de pesquisadores (aqui representados pelas curvas superiores) concentra a maior fatia da produção, enquanto a grande maioria compõe o tecido basal do conhecimento. Portanto, o grande distanciamento da curva do líder em relação à base densa não indica uma anomalia do programa, mas confirma esse padrão estatístico esperado na comunicação da ciência.
+Sob a lente da Ciência da Informação, essa assimetria visual não é um acidente, mas a manifestação empírica da Lei de Lotka. Formulada na década de 1920, essa lei bibliométrica prevê que a produtividade científica não se distribui de forma igualitária, mas segue invariavelmente uma lógica de cauda longa: uma pequena elite de pesquisadores (aqui representados pelas curvas superiores) concentra a maior fatia da produção, enquanto a grande maioria compõe o tecido basal do conhecimento. Portanto, o grande distanciamento da curva do líder em relação à base densa não indica uma anomalia do programa, mas confirma esse padrão estatístico esperado na comunicação da ciência.
 
-No entanto, o ranking nos conta apenas metade da história. Ele celebra o volume, que é fruto de muito trabalho, mas não nos detalha a **estratégia**.
+No entanto, o ranking nos conta apenas metade da história. Ele celebra o volume, que é fruto de muito trabalho, mas não nos detalha a estratégia.
 
 Sabemos agora quem produziu mais, mas a gestão inteligente pede que perguntemos também como se produziu. Será que os 8.8% do líder foram construídos nas mesmas bases e estratos Qualis que os 5.4% do segundo colocado? Será que um pesquisador com menos volume total pode ter uma influência central em um nicho específico de altíssimo impacto?
 
 O ranking mostra a altura do edifício, mas para entender sua arquitetura — e garantir que todos os talentos sejam valorizados, não apenas os mais prolíficos — precisamos olhar para a geometria desses dados. É isso que as próximas visualizações revelam.
+
+- - -
 
 **A Pergunta:**
 
@@ -54,11 +58,11 @@ O ranking mostra a altura do edifício, mas para entender sua arquitetura — e 
 
 **O Mapa da Vizinhança Intelectual**
 
-Quando olhamos para uma planilha tradicional, ficamos limitados a uma lista de nomes e números frios. No entanto, ao projetarmos esses mesmos dados no **Gráfico de Análise de Cluster**, surge uma estrutura intelectual do programa.
+Quando olhamos para uma planilha tradicional, ficamos limitados a uma lista de nomes e números frios. No entanto, ao projetarmos esses mesmos dados no Gráfico de Análise de Cluster, surge uma estrutura intelectual do programa.
 
-Para construir essa visualização, combinamos duas técnicas matemáticas poderosas. Primeiro, utilizamos o **PCA (Análise de Componentes Principais)**, que funciona como um "resumo inteligente": ele pega a complexidade de todas as variáveis (os 8 tipos de estratos Qualis) e as traduz para apenas dois eixos visuais, preservando a essência da informação. Em seguida, aplicamos o **K-Means**, um algoritmo que atua como um "organizador automático": ele varre esses dados, calcula a distância matemática entre os perfis e agrupa os pesquisadores que possuem estratégias de publicação semelhantes, colorindo-os como "tribos".
+Para construir essa visualização, combinamos duas técnicas matemáticas poderosas. Primeiro, utilizamos o PCA (Análise de Componentes Principais), que funciona como um "resumo inteligente": ele pega a complexidade de todas as variáveis (os 8 tipos de estratos Qualis) e as traduz para apenas dois eixos visuais, preservando a essência da informação. Em seguida, aplicamos o K-Means, um algoritmo que atua como um "organizador automático": ele varre esses dados, calcula a distância matemática entre os perfis e agrupa os pesquisadores que possuem estratégias de publicação semelhantes, colorindo-os como "tribos".
 
-O resultado é que descobrimos quem são os **"vizinhos intelectuais"**. Nessa análise, o computador ignora amizades ou departamentos e agrupa as pessoas puramente pelo comportamento estatístico de suas publicações.
+O resultado é que descobrimos quem são os "vizinhos intelectuais". Nessa análise, o computador ignora amizades ou departamentos e agrupa as pessoas puramente pelo comportamento estatístico de suas publicações.
 
 ![Pasted image 20251219002459.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251219002459.png?1766114699482)
 
@@ -76,7 +80,7 @@ Para entender melhor essa diferença intra-grupo, o Gráfico de Radar acima, que
 
 Além do volume, o eixo vertical destaca as vizinhanças intelectuais baseadas no perfil das publicações. O Grupo 2 (em vermelho), liderado pela posição isolada de Henrique Cunha Junior no topo do gráfico, aponta para pesquisadores com um "DNA editorial" único, caracterizado por um equilíbrio proporcional entre publicações A4 e B3 ao longo de sua trajetória, um padrão distinto do restante do corpo de pesquisa.
 
-Nesse mesmo agrupamento, destaca-se també Marcos Antonio Martins Lima, posicionado na fronteira direita do grupo, quase em transição para o cluster de altíssima produtividade (Grupo 3, verde). O algoritmo o identificou como um ponto de alta performance em volume, mas com uma expansão qualitativa diferenciada: Marcos Lima detém a maior contribuição individual do programa no estrato A3, evidenciando uma estratégia de publicação robusta e diversificada que serve como ponte entre a base do programa e seus líderes de volume. Essa geometria reforça que o ecossistema do programa é enriquecido por especialistas com trajetórias singulares que complementam tanto a base generalista quanto os motores de produtividade.
+Nesse mesmo agrupamento, destaca-se também Marcos Antonio Martins Lima, posicionado na fronteira direita do grupo, quase em transição para o cluster de altíssima produtividade (Grupo 3, verde). O algoritmo o identificou como um ponto de alta performance em volume, mas com uma expansão qualitativa diferenciada: Marcos Lima detém a maior contribuição individual do programa no estrato A3, evidenciando uma estratégia de publicação robusta e diversificada que serve como ponte entre a base do programa e seus líderes de volume. Essa geometria reforça que o ecossistema do programa é enriquecido por especialistas com trajetórias singulares que complementam tanto a base generalista quanto os motores de produtividade.
 
 O *insight* para a gestão aqui é cristalino. Os gráficos revelam que docentes com volumes de produção similares podem habitar extremos opostos do mapa estratégico. De um lado, identificamos os "*snipers*", pesquisadores que operam com foco cirúrgico em publicações de elite; do outro, vemos os "construtores de base", que sustentam o programa com um alto volume em estratos intermediários.
 
@@ -145,6 +149,63 @@ Essa constatação abre espaço para uma agenda de pesquisa crítica necessária
 
 No entanto, quando ajustamos a lente para medir a produtividade relativa (eficiência), o cenário sofre uma reviravolta interessante. O Gráfico de Eficiência Acumulada revela que o grupo NAVE (linha azul), mesmo sendo uma das menores equipes do programa (apenas 5 membros), dispara na liderança da produtividade *per capita*, acumulando quase 3.600 pontos por membro e superando significativamente grupos três vezes maiores. Isso demonstra inequivocamente que nem sempre um grupo grande possui uma produção relativa superior; pelo contrário, grupos menores podem apresentar uma agilidade e foco de publicação muito mais intensos.
 
+- - -
+
+**Pergunta:**\
+*A produção individual dos docentes é estruturalmente equilibrada entre diferentes estratos de qualificação ou o programa depende de padrões produtivos concentrados e potencialmente frágeis?*
+
+**O Triângulo de Forças (Ternary Plot)**
+
+![Pasted image 20251220105327.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251220105327.png?1766238807919)
+
+Se a Linha do Tempo nos mostrou o quanto se produz, este gráfico nos revela o 'onde' e o equilíbrio dessa produção. Mas como ler essa geometria?
+
+Para construir este gráfico, o modelo matemático agrupa toda a produção em três grandes cestas: Excelência (A1+A2), Intermediária (A3+A4) e Base (B1-B4). Imagine que cada ponta do triângulo possui um ímã com uma força gravitacional diferente. Se um pesquisador tivesse 100% de sua produção em revistas de elite (A1), ele seria atraído violentamente para o topo e ficaria "colado" lá. Se a produção dele for mista, as forças dos três ímãs competem entre si, e o ponto flutua em algum lugar do meio, indicando a "receita" exata do seu perfil.
+
+Ao observarmos a dispersão dos pontos, o diagnóstico é de um hibridismo saudável. Não vemos uma nuvem de pontos colapsada no canto direito (o que indicaria um programa que só publica em veículos de menor impacto), nem uma concentração irreal no topo (o que seria insustentável a longo prazo).
+
+A maioria dos pesquisadores flutua no centro do triângulo. Isso significa que o docente 'médio' do programa não é monodimensional; ele mantém um portfólio equilibrado, publicando artigos de elite com visibilidade internacional ao mesmo tempo que mantém a produção em veículos de formação e âmbito nacional.
+
+Visualmente, notamos alguns pesquisadores (pontos verde-água e azul-escuro na lateral esquerda) que resistem à força do vértice Base, focando sua estratégia quase inteiramente na faixa Qualis A (seja de topo ou intermediária). Por outro lado, a ausência de pontos cravados no vértice superior absoluto (1.0 em A1+A2) nos lembra que até os "super-produtores" precisam diversificar seus canais de publicação para manter o volume alto.
+
+A pergunta que fica para a gestão deixa de ser sobre cobrança e passa a ser sobre conexão: *"Como podemos incentivar que os pesquisadores situados na base do triângulo (B1-B4) colaborem com aqueles que dominam as formas de publicação no topo (A1+A2), elevando o centro de gravidade de todo o grupo?"*
+
+**A Pergunta:**
+
+> *"A produção do nosso programa é resultado de um esforço constante e sustentável, ou vivemos de 'soluços' produtivos e safras isoladas?"*
+
+**O Eletrocardiograma da Produção (Heatmap)**
+
+Enquanto a Linha do Tempo nos mostra o acúmulo histórico (quem tem mais no total), este gráfico revela o ritmo e a constância. A lógica de construção aqui é a de uma "câmera térmica": cruzamos cada pesquisador (nas linhas) com cada ano (nas colunas).
+
+A regra visual é simples: cores frias e escuras (roxo) indicam silêncio ou baixa produção. À medida que o pesquisador publica mais naquele ano específico, a célula "esquenta", passando pelo verde até chegar ao amarelo brilhante, que representa a temperatura máxima de produtividade. Assim, conseguimos ver instantaneamente, qual o tamanho da 'fogueira' de pesquisa do programa.
+
+![Pasted image 20251220105259.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251220105259.png?1766238779081)
+
+A leitura visual imediata mostra um movimento de "aquecimento global" do grupo: o lado esquerdo do gráfico é predominantemente roxo escuro (baixa atividade no passado (no intervalo de 1992 a 2005)), enquanto o lado direito, especialmente nos últimos 5 anos, acende com tons de verde e amarelo, indicando o amadurecimento institucional e a entrada de novo corpo de pesquisa ao programa. Esse último fator pode explicar também boa parte da "zona fria", já que muitos pesquisadores ainda não faziam parte do programa entre 1990 e 2010.
+
+Ao percorrermos as linhas horizontais de cada pesquisador, o gráfico denuncia a intermitência. Poucos são os casos de barras contínuas de cor. O que vemos frequentemente é o padrão "pisca-pisca": um ano de alta produção (verde/amarelo) seguido por dois anos de silêncio (roxo), ou blocos de atividade intensa interrompidos abruptamente. As células amarelas brilhantes mostram que o programa tem capacidade de entrega de altíssimo nível, mas a predominância de lacunas escuras intercaladas sugere que essa entrega muitas vezes custa um esforço exaustivo que não consegue ser mantido no ano seguinte.
+
+Para a gestão, este é um dos gráficos mais acionáveis de todos. O ranking diz quem ganhou a corrida, mas o Mapa de Calor diz quem está parando de correr no meio da pista.
+
+A inteligência aqui está em identificar as 'Lacunas Frias Recentes'. Se um pesquisador sênior, que historicamente vinha "verde", apresenta blocos roxos nos dois últimos anos, isso é um sinal de alerta vermelho. Pode indicar sobrecarga administrativa, fim de um ciclo de financiamento ou esgotamento. Por outro lado, identificar quem está "acendendo" (passando do roxo para o verde recentemente) permite investir nesse talento em ascensão. O objetivo estratégico deixa de ser "aumentar o total" e passa a ser "preencher as lacunas", transformando soluços esporádicos em constância acadêmica.
+
+A análise destes gráficos, para além da "geometria" dos grupos, serve como evidência empírica de uma política científica nacional consolidada ao longo de décadas: o produtivismo acadêmico. A ascensão vertiginosa das curvas de volume a partir dos anos 1990 não é acidental, mas reflexo direto da imposição de um modelo de avaliação quantitativa inaugurado pela CAPES no final da década de 1970 e sedimentado com o sistema Qualis em 1998. Ao observarmos o "salto" de produção nos gráficos de linha do tempo, vemos a materialização do que autores chamam de "[capitalismo acadêmico](https://revistavalore.emnuvens.com.br/valore/article/view/1322)", onde a sobrevivência dos programas passou a depender de métricas industriais de output.
+
+Essa constatação abre espaço para uma agenda de pesquisa crítica necessária e urgente, que questione se a explosão dos números foi acompanhada pela densidade do conhecimento. Fica o convite para investigarmos o "antes e depois" dessa virada produtivista através da seguinte pergunta de pesquisa: *"A produção científica anterior à 'era Qualis', embora menor em volume, apresentava maior densidade teórica e originalidade do que o modelo de 'fatiamento' de resultados ([salami slicing](https://www.enago.com.br/academy/salami-slicing/)) incentivado pelas métricas atuais?"*. Certamente, responder a isso exigiria métricas de análise qualitativa profunda que hoje nossos algoritmos ainda ignoram, mas que são essenciais para resgatar o sentido da ciência para além dos números.
+
+**A Pergunta:**
+
+> *"Existe uma correlação direta entre a quantidade de membros em uma linha de pesquisa e o volume de publicações qualificadas? Tamanho é documento?"*
+
+**A Resposta e Análise:**
+
+![Pasted image 20251220110722.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251220110722.png?1766239642663)
+
+À primeira vista, ao observarmos o Gráfico de Volume Total com Indicador de Tamanho do Grupo, a resposta parece sugerir que sim. As grandes esferas vermelhas, representando o grupo LECE (com 17 pesquisadores), dominam o topo das curvas de volume bruto. Segue-se, aqui, uma lógica aparente de escala industrial: maior contingente humano resultaria naturalmente em uma maior soma final de publicações.
+
+No entanto, quando ajustamos a lente para medir a produtividade relativa (eficiência), o cenário sofre uma reviravolta interessante. O Gráfico de Eficiência Acumulada revela que o grupo NAVE (linha azul), mesmo sendo uma das menores equipes do programa (apenas 5 membros), dispara na liderança da produtividade *per capita*, acumulando quase 3.600 pontos por membro e superando significativamente grupos três vezes maiores. Isso demonstra inequivocamente que nem sempre um grupo grande possui uma produção relativa superior; pelo contrário, grupos menores podem apresentar uma agilidade e foco de publicação muito mais intensos.
+
 ![Pasted image 20251220121406.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251220121406.png?1766243646403)
 
 O que explicaria essa discrepância onde "Davi supera Golias"? Embora não possamos ser definitivos sem olhar os pormenores, uma causa provável reside na matemática das médias em grupos pequenos, sujeita à contribuição assimétrica. Em equipes reduzidas, a presença de um único *outlier* de alta performance eleva a média do grupo drasticamente. Já em grupos massivos (LECE), a existência natural de uma base de pesquisadores em diferentes fases de carreira tende a diluir a média final.
@@ -159,4 +220,8 @@ Para que você possa investigar essas nuances pessoalmente, todas as visualizaç
 
 Por fim, é fundamental compreender que a adoção dessa cultura de dados não é um luxo tecnológico, mas uma condição de sobrevivência no cenário acadêmico contemporâneo. Vivemos um momento de inflação informacional, onde o volume massivo de dados gerados por plataformas como Lattes e Sucupira torna humanamente impossível a tomada de decisão baseada apenas em planilhas ou na experiência tácita do gestor. Quando transformamos esse oceano de metadados brutos em inteligência visual, permitimos que a gestão abandone a postura reativa de apenas cumprir métricas passadas. Passamos, assim, a antecipar tendências, corrigir assimetrias em tempo real e desenhar o futuro estratégico do programa munidos de muitas evidências empíricas da pesquisa em *in-loco*.
 
-{% include image.html url="/assets/images/espacos-possiveis.jpg" description="Espaços possíveis da Geometria DIferencial" %}
+Por fim, é fundamental compreender que a adoção dessa cultura de dados não é um mero luxo tecnológico, mas uma condição de sobrevivência no cenário acadêmico contemporâneo. Vivemos um momento de 'inflação informacional', onde o volume massivo de dados gerados por plataformas como Lattes e Sucupira torna humanamente impossível a tomada de decisão baseada apenas em planilhas ou na intuição. É aqui que a Ciência da Informação se torna o fiel da balança: ela nos fornece o método para converter esse oceano de metadados brutos em inteligência visual acionável. Ao aplicar esses princípios bibliométricos à Avaliação Institucional, permite-se que a gestão abandone a postura reativa de apenas preencher tabelas e passe a antecipar tendências, corrigir assimetrias em tempo real e desenhar seu futuro estratégico com base no que a evidência empírica — devidamente tratada e interpretada — pode oferecer.
+
+
+
+Observações: Nao se considerou Qualis Livros.
