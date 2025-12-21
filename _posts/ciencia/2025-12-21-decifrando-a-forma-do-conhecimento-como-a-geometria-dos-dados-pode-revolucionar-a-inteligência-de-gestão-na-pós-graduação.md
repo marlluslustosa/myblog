@@ -3,8 +3,8 @@ layout: post
 image: assets/images/geometria-riemanniana.jpg
 image-ref: A Geometria Diferencial de Riemann - <a
   href="https://www.researchgate.net/figure/Fig-Conceptos-esenciales-de-la-geometria-riemanniana-ilustrados_fig7_348355106">Researchgate</a>
-title: "Decifrando a Forma do Conhecimento: Como a geometria dos dados pode
-  revolucionar a inteligência de gestão na Pós-Graduação"
+title: "Decifrando a Forma do Conhecimento: Avaliação Institucional à Luz da
+  Ciência da Informação"
 author: marllus
 date: 2025-12-21 11:38:49
 categories: ciencia
@@ -16,9 +16,17 @@ tags:
   - dados
   - gráficos
 ---
-Quem me conhece sabe que navego por diversas áreas, e a Ciência da Informação é uma das que mais me fascina. Ao trabalhar com análise de dados acadêmicos, frequentemente encontro um paradoxo: dominamos técnicas avançadas para analisar a complexidade, mas, na gestão, ainda dependemos de planilhas lineares e contagens simples.
+Este post tem por objetivo lançar bases empíricas para a aplicação da Ciência da Informação no campo da Avaliação Institucional. Apresento aqui uma análise da produção acadêmica de todos os pesquisadores atualmente ativos no Programa de Pós-Graduação em Educação da Universidade Federal do Ceará (UFC), desde a criação do programa, focada nos estratos CAPES do Quadriênio 2017-2020.
 
-Trago aqui a análise da produção acadêmica, em periódicos científicos qualificados (estrato Qualis 2017-2020), do Programa de Pós-Graduação em Educação da Universidade Federal do Ceará - UFC, sob uma ótica estritamente bibliométrica. Em vez de criar apenas mais um ranking, busquei mapear a geometria oculta que revela a saúde e a estratégia do grupo. Ao observar os dados, uma coisa fica evidente: a produção científica tem 'forma', e compreendê-la é o que diferencia análises rasas de ranking acadêmico da verdadeira inteligência de gestão.
+A proposta carrega uma inovação metodológica inerente: o translado de ferramentas analíticas típicas da Ciência da Informação para o território da Educação. Ao aplicar métodos bibliométricos e de visualização de dados em uma área distinta, pretendo romper com o isolamento disciplinar, permitindo que padrões invisíveis a olho nu sejam revelados.
+
+Para navegar por esses dados, é crucial compreender que a noção de 'valor' aqui empregada possui raízes no pragmatismo epistemológico de Charles S. Peirce. Nessa filosofia, o significado de qualquer conceito intelectual reside inteiramente na soma de suas consequências práticas concebíveis. Portanto, ao realizar esta análise, tomo como pressuposto o sistema de crenças institucionalizado pela CAPES, sem que isso implique em juízos axiológicos adicionais ou na invalidação da qualidade intrínseca desse sistema de avaliação. Opero, portanto, dentro da lógica dos *efeitos*: neste recorte pragmático, o valor de um artigo publicado foi aqui definido estritamente pela convenção que rege a comunidade.
+
+Assim, assume-se a 'gramática' estabelecida pelo Qualis, onde a relevância é traduzida nos seguintes efeitos numéricos: a excelência máxima é codificada como **A1 (100 pontos)** e **A2 (85 pontos)**; os estratos intermediários como **A3 (75)** e **A4 (65)**; consolidando-se a base nos estratos B (**B1=55, B2=40, B3=25, B4=10**).
+
+Ao adotar esse sistema de signos como ferramenta analítica falível — e não necessariamente como verdade absoluta —, meu objetivo é mapear a geometria oculta que revela como esse grupo se estabelece a partir da publicação de seus membros.
+
+Nesse sentido, a Visualização de Dados foi operada aqui como o instrumento óptico da Ciência da Informação, permitindo que se enxergue a complexa 'biologia' da comunicação científica. Ao utilizar essas lentes, realizo um exercício prático de Organização e Representação do Conhecimento, onde a plotagem de coordenadas espaciais investiga os fluxos de produção do programa em análise. Dessa forma, converto metadados brutos em inteligência competitiva, transformando os padrões gráficos revelados em diagnósticos precisos para a gestão acadêmica.
 
 **A Pergunta:**
 
@@ -32,13 +40,13 @@ Ao observarmos o Gráfico de Linha do Tempo de Produção Acumulada, estamos dia
 
 Logo abaixo, vemos a consolidação de outros pilares fundamentais, como Gilberto Cerqueira, Raquel Crosara e Marcos Lima, cujas contribuições individuais (entre 4.7% e 5.4%) formam a segunda camada de sustentação em publicações do programa. Já a base do gráfico, composta pela maioria dos docentes, representa o esforço coletivo que, somado, dá corpo e diversidade ao programa. É natural em grupos acadêmicos grandes termos essa distribuição, onde diferentes momentos de carreira e perfis de atuação se encontram.
 
+Sob a lente da Ciência da Informação, essa assimetria visual não é um acidente, mas a manifestação empírica da **Lei de Lotka**. Formulada na década de 1920, essa lei bibliométrica prevê que a produtividade científica nunca se distribui de forma igualitária, mas segue invariavelmente uma lógica de cauda longa: uma pequena elite de pesquisadores (aqui representados pelas curvas superiores) concentra a maior fatia da produção, enquanto a grande maioria compõe o tecido basal do conhecimento. Portanto, o grande distanciamento da curva do líder em relação à base densa não indica uma anomalia do programa, mas confirma esse padrão estatístico esperado na comunicação da ciência.
+
 No entanto, o ranking nos conta apenas metade da história. Ele celebra o volume, que é fruto de muito trabalho, mas não nos detalha a **estratégia**.
 
 Sabemos agora quem produziu mais, mas a gestão inteligente pede que perguntemos também como se produziu. Será que os 8.8% do líder foram construídos nas mesmas bases e estratos Qualis que os 5.4% do segundo colocado? Será que um pesquisador com menos volume total pode ter uma influência central em um nicho específico de altíssimo impacto?
 
 O ranking mostra a altura do edifício, mas para entender sua arquitetura — e garantir que todos os talentos sejam valorizados, não apenas os mais prolíficos — precisamos olhar para a geometria desses dados. É isso que as próximas visualizações revelam.
-
-- - -
 
 **A Pergunta:**
 
@@ -73,6 +81,8 @@ Nesse mesmo agrupamento, destaca-se també Marcos Antonio Martins Lima, posicion
 O *insight* para a gestão aqui é cristalino. Os gráficos revelam que docentes com volumes de produção similares podem habitar extremos opostos do mapa estratégico. De um lado, identificamos os "*snipers*", pesquisadores que operam com foco cirúrgico em publicações de elite; do outro, vemos os "construtores de base", que sustentam o programa com um alto volume em estratos intermediários.
 
 Essa diversidade — corroborada visualmente pelas formas distintas no Gráfico de Radar — demonstra que um programa de pesquisa amplo não é construído com peças iguais. Para um gestor, essa geometria sustenta a afirmação de que impor a mesma meta para perfis matematicamente distintos pode ser um erro estratégico. O segredo da excelência não está na padronização, mas na orquestração inteligente dessa complementaridade.
+
+Sob essa perspectiva disciplinar, as ferramentas analíticas ganham uma nova dimensão epistemológica. O algoritmo *K-Means*, por exemplo, opera como um instrumento de Taxonomia Dinâmica, classificando os docentes por suas reais vizinhanças intelectuais. Simultaneamente, a leitura pragmática dos estratos Qualis interpreta essas notas como signos de validação comunitária. Essa abordagem situa a análise diretamente no território da Gestão do Conhecimento, fundamentando a identificação de lacunas, a previsão de tendências e o planejamento do programa na estrutura real de sua produção.
 
 - - -
 
@@ -148,9 +158,5 @@ Para que você possa investigar essas nuances pessoalmente, todas as visualizaç
 **\[Inserir Link do Dashboard Aqui]**
 
 Por fim, é fundamental compreender que a adoção dessa cultura de dados não é um luxo tecnológico, mas uma condição de sobrevivência no cenário acadêmico contemporâneo. Vivemos um momento de inflação informacional, onde o volume massivo de dados gerados por plataformas como Lattes e Sucupira torna humanamente impossível a tomada de decisão baseada apenas em planilhas ou na experiência tácita do gestor. Quando transformamos esse oceano de metadados brutos em inteligência visual, permitimos que a gestão abandone a postura reativa de apenas cumprir métricas passadas. Passamos, assim, a antecipar tendências, corrigir assimetrias em tempo real e desenhar o futuro estratégico do programa munidos de muitas evidências empíricas da pesquisa em *in-loco*.
-
-
-
-
 
 {% include image.html url="/assets/images/espacos-possiveis.jpg" description="Espaços possíveis da Geometria DIferencial" %}
