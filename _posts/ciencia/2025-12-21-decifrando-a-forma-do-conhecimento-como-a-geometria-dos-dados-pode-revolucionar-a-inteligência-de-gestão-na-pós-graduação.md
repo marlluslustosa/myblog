@@ -64,17 +64,21 @@ Para construir essa visualização, combinamos duas técnicas matemáticas poder
 
 O resultado é que descobrimos quem são os "vizinhos intelectuais". Nessa análise, o computador ignora amizades ou departamentos e agrupa as pessoas puramente pelo comportamento estatístico de suas publicações.
 
-![Pasted image 20251219002459.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251219002459.png?1766114699482)
+{% include image.html url="/assets/images/pca.jpg" description="Cluster de Similaridade (Individual) - PPGE-UFC" %}
 
 A análise visual do "Cluster de Similaridade (Individual)" revela uma nítida segmentação estratégica dentro do corpo docente, dividindo-o em três comportamentos estatísticos distintos. A grande maioria dos pesquisadores (Grupo 1, em azul) forma um bloco denso e coeso à esquerda, indicando que o núcleo do programa compartilha um padrão de produtividade e hábitos de publicação muito similares entre si.
 
-![Pasted image 20251219001538.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251219001538.png?1766114138298)
 
-Outro gráfico interessante é esse acima (Gráfico de Radar), que detalha a microestrutura desse núcleo, revelando uma malha heterogênea de atuações que desfaz a ilusão de que similaridade significa igualdade. Ao contrário da clareza geométrica dos líderes de volume (situados no Grupo 3, em verde, com os nomes já revelados em parágrafos anteriores), aqui observamos uma superposição caótica de polígonos menores, concentrados próximos ao centro, mas com picos de especialização que disparam em direções divergentes. Vemos claramente pesquisadores projetando-se quase exclusivamente no estrato A4 (o triângulo verde-água alongado), enquanto outros focam intensamente em A3 (o pico amarelo superior) ou B3 (o pico roxo inferior), sem um padrão dominante. Isso indica que a base do programa não atua em bloco unificado, mas opera como uma colcha de retalhos onde cada docente ocupa um nicho editorial específico. Essa característica reafirma a vasta diversidade do programa — vale notar que o PPGE é o maior e mais diverso entre os programas de pós-graduação da UFC —, garantida justamente pela soma dessas várias especializações micro.
+
+Outro gráfico interessante é o de Radar, que detalha a microestrutura desse núcleo, revelando uma malha heterogênea de atuações que desfaz a ilusão de que similaridade significa igualdade. 
+
+{% include image.html url="/assets/images/radar-base.jpg" description="Gráfico de Radar Grupo 1 - PPGE-UFC" %}
+
+Ao contrário da clareza geométrica dos líderes de volume (situados no Grupo 3, em verde, com os nomes já revelados em parágrafos anteriores), aqui observamos uma superposição caótica de polígonos menores, concentrados próximos ao centro, mas com picos de especialização que disparam em direções divergentes. Vemos claramente pesquisadores projetando-se quase exclusivamente no estrato A4 (o triângulo verde-água alongado), enquanto outros focam intensamente em A3 (o pico amarelo superior) ou B3 (o pico roxo inferior), sem um padrão dominante. Isso indica que a base do programa não atua em bloco unificado, mas opera como uma colcha de retalhos onde cada docente ocupa um nicho editorial específico. Essa característica reafirma a vasta diversidade do programa — vale notar que o PPGE é o maior e mais diverso entre os programas de pós-graduação da UFC —, garantida justamente pela soma dessas várias especializações micro.
 
 Em contraste, o gráfico expõe isoladamente os líderes de volume no eixo horizontal (Grupo 3, em verde), representados por Wagner e Gilberto; embora ambos se destaquem pela alta quantidade de produção, o dado crucial aqui é a distância vertical: enquanto Gilberto está próximo da linha central (Y≈0.5), Wagner está deslocado para baixo (Y≈−4), sugerindo que, mesmo entre os mais produtivos, as estratégias de escolha editorial são radicalmente diferentes.
 
-![Pasted image 20251219002405.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251219002405.png?1766114645278)
+{% include image.html url="/assets/images/radar-wagner-gilberto.jpg" description="Gráfico de Radar Grupo 3 - PPGE-UFC" %}
 
 Para entender melhor essa diferença intra-grupo, o Gráfico de Radar acima, que compara os dois nomes, revela formas geométricas quase complementares. Enquanto Wagner (representado pela área azul) se projeta em direção ao estrato A1, formando uma espécie de "lança", que indica uma produção concentrada na excelência da área analisada, o outro perfil (em roxo) adota uma distribuição lateral muito mais abrangente. Este segundo pesquisador expande sua área de atuação com força nos estratos intermediários e de consolidação, dominando as pontas dos estratos B1, B3 e A4. Essa visualização corrobora, matematicamente, a hipótese de que embora ambos tenham pontuações totais altas, eles chegam lá por táticas distintas: um pela especialização no topo da pirâmide Qualis, e o outro pela consistência volumosa nas bases de sustentação da pesquisa científica.
 
