@@ -99,9 +99,9 @@ Sob essa perspectiva disciplinar, as ferramentas analíticas ganham uma nova dim
 
 **O Triângulo de Forças (Ternary Plot)**
 
-![Pasted image 20251220105327.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251220105327.png?1766238807919)
+{% include image.html url="/assets/images/ternary-plot.jpg" description="Diagrama Ternário - PPGE-UFC" %}
 
-Se a Linha do Tempo nos mostrou o quanto se produz, este gráfico nos revela o 'onde' e o equilíbrio dessa produção. Mas como ler essa geometria?
+Se a Linha do Tempo nos mostrou o quanto se produz, este diagrama nos revela o 'onde' e o equilíbrio dessa produção. Mas como ler essa geometria?
 
 Para construir este gráfico, o modelo matemático agrupa toda a produção em três grandes cestas: Excelência (A1+A2), Intermediária (A3+A4) e Base (B1-B4). Imagine que cada ponta do triângulo possui um ímã com uma força gravitacional diferente. Se um pesquisador tivesse 100% de sua produção em revistas de elite (A1), ele seria atraído violentamente para o topo e ficaria "colado" lá. Se a produção dele for mista, as forças dos três ímãs competem entre si, e o ponto flutua em algum lugar do meio, indicando a "receita" exata do seu perfil.
 
@@ -121,11 +121,11 @@ A pergunta que fica para a gestão deixa de ser sobre cobrança e passa a ser so
 
 **O Eletrocardiograma da Produção (Heatmap)**
 
+{% include image.html url="/assets/images/heatmap.jpg" description="Mapa de calor das publicações/pesquisador - PPGE-UFC" %}
+
 Enquanto a Linha do Tempo nos mostra o acúmulo histórico (quem tem mais no total), este gráfico revela o ritmo e a constância. A lógica de construção aqui é a de uma "câmera térmica": cruzamos cada pesquisador (nas linhas) com cada ano (nas colunas).
 
 A regra visual é simples: cores frias e escuras (roxo) indicam silêncio ou baixa produção. À medida que o pesquisador publica mais naquele ano específico, a célula "esquenta", passando pelo verde até chegar ao amarelo brilhante, que representa a temperatura máxima de produtividade. Assim, conseguimos ver instantaneamente, qual o tamanho da 'fogueira' de pesquisa do programa.
-
-![Pasted image 20251220105259.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251220105259.png?1766238779081)
 
 A leitura visual imediata mostra um movimento de "aquecimento global" do grupo: o lado esquerdo do gráfico é predominantemente roxo escuro (baixa atividade no passado (no intervalo de 1992 a 2005)), enquanto o lado direito, especialmente nos últimos 5 anos, acende com tons de verde e amarelo, indicando o amadurecimento institucional e a entrada de novo corpo de pesquisa ao programa. Esse último fator pode explicar também boa parte da "zona fria", já que muitos pesquisadores ainda não faziam parte do programa entre 1990 e 2010.
 
@@ -147,70 +147,13 @@ Essa constatação abre espaço para uma agenda de pesquisa crítica necessária
 
 **A Resposta e Análise:**
 
-![Pasted image 20251220110722.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251220110722.png?1766239642663)
+{% include image.html url="/assets/images/producao-grupo.jpg" description="Volume Total com Indicador de Tamanho do Grupo - PPGE-UFC" %}
 
 À primeira vista, ao observarmos o Gráfico de Volume Total com Indicador de Tamanho do Grupo, a resposta parece sugerir que sim. As grandes esferas vermelhas, representando o grupo LECE (com 17 pesquisadores), dominam o topo das curvas de volume bruto. Segue-se, aqui, uma lógica aparente de escala industrial: maior contingente humano resultaria naturalmente em uma maior soma final de publicações.
 
 No entanto, quando ajustamos a lente para medir a produtividade relativa (eficiência), o cenário sofre uma reviravolta interessante. O Gráfico de Eficiência Acumulada revela que o grupo NAVE (linha azul), mesmo sendo uma das menores equipes do programa (apenas 5 membros), dispara na liderança da produtividade *per capita*, acumulando quase 3.600 pontos por membro e superando significativamente grupos três vezes maiores. Isso demonstra inequivocamente que nem sempre um grupo grande possui uma produção relativa superior; pelo contrário, grupos menores podem apresentar uma agilidade e foco de publicação muito mais intensos.
 
-- - -
-
-**Pergunta:**\
-*A produção individual dos docentes é estruturalmente equilibrada entre diferentes estratos de qualificação ou o programa depende de padrões produtivos concentrados e potencialmente frágeis?*
-
-**O Triângulo de Forças (Ternary Plot)**
-
-![Pasted image 20251220105327.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251220105327.png?1766238807919)
-
-Se a Linha do Tempo nos mostrou o quanto se produz, este gráfico nos revela o 'onde' e o equilíbrio dessa produção. Mas como ler essa geometria?
-
-Para construir este gráfico, o modelo matemático agrupa toda a produção em três grandes cestas: Excelência (A1+A2), Intermediária (A3+A4) e Base (B1-B4). Imagine que cada ponta do triângulo possui um ímã com uma força gravitacional diferente. Se um pesquisador tivesse 100% de sua produção em revistas de elite (A1), ele seria atraído violentamente para o topo e ficaria "colado" lá. Se a produção dele for mista, as forças dos três ímãs competem entre si, e o ponto flutua em algum lugar do meio, indicando a "receita" exata do seu perfil.
-
-Ao observarmos a dispersão dos pontos, o diagnóstico é de um hibridismo saudável. Não vemos uma nuvem de pontos colapsada no canto direito (o que indicaria um programa que só publica em veículos de menor impacto), nem uma concentração irreal no topo (o que seria insustentável a longo prazo).
-
-A maioria dos pesquisadores flutua no centro do triângulo. Isso significa que o docente 'médio' do programa não é monodimensional; ele mantém um portfólio equilibrado, publicando artigos de elite com visibilidade internacional ao mesmo tempo que mantém a produção em veículos de formação e âmbito nacional.
-
-Visualmente, notamos alguns pesquisadores (pontos verde-água e azul-escuro na lateral esquerda) que resistem à força do vértice Base, focando sua estratégia quase inteiramente na faixa Qualis A (seja de topo ou intermediária). Por outro lado, a ausência de pontos cravados no vértice superior absoluto (1.0 em A1+A2) nos lembra que até os "super-produtores" precisam diversificar seus canais de publicação para manter o volume alto.
-
-A pergunta que fica para a gestão deixa de ser sobre cobrança e passa a ser sobre conexão: *"Como podemos incentivar que os pesquisadores situados na base do triângulo (B1-B4) colaborem com aqueles que dominam as formas de publicação no topo (A1+A2), elevando o centro de gravidade de todo o grupo?"*
-
-**A Pergunta:**
-
-> *"A produção do nosso programa é resultado de um esforço constante e sustentável, ou vivemos de 'soluços' produtivos e safras isoladas?"*
-
-**O Eletrocardiograma da Produção (Heatmap)**
-
-Enquanto a Linha do Tempo nos mostra o acúmulo histórico (quem tem mais no total), este gráfico revela o ritmo e a constância. A lógica de construção aqui é a de uma "câmera térmica": cruzamos cada pesquisador (nas linhas) com cada ano (nas colunas).
-
-A regra visual é simples: cores frias e escuras (roxo) indicam silêncio ou baixa produção. À medida que o pesquisador publica mais naquele ano específico, a célula "esquenta", passando pelo verde até chegar ao amarelo brilhante, que representa a temperatura máxima de produtividade. Assim, conseguimos ver instantaneamente, qual o tamanho da 'fogueira' de pesquisa do programa.
-
-![Pasted image 20251220105259.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251220105259.png?1766238779081)
-
-A leitura visual imediata mostra um movimento de "aquecimento global" do grupo: o lado esquerdo do gráfico é predominantemente roxo escuro (baixa atividade no passado (no intervalo de 1992 a 2005)), enquanto o lado direito, especialmente nos últimos 5 anos, acende com tons de verde e amarelo, indicando o amadurecimento institucional e a entrada de novo corpo de pesquisa ao programa. Esse último fator pode explicar também boa parte da "zona fria", já que muitos pesquisadores ainda não faziam parte do programa entre 1990 e 2010.
-
-Ao percorrermos as linhas horizontais de cada pesquisador, o gráfico denuncia a intermitência. Poucos são os casos de barras contínuas de cor. O que vemos frequentemente é o padrão "pisca-pisca": um ano de alta produção (verde/amarelo) seguido por dois anos de silêncio (roxo), ou blocos de atividade intensa interrompidos abruptamente. As células amarelas brilhantes mostram que o programa tem capacidade de entrega de altíssimo nível, mas a predominância de lacunas escuras intercaladas sugere que essa entrega muitas vezes custa um esforço exaustivo que não consegue ser mantido no ano seguinte.
-
-Para a gestão, este é um dos gráficos mais acionáveis de todos. O ranking diz quem ganhou a corrida, mas o Mapa de Calor diz quem está parando de correr no meio da pista.
-
-A inteligência aqui está em identificar as 'Lacunas Frias Recentes'. Se um pesquisador sênior, que historicamente vinha "verde", apresenta blocos roxos nos dois últimos anos, isso é um sinal de alerta vermelho. Pode indicar sobrecarga administrativa, fim de um ciclo de financiamento ou esgotamento. Por outro lado, identificar quem está "acendendo" (passando do roxo para o verde recentemente) permite investir nesse talento em ascensão. O objetivo estratégico deixa de ser "aumentar o total" e passa a ser "preencher as lacunas", transformando soluços esporádicos em constância acadêmica.
-
-A análise destes gráficos, para além da "geometria" dos grupos, serve como evidência empírica de uma política científica nacional consolidada ao longo de décadas: o produtivismo acadêmico. A ascensão vertiginosa das curvas de volume a partir dos anos 1990 não é acidental, mas reflexo direto da imposição de um modelo de avaliação quantitativa inaugurado pela CAPES no final da década de 1970 e sedimentado com o sistema Qualis em 1998. Ao observarmos o "salto" de produção nos gráficos de linha do tempo, vemos a materialização do que autores chamam de "[capitalismo acadêmico](https://revistavalore.emnuvens.com.br/valore/article/view/1322)", onde a sobrevivência dos programas passou a depender de métricas industriais de output.
-
-Essa constatação abre espaço para uma agenda de pesquisa crítica necessária e urgente, que questione se a explosão dos números foi acompanhada pela densidade do conhecimento. Fica o convite para investigarmos o "antes e depois" dessa virada produtivista através da seguinte pergunta de pesquisa: *"A produção científica anterior à 'era Qualis', embora menor em volume, apresentava maior densidade teórica e originalidade do que o modelo de 'fatiamento' de resultados ([salami slicing](https://www.enago.com.br/academy/salami-slicing/)) incentivado pelas métricas atuais?"*. Certamente, responder a isso exigiria métricas de análise qualitativa profunda que hoje nossos algoritmos ainda ignoram, mas que são essenciais para resgatar o sentido da ciência para além dos números.
-
-**A Pergunta:**
-
-> *"Existe uma correlação direta entre a quantidade de membros em uma linha de pesquisa e o volume de publicações qualificadas? Tamanho é documento?"*
-
-**A Resposta e Análise:**
-
-![Pasted image 20251220110722.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251220110722.png?1766239642663)
-
-À primeira vista, ao observarmos o Gráfico de Volume Total com Indicador de Tamanho do Grupo, a resposta parece sugerir que sim. As grandes esferas vermelhas, representando o grupo LECE (com 17 pesquisadores), dominam o topo das curvas de volume bruto. Segue-se, aqui, uma lógica aparente de escala industrial: maior contingente humano resultaria naturalmente em uma maior soma final de publicações.
-
-No entanto, quando ajustamos a lente para medir a produtividade relativa (eficiência), o cenário sofre uma reviravolta interessante. O Gráfico de Eficiência Acumulada revela que o grupo NAVE (linha azul), mesmo sendo uma das menores equipes do programa (apenas 5 membros), dispara na liderança da produtividade *per capita*, acumulando quase 3.600 pontos por membro e superando significativamente grupos três vezes maiores. Isso demonstra inequivocamente que nem sempre um grupo grande possui uma produção relativa superior; pelo contrário, grupos menores podem apresentar uma agilidade e foco de publicação muito mais intensos.
-
-![Pasted image 20251220121406.png](app://c85bef9153a2d24d5d6780d3fc50e57f030e/home/marllus/Seafile/Lulubox/Aplicativos/Obsidian/Pasted%20image%2020251220121406.png?1766243646403)
+{% include image.html url="/assets/images/producaco-grupo-media.jpg" description="Gráfico de Eficiência Acumulada/Grupo - PPGE-UFC" %}
 
 O que explicaria essa discrepância onde "Davi supera Golias"? Embora não possamos ser definitivos sem olhar os pormenores, uma causa provável reside na matemática das médias em grupos pequenos, sujeita à contribuição assimétrica. Em equipes reduzidas, a presença de um único *outlier* de alta performance eleva a média do grupo drasticamente. Já em grupos massivos (LECE), a existência natural de uma base de pesquisadores em diferentes fases de carreira tende a diluir a média final.
 
@@ -225,5 +168,3 @@ Para que você possa investigar essas nuances pessoalmente, todas as visualizaç
 Por fim, é fundamental compreender que a adoção dessa cultura de dados não é um luxo tecnológico, mas uma condição de sobrevivência no cenário acadêmico contemporâneo. Vivemos um momento de inflação informacional, onde o volume massivo de dados gerados por plataformas como Lattes e Sucupira torna humanamente impossível a tomada de decisão baseada apenas em planilhas ou na experiência tácita do gestor. Quando transformamos esse oceano de metadados brutos em inteligência visual, permitimos que a gestão abandone a postura reativa de apenas cumprir métricas passadas. Passamos, assim, a antecipar tendências, corrigir assimetrias em tempo real e desenhar o futuro estratégico do programa munidos de muitas evidências empíricas da pesquisa em *in-loco*.
 
 Por fim, é fundamental compreender que a adoção dessa cultura de dados não é um mero luxo tecnológico, mas uma condição de sobrevivência no cenário acadêmico contemporâneo. Vivemos um momento de 'inflação informacional', onde o volume massivo de dados gerados por plataformas como Lattes e Sucupira torna humanamente impossível a tomada de decisão baseada apenas em planilhas ou na intuição. É aqui que a Ciência da Informação se torna o fiel da balança: ela nos fornece o método para converter esse oceano de metadados brutos em inteligência visual acionável. Ao aplicar esses princípios bibliométricos à Avaliação Institucional, permite-se que a gestão abandone a postura reativa de apenas preencher tabelas e passe a antecipar tendências, corrigir assimetrias em tempo real e desenhar seu futuro estratégico com base no que a evidência empírica — devidamente tratada e interpretada — pode oferecer.
-
-Observações: Nao se considerou Qualis Livros.
