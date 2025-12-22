@@ -7,7 +7,7 @@ title: "Decifrando a Forma do Conhecimento: Avaliação Institucional à Luz da
 author: marllus
 date: 2025-12-22 02:22:16
 categories: ciencia
-id-ref: ""
+id-ref: form-cienc
 tags:
   - sociedade
   - ciencia
@@ -18,6 +18,8 @@ tags:
 Este post tem por objetivo lançar bases empíricas para a aplicação da Ciência da Informação no campo da Avaliação Institucional. Apresento aqui uma análise da produção acadêmica (artigos em periódicos) dos pesquisadores atualmente ativos no Programa de Pós-Graduação em Educação da Universidade Federal do Ceará (UFC), desde à sua criação ([1977](https://ppge.ufc.br/ppge/wp-content/uploads/2020/11/Orienta%C3%A7%C3%B5es-Acad%C3%AAmicas.pdf)), focada nos estratos [CAPES Periódicos do Quadriênio 2017-2020](https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf).
 
 A proposta carrega uma inovação metodológica inerente: o translado de ferramentas analíticas típicas da Ciência da Informação para o território da Educação. Ao aplicar métodos bibliométricos e de visualização de dados em uma área distinta, pretendo romper com o isolamento disciplinar, permitindo que padrões invisíveis a olho nu sejam revelados.
+
+Os dados brutos foram extraídos da base pública de currículos da Plataforma Lattes. O processamento inicial utilizou o [plugin Qlattes](https://sol.sbc.org.br/index.php/semish/article/view/25064) para a classificação da produção, seguido pela aplicação de um filtro desenvolvido em linguagem de programação Python, essencial para garantir que a atribuição de pontuação estivesse estritamente alinhada aos critérios da área de Educação. Por fim, a consolidação visual e analítica foi realizada através de um script também em Python gerador do dashboard, que empregou bibliotecas padrão para manipulação de dados e o scikit-learn para a execução de algoritmos de Análise de Componentes Principais (PCA) e *K-means*.
 
 Para navegar por esses dados, é crucial compreender que a noção de valor aqui empregada possui raízes no [pragmatismo epistemológico de Charles S. Peirce](https://pt.wikipedia.org/wiki/Pragmatismo). Nessa filosofia, o significado de qualquer conceito intelectual reside inteiramente na soma de suas consequências práticas concebíveis. Portanto, ao realizar esta análise, tomo como pressuposto o sistema de crenças institucionalizado pela CAPES, sem que isso implique em juízos axiológicos adicionais ou na invalidação da qualidade intrínseca desse sistema de avaliação. Opero, portanto, dentro da lógica dos *efeitos*: neste recorte pragmático, o valor de um artigo publicado foi aqui definido estritamente pela convenção que rege a comunidade.
 
