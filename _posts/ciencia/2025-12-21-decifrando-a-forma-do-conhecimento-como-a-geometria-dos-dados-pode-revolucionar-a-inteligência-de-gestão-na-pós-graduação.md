@@ -33,7 +33,7 @@ Nesse sentido, a Visualização de Dados foi operada aqui como o instrumento óp
 
 > *"Como foi construída a trajetória de produção do programa ao longo dos anos e quem são as referências históricas que impulsionaram esse crescimento?"*
 
-{% include image.html url="/assets/images/grafico1-serie.jpg" description="Linha do Tempo de Produção Acumulada - PPGE-UFC" %}
+{% include image.html url="/assets/images/grafico1-serie1.jpg" description="Linha do Tempo de Produção Acumulada - PPGE-UFC" %}
 
 **A Resposta e Análise:**
 
@@ -94,8 +94,6 @@ Sob essa perspectiva disciplinar, as ferramentas analíticas ganham uma nova dim
 **Pergunta:**
 
 > *A produção individual dos docentes é estruturalmente equilibrada entre diferentes estratos de qualificação ou o programa depende de padrões produtivos concentrados e potencialmente frágeis?*
-
-
 
 **O Triângulo de Forças (Ternary Plot)**
 
