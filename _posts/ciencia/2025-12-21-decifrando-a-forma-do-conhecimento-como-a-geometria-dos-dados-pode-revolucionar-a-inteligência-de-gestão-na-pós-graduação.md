@@ -67,8 +67,6 @@ O resultado é que descobrimos quem são os "vizinhos intelectuais". Nessa aná
 
 A análise visual do Cluster de Similaridade revela uma nítida segmentação estratégica dentro do corpo docente, dividindo-o em três comportamentos estatísticos distintos. A grande maioria dos pesquisadores (Grupo 1, em azul) forma um bloco denso e coeso à esquerda, indicando que o núcleo do programa compartilha um padrão de produtividade e hábitos de publicação muito similares entre si.
 
-
-
 Outro gráfico interessante é o de Radar, que detalha a microestrutura desse núcleo, revelando uma malha heterogênea de atuações que desfaz a ilusão de que similaridade significa igualdade. 
 
 {% include image.html url="/assets/images/radar-base.jpg" description="Gráfico de Radar Grupo 1 - PPGE-UFC" %}
@@ -93,8 +91,11 @@ Sob essa perspectiva disciplinar, as ferramentas analíticas ganham uma nova dim
 
 - - -
 
-**Pergunta:**\
-*A produção individual dos docentes é estruturalmente equilibrada entre diferentes estratos de qualificação ou o programa depende de padrões produtivos concentrados e potencialmente frágeis?*
+**Pergunta:**
+
+> *A produção individual dos docentes é estruturalmente equilibrada entre diferentes estratos de qualificação ou o programa depende de padrões produtivos concentrados e potencialmente frágeis?*
+
+
 
 **O Triângulo de Forças (Ternary Plot)**
 
